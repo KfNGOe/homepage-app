@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>00000nam a2200000 cc4500</leader>
+                    <controlfield tag="001">990081802760203331</controlfield>
+                    <controlfield tag="003">AT-OBV</controlfield>
+                    <controlfield tag="005">20150126011900.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">100901|1970####au############|||#|#ger#u</controlfield>
+                    <controlfield tag="009">AC08221851</controlfield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">AC08221851</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC08221851</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(Aleph)008180276ACC01</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)GBV033771898</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-601)033771898</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">LBO</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="c">GBV</subfield>
+                        <subfield code="d">UBG</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="0" ind2="0">
+                        <subfield code="a">Österreichische Staatsverträge</subfield>
+                        <subfield code="n">England ; Bd. 2</subfield>
+                        <subfield code="p">1749 bis Oktober 1813 (nebst einem Anhange bis April 1847) / bearb. von Alfred Francis Pribram</subfield>
+                    </datafield>
+                    <datafield tag="250" ind1=" " ind2=" ">
+                        <subfield code="a">[Nachdr. der Ausg.] Wien, 1913</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="b">Holzhausen</subfield>
+                        <subfield code="a">Leipzig</subfield>
+                        <subfield code="b">Engelmann</subfield>
+                        <subfield code="c">1970</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">VIII, 772 S.</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">12</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Österreich</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4043271-3</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">England</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4014770-8</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="2">
+                        <subfield code="a">Staatsvertrag</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4056676-6</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="3">
+                        <subfield code="a">Quelle</subfield>
+                        <subfield code="A">f</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Pribram, Alfred Francis</subfield>
+                        <subfield code="d">1859-1941</subfield>
+                        <subfield code="0">(DE-588)101662386</subfield>
+                        <subfield code="4">oth</subfield>
+                        <subfield code="e">[Bearb.]</subfield>
+                    </datafield>
+                    <datafield tag="773" ind1="0" ind2="8">
+                        <subfield code="w">(AT-OBV)AC00516524</subfield>
+                        <subfield code="q">E,2,1970</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">12,1970</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OOELB</subfield>
+                        <subfield code="6">990003209530304508</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">08</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="4" ind2=" ">
+                        <subfield code="b">GBV</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">e|5z|||z|||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">|||||r||</subfield>
+                    </datafield>
+                </record>
+

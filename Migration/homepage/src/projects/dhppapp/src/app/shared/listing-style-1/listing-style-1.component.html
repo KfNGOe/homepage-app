@@ -1,0 +1,7 @@
+<div class="col-lg-6 col-md-12 col-12">
+    <b>{{ _element.heading1 }}</b>
+</div>
+<div class="col-lg-6 col-md-12 col-12">
+    <a *ngIf="_element.mail !== ''" (click)="linkDecrypt(_element.mail);"><fa-icon [icon]="faEnvelope"></fa-icon></a>
+    {{ _element.heading2 }}
+</div>

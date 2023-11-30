@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>01742nam a2200469zcb4500</leader>
+                    <controlfield tag="001">990005980890203331</controlfield>
+                    <controlfield tag="005">20201204193551.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">911113|1975####|||######m####|||#|#ger#c</controlfield>
+                    <controlfield tag="009">AC00355337</controlfield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">76,A17,0584</subfield>
+                        <subfield code="2">dnb</subfield>
+                    </datafield>
+                    <datafield tag="020" ind1=" " ind2=" ">
+                        <subfield code="a">3205085663</subfield>
+                        <subfield code="c">kart. : DM 74.00</subfield>
+                    </datafield>
+                    <datafield tag="024" ind1="7" ind2=" ">
+                        <subfield code="a">urn:nbn:at:at-ubi:2-18432</subfield>
+                        <subfield code="2">urn</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC00355337</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)OBVAC00355337</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(VLID)5598005</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">WUW</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="c">VL-RETRO</subfield>
+                        <subfield code="d">BMA</subfield>
+                        <subfield code="e">rakwb</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NQ 4305</subfield>
+                        <subfield code="2">rvk</subfield>
+                    </datafield>
+                    <datafield tag="100" ind1="1" ind2=" ">
+                        <subfield code="a">Maimann, Helene</subfield>
+                        <subfield code="0">(DE-588)108371948</subfield>
+                        <subfield code="4">aut</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="1" ind2="0">
+                        <subfield code="a">Politik im Wartesaal</subfield>
+                        <subfield code="b">österreichische Exilpolitik in Großbritannien 1938 - 1945</subfield>
+                        <subfield code="c">Helene Maimann</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="a">Graz [u.a.]</subfield>
+                        <subfield code="b">Böhlau</subfield>
+                        <subfield code="c">1975</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">XV, 355 S.</subfield>
+                        <subfield code="b">Ill.</subfield>
+                        <subfield code="c">24 cm</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">62</subfield>
+                    </datafield>
+                    <datafield tag="502" ind1=" " ind2=" ">
+                        <subfield code="a">Zugl.: Wien, Univ., Diss., 1975</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Österreicher</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4075594-0</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Exil</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4015959-0</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="2">
+                        <subfield code="a">Politik</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4046514-7</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="3">
+                        <subfield code="a">Großbritannien</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4022153-2</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="4">
+                        <subfield code="a">Geschichte 1938-1945</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBI</subfield>
+                    </datafield>
+                    <datafield tag="776" ind1="0" ind2="8">
+                        <subfield code="i">Elektronische Reproduktion</subfield>
+                        <subfield code="o">urn:nbn:at:at-ubi:2-18432</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">62</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="856" ind1="4" ind2="1">
+                        <subfield code="m">V:AT-OBV;B:AT-UBI</subfield>
+                        <subfield code="q">text/html</subfield>
+                        <subfield code="u">https://resolver.obvsg.at/urn:nbn:at:at-ubi:2-18432</subfield>
+                        <subfield code="x">UBI</subfield>
+                        <subfield code="3">Volltext // 2020 digitalisiert von: Universitäts- und Landesbibliothek Tirol</subfield>
+                        <subfield code="o">OBV-VL</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_VBK</subfield>
+                        <subfield code="6">990007720070203342</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBS</subfield>
+                        <subfield code="6">990014835390203341</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_VWI</subfield>
+                        <subfield code="6">9911736404511</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_SLA</subfield>
+                        <subfield code="6">990001597860204535</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910676586704516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">990012147900203332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OEAW</subfield>
+                        <subfield code="6">990000712990504498</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBK</subfield>
+                        <subfield code="6">990002342010203346</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBL</subfield>
+                        <subfield code="6">990002853130103340</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_ONB</subfield>
+                        <subfield code="6">990023084940603338</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BRIDGE_PAR</subfield>
+                        <subfield code="6">9913707404485</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BMA</subfield>
+                        <subfield code="6">990003918430304534</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WUW</subfield>
+                        <subfield code="6">990000702050203337</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBG</subfield>
+                        <subfield code="6">990000950620203339</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBI</subfield>
+                        <subfield code="6">990001534360103333</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_AKW</subfield>
+                        <subfield code="6">990000017900203343</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OOELB</subfield>
+                        <subfield code="6">990000848330304508</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="0" ind2=" ">
+                        <subfield code="a">UBS-Retro-T-HB</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="2" ind2=" ">
+                        <subfield code="d">RETRODIGITALISAT</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">z|1dcr|||||17</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">su|||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="u">
+                        <subfield code="V">903</subfield>
+                        <subfield code="a">21345</subfield>
+                        <subfield code="a">32145</subfield>
+                        <subfield code="a">42315</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||g|||||</subfield>
+                    </datafield>
+                </record>
+

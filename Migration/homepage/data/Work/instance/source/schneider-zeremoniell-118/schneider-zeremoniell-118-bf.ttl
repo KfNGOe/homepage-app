@@ -1,0 +1,409 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns2: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix ns3: <http://id.loc.gov/datatypes/> .
+
+<http://example.org/99145111478003331#Work>
+  a <http://id.loc.gov/ontologies/bibframe/Work>, <http://id.loc.gov/ontologies/bibframe/Text> ;
+  bf:adminMetadata [
+    a bf:AdminMetadata ;
+    bf:generationProcess [
+      a bf:GenerationProcess ;
+      rdfs:label "DLC marc2bibframe2 v1.4.0-SNAPSHOT: 2020-10-20T20:58:06.185+02:00"
+    ] ;
+    bf:status [
+      a bf:Status ;
+      bf:code "n"
+    ] ;
+    bflc:encodingLevel [
+      a bflc:EncodingLevel ;
+      bf:code "f"
+    ] ;
+    bf:descriptionConventions [
+      a bf:DescriptionConventions ;
+      bf:code "isbd"
+    ], <http://id.loc.gov/vocabulary/descriptionConventions/rda> ;
+    bf:identifiedBy [
+      a bf:Local ;
+      rdf:value "99145111478003331"
+    ], [
+      a bf:Local ;
+      rdf:value "1179561252" ;
+      bf:source [
+        a bf:Source ;
+        rdfs:label "DE-101b"
+      ]
+    ] ;
+    bf:changeDate "2020-03-04T14:07:28"^^xsd:dateTime ;
+    bf:creationDate "2019-03-02"^^xsd:date ;
+    bf:source [
+      a bf:Source, bf:Agent ;
+      rdfs:label "AT-UBW"
+    ], [
+      a bf:Source, bf:Agent ;
+      rdfs:label "DE-101"
+    ] ;
+    bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/ger> ;
+    bf:descriptionModifier [
+      a bf:Agent ;
+      rdfs:label "AT-OBV"
+    ]
+  ] ;
+  bf:language <http://id.loc.gov/vocabulary/languages/ger>, [
+    a bf:Language ;
+    bf:identifiedBy [
+      a bf:Identifier ;
+      rdf:value <http://id.loc.gov/vocabulary/languages/ger> ;
+      bf:source <http://id.loc.gov/vocabulary/languages>
+    ]
+  ] ;
+  bf:classification [
+    a bf:ClassificationDdc ;
+    bf:classificationPortion "390.23094361309034" ;
+    bf:edition "23/ger", "full" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "LBOSAG"
+    ]
+  ], [
+    a bf:Classification ;
+    bf:classificationPortion "15.60" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "bkl"
+    ]
+  ], [
+    a bf:Classification ;
+    bf:classificationPortion "15.07" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "bkl"
+    ]
+  ], [
+    a bf:Classification ;
+    bf:classificationPortion "940" ;
+    bf:adminMetadata [
+      a bf:AdminMetadata ;
+      bf:assigner [
+        a bf:Agent ;
+        rdfs:label "DE-101"
+      ]
+    ] ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "sdnb"
+    ]
+  ], [
+    a bf:Classification ;
+    bf:classificationPortion "390" ;
+    bf:adminMetadata [
+      a bf:AdminMetadata ;
+      bf:assigner [
+        a bf:Agent ;
+        rdfs:label "DE-101"
+      ]
+    ] ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "sdnb"
+    ]
+  ] ;
+  rdfs:label "Norm und Zeremoniell das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar" ;
+  bf:title [
+    a bf:Title ;
+    rdfs:label "Norm und Zeremoniell das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar" ;
+    bflc:titleSortKey "Norm und Zeremoniell das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar" ;
+    bf:mainTitle "Norm und Zeremoniell" ;
+    bf:subtitle "das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar"
+  ] ;
+  bf:content <http://id.loc.gov/vocabulary/contentTypes/txt> ;
+  bf:subject [
+    a bf:Topic ;
+    rdfs:label "Wiener Hof"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Reform"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Dienstpflicht"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Edition"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Ritual"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Kaisertum Österreich"
+  ] ;
+  bf:genreForm <http://example.org/99145111478003331#GenreForm655-35> ;
+  bf:contribution [
+    a bf:Contribution ;
+    bf:agent <http://example.org/99145111478003331#Agent700-41> ;
+    bf:role <http://id.loc.gov/vocabulary/relators/edt>
+  ], [
+    a bf:Contribution ;
+    bf:agent <http://example.org/99145111478003331#Agent710-42> ;
+    bf:role <http://id.loc.gov/vocabulary/relators/pbl>
+  ] ;
+  bf:hasInstance <http://example.org/99145111478003331#Instance776-43>, <http://example.org/99145111478003331#Instance> .
+
+<http://id.loc.gov/vocabulary/languages/ger> a bf:Language .
+<http://id.loc.gov/vocabulary/descriptionConventions/rda> a bf:DescriptionConventions .
+<http://id.loc.gov/vocabulary/languages> a bf:Source .
+<http://id.loc.gov/vocabulary/contentTypes/txt> a bf:Content .
+<http://example.org/99145111478003331#GenreForm655-35>
+  a bf:GenreForm, <http://www.loc.gov/mads/rdf/v1#GenreForm> ;
+  rdfs:label "Quelle" ;
+  ns2:authoritativeLabel "Quelle" ;
+  bf:source [
+    a bf:Source ;
+    bf:code "gnd-content"
+  ] ;
+  bf:identifiedBy [
+    a bf:Identifier ;
+    rdf:value "4135952-5" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "DE-588"
+    ]
+  ] .
+
+<http://example.org/99145111478003331#Agent700-41>
+  a bf:Agent, bf:Person ;
+  bflc:name00MatchKey "Schneider, Karin" ;
+  bflc:name00MarcKey "7001 $aSchneider, Karin$0(DE-588)1121595138$4edt" ;
+  rdfs:label "Schneider, Karin" ;
+  bf:identifiedBy [
+    a bf:Identifier ;
+    rdf:value "1121595138" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "DE-588"
+    ]
+  ] .
+
+<http://id.loc.gov/vocabulary/relators/edt> a bf:Role .
+<http://example.org/99145111478003331#Agent710-42>
+  a bf:Agent, bf:Organization ;
+  bflc:name10MatchKey "Böhlau Verlag GmbH & Co. KG" ;
+  bflc:name10MarcKey "7102 $aBöhlau Verlag GmbH & Co. KG$0(DE-588)1065536941$4pbl" ;
+  rdfs:label "Böhlau Verlag GmbH & Co. KG" ;
+  bf:identifiedBy [
+    a bf:Identifier ;
+    rdf:value "1065536941" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "DE-588"
+    ]
+  ] .
+
+<http://id.loc.gov/vocabulary/relators/pbl> a bf:Role .
+<http://example.org/99145111478003331#Instance776-43>
+  a bf:Instance ;
+  bflc:relationship [
+    a bflc:Relationship ;
+    bflc:relation [
+      a bflc:Relation ;
+      rdfs:label "Erscheint auch als"
+    ] ;
+    bf:relatedTo <http://example.org/99145111478003331#Instance>
+  ] ;
+  bf:note [
+    a bf:Note ;
+    rdfs:label "Online-Ausgabe"
+  ] ;
+  bf:identifiedBy [
+    a bf:Isbn ;
+    rdf:value "(ATOBV)AC15489959"
+  ] ;
+  bf:instanceOf <http://example.org/99145111478003331#Work> .
+
+<http://example.org/99145111478003331#Instance>
+  a bf:Instance ;
+  bf:issuance <http://id.loc.gov/vocabulary/issuance/mono> ;
+  bf:provisionActivity [
+    a bf:ProvisionActivity, bf:Publication ;
+    bf:date "2019"^^ns3:edtf
+  ], [
+    a bf:ProvisionActivity, bf:Publication ;
+    bf:place [
+      a bf:Place ;
+      rdfs:label "Wien"
+    ], [
+      a bf:Place ;
+      rdfs:label "Köln"
+    ], [
+      a bf:Place ;
+      rdfs:label "Weimar"
+    ] ;
+    bf:agent [
+      a bf:Agent ;
+      rdfs:label "Böhlau Verlag"
+    ] ;
+    bf:date "2019"
+  ] ;
+  bf:identifiedBy [
+    a bf:Nbn ;
+    rdf:value "OeB2020,A,06 943.6" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "oeb"
+    ]
+  ], [
+    a bf:Nbn ;
+    rdf:value "20,A38" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "dnb"
+    ]
+  ], [
+    a bf:Nbn ;
+    rdf:value "19,N10" ;
+    bf:status [
+      a bf:Status ;
+      rdfs:label "invalid"
+    ] ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "dnb"
+    ]
+  ], [
+    a bf:Isbn ;
+    rdf:value "9783205209041" ;
+    bf:acquisitionTerms "Festeinband : EUR 31,00 ; EUR 30,00 (DE)"
+  ], [
+    a bf:Local ;
+    rdf:value "AC15501594" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "AT-OBV"
+    ]
+  ], [
+    a bf:Local ;
+    rdf:value "DNB1179561252" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "DE-599"
+    ]
+  ], [
+    a bf:Local ;
+    rdf:value "oai:dnb.de/dnb/1179561252"
+  ] ;
+  bf:place [
+    a bf:Place ;
+    bf:code "XA-DE" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "ISO 3166"
+    ]
+  ] ;
+  rdfs:label "Norm und Zeremoniell das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar" ;
+  bf:title [
+    a bf:Title ;
+    rdfs:label "Norm und Zeremoniell das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar" ;
+    bflc:titleSortKey "Norm und Zeremoniell das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar" ;
+    bf:mainTitle "Norm und Zeremoniell" ;
+    bf:subtitle "das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar"
+  ] ;
+  bf:responsibilityStatement "Karin Schneider (Hg.)" ;
+  bf:provisionActivityStatement "Wien; Köln; Weimar; Böhlau Verlag; [2019]" ;
+  bf:extent [
+    a bf:Extent ;
+    rdfs:label "198 Seiten"
+  ] ;
+  bf:dimensions "25 cm" ;
+  bf:media <http://id.loc.gov/vocabulary/mediaTypes/n> ;
+  bf:carrier <http://id.loc.gov/vocabulary/carriers/nc> ;
+  bf:note [
+    a bf:Note ;
+    rdfs:label "Literaturverzeichnis: Seite [184]-193"
+  ] ;
+  bf:otherPhysicalFormat <http://example.org/99145111478003331#Instance776-43> ;
+  bf:supplementaryContent [
+    a rdfs:Resource ;
+    bflc:locator <https://d-nb.info/1179561252/04> ;
+    bf:note [
+      a bf:Note ;
+      rdfs:label "Inhaltsverzeichnis"
+    ]
+  ] ;
+  bf:hasSeries [
+    a bf:Instance ;
+    rdfs:label "Veröffentlichungen der Kommission für Neuere Geschichte Österreichs" ;
+    bf:seriesStatement "Veröffentlichungen der Kommission für Neuere Geschichte Österreichs Band 118" ;
+    bf:seriesEnumeration "118" ;
+    bf:instanceOf <http://example.org/99145111478003331#Work830-44>
+  ] ;
+  bf:instanceOf <http://example.org/99145111478003331#Work> ;
+  bf:hasItem <http://example.org/99145111478003331#Item852-46>, <http://example.org/99145111478003331#Item852-47>, <http://example.org/99145111478003331#Item852-48>, <http://example.org/99145111478003331#Item852-49>, <http://example.org/99145111478003331#Item852-50>, <http://example.org/99145111478003331#Item852-51>, <http://example.org/99145111478003331#Item852-52> .
+
+<http://id.loc.gov/vocabulary/issuance/mono> a bf:Issuance .
+<http://id.loc.gov/vocabulary/mediaTypes/n> a bf:Media .
+<http://id.loc.gov/vocabulary/carriers/nc> a bf:Carrier .
+<http://example.org/99145111478003331#Work830-44>
+  a bf:Work ;
+  bf:title [
+    a bf:Title ;
+    bflc:title30MarcKey "830 0$w(AT-OBV)AC00112585$v118$9O:1"
+  ] ;
+  bf:identifiedBy [
+    a bf:Identifier ;
+    rdf:value "AC00112585" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "AT-OBV"
+    ]
+  ] .
+
+<http://example.org/99145111478003331#Item852-46>
+  a bf:Item ;
+  bf:heldBy <http://id.loc.gov/vocabulary/organizations/43ACC_UBS> ;
+  bf:itemOf <http://example.org/99145111478003331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBS> a bf:Agent .
+<http://example.org/99145111478003331#Item852-47>
+  a bf:Item ;
+  bf:heldBy [
+    a bf:Agent ;
+    rdfs:label "43ACC_WIENB"
+  ] ;
+  bf:itemOf <http://example.org/99145111478003331#Instance> .
+
+<http://example.org/99145111478003331#Item852-48>
+  a bf:Item ;
+  bf:heldBy <http://id.loc.gov/vocabulary/organizations/43ACC_UBW> ;
+  bf:itemOf <http://example.org/99145111478003331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBW> a bf:Agent .
+<http://example.org/99145111478003331#Item852-49>
+  a bf:Item ;
+  bf:heldBy <http://id.loc.gov/vocabulary/organizations/43ACC_UBG> ;
+  bf:itemOf <http://example.org/99145111478003331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBG> a bf:Agent .
+<http://example.org/99145111478003331#Item852-50>
+  a bf:Item ;
+  bf:heldBy [
+    a bf:Agent ;
+    rdfs:label "43ACC_OEAW"
+  ] ;
+  bf:itemOf <http://example.org/99145111478003331#Instance> .
+
+<http://example.org/99145111478003331#Item852-51>
+  a bf:Item ;
+  bf:heldBy <http://id.loc.gov/vocabulary/organizations/43ACC_ONB> ;
+  bf:itemOf <http://example.org/99145111478003331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_ONB> a bf:Agent .
+<http://example.org/99145111478003331#Item852-52>
+  a bf:Item ;
+  bf:heldBy [
+    a bf:Agent ;
+    rdfs:label "43ACC_OOELB"
+  ] ;
+  bf:itemOf <http://example.org/99145111478003331#Instance> .
+

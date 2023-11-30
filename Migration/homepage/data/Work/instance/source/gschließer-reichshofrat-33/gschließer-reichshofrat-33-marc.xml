@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>01298nam a2200397zcb4500</leader>
+                    <controlfield tag="001">990016500330203331</controlfield>
+                    <controlfield tag="005">20200618091234.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">931115|1942    |||           ||| | ger c</controlfield>
+                    <controlfield tag="009">AC00745463</controlfield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">BI,067,3443</subfield>
+                        <subfield code="2">dnb</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC00745463</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">AC00745463</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(Aleph)001650033ACC01</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)OBVAC00745463</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">UBS</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="d">AT-UBI</subfield>
+                        <subfield code="e">rakwb</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="100" ind1="1" ind2=" ">
+                        <subfield code="a">Gschließer, Oswald &lt;&lt;von>></subfield>
+                        <subfield code="d">1895-1973</subfield>
+                        <subfield code="0">(DE-588)1062886909</subfield>
+                        <subfield code="4">aut</subfield>
+                        <subfield code="9">O:H</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="1" ind2="0">
+                        <subfield code="a">&lt;&lt;Der>> Reichshofrat</subfield>
+                        <subfield code="b">Bedeutung und Verfassung, Schicksal und Besetzung einer obersten Reichsbehörde von 1559 bis 1806</subfield>
+                        <subfield code="c">von Oswald v. Gschließer</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="b">Holzhausen</subfield>
+                        <subfield code="c">1942</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">XIX, 559 S.</subfield>
+                        <subfield code="b">Ill.</subfield>
+                    </datafield>
+                    <datafield tag="336" ind1=" " ind2=" ">
+                        <subfield code="b">txt</subfield>
+                    </datafield>
+                    <datafield tag="337" ind1=" " ind2=" ">
+                        <subfield code="b">n</subfield>
+                    </datafield>
+                    <datafield tag="338" ind1=" " ind2=" ">
+                        <subfield code="b">nc</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte des Ehemaligen Österreich</subfield>
+                        <subfield code="v">33</subfield>
+                    </datafield>
+                    <datafield tag="500" ind1=" " ind2=" ">
+                        <subfield code="a">Literaturangaben</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Heiliges Römisches Reich</subfield>
+                        <subfield code="b">Reichshofrat</subfield>
+                        <subfield code="D">b</subfield>
+                        <subfield code="0">(DE-588)83641-2</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Geschichte 1559-1806</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBS</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00746960</subfield>
+                        <subfield code="v">33</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBS</subfield>
+                        <subfield code="6">990003636440203341</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_SLA</subfield>
+                        <subfield code="6">990001597750204535</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910676617504516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">990007085600203332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBG</subfield>
+                        <subfield code="6">990027888180203339</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBI</subfield>
+                        <subfield code="6">990006987990103333</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBK</subfield>
+                        <subfield code="6">990004947330203346</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_ONB</subfield>
+                        <subfield code="6">990021033430603338</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">08</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="2" ind2=" ">
+                        <subfield code="a">UBS</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">z|1dcr|||||17</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">s||||||</subfield>
+                    </datafield>
+                </record>
+

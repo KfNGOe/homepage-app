@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>1</numberOfRecords>
+  <records>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>02587nam a2200637 cb4500</leader>
+          <controlfield tag="001">990122306900203331</controlfield>
+          <controlfield tag="005">20180703115001.0</controlfield>
+          <controlfield tag="007">tu</controlfield>
+          <controlfield tag="008">150707|2015####au############|||#0#ger#u</controlfield>
+          <controlfield tag="009">AC12375722</controlfield>
+          <datafield tag="015" ind1=" " ind2=" ">
+            <subfield code="a">15,N24</subfield>
+            <subfield code="2">dnb</subfield>
+          </datafield>
+          <datafield tag="015" ind1=" " ind2=" ">
+            <subfield code="a">OeB2015,A,22 020</subfield>
+            <subfield code="2">oeb</subfield>
+          </datafield>
+          <datafield tag="016" ind1="7" ind2=" ">
+            <subfield code="a">1071857193</subfield>
+            <subfield code="2">DE-101b</subfield>
+          </datafield>
+          <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">9783205796725</subfield>
+            <subfield code="c">geb. : EUR 90,00 ; CHF 94,44</subfield>
+          </datafield>
+          <datafield tag="024" ind1="3" ind2=" ">
+            <subfield code="a">9783205796725</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-599)DNB1071857193</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(AT-OBV)AC12375722</subfield>
+          </datafield>
+          <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">UBW</subfield>
+            <subfield code="b">ger</subfield>
+            <subfield code="c">DNB</subfield>
+            <subfield code="d">AT-OeNB</subfield>
+            <subfield code="e">rda</subfield>
+          </datafield>
+          <datafield tag="041" ind1=" " ind2=" ">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="044" ind1=" " ind2=" ">
+            <subfield code="c">XA-AT</subfield>
+          </datafield>
+          <datafield tag="082" ind1="0" ind2="4">
+            <subfield code="a">027.1092</subfield>
+            <subfield code="q">LBOLIN</subfield>
+            <subfield code="2">22/ger</subfield>
+          </datafield>
+          <datafield tag="084" ind1=" " ind2=" ">
+            <subfield code="a">940</subfield>
+            <subfield code="q">DE-101</subfield>
+            <subfield code="2">sdnb</subfield>
+          </datafield>
+          <datafield tag="084" ind1=" " ind2=" ">
+            <subfield code="a">15.60</subfield>
+            <subfield code="2">bkl</subfield>
+          </datafield>
+          <datafield tag="084" ind1=" " ind2=" ">
+            <subfield code="a">06.24</subfield>
+            <subfield code="2">bkl</subfield>
+          </datafield>
+          <datafield tag="084" ind1=" " ind2=" ">
+            <subfield code="a">AN 37120</subfield>
+            <subfield code="2">rvk</subfield>
+          </datafield>
+          <datafield tag="084" ind1=" " ind2=" ">
+            <subfield code="a">AN 82070</subfield>
+            <subfield code="2">rvk</subfield>
+          </datafield>
+          <datafield tag="084" ind1=" " ind2=" ">
+            <subfield code="a">NO 1300</subfield>
+            <subfield code="2">rvk</subfield>
+          </datafield>
+          <datafield tag="084" ind1=" " ind2=" ">
+            <subfield code="a">NO 7570</subfield>
+            <subfield code="2">rvk</subfield>
+          </datafield>
+          <datafield tag="089" ind1="0" ind2="4">
+            <subfield code="a">027.14361309034</subfield>
+            <subfield code="c">027.1</subfield>
+            <subfield code="e">DDC22ger</subfield>
+            <subfield code="f">09034</subfield>
+            <subfield code="g">43613</subfield>
+          </datafield>
+          <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="h">g</subfield>
+          </datafield>
+          <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Huber-Frischeis, Thomas</subfield>
+            <subfield code="d">1980-</subfield>
+            <subfield code="0">(DE-588)1060706733</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="245" ind1="0" ind2="0">
+            <subfield code="a">&lt;&lt;Die>> Privatbibliothek Kaiser Franz' I. von Österreich 1784-1835</subfield>
+            <subfield code="b">Bibliotheks- und Kulturgeschichte einer fürstlichen Sammlung zwischen Aufklärung und Vormärz</subfield>
+            <subfield code="c">Thomas Huber-Frischeis, Nina Knieling, Rainer Valenta</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="a">Wien</subfield>
+            <subfield code="a">Köln</subfield>
+            <subfield code="a">Weimar</subfield>
+            <subfield code="b">Böhlau Verlag</subfield>
+            <subfield code="c">2015</subfield>
+          </datafield>
+          <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">638 Seiten</subfield>
+            <subfield code="b">Illustrationen</subfield>
+            <subfield code="c">25 cm</subfield>
+          </datafield>
+          <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="b">n</subfield>
+          </datafield>
+          <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">[Geschichte der Familien-Fideikommissbibliothek des Hauses Habsburg-Lothringen]</subfield>
+            <subfield code="v">[Band 1]</subfield>
+          </datafield>
+          <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+            <subfield code="v">Band 111,1</subfield>
+          </datafield>
+          <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Literaturverzeichnis Seite 603-629</subfield>
+          </datafield>
+          <datafield tag="591" ind1=" " ind2=" ">
+            <subfield code="a">Lt. Vorwort handelt es sich um Band 1 einer "Geschichte der Familien-Fideikommissbibliothek" in 3 Bänden</subfield>
+          </datafield>
+          <datafield tag="689" ind1="0" ind2="0">
+            <subfield code="a">Franz</subfield>
+            <subfield code="b">II.</subfield>
+            <subfield code="c">Heiliges Römisches Reich, Kaiser</subfield>
+            <subfield code="d">1768-1835</subfield>
+            <subfield code="D">p</subfield>
+            <subfield code="0">(DE-588)118534955</subfield>
+          </datafield>
+          <datafield tag="689" ind1="0" ind2="1">
+            <subfield code="a">Privatbibliothek</subfield>
+            <subfield code="D">s</subfield>
+            <subfield code="0">(DE-588)4047289-9</subfield>
+          </datafield>
+          <datafield tag="689" ind1="0" ind2="2">
+            <subfield code="a">Geschichte</subfield>
+            <subfield code="A">z</subfield>
+          </datafield>
+          <datafield tag="689" ind1="0" ind2=" ">
+            <subfield code="5">AT-OBV</subfield>
+            <subfield code="5">UBSRS.</subfield>
+          </datafield>
+          <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Knieling, Nina</subfield>
+            <subfield code="0">(DE-588)1078009147</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Valenta, Rainer</subfield>
+            <subfield code="d">1973-</subfield>
+            <subfield code="0">(DE-588)130660043</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">Böhlau Verlag GmbH &amp; Co. KG</subfield>
+            <subfield code="0">(DE-588)1065536941</subfield>
+            <subfield code="4">pbl</subfield>
+          </datafield>
+          <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="w">(AT-OBV)AC15076159</subfield>
+            <subfield code="v">1</subfield>
+            <subfield code="9">O:1</subfield>
+          </datafield>
+          <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="w">(AT-OBV)AC00112585</subfield>
+            <subfield code="v">111,1</subfield>
+            <subfield code="9">O:2</subfield>
+          </datafield>
+          <datafield tag="856" ind1="4" ind2="2">
+            <subfield code="m">B:DE-101</subfield>
+            <subfield code="q">application/pdf</subfield>
+            <subfield code="u">http://d-nb.info/1071857193/04</subfield>
+            <subfield code="x">DNB-TOC</subfield>
+            <subfield code="3">Inhaltsverzeichnis</subfield>
+            <subfield code="o">OBV-EDOC-DNBTOC</subfield>
+          </datafield>
+          <datafield tag="856" ind1="4" ind2="2">
+            <subfield code="m">X:MVB</subfield>
+            <subfield code="q">text/html</subfield>
+            <subfield code="u">http://deposit.d-nb.de/cgi-bin/dokserv?id=5285418&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield>
+            <subfield code="3">Inhaltstext</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_UBS</subfield>
+            <subfield code="6">990023750640203341</subfield>
+            <subfield code="9">P</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_WIENB</subfield>
+            <subfield code="6">9910663836904516</subfield>
+            <subfield code="9">P</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_UBW</subfield>
+            <subfield code="6">990077656380203332</subfield>
+            <subfield code="9">P</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_UBG</subfield>
+            <subfield code="6">990027910230203339</subfield>
+            <subfield code="9">P</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_KLK</subfield>
+            <subfield code="6">990007541680304496</subfield>
+            <subfield code="9">P</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_ABK</subfield>
+            <subfield code="6">990001303310504502</subfield>
+            <subfield code="9">P</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_OGB</subfield>
+            <subfield code="6">9925809904510</subfield>
+            <subfield code="9">P</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_OEAW</subfield>
+            <subfield code="6">990003033190504498</subfield>
+            <subfield code="9">P</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_BRIDGE_SLA</subfield>
+            <subfield code="6">9916240204463</subfield>
+            <subfield code="9">P</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_UBL</subfield>
+            <subfield code="6">990006314750103340</subfield>
+            <subfield code="9">P</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_ONB</subfield>
+            <subfield code="6">990048097910603338</subfield>
+            <subfield code="9">P</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_OOELB</subfield>
+            <subfield code="6">990007339870304508</subfield>
+            <subfield code="9">P</subfield>
+          </datafield>
+          <datafield tag="970" ind1="1" ind2=" ">
+            <subfield code="c">54</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">030</subfield>
+            <subfield code="A">a|1urr|||||17</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">050</subfield>
+            <subfield code="A">a|a|||||||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">051</subfield>
+            <subfield code="A">sz||w|||</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>990122306900203331</recordIdentifier>
+      <recordPosition>1</recordPosition>
+    </record>
+  </records>
+  <extraResponseData xmlns:xb="http://www.exlibris.com/repository/search/xmlbeans/">
+    <xb:exact>true</xb:exact>
+    <xb:responseDate>2020-12-30T00:36:02+0100</xb:responseDate>
+  </extraResponseData>
+</searchRetrieveResponse>

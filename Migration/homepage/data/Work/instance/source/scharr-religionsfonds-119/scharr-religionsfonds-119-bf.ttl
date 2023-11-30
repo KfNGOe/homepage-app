@@ -1,0 +1,462 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1: <http://id.loc.gov/ontologies/bflc/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns2: <http://id.loc.gov/datatypes/> .
+
+<http://example.org/99145297814903331#Work>
+  a <http://id.loc.gov/ontologies/bibframe/Work>, <http://id.loc.gov/ontologies/bibframe/Text> ;
+  bf:adminMetadata [
+    a bf:AdminMetadata ;
+    bf:generationProcess [
+      a bf:GenerationProcess ;
+      rdfs:label "DLC marc2bibframe2 v1.4.0-SNAPSHOT: 2020-10-20T18:30:51.222+02:00"
+    ] ;
+    bf:status [
+      a bf:Status ;
+      bf:code "n"
+    ] ;
+    ns1:encodingLevel [
+      a ns1:EncodingLevel ;
+      bf:code "f"
+    ] ;
+    bf:descriptionConventions [
+      a bf:DescriptionConventions ;
+      bf:code "isbd"
+    ], <http://id.loc.gov/vocabulary/descriptionConventions/rda> ;
+    bf:identifiedBy [
+      a bf:Local ;
+      rdf:value "99145297814903331"
+    ], [
+      a bf:Local ;
+      rdf:value "1196222940" ;
+      bf:source [
+        a bf:Source ;
+        rdfs:label "DE-101"
+      ]
+    ] ;
+    bf:changeDate "2020-08-26T11:53:18"^^xsd:dateTime ;
+    bf:creationDate "2019-10-02"^^xsd:date ;
+    bf:source [
+      a bf:Source, bf:Agent ;
+      rdfs:label "AT-OeNB"
+    ], [
+      a bf:Source, bf:Agent ;
+      rdfs:label "DE-101"
+    ] ;
+    bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/ger> ;
+    bf:descriptionModifier [
+      a bf:Agent ;
+      rdfs:label "AT-OBV"
+    ]
+  ] ;
+  bf:language <http://id.loc.gov/vocabulary/languages/ger>, [
+    a bf:Language ;
+    bf:identifiedBy [
+      a bf:Identifier ;
+      rdf:value <http://id.loc.gov/vocabulary/languages/ger> ;
+      bf:source <http://id.loc.gov/vocabulary/languages>
+    ]
+  ], [
+    a bf:Language ;
+    bf:note [
+      a bf:Note ;
+      rdfs:label "Zusammenfassung deutsch, englisch, rumänisch und ukrainisch"
+    ]
+  ] ;
+  bf:classification [
+    a bf:ClassificationDdc ;
+    bf:classificationPortion "344.498409609" ;
+    bf:edition "23/ger", "full" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "DE-101"
+    ]
+  ], [
+    a bf:Classification ;
+    bf:classificationPortion "15.60" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "bkl"
+    ]
+  ], [
+    a bf:Classification ;
+    bf:classificationPortion "15.70" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "bkl"
+    ]
+  ], [
+    a bf:Classification ;
+    bf:classificationPortion "11.57" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "bkl"
+    ]
+  ], [
+    a bf:Classification ;
+    bf:classificationPortion "340" ;
+    bf:adminMetadata [
+      a bf:AdminMetadata ;
+      bf:assigner [
+        a bf:Agent ;
+        rdfs:label "DE-101"
+      ]
+    ] ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "sdnb"
+    ]
+  ], [
+    a bf:Classification ;
+    bf:classificationPortion "940" ;
+    bf:adminMetadata [
+      a bf:AdminMetadata ;
+      bf:assigner [
+        a bf:Agent ;
+        rdfs:label "DE-101"
+      ]
+    ] ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "sdnb"
+    ]
+  ], [
+    a bf:Classification ;
+    bf:classificationPortion "230" ;
+    bf:adminMetadata [
+      a bf:AdminMetadata ;
+      bf:assigner [
+        a bf:Agent ;
+        rdfs:label "DE-101"
+      ]
+    ] ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "sdnb"
+    ]
+  ] ;
+  bf:contribution [
+    a bf:Contribution, ns1:PrimaryContribution ;
+    bf:agent <http://example.org/99145297814903331#Agent100-24> ;
+    bf:role <http://id.loc.gov/vocabulary/relators/aut>
+  ], [
+    a bf:Contribution ;
+    bf:agent <http://example.org/99145297814903331#Agent710-48> ;
+    bf:role <http://id.loc.gov/vocabulary/relators/pbl>
+  ] ;
+  rdfs:label "<<Der>> griechisch-orientalische Religionsfonds der Bukowina 1783-1949 Kontinuitäten und Brüche einer prägenden Institution des Josephinismus" ;
+  bf:title [
+    a bf:Title ;
+    rdfs:label "<<Der>> griechisch-orientalische Religionsfonds der Bukowina 1783-1949 Kontinuitäten und Brüche einer prägenden Institution des Josephinismus" ;
+    ns1:titleSortKey "<<Der>> griechisch-orientalische Religionsfonds der Bukowina 1783-1949 Kontinuitäten und Brüche einer prägenden Institution des Josephinismus" ;
+    bf:mainTitle "<<Der>> griechisch-orientalische Religionsfonds der Bukowina 1783-1949" ;
+    bf:subtitle "Kontinuitäten und Brüche einer prägenden Institution des Josephinismus"
+  ] ;
+  bf:content <http://id.loc.gov/vocabulary/contentTypes/txt> ;
+  bf:subject [
+    a bf:Topic ;
+    rdfs:label "Bukowina"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Josephinismus"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Klostergüter"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Eugen Hackmann"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Silvester Morariu-Andriewicz"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Arkadius Czuperkowicz"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Wladimir v. Repta"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Nationalisierung"
+  ], [
+    a bf:Topic ;
+    rdfs:label "rumänische Kirche"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Joseph II"
+  ], [
+    a bf:Topic ;
+    rdfs:label "Hardcover, Softcover / Geschichte"
+  ] ;
+  bf:hasInstance <http://example.org/99145297814903331#Instance776-49>, <http://example.org/99145297814903331#Instance> .
+
+<http://id.loc.gov/vocabulary/languages/ger> a bf:Language .
+<http://id.loc.gov/vocabulary/descriptionConventions/rda> a bf:DescriptionConventions .
+<http://id.loc.gov/vocabulary/languages> a bf:Source .
+<http://example.org/99145297814903331#Agent100-24>
+  a bf:Agent, bf:Person ;
+  ns1:name00MatchKey "Scharr, Kurt 1970-" ;
+  ns1:primaryContributorName00MatchKey "Scharr, Kurt 1970-" ;
+  ns1:name00MarcKey "1001 $aScharr, Kurt$d1970-$0(DE-588)123191254$4aut" ;
+  rdfs:label "Scharr, Kurt 1970-" ;
+  bf:identifiedBy [
+    a bf:Identifier ;
+    rdf:value "123191254" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "DE-588"
+    ]
+  ] .
+
+<http://id.loc.gov/vocabulary/relators/aut> a bf:Role .
+<http://id.loc.gov/vocabulary/contentTypes/txt> a bf:Content .
+<http://example.org/99145297814903331#Agent710-48>
+  a bf:Agent, bf:Organization ;
+  ns1:name10MatchKey "Böhlau Verlag GmbH & Co. KG" ;
+  ns1:name10MarcKey "7102 $aBöhlau Verlag GmbH & Co. KG$0(DE-588)1065536941$4pbl" ;
+  rdfs:label "Böhlau Verlag GmbH & Co. KG" ;
+  bf:identifiedBy [
+    a bf:Identifier ;
+    rdf:value "1065536941" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "DE-588"
+    ]
+  ] .
+
+<http://id.loc.gov/vocabulary/relators/pbl> a bf:Role .
+<http://example.org/99145297814903331#Instance776-49>
+  a bf:Instance ;
+  ns1:relationship [
+    a ns1:Relationship ;
+    ns1:relation [
+      a ns1:Relation ;
+      rdfs:label "Erscheint auch als"
+    ] ;
+    bf:relatedTo <http://example.org/99145297814903331#Instance>
+  ] ;
+  bf:note [
+    a bf:Note ;
+    rdfs:label "Online-Ausgabe"
+  ] ;
+  bf:identifiedBy [
+    a bf:Isbn ;
+    rdf:value "9783205209270"
+  ] ;
+  bf:instanceOf <http://example.org/99145297814903331#Work> .
+
+<http://example.org/99145297814903331#Instance>
+  a bf:Instance ;
+  bf:issuance <http://id.loc.gov/vocabulary/issuance/mono> ;
+  bf:provisionActivity [
+    a bf:ProvisionActivity, bf:Publication ;
+    bf:date "2020"^^ns2:edtf
+  ], [
+    a bf:ProvisionActivity, bf:Publication ;
+    bf:place [
+      a bf:Place ;
+      rdfs:label "Wien"
+    ], [
+      a bf:Place ;
+      rdfs:label "Köln"
+    ], [
+      a bf:Place ;
+      rdfs:label "Weimar"
+    ] ;
+    bf:agent [
+      a bf:Agent ;
+      rdfs:label "Böhlau Verlag"
+    ] ;
+    bf:date "2020"
+  ] ;
+  bf:supplementaryContent [
+    a bf:SupplementaryContent ;
+    rdfs:label "Index present"
+  ], [
+    a rdfs:Resource ;
+    ns1:locator <https://d-nb.info/1196222940/04> ;
+    bf:note [
+      a bf:Note ;
+      rdfs:label "Inhaltsverzeichnis"
+    ]
+  ] ;
+  bf:identifiedBy [
+    a bf:Nbn ;
+    rdf:value "OeB2020,A,14 943.6,940,230" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "oeb"
+    ]
+  ], [
+    a bf:Nbn ;
+    rdf:value "20,A38" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "dnb"
+    ]
+  ], [
+    a bf:Nbn ;
+    rdf:value "19,N41" ;
+    bf:status [
+      a bf:Status ;
+      rdfs:label "invalid"
+    ] ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "dnb"
+    ]
+  ], [
+    a bf:Isbn ;
+    rdf:value "9783205209263" ;
+    bf:acquisitionTerms "EUR 67,00 ; EUR 65,00 (DE)" ;
+    bf:qualifier "Festeinband"
+  ], [
+    a bf:Local ;
+    rdf:value "AC15600618" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "AT-OBV"
+    ]
+  ], [
+    a bf:Local ;
+    rdf:value "DNB1196222940" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "DE-599"
+    ]
+  ], [
+    a bf:Local ;
+    rdf:value "1122748065" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "OCoLC"
+    ]
+  ], [
+    a bf:Local ;
+    rdf:value "1196222940" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "DE-101"
+    ]
+  ], [
+    a bf:Local ;
+    rdf:value "oai:dnb.de/dnb/1196222940"
+  ] ;
+  bf:place [
+    a bf:Place ;
+    bf:code "XA-AT" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "ISO 3166"
+    ]
+  ], [
+    a bf:Place ;
+    bf:code "XA-DE" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "ISO 3166"
+    ]
+  ] ;
+  rdfs:label "<<Der>> griechisch-orientalische Religionsfonds der Bukowina 1783-1949 Kontinuitäten und Brüche einer prägenden Institution des Josephinismus" ;
+  bf:title [
+    a bf:Title ;
+    rdfs:label "<<Der>> griechisch-orientalische Religionsfonds der Bukowina 1783-1949 Kontinuitäten und Brüche einer prägenden Institution des Josephinismus" ;
+    ns1:titleSortKey "<<Der>> griechisch-orientalische Religionsfonds der Bukowina 1783-1949 Kontinuitäten und Brüche einer prägenden Institution des Josephinismus" ;
+    bf:mainTitle "<<Der>> griechisch-orientalische Religionsfonds der Bukowina 1783-1949" ;
+    bf:subtitle "Kontinuitäten und Brüche einer prägenden Institution des Josephinismus"
+  ] ;
+  bf:responsibilityStatement "Kurt Scharr" ;
+  bf:provisionActivityStatement "Wien; Köln; Weimar; Böhlau Verlag; [2020]" ;
+  bf:extent [
+    a bf:Extent ;
+    rdfs:label "444 Seiten"
+  ] ;
+  bf:note [
+    a bf:Note ;
+    bf:noteType "Physical details" ;
+    rdfs:label "Illustrationen, Diagramme, Karten"
+  ], [
+    a bf:Note ;
+    rdfs:label "Literaturverzeichnis: Seite [381]-432"
+  ] ;
+  bf:dimensions "25 cm" ;
+  bf:media <http://id.loc.gov/vocabulary/mediaTypes/n> ;
+  bf:carrier <http://id.loc.gov/vocabulary/carriers/nc> ;
+  bf:otherPhysicalFormat <http://example.org/99145297814903331#Instance776-49> ;
+  bf:hasSeries [
+    a bf:Instance ;
+    rdfs:label "Veröffentlichungen der Kommission für Neuere Geschichte Österreichs" ;
+    bf:seriesStatement "Veröffentlichungen der Kommission für Neuere Geschichte Österreichs Band 119" ;
+    bf:seriesEnumeration "119" ;
+    bf:instanceOf <http://example.org/99145297814903331#Work830-50>
+  ] ;
+  bf:instanceOf <http://example.org/99145297814903331#Work> ;
+  bf:hasItem <http://example.org/99145297814903331#Item852-52>, <http://example.org/99145297814903331#Item852-53>, <http://example.org/99145297814903331#Item852-54>, <http://example.org/99145297814903331#Item852-55>, <http://example.org/99145297814903331#Item852-56>, <http://example.org/99145297814903331#Item852-57>, <http://example.org/99145297814903331#Item852-58> .
+
+<http://id.loc.gov/vocabulary/issuance/mono> a bf:Issuance .
+<http://id.loc.gov/vocabulary/mediaTypes/n> a bf:Media .
+<http://id.loc.gov/vocabulary/carriers/nc> a bf:Carrier .
+<http://example.org/99145297814903331#Work830-50>
+  a bf:Work ;
+  bf:title [
+    a bf:Title ;
+    ns1:title30MarcKey "830 0$w(AT-OBV)AC00112585$v119$9O:1"
+  ] ;
+  bf:identifiedBy [
+    a bf:Identifier ;
+    rdf:value "AC00112585" ;
+    bf:source [
+      a bf:Source ;
+      rdfs:label "AT-OBV"
+    ]
+  ] .
+
+<http://example.org/99145297814903331#Item852-52>
+  a bf:Item ;
+  bf:heldBy <http://id.loc.gov/vocabulary/organizations/43ACC_UBS> ;
+  bf:itemOf <http://example.org/99145297814903331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBS> a bf:Agent .
+<http://example.org/99145297814903331#Item852-53>
+  a bf:Item ;
+  bf:heldBy [
+    a bf:Agent ;
+    rdfs:label "43ACC_WIENB"
+  ] ;
+  bf:itemOf <http://example.org/99145297814903331#Instance> .
+
+<http://example.org/99145297814903331#Item852-54>
+  a bf:Item ;
+  bf:heldBy <http://id.loc.gov/vocabulary/organizations/43ACC_UBW> ;
+  bf:itemOf <http://example.org/99145297814903331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBW> a bf:Agent .
+<http://example.org/99145297814903331#Item852-55>
+  a bf:Item ;
+  bf:heldBy <http://id.loc.gov/vocabulary/organizations/43ACC_UBG> ;
+  bf:itemOf <http://example.org/99145297814903331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBG> a bf:Agent .
+<http://example.org/99145297814903331#Item852-56>
+  a bf:Item ;
+  bf:heldBy [
+    a bf:Agent ;
+    rdfs:label "43ACC_OEAW"
+  ] ;
+  bf:itemOf <http://example.org/99145297814903331#Instance> .
+
+<http://example.org/99145297814903331#Item852-57>
+  a bf:Item ;
+  bf:heldBy <http://id.loc.gov/vocabulary/organizations/43ACC_ONB> ;
+  bf:itemOf <http://example.org/99145297814903331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_ONB> a bf:Agent .
+<http://example.org/99145297814903331#Item852-58>
+  a bf:Item ;
+  bf:heldBy [
+    a bf:Agent ;
+    rdfs:label "43ACC_OOELB"
+  ] ;
+  bf:itemOf <http://example.org/99145297814903331#Instance> .
+

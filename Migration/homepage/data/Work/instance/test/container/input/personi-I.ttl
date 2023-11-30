@@ -1,0 +1,88 @@
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wikibase: <http://wikiba.se/ontology#Statement> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix schema: <http://schema.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dhpluso: <https://dhplus.sbg.ac.at/ontology#> .
+@prefix dhplusi: <http://dhplus.sbg.ac.at/instance/> .
+@prefix kngoei: <http://dhplus.sbg.ac.at/kngoe/instance/> .
+
+
+#dhplus
+<http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002>
+    a   <https://dhplus.sbg.ac.at/ontology#E21_Person> ;
+
+    #administrative
+    dhpluso:creator "NN"^^xsd:string ;
+    dhpluso:creator <URI> ;
+    dhpluso:dateCreated "0001-01-01T00:00:00"^^xsd:dateTime ;
+    dhpluso:dateModified "0001-01-01T00:00:00"^^xsd:dateTime ;
+    dhpluso:datePublished "0001-01-01T00:00:00"^^xsd:dateTime ;
+
+    #relation
+    ##birth
+    <https://dhplus.sbg.ac.at/ontology#P98i_was_born> <http://dhplus.sbg.ac.at/instance/126b6a72-eebb-11ea-adc1-0242ac120002> ;
+    ##death
+    <https://dhplus.sbg.ac.at/ontology#P100i_died_in> <http://dhplus.sbg.ac.at/instance/3536ba8e-eebb-11ea-adc1-0242ac120002> ;
+
+    #name
+
+    #gender
+.
+_:StmtPrefName
+    a rdf:Statement ;
+    rdf:predicate dhpluso:preferredNameForThePerson ;
+
+    dhpluso:value-source-uri <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> ;
+    dhpluso:value-source-prop gndo:preferredNameForThePerson ;
+    dhpluso:value-code <https://dhplus.sbg.ac.at/vocabulary#default> ;
+
+    dhpluso:creator "NN"^^xsd:string ;
+    dhpluso:dateCreated "0001-01-01T00:00:00"^^xsd:dateTime ;
+    dhpluso:dateModified "0001-01-01T00:00:00"^^xsd:dateTime ;
+.
+_:StmtForName
+    a rdf:Statement ;
+    rdf:predicate dhpluso:forename ;
+
+    dhpluso:value-source-uri <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> ;
+    dhpluso:value-source-prop gndo:forename ;
+    dhpluso:value-code <https://dhplus.sbg.ac.at/vocabulary#default> ;
+
+    dhpluso:creator "NN"^^xsd:string ;
+    dhpluso:dateCreated "0001-01-01T00:00:00"^^xsd:dateTime ;
+    dhpluso:dateModified "0001-01-01T00:00:00"^^xsd:dateTime ;
+.
+_:StmtSurName
+    a rdf:Statement ;
+    rdf:predicate dhpluso:surname ;
+
+    dhpluso:value-source-uri <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> ;
+    dhpluso:value-source-prop gndo:surname ;
+    dhpluso:value-code <https://dhplus.sbg.ac.at/vocabulary#default> ;
+
+    dhpluso:creator "NN"^^xsd:string ;
+    dhpluso:dateCreated "0001-01-01T00:00:00"^^xsd:dateTime ;
+    dhpluso:dateModified "0001-01-01T00:00:00"^^xsd:dateTime ;
+.
+
+#gnd
+
+
+#wikidata
+
+
+#projspec
+
+

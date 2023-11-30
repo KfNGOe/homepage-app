@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+    xmlns:schema="http://schema.org/"
+    xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
+    xmlns:lib="http://purl.org/library/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:editeur="https://ns.editeur.org/thema/"
+    xmlns:geo="http://www.opengis.net/ont/geosparql#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdau="http://rdaregistry.info/Elements/u/"
+    xmlns:sf="http://www.opengis.net/ont/sf#"
+    xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:vivo="http://vivoweb.org/ontology/core#"
+    xmlns:isbd="http://iflastandards.info/ns/isbd/elements/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:mo="http://purl.org/ontology/mo/"
+    xmlns:marcRole="http://id.loc.gov/vocabulary/relators/"
+    xmlns:agrelon="https://d-nb.info/standards/elementset/agrelon#"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+    xmlns:dbp="http://dbpedia.org/property/"
+    xmlns:dnbt="https://d-nb.info/standards/elementset/dnb#"
+    xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+    xmlns:dnb_intern="http://dnb.de/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:v="http://www.w3.org/2006/vcard/ns#"
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:ebu="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:gbv="http://purl.org/ontology/gbv/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="https://d-nb.info/gnd/118539647">
+        <rdf:type rdf:resource="https://d-nb.info/standards/elementset/gnd#DifferentiatedPerson"/>
+        <wdrs:describedby>
+            <rdf:Description rdf:about="https://d-nb.info/gnd/118539647/about">
+                <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+                <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-11T13:33:02.000</dcterms:modified>
+            </rdf:Description>
+        </wdrs:describedby>
+        <gndo:gndIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118539647</gndo:gndIdentifier>
+        <foaf:page rdf:resource="https://de.wikipedia.org/wiki/Edmund_Glaise-Horstenau"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Edmund_Glaise-Horstenau"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/22150599"/>
+        <owl:sameAs rdf:resource="http://isni.org/isni/0000000108777664"/>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q112416"/>
+        <owl:sameAs rdf:resource="http://id.loc.gov/rwo/agents/n81048748"/>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)118539647</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)131000667</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)126416591</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)126416583</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588c)4021132-0</gndo:oldAuthorityNumber>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horstenau, Edmund Glaise von</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10346828">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edmund Glaise</gndo:forename>
+                <gndo:prefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">von</gndo:prefix>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horstenau</gndo:surname>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glez fon Horstenau, ...</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10346829">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">...</gndo:forename>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glez fon Horstenau</gndo:surname>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glaise, Edmund</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10346830">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edmund</gndo:forename>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glaise</gndo:surname>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glaise-Horstenau, Edmund von</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10346831">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edmund</gndo:forename>
+                <gndo:prefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">von</gndo:prefix>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glaise-Horstenau</gndo:surname>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gleise-Horstenau, Edmund von</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10346832">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edmund</gndo:forename>
+                <gndo:prefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">von</gndo:prefix>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gleise-Horstenau</gndo:surname>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson xml:lang="sr-Cyrl">Едмунд Глајз-Хорстенау</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10346833">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Едмунд Глајз-Хорстенау</gndo:personalName>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson xml:lang="sr-Cyrl">Едмунд Глајз фон Хостенау</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10346834">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Едмунд Глајз фон Хостенау</gndo:personalName>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:preferredNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glaise von Horstenau, Edmund</gndo:preferredNameForThePerson>
+        <gndo:preferredNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10346835">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edmund</gndo:forename>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glaise von Horstenau</gndo:surname>
+            </rdf:Description>
+        </gndo:preferredNameEntityForThePerson>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4132742-1"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4126114-8"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4025098-2"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4046517-2"/>
+        <gndo:gndSubjectCategory rdf:resource="https://d-nb.info/standards/vocab/gnd/gnd-sc#8.4p"/>
+        <gndo:gndSubjectCategory rdf:resource="https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p"/>
+        <gndo:gndSubjectCategory rdf:resource="https://d-nb.info/standards/vocab/gnd/gnd-sc#6.8p"/>
+        <gndo:gndSubjectCategory rdf:resource="https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-HR"/>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Die Katastrophe. - 1928</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Josephs Weggefährte. - 1930</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Österreich-Ungarns letzter Krieg 1914-1918. - 1931 - 1935</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Die Tage von Dresden 1813. - 1911</gndo:publication>
+        <gndo:biographicalOrHistoricalInformation xml:lang="de">Ab 1915 im Referat für Presse und Politik im k.u.k. Armeeoberkommando (AOK); 1925-1938 Diektor des österreichischen Kriegsarchives; 1938 Vizekanzler; 1941-1944 Generalbevollmächtigter für Deutschland in Kroatien; beging Selbstmord</gndo:biographicalOrHistoricalInformation>
+        <gndo:biographicalOrHistoricalInformation xml:lang="de">Offizier, Historiker, Politiker</gndo:biographicalOrHistoricalInformation>
+        <gndo:placeOfBirth rdf:resource="https://d-nb.info/gnd/4008037-7"/>
+        <gndo:placeOfDeath rdf:resource="https://d-nb.info/gnd/4101855-2"/>
+        <gndo:placeOfActivity rdf:resource="https://d-nb.info/gnd/4066009-6"/>
+        <gndo:placeOfActivity rdf:resource="https://d-nb.info/gnd/4108914-5"/>
+        <gndo:gender rdf:resource="https://d-nb.info/standards/vocab/gnd/gender#male"/>
+        <gndo:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1882-02-27</gndo:dateOfBirth>
+        <gndo:dateOfDeath rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1946-07-20</gndo:dateOfDeath>
+    </rdf:Description>
+</rdf:RDF>

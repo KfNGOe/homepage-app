@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>00000nam a2200000 cb4500</leader>
+                    <controlfield tag="001">990005980750203331</controlfield>
+                    <controlfield tag="003">AT-OBV</controlfield>
+                    <controlfield tag="005">20180222075300.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">941104|1994####au#######m####|||#|#ger#u</controlfield>
+                    <controlfield tag="009">AC00998788</controlfield>
+                    <datafield tag="020" ind1=" " ind2=" ">
+                        <subfield code="a">3205982568</subfield>
+                        <subfield code="c">kart. : 380,- ; DM 56,-</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">AC00998788</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC00998788</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(Aleph)000598075ACC01</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)OBVAC00998788</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">UBG</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="d">UGL</subfield>
+                        <subfield code="e">rakwb</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="050" ind1=" " ind2="4">
+                        <subfield code="a">DB93</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">71.00</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">21.73</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">15.60</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">89.63</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NP 4805</subfield>
+                        <subfield code="2">rvk</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NW 7600</subfield>
+                        <subfield code="2">rvk</subfield>
+                    </datafield>
+                    <datafield tag="100" ind1="1" ind2=" ">
+                        <subfield code="a">Morgenbrod, Birgitt</subfield>
+                        <subfield code="d">1955-</subfield>
+                        <subfield code="0">(DE-588)12421651X</subfield>
+                        <subfield code="4">aut</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="0" ind2="0">
+                        <subfield code="a">Wiener Großbürgertum im Ersten Weltkrieg</subfield>
+                        <subfield code="b">die Geschichte der "Österreichischen Politischen Gesellschaft" (1916 - 1918)</subfield>
+                        <subfield code="c">Birgitt Morgenbrod</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien [u.a.]</subfield>
+                        <subfield code="b">Böhlau</subfield>
+                        <subfield code="c">1994</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">260 S.</subfield>
+                        <subfield code="b">Ill.</subfield>
+                        <subfield code="c">24 cm</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">85</subfield>
+                    </datafield>
+                    <datafield tag="502" ind1=" " ind2=" ">
+                        <subfield code="a">Teilw. zugl.: Düsseldorf, Univ., Diss., 1988 u.d.T.: Morgenbrod, Birgitt: Die "Österreichische Politische Gesellschaft" im Ersten Weltkrieg</subfield>
+                    </datafield>
+                    <datafield tag="610" ind1="2" ind2="0">
+                        <subfield code="a">Österreichische Politische Gesellschaft</subfield>
+                        <subfield code="x">History</subfield>
+                    </datafield>
+                    <datafield tag="650" ind1=" " ind2="0">
+                        <subfield code="a">World War, 1914-1918</subfield>
+                        <subfield code="z">Austria</subfield>
+                    </datafield>
+                    <datafield tag="651" ind1=" " ind2="0">
+                        <subfield code="a">Austria</subfield>
+                        <subfield code="x">Politics and government</subfield>
+                        <subfield code="y">1867-1918</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Österreichische Politische Gesellschaft</subfield>
+                        <subfield code="D">b</subfield>
+                        <subfield code="0">(DE-588)403304-8</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Geschichte 1916-1918</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBG</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="0">
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4066009-6</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="1">
+                        <subfield code="a">Großbürgertum</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4121386-5</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="2">
+                        <subfield code="a">Weltkrieg</subfield>
+                        <subfield code="g">1914-1918</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4079163-4</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="3">
+                        <subfield code="a">Einflussnahme</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4131701-4</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="4">
+                        <subfield code="a">Geschichte 1916-1918</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBG</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">85</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBS</subfield>
+                        <subfield code="6">990001450140203341</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910611068104516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">990001413080203332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OEAW</subfield>
+                        <subfield code="6">990000708960504498</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OEMA</subfield>
+                        <subfield code="6">990002470530304497</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBK</subfield>
+                        <subfield code="6">990000472770203346</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBL</subfield>
+                        <subfield code="6">990006471960103340</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_ONB</subfield>
+                        <subfield code="6">990000573420603338</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BMA</subfield>
+                        <subfield code="6">990002470530304534</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WUW</subfield>
+                        <subfield code="6">990000701980203337</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBG</subfield>
+                        <subfield code="6">990000950530203339</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBI</subfield>
+                        <subfield code="6">990001534290103333</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_AKW</subfield>
+                        <subfield code="6">990001958430203343</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBGL</subfield>
+                        <subfield code="6">990000876040804519</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OOELB</subfield>
+                        <subfield code="6">990002458230304508</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">a|1dcr|||||17</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">su||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="u">
+                        <subfield code="V">908</subfield>
+                        <subfield code="a">21345</subfield>
+                        <subfield code="a">32145</subfield>
+                        <subfield code="a">42315</subfield>
+                    </datafield>
+                </record>
+

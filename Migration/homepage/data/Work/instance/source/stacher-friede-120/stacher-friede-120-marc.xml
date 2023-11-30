@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>1</numberOfRecords>
+  <records>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>00000nam a2200000 c 4500</leader>
+          <controlfield tag="001">99145779985403331</controlfield>
+          <controlfield tag="005">20201215130257.0</controlfield>
+          <controlfield tag="007">tu</controlfield>
+          <controlfield tag="008">200403s2020    |||||||| |||| 00||||ger</controlfield>
+          <controlfield tag="009">AC16109039</controlfield>
+          <datafield tag="015" ind1=" " ind2=" ">
+            <subfield code="a">20,N15</subfield>
+            <subfield code="2">dnb</subfield>
+          </datafield>
+          <datafield tag="016" ind1="7" ind2=" ">
+            <subfield code="a">1207560529</subfield>
+            <subfield code="2">DE-101</subfield>
+          </datafield>
+          <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">9783205204107</subfield>
+            <subfield code="c">Festeinband : circa EUR 90.00 (DE), circa EUR 93.00 (AT)</subfield>
+          </datafield>
+          <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">3205204107</subfield>
+          </datafield>
+          <datafield tag="024" ind1="3" ind2=" ">
+            <subfield code="a">9783205204107</subfield>
+          </datafield>
+          <datafield tag="028" ind1="5" ind2="2">
+            <subfield code="a">Bestellnummer: 20410</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(AT-OBV)AC16109039</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-599)DNB1207560529</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)1150946783</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-101)1207560529</subfield>
+          </datafield>
+          <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">AT-UBW</subfield>
+            <subfield code="b">ger</subfield>
+            <subfield code="c">DE-101</subfield>
+            <subfield code="d">AT-UBW</subfield>
+          </datafield>
+          <datafield tag="041" ind1=" " ind2=" ">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="044" ind1=" " ind2=" ">
+            <subfield code="c">XA-DE</subfield>
+          </datafield>
+          <datafield tag="084" ind1=" " ind2=" ">
+            <subfield code="a">900</subfield>
+            <subfield code="q">DE-101</subfield>
+            <subfield code="2">sdnb</subfield>
+          </datafield>
+          <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Stacher, Georg</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Österreich-Ungarn, Deutschland und der Friede</subfield>
+            <subfield code="b">Oktober 1916 bis November 1918</subfield>
+            <subfield code="c">Georg Stacher</subfield>
+          </datafield>
+          <datafield tag="250" ind1=" " ind2=" ">
+            <subfield code="a">1. Auflage 2020</subfield>
+          </datafield>
+          <datafield tag="263" ind1=" " ind2=" ">
+            <subfield code="a">202012</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="a">Wien</subfield>
+            <subfield code="b">Böhlau Wien</subfield>
+            <subfield code="c">2020</subfield>
+          </datafield>
+          <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">971 Seiten</subfield>
+            <subfield code="b">Mit ca. 8 s/w-Abb.</subfield>
+            <subfield code="c">24 cm x 17 cm</subfield>
+          </datafield>
+          <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="b">n</subfield>
+          </datafield>
+          <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+            <subfield code="v">Band 120, Teil</subfield>
+          </datafield>
+          <datafield tag="653" ind1=" " ind2=" ">
+            <subfield code="a">Erster Weltkrieg</subfield>
+          </datafield>
+          <datafield tag="653" ind1=" " ind2=" ">
+            <subfield code="a">Kaiserin Zita</subfield>
+          </datafield>
+          <datafield tag="653" ind1=" " ind2=" ">
+            <subfield code="a">Kaiser Karl I.</subfield>
+          </datafield>
+          <datafield tag="653" ind1=" " ind2=" ">
+            <subfield code="a">U-Boot-Krieg</subfield>
+          </datafield>
+          <datafield tag="653" ind1=" " ind2=" ">
+            <subfield code="a">Sixtus-Affäre</subfield>
+          </datafield>
+          <datafield tag="653" ind1=" " ind2=" ">
+            <subfield code="a">Woodrow Wilson</subfield>
+          </datafield>
+          <datafield tag="653" ind1=" " ind2=" ">
+            <subfield code="a">Hardcover, Softcover / Geschichte</subfield>
+          </datafield>
+          <datafield tag="689" ind1="0" ind2="0">
+            <subfield code="a">Karl</subfield>
+            <subfield code="b">I.</subfield>
+            <subfield code="c">Österreich, Kaiser</subfield>
+            <subfield code="d">1887-1922</subfield>
+            <subfield code="D">p</subfield>
+            <subfield code="0">(DE-588)118560077</subfield>
+          </datafield>
+          <datafield tag="689" ind1="0" ind2="1">
+            <subfield code="a">Österreich-Ungarn</subfield>
+            <subfield code="D">g</subfield>
+            <subfield code="0">(DE-588)4075613-0</subfield>
+          </datafield>
+          <datafield tag="689" ind1="0" ind2="2">
+            <subfield code="a">Weltkrieg</subfield>
+            <subfield code="g">1914-1918</subfield>
+            <subfield code="D">s</subfield>
+            <subfield code="0">(DE-588)4079163-4</subfield>
+          </datafield>
+          <datafield tag="689" ind1="0" ind2="3">
+            <subfield code="a">Friedensverhandlung</subfield>
+            <subfield code="D">s</subfield>
+            <subfield code="0">(DE-588)4155444-9</subfield>
+          </datafield>
+          <datafield tag="689" ind1="0" ind2="6">
+            <subfield code="A">z</subfield>
+            <subfield code="a">Geschichte 1916-1918</subfield>
+          </datafield>
+          <datafield tag="689" ind1="0" ind2=" ">
+            <subfield code="5">AT-OBV</subfield>
+            <subfield code="5">ubw0291</subfield>
+          </datafield>
+          <datafield tag="689" ind1="1" ind2="0">
+            <subfield code="a">Sixtus-Affäre</subfield>
+            <subfield code="D">s</subfield>
+            <subfield code="0">(DE-588)4181610-9</subfield>
+          </datafield>
+          <datafield tag="689" ind1="1" ind2=" ">
+            <subfield code="5">AT-OBV</subfield>
+            <subfield code="5">ubw0291</subfield>
+          </datafield>
+          <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">Böhlau Verlag GmbH &amp; Co. KG</subfield>
+            <subfield code="0">(DE-588)1065536941</subfield>
+            <subfield code="4">pbl</subfield>
+          </datafield>
+          <datafield tag="776" ind1="0" ind2="8">
+            <subfield code="i">Erscheint auch als</subfield>
+            <subfield code="n">Online-Ausgabe</subfield>
+            <subfield code="z">9783205211488</subfield>
+          </datafield>
+          <datafield tag="776" ind1="0" ind2="8">
+            <subfield code="i">Erscheint auch als</subfield>
+            <subfield code="n">Online-Ausgabe</subfield>
+            <subfield code="z">9783205211495</subfield>
+          </datafield>
+          <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="v">Band 120, Teil</subfield>
+            <subfield code="9">O:1</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_UBW</subfield>
+            <subfield code="6">9981284169703332</subfield>
+            <subfield code="9">P</subfield>
+          </datafield>
+          <datafield tag="970" ind1="4" ind2=" ">
+            <subfield code="b">DE-101</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>99145779985403331</recordIdentifier>
+      <recordPosition>1</recordPosition>
+    </record>
+  </records>
+  <extraResponseData xmlns:xb="http://www.exlibris.com/repository/search/xmlbeans/">
+    <xb:exact>true</xb:exact>
+    <xb:responseDate>2020-12-29T23:58:02+0100</xb:responseDate>
+  </extraResponseData>
+</searchRetrieveResponse>

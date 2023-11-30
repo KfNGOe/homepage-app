@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>1</numberOfRecords>
+  <records>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>01578nam a2200397 c 4500</leader>
+          <controlfield tag="001">99144817097403331</controlfield>
+          <controlfield tag="005">20200902170958.0</controlfield>
+          <controlfield tag="007">cr#|||||||||||</controlfield>
+          <controlfield tag="008">181106|2018    |||     o  |        ger c</controlfield>
+          <controlfield tag="009">AC15196313</controlfield>
+          <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">9783205208471</subfield>
+            <subfield code="c">eISBN</subfield>
+          </datafield>
+          <datafield tag="024" ind1="7" ind2=" ">
+            <subfield code="a">10.7767/9783205208471</subfield>
+            <subfield code="2">doi</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(AT-OBV)AC15196313</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-599)OBVAC15196313</subfield>
+          </datafield>
+          <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">AT-UBW</subfield>
+            <subfield code="d">AT-OeAW</subfield>
+            <subfield code="e">rda</subfield>
+          </datafield>
+          <datafield tag="041" ind1=" " ind2=" ">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="044" ind1=" " ind2=" ">
+            <subfield code="c">XA-AT</subfield>
+            <subfield code="c">XA-DE</subfield>
+          </datafield>
+          <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Aichner, Christof</subfield>
+            <subfield code="d">1982-</subfield>
+            <subfield code="0">(DE-588)107360859X</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Die Universität Innsbruck in der Ära der Thun-Hohenstein’schen Reformen 1848–1860</subfield>
+            <subfield code="b">Aufbruch in eine neue Zeit</subfield>
+            <subfield code="c">Christof Aichner</subfield>
+          </datafield>
+          <datafield tag="250" ind1=" " ind2=" ">
+            <subfield code="a">1st edition</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="a">Wien</subfield>
+            <subfield code="a">Köln</subfield>
+            <subfield code="a">Weimar</subfield>
+            <subfield code="b">Böhlau Verlag</subfield>
+            <subfield code="c">2018</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="2">
+            <subfield code="a">Göttingen</subfield>
+            <subfield code="b">Vandenhoeck &amp; Ruprecht</subfield>
+          </datafield>
+          <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">1 Online-Ressource ( 509 Seiten)</subfield>
+            <subfield code="b">Illustrationen</subfield>
+          </datafield>
+          <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="b">c</subfield>
+          </datafield>
+          <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="b">cr</subfield>
+          </datafield>
+          <datafield tag="347" ind1=" " ind2=" ">
+            <subfield code="a">Textdatei</subfield>
+            <subfield code="b">PDF</subfield>
+          </datafield>
+          <datafield tag="490" ind1="0" ind2=" ">
+            <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+            <subfield code="v">Band 117</subfield>
+          </datafield>
+          <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Überarbeitete Version der Hochschulschrift</subfield>
+          </datafield>
+          <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Enthält Quellen- und Literaturverzeichnis: Seite [453]-494</subfield>
+          </datafield>
+          <datafield tag="502" ind1=" " ind2=" ">
+            <subfield code="b">Dissertation</subfield>
+            <subfield code="c">Universität Innsbruck</subfield>
+            <subfield code="d">2014</subfield>
+          </datafield>
+          <datafield tag="506" ind1="0" ind2=" ">
+            <subfield code="f">Unrestricted online access</subfield>
+            <subfield code="2">star</subfield>
+          </datafield>
+          <datafield tag="540" ind1=" " ind2=" ">
+            <subfield code="a">Unter einer CC-Lizenz, Details siehe Link</subfield>
+            <subfield code="u">http://creativecommons.org/licenses/by/4.0/</subfield>
+          </datafield>
+          <datafield tag="776" ind1="0" ind2="8">
+            <subfield code="i">Erscheint auch als</subfield>
+            <subfield code="n">Druck-Ausgabe</subfield>
+            <subfield code="z">9783205206415</subfield>
+          </datafield>
+          <datafield tag="856" ind1="4" ind2="0">
+            <subfield code="u">https://doi.org/10.7767/9783205208471</subfield>
+            <subfield code="x">Resolving-System</subfield>
+            <subfield code="3">Volltext</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_UBW</subfield>
+            <subfield code="6">9980958466703332</subfield>
+            <subfield code="9">E</subfield>
+          </datafield>
+          <datafield tag="852" ind1="0" ind2="1">
+            <subfield code="a">43ACC_OEAW</subfield>
+            <subfield code="6">993467107704498</subfield>
+            <subfield code="9">E</subfield>
+          </datafield>
+          <datafield tag="912" ind1=" " ind2=" ">
+            <subfield code="a">OA-EBOOK</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>99144817097403331</recordIdentifier>
+      <recordPosition>1</recordPosition>
+    </record>
+  </records>
+  <extraResponseData xmlns:xb="http://www.exlibris.com/repository/search/xmlbeans/">
+    <xb:exact>true</xb:exact>
+    <xb:responseDate>2020-12-30T00:04:17+0100</xb:responseDate>
+  </extraResponseData>
+</searchRetrieveResponse>

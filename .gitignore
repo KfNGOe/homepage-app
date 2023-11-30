@@ -1,0 +1,7 @@
+.log
+.idea/
+*.iml
+target/
+node_modules/
+/baernreither/doris/
+/baernreither/src/

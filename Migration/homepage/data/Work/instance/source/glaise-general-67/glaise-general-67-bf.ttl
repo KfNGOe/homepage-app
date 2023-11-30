@@ -1,0 +1,347 @@
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bflc:  <http://id.loc.gov/ontologies/bflc/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/990005981090203331#Item852-36>
+    a          bf:Item ;
+    bf:heldBy  <http://id.loc.gov/vocabulary/organizations/43ACC_SLA> ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_VWI>
+    a       bf:Agent .
+
+<http://id.loc.gov/vocabulary/languages/ger>
+    a       bf:Language .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBL>
+    a       bf:Agent .
+
+<http://example.org/990005981090203331#Item852-43>
+    a          bf:Item ;
+    bf:heldBy  <http://id.loc.gov/vocabulary/organizations/43ACC_BMA> ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .
+
+<http://example.org/990005981090203331#Work>
+    a                  bf:Text , bf:Work ;
+    rdfs:label         "<<Ein>> General im Zwielicht die Erinnerungen Edmund Glaises von Horstenau 1 K. u. k. Generalstabsoffizier und Historiker" ;
+    bf:adminMetadata   [ a                          bf:AdminMetadata ;
+                         bflc:encodingLevel         [ a        bflc:EncodingLevel ;
+                                                      bf:code  "f"
+                                                    ] ;
+                         bf:changeDate              "2018-04-16T13:59:09"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                         bf:creationDate            "1994-10-24"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                         bf:descriptionConventions  <http://id.loc.gov/vocabulary/descriptionConventions/rakddb> ;
+                         bf:descriptionConventions  [ a        bf:DescriptionConventions ;
+                                                      bf:code  "isbd"
+                                                    ] ;
+                         bf:descriptionLanguage     <http://id.loc.gov/vocabulary/languages/ger> ;
+                         bf:descriptionModifier     [ a           bf:Agent ;
+                                                      rdfs:label  "UBW"
+                                                    ] ;
+                         bf:generationProcess       [ a           bf:GenerationProcess ;
+                                                      rdfs:label  "DLC marc2bibframe2 v1.4.0-SNAPSHOT: 2021-01-30T20:49:08.198+01:00"
+                                                    ] ;
+                         bf:identifiedBy            [ a          bf:Local ;
+                                                      rdf:value  "990005981090203331"
+                                                    ] ;
+                         bf:source                  [ a           bf:Agent , bf:Source ;
+                                                      rdfs:label  "UBI"
+                                                    ] ;
+                         bf:status                  [ a        bf:Status ;
+                                                      bf:code  "n"
+                                                    ]
+                       ] ;
+    bf:classification  [ a                         bf:Classification ;
+                         bf:classificationPortion  "NQ 2160" ;
+                         bf:source                 [ a           bf:Source ;
+                                                     rdfs:label  "rvk"
+                                                   ]
+                       ] ;
+    bf:contribution    [ a         bf:Contribution ;
+                         bf:agent  <http://example.org/990005981090203331#Agent700-31> ;
+                         bf:role   <http://id.loc.gov/vocabulary/relators/edt>
+                       ] ;
+    bf:contribution    [ a         bflc:PrimaryContribution , bf:Contribution ;
+                         bf:agent  <http://example.org/990005981090203331#Agent100-17> ;
+                         bf:role   <http://id.loc.gov/vocabulary/relators/aut>
+                       ] ;
+    bf:hasInstance     <http://example.org/990005981090203331#Instance> ;
+    bf:language        <http://id.loc.gov/vocabulary/languages/ger> ;
+    bf:language        [ a                bf:Language ;
+                         bf:identifiedBy  [ a          bf:Identifier ;
+                                            rdf:value  <http://id.loc.gov/vocabulary/languages/ger> ;
+                                            bf:source  <http://id.loc.gov/vocabulary/languages>
+                                          ]
+                       ] ;
+    bf:partOf          <http://example.org/990005981090203331#Work773-32> ;
+    bf:title           [ a                  bf:Title ;
+                         rdfs:label         "<<Ein>> General im Zwielicht die Erinnerungen Edmund Glaises von Horstenau 1 K. u. k. Generalstabsoffizier und Historiker" ;
+                         bflc:titleSortKey  "<<Ein>> General im Zwielicht die Erinnerungen Edmund Glaises von Horstenau 1 K. u. k. Generalstabsoffizier und Historiker" ;
+                         bf:mainTitle       "<<Ein>> General im Zwielicht" ;
+                         bf:partName        "K. u. k. Generalstabsoffizier und Historiker" ;
+                         bf:partNumber      "1" ;
+                         bf:subtitle        "die Erinnerungen Edmund Glaises von Horstenau"
+                       ] .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBW>
+    a       bf:Agent .
+
+<http://id.loc.gov/vocabulary/languages>
+    a       bf:Source .
+
+<http://example.org/990005981090203331#Agent100-17>
+    a                    bf:Person , bf:Agent ;
+    rdfs:label           "Glaise von Horstenau, Edmund 1882-1946" ;
+    bflc:name00MarcKey   "1001 $aGlaise von Horstenau, Edmund$d1882-1946$0(DE-588)118539647$4aut$9O:H" ;
+    bflc:name00MatchKey  "Glaise von Horstenau, Edmund 1882-1946" ;
+    bflc:primaryContributorName00MatchKey
+                         "Glaise von Horstenau, Edmund 1882-1946" ;
+    bf:identifiedBy      [ a          bf:Identifier ;
+                           rdf:value  "118539647" ;
+                           bf:source  [ a           bf:Source ;
+                                        rdfs:label  "DE-588"
+                                      ]
+                         ] .
+
+<http://example.org/990005981090203331#Item852-35>
+    a          bf:Item ;
+    bf:heldBy  <http://id.loc.gov/vocabulary/organizations/43ACC_VWI> ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBK>
+    a       bf:Agent .
+
+<http://example.org/990005981090203331#Work773-32>
+    a                bf:Work ;
+    bf:hasInstance   <http://example.org/990005981090203331#Instance773-32> ;
+    bf:identifiedBy  [ a          bf:Identifier ;
+                       rdf:value  "AC00991399" ;
+                       bf:source  [ a           bf:Source ;
+                                    rdfs:label  "AT-OBV"
+                                  ]
+                     ] .
+
+<http://id.loc.gov/vocabulary/relators/aut>
+    a       bf:Role .
+
+<http://example.org/990005981090203331#Item852-42>
+    a          bf:Item ;
+    bf:heldBy  [ a           bf:Agent ;
+                 rdfs:label  "43ACC_BRIDGE_PAR"
+               ] ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .
+
+<http://example.org/990005981090203331#Item852-34>
+    a          bf:Item ;
+    bf:heldBy  <http://id.loc.gov/vocabulary/organizations/43ACC_UBS> ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .
+
+<http://example.org/990005981090203331#Item852-47>
+    a          bf:Item ;
+    bf:heldBy  [ a           bf:Agent ;
+                 rdfs:label  "43ACC_OOELB"
+               ] ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .
+
+<http://id.loc.gov/vocabulary/descriptionConventions/rakddb>
+    a       bf:DescriptionConventions .
+
+<http://example.org/990005981090203331#Item852-41>
+    a          bf:Item ;
+    bf:heldBy  <http://id.loc.gov/vocabulary/organizations/43ACC_ONB> ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .
+
+<http://example.org/990005981090203331#Item852-39>
+    a          bf:Item ;
+    bf:heldBy  <http://id.loc.gov/vocabulary/organizations/43ACC_UBK> ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .
+
+<http://example.org/990005981090203331#Instance>
+    a                              bf:Instance ;
+    rdfs:label                     "<<Ein>> General im Zwielicht die Erinnerungen Edmund Glaises von Horstenau 1 K. u. k. Generalstabsoffizier und Historiker" ;
+    bf:dimensions                  "24 cm" ;
+    bf:extent                      [ a           bf:Extent ;
+                                     rdfs:label  "565 S."
+                                   ] ;
+    bf:hasItem                     <http://example.org/990005981090203331#Item852-44> , <http://example.org/990005981090203331#Item852-47> , <http://example.org/990005981090203331#Item852-41> , <http://example.org/990005981090203331#Item852-36> , <http://example.org/990005981090203331#Item852-39> , <http://example.org/990005981090203331#Item852-46> , <http://example.org/990005981090203331#Item852-40> , <http://example.org/990005981090203331#Item852-43> , <http://example.org/990005981090203331#Item852-35> , <http://example.org/990005981090203331#Item852-38> , <http://example.org/990005981090203331#Item852-45> , <http://example.org/990005981090203331#Item852-42> , <http://example.org/990005981090203331#Item852-34> , <http://example.org/990005981090203331#Item852-37> ;
+    bf:hasSeries                   [ a                     bf:Instance ;
+                                     rdfs:label            "Veröffentlichungen der Kommission für Neuere Geschichte Österreichs" ;
+                                     bf:instanceOf         <http://example.org/990005981090203331#Work830-33> ;
+                                     bf:seriesEnumeration  "67" ;
+                                     bf:seriesStatement    "Veröffentlichungen der Kommission für Neuere Geschichte Österreichs 67"
+                                   ] ;
+    bf:identifiedBy                [ a          bf:Local ;
+                                     rdf:value  "OBVAC00991416" ;
+                                     bf:source  [ a           bf:Source ;
+                                                  rdfs:label  "DE-599"
+                                                ]
+                                   ] ;
+    bf:identifiedBy                [ a          bf:Local ;
+                                     rdf:value  "000598109ACC01" ;
+                                     bf:source  [ a           bf:Source ;
+                                                  rdfs:label  "Aleph"
+                                                ]
+                                   ] ;
+    bf:identifiedBy                [ a                    bf:Isbn ;
+                                     rdf:value            "3205087402" ;
+                                     bf:acquisitionTerms  "kart. : DM 148.00"
+                                   ] ;
+    bf:identifiedBy                [ a          bf:Nbn ;
+                                     rdf:value  "80,A48,0400" ;
+                                     bf:source  [ a           bf:Source ;
+                                                  rdfs:label  "dnb"
+                                                ]
+                                   ] ;
+    bf:identifiedBy                [ a          bf:Local ;
+                                     rdf:value  "AC00991416"
+                                   ] ;
+    bf:identifiedBy                [ a          bf:Local ;
+                                     rdf:value  "AC00991416" ;
+                                     bf:source  [ a           bf:Source ;
+                                                  rdfs:label  "AT-OBV"
+                                                ]
+                                   ] ;
+    bf:instanceOf                  <http://example.org/990005981090203331#Work> ;
+    bf:issuance                    <http://id.loc.gov/vocabulary/issuance/mono> ;
+    bf:note                        [ a           bf:Note ;
+                                     rdfs:label  "Bibliogr. E. Glaise von Horstenau S. 52 - 62"
+                                   ] ;
+    bf:note                        [ a            bf:Note ;
+                                     rdfs:label   "Ill." ;
+                                     bf:noteType  "Physical details"
+                                   ] ;
+    bf:place                       [ a          bf:Place ;
+                                     bf:code    "XA-DE" ;
+                                     bf:source  [ a           bf:Source ;
+                                                  rdfs:label  "ISO 3166"
+                                                ]
+                                   ] ;
+    bf:place                       [ a          bf:Place ;
+                                     bf:code    "XA-AT" ;
+                                     bf:source  [ a           bf:Source ;
+                                                  rdfs:label  "ISO 3166"
+                                                ]
+                                   ] ;
+    bf:provisionActivity           [ a         bf:Publication , bf:ProvisionActivity ;
+                                     bf:agent  [ a           bf:Agent ;
+                                                 rdfs:label  "Böhlau"
+                                               ] ;
+                                     bf:date   "1980" ;
+                                     bf:place  [ a           bf:Place ;
+                                                 rdfs:label  "Graz [u.a."
+                                               ] ;
+                                     bf:place  [ a           bf:Place ;
+                                                 rdfs:label  "Wien"
+                                               ]
+                                   ] ;
+    bf:provisionActivity           [ a         bf:Publication , bf:ProvisionActivity ;
+                                     bf:date   "1980/####"^^<http://id.loc.gov/datatypes/edtf> ;
+                                     bf:place  <http://id.loc.gov/vocabulary/countries/au%23>
+                                   ] ;
+    bf:provisionActivityStatement  "Wien; Graz [u.a.]; Böhlau; 1980" ;
+    bf:responsibilityStatement     "eingel. und hrsg. von Peter Broucek" ;
+    bf:title                       [ a                  bf:Title ;
+                                     rdfs:label         "<<Ein>> General im Zwielicht die Erinnerungen Edmund Glaises von Horstenau 1 K. u. k. Generalstabsoffizier und Historiker" ;
+                                     bflc:titleSortKey  "<<Ein>> General im Zwielicht die Erinnerungen Edmund Glaises von Horstenau 1 K. u. k. Generalstabsoffizier und Historiker" ;
+                                     bf:mainTitle       "<<Ein>> General im Zwielicht" ;
+                                     bf:partName        "K. u. k. Generalstabsoffizier und Historiker" ;
+                                     bf:partNumber      "1" ;
+                                     bf:subtitle        "die Erinnerungen Edmund Glaises von Horstenau"
+                                   ] ;
+    bf:title                       [ a                  bf:VariantTitle , bf:Title ;
+                                     rdfs:label         "Kaiserlich und königlicher Generalstabsoffizier und Historiker" ;
+                                     bflc:titleSortKey  "Kaiserlich und königlicher Generalstabsoffizier und Historiker" ;
+                                     bf:mainTitle       "Kaiserlich und königlicher Generalstabsoffizier und Historiker"
+                                   ] .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_SLA>
+    a       bf:Agent .
+
+<http://example.org/990005981090203331#Work830-33>
+    a                bf:Work ;
+    bf:identifiedBy  [ a          bf:Identifier ;
+                       rdf:value  "AC00112585" ;
+                       bf:source  [ a           bf:Source ;
+                                    rdfs:label  "AT-OBV"
+                                  ]
+                     ] ;
+    bf:title         [ a                    bf:Title ;
+                       bflc:title30MarcKey  "830 0$w(AT-OBV)AC00112585$v67$9O:1"
+                     ] .
+
+<http://example.org/990005981090203331#Item852-46>
+    a          bf:Item ;
+    bf:heldBy  <http://id.loc.gov/vocabulary/organizations/43ACC_AKW> ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBI>
+    a       bf:Agent .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_ONB>
+    a       bf:Agent .
+
+<http://example.org/990005981090203331#Item852-40>
+    a          bf:Item ;
+    bf:heldBy  <http://id.loc.gov/vocabulary/organizations/43ACC_UBL> ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .
+
+<http://example.org/990005981090203331#Item852-38>
+    a          bf:Item ;
+    bf:heldBy  <http://id.loc.gov/vocabulary/organizations/43ACC_UBW> ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_BMA>
+    a       bf:Agent .
+
+<http://example.org/990005981090203331#Item852-45>
+    a          bf:Item ;
+    bf:heldBy  <http://id.loc.gov/vocabulary/organizations/43ACC_UBI> ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_AKW>
+    a       bf:Agent .
+
+<http://example.org/990005981090203331#Agent700-31>
+    a                    bf:Person , bf:Agent ;
+    rdfs:label           "Broucek, Peter 1938-" ;
+    bflc:name00MarcKey   "7001 $aBroucek, Peter$d1938-$0(DE-588)122604172$4edt$9O:H" ;
+    bflc:name00MatchKey  "Broucek, Peter 1938-" ;
+    bf:identifiedBy      [ a          bf:Identifier ;
+                           rdf:value  "122604172" ;
+                           bf:source  [ a           bf:Source ;
+                                        rdfs:label  "DE-588"
+                                      ]
+                         ] .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBS>
+    a       bf:Agent .
+
+<http://id.loc.gov/vocabulary/relators/edt>
+    a       bf:Role .
+
+<http://id.loc.gov/vocabulary/countries/au%23>
+    a       bf:Place .
+
+<http://example.org/990005981090203331#Item852-37>
+    a          bf:Item ;
+    bf:heldBy  [ a           bf:Agent ;
+                 rdfs:label  "43ACC_WIENB"
+               ] ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .
+
+<http://example.org/990005981090203331#Instance773-32>
+    a              bf:Instance ;
+    bf:instanceOf  <http://example.org/990005981090203331#Work773-32> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBG>
+    a       bf:Agent .
+
+<http://id.loc.gov/vocabulary/issuance/mono>
+    a       bf:Issuance .
+
+<http://example.org/990005981090203331#Item852-44>
+    a          bf:Item ;
+    bf:heldBy  <http://id.loc.gov/vocabulary/organizations/43ACC_UBG> ;
+    bf:itemOf  <http://example.org/990005981090203331#Instance> .

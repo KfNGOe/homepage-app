@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>01273nam a2200337zcc4500</leader>
+                    <controlfield tag="001">990025900220203331</controlfield>
+                    <controlfield tag="005">20180416144634.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">990823|1964####au############|||#|#ger#u</controlfield>
+                    <controlfield tag="009">AC02591326</controlfield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">AC02591326</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(Aleph)002590022ACC01</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)OBVAC02591326</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC02591326</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">UBS</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="d">BMF</subfield>
+                        <subfield code="e">rakwb</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="0" ind2="0">
+                        <subfield code="a">&lt;&lt;Die>> österreichische Zentralverwaltung</subfield>
+                        <subfield code="n">3, Von der Märzrevolution 1848 bis zur Dezemberverfassung 1867, Bd. 2</subfield>
+                        <subfield code="p">&lt;&lt;Die>> Geschichte der Ministerien Kolowrat, Ficquelmont, Pillersdorf, Wessenberg-Doblhoff und Schwarzenberg : Aktenstücke</subfield>
+                        <subfield code="c">bearb. von Friedrich Walter</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien [u.a.]</subfield>
+                        <subfield code="b">Böhlau</subfield>
+                        <subfield code="c">1964</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">VI, 200 S.</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">50</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Fellner, Thomas</subfield>
+                        <subfield code="d">1852-1904</subfield>
+                        <subfield code="0">(DE-588)132483068</subfield>
+                        <subfield code="4">ctb</subfield>
+                        <subfield code="9">O:H</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Kretschmayr, Heinrich</subfield>
+                        <subfield code="4">oth</subfield>
+                        <subfield code="e">[Bearb.]</subfield>
+                        <subfield code="9">O:H</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Walter, Friedrich</subfield>
+                        <subfield code="4">oth</subfield>
+                        <subfield code="e">[Bearb.]</subfield>
+                        <subfield code="9">O:H</subfield>
+                    </datafield>
+                    <datafield tag="773" ind1="0" ind2="8">
+                        <subfield code="w">(AT-OBV)AC02588639</subfield>
+                        <subfield code="q">3,2</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">50</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBS</subfield>
+                        <subfield code="6">990005841940203341</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_SLA</subfield>
+                        <subfield code="6">990001386660204535</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910676869104516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">990014277950203332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OEAW</subfield>
+                        <subfield code="6">990002352690504498</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBK</subfield>
+                        <subfield code="6">990002276110203346</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBL</subfield>
+                        <subfield code="6">990005071380103340</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BRIDGE_PAR</subfield>
+                        <subfield code="6">9963895104485</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BMA</subfield>
+                        <subfield code="6">990002008180304534</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WUW</subfield>
+                        <subfield code="6">990005046050203337</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBG</subfield>
+                        <subfield code="6">990018086130203339</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBI</subfield>
+                        <subfield code="6">990010720590103333</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_AKW</subfield>
+                        <subfield code="6">990000593010203343</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BFW</subfield>
+                        <subfield code="6">9929446704494</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OOELB</subfield>
+                        <subfield code="6">990004911630304508</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="7" ind2=" ">
+                        <subfield code="a">LKR/ITM-UBI</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">z|1dcr|||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">|||||||</subfield>
+                    </datafield>
+                </record>
+

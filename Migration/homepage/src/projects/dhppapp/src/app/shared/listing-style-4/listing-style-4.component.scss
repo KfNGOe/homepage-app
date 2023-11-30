@@ -1,0 +1,42 @@
+.titel {
+  color: rgba(2, 125, 180, 0.698039215686274);
+  font-size: 1.2em;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.8em;
+}
+
+.text-preview {
+  margin: 5px 0;
+  img {
+    float: left;
+    width: 80px;
+    margin: 0 20px 10px 0;
+  }
+  .text-container {
+    color: #687a85;
+    font-size: 16px;
+  }
+}
+
+.img-wrap {
+  cursor: pointer;
+}
+
+/* styles for show more */
+
+.show-more p,
+.less {
+  display: none;
+}
+
+.show-more:target p,
+.show-more:target .less {
+  display: block;
+}
+
+.show-more:target .more {
+  display: none;
+}

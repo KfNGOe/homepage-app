@@ -1,0 +1,67 @@
+<!-- Modal -->
+<div
+  class="modal"
+  [style.display]="showModal ? 'block' : 'none'"
+  id="exampleModalCenter"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Kommission für Neuere Geschichte Österreichs</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="hideFulltext()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" [innerHtml]="_message | safeHtml"></div>
+      <div class="modal-footer">
+        <a data-dismiss="modal" (click)="hideFulltext()">Schließen</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Work Block (Group) -->
+<div class="col-lg-2 col-12">
+  <img *ngIf="_element.image != false" class="img-thumbnail" [src]="_element.image" />
+</div>
+
+<div class="col-lg-2 col-12">
+  <p>
+    <span [innerHTML]="_element.title"></span>
+  </p>
+</div>
+
+<div class="{{ colSize }}">
+  <p>
+    <span [innerHTML]="_element.description"></span>
+  </p>
+</div>
+
+<div class="col-lg-2 col-12 float-right" *ngIf="_showIcons">
+  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+    <img
+      *ngIf="_element.link1 !== ''"
+      (click)="linkto(_element.link1)"
+      class="img-thumbnail"
+      style="height: 45px; cursor:pointer"
+      [src]="'./content/images/u275.png'"
+    />
+    <!--  <a target="_blank" *ngIf="_element.link2 !== ''" style="display: inline-block" [href]="pdfDataUrl + _element.link2"> -->
+    <img
+      *ngIf="_element.link2 !== ''"
+      class="img-thumbnail"
+      (click)="downloadPdf(_element.link2)"
+      style="height: 45px; cursor:pointer; width: auto"
+      [src]="'./content/images/u276.png'"
+    />
+    <!--   </a> -->
+  </div>
+</div>
+
+<div class="col-12" style="padding-top: 20px; padding-bottom: 30px;">
+  <img class="center-block d-block mx-auto" [src]="'./content/images/separation_line_u202.svg'" />
+</div>

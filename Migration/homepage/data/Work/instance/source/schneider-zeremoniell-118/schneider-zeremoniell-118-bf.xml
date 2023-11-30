@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+   <bf:Work rdf:about="http://example.org/99145111478003331#Work">
+      <bf:adminMetadata>
+         <bf:AdminMetadata>
+            <bf:generationProcess>
+               <bf:GenerationProcess>
+                  <rdfs:label>DLC marc2bibframe2 v1.4.0-SNAPSHOT: 2020-10-20T20:58:06.185+02:00</rdfs:label>
+               </bf:GenerationProcess>
+            </bf:generationProcess>
+            <bf:status>
+               <bf:Status>
+                  <bf:code>n</bf:code>
+               </bf:Status>
+            </bf:status>
+            <bflc:encodingLevel>
+               <bflc:EncodingLevel>
+                  <bf:code>f</bf:code>
+               </bflc:EncodingLevel>
+            </bflc:encodingLevel>
+            <bf:descriptionConventions>
+               <bf:DescriptionConventions>
+                  <bf:code>isbd</bf:code>
+               </bf:DescriptionConventions>
+            </bf:descriptionConventions>
+            <bf:identifiedBy>
+               <bf:Local>
+                  <rdf:value>99145111478003331</rdf:value>
+               </bf:Local>
+            </bf:identifiedBy>
+            <bf:changeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-04T14:07:28</bf:changeDate>
+            <bf:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-02</bf:creationDate>
+            <bf:identifiedBy>
+               <bf:Local>
+                  <rdf:value>1179561252</rdf:value>
+                  <bf:source>
+                     <bf:Source>
+                        <rdfs:label>DE-101b</rdfs:label>
+                     </bf:Source>
+                  </bf:source>
+               </bf:Local>
+            </bf:identifiedBy>
+            <bf:source>
+               <bf:Source>
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Agent"/>
+                  <rdfs:label>AT-UBW</rdfs:label>
+               </bf:Source>
+            </bf:source>
+            <bf:source>
+               <bf:Source>
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Agent"/>
+                  <rdfs:label>DE-101</rdfs:label>
+               </bf:Source>
+            </bf:source>
+            <bf:descriptionLanguage>
+               <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/ger"/>
+            </bf:descriptionLanguage>
+            <bf:descriptionModifier>
+               <bf:Agent>
+                  <rdfs:label>AT-OBV</rdfs:label>
+               </bf:Agent>
+            </bf:descriptionModifier>
+            <bf:descriptionConventions>
+               <bf:DescriptionConventions rdf:about="http://id.loc.gov/vocabulary/descriptionConventions/rda"/>
+            </bf:descriptionConventions>
+         </bf:AdminMetadata>
+      </bf:adminMetadata>
+      <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Text"/>
+      <bf:language>
+         <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/ger"/>
+      </bf:language>
+      <bf:language>
+         <bf:Language>
+            <bf:identifiedBy>
+               <bf:Identifier>
+                  <rdf:value rdf:resource="http://id.loc.gov/vocabulary/languages/ger"/>
+                  <bf:source>
+                     <bf:Source rdf:about="http://id.loc.gov/vocabulary/languages"/>
+                  </bf:source>
+               </bf:Identifier>
+            </bf:identifiedBy>
+         </bf:Language>
+      </bf:language>
+      <bf:classification>
+         <bf:ClassificationDdc>
+            <bf:classificationPortion>390.23094361309034</bf:classificationPortion>
+            <bf:edition>23/ger</bf:edition>
+            <bf:edition>full</bf:edition>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>LBOSAG</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:ClassificationDdc>
+      </bf:classification>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>15.60</bf:classificationPortion>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>bkl</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>15.07</bf:classificationPortion>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>bkl</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>940</bf:classificationPortion>
+            <bf:adminMetadata>
+               <bf:AdminMetadata>
+                  <bf:assigner>
+                     <bf:Agent>
+                        <rdfs:label>DE-101</rdfs:label>
+                     </bf:Agent>
+                  </bf:assigner>
+               </bf:AdminMetadata>
+            </bf:adminMetadata>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>sdnb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>390</bf:classificationPortion>
+            <bf:adminMetadata>
+               <bf:AdminMetadata>
+                  <bf:assigner>
+                     <bf:Agent>
+                        <rdfs:label>DE-101</rdfs:label>
+                     </bf:Agent>
+                  </bf:assigner>
+               </bf:AdminMetadata>
+            </bf:adminMetadata>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>sdnb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <rdfs:label>Norm und Zeremoniell das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar</rdfs:label>
+      <bf:title>
+         <bf:Title>
+            <rdfs:label>Norm und Zeremoniell das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar</rdfs:label>
+            <bflc:titleSortKey>Norm und Zeremoniell das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar</bflc:titleSortKey>
+            <bf:mainTitle>Norm und Zeremoniell</bf:mainTitle>
+            <bf:subtitle>das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar</bf:subtitle>
+         </bf:Title>
+      </bf:title>
+      <bf:content>
+         <bf:Content rdf:about="http://id.loc.gov/vocabulary/contentTypes/txt"/>
+      </bf:content>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Wiener Hof</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Reform</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Dienstpflicht</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Edition</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Ritual</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Kaisertum Österreich</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:genreForm>
+         <bf:GenreForm rdf:about="http://example.org/99145111478003331#GenreForm655-35">
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#GenreForm"/>
+            <rdfs:label>Quelle</rdfs:label>
+            <madsrdf:authoritativeLabel>Quelle</madsrdf:authoritativeLabel>
+            <bf:source>
+               <bf:Source>
+                  <bf:code>gnd-content</bf:code>
+               </bf:Source>
+            </bf:source>
+            <bf:identifiedBy>
+               <bf:Identifier>
+                  <rdf:value>4135952-5</rdf:value>
+                  <bf:source>
+                     <bf:Source>
+                        <rdfs:label>DE-588</rdfs:label>
+                     </bf:Source>
+                  </bf:source>
+               </bf:Identifier>
+            </bf:identifiedBy>
+         </bf:GenreForm>
+      </bf:genreForm>
+      <bf:contribution>
+         <bf:Contribution>
+            <bf:agent>
+               <bf:Agent rdf:about="http://example.org/99145111478003331#Agent700-41">
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                  <bflc:name00MatchKey>Schneider, Karin</bflc:name00MatchKey>
+                  <bflc:name00MarcKey>7001 $aSchneider, Karin$0(DE-588)1121595138$4edt</bflc:name00MarcKey>
+                  <rdfs:label>Schneider, Karin</rdfs:label>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>1121595138</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>DE-588</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Agent>
+            </bf:agent>
+            <bf:role>
+               <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/edt"/>
+            </bf:role>
+         </bf:Contribution>
+      </bf:contribution>
+      <bf:contribution>
+         <bf:Contribution>
+            <bf:agent>
+               <bf:Agent rdf:about="http://example.org/99145111478003331#Agent710-42">
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Organization"/>
+                  <bflc:name10MatchKey>Böhlau Verlag GmbH &amp; Co. KG</bflc:name10MatchKey>
+                  <bflc:name10MarcKey>7102 $aBöhlau Verlag GmbH &amp; Co. KG$0(DE-588)1065536941$4pbl</bflc:name10MarcKey>
+                  <rdfs:label>Böhlau Verlag GmbH &amp; Co. KG</rdfs:label>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>1065536941</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>DE-588</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Agent>
+            </bf:agent>
+            <bf:role>
+               <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/pbl"/>
+            </bf:role>
+         </bf:Contribution>
+      </bf:contribution>
+      <bf:hasInstance>
+         <bf:Instance rdf:about="http://example.org/99145111478003331#Instance776-43">
+            <bflc:relationship>
+               <bflc:Relationship>
+                  <bflc:relation>
+                     <bflc:Relation>
+                        <rdfs:label>Erscheint auch als</rdfs:label>
+                     </bflc:Relation>
+                  </bflc:relation>
+                  <bf:relatedTo rdf:resource="http://example.org/99145111478003331#Instance"/>
+               </bflc:Relationship>
+            </bflc:relationship>
+            <bf:note>
+               <bf:Note>
+                  <rdfs:label>Online-Ausgabe</rdfs:label>
+               </bf:Note>
+            </bf:note>
+            <bf:identifiedBy>
+               <bf:Isbn>
+                  <rdf:value>(ATOBV)AC15489959</rdf:value>
+               </bf:Isbn>
+            </bf:identifiedBy>
+            <bf:instanceOf rdf:resource="http://example.org/99145111478003331#Work"/>
+         </bf:Instance>
+      </bf:hasInstance>
+      <bf:hasInstance rdf:resource="http://example.org/99145111478003331#Instance"/>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/99145111478003331#Instance">
+      <bf:issuance>
+         <bf:Issuance rdf:about="http://id.loc.gov/vocabulary/issuance/mono"/>
+      </bf:issuance>
+      <bf:provisionActivity>
+         <bf:ProvisionActivity>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+            <bf:date rdf:datatype="http://id.loc.gov/datatypes/edtf">2019</bf:date>
+         </bf:ProvisionActivity>
+      </bf:provisionActivity>
+      <bf:identifiedBy>
+         <bf:Nbn>
+            <rdf:value>OeB2020,A,06 943.6</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>oeb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Nbn>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Nbn>
+            <rdf:value>20,A38</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>dnb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Nbn>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Nbn>
+            <rdf:value>19,N10</rdf:value>
+            <bf:status>
+               <bf:Status>
+                  <rdfs:label>invalid</rdfs:label>
+               </bf:Status>
+            </bf:status>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>dnb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Nbn>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Isbn>
+            <rdf:value>9783205209041</rdf:value>
+            <bf:acquisitionTerms>Festeinband : EUR 31,00 ; EUR 30,00 (DE)</bf:acquisitionTerms>
+         </bf:Isbn>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>AC15501594</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>AT-OBV</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>DNB1179561252</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>DE-599</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>oai:dnb.de/dnb/1179561252</rdf:value>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:place>
+         <bf:Place>
+            <bf:code>XA-DE</bf:code>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>ISO 3166</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Place>
+      </bf:place>
+      <rdfs:label>Norm und Zeremoniell das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar</rdfs:label>
+      <bf:title>
+         <bf:Title>
+            <rdfs:label>Norm und Zeremoniell das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar</rdfs:label>
+            <bflc:titleSortKey>Norm und Zeremoniell das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar</bflc:titleSortKey>
+            <bf:mainTitle>Norm und Zeremoniell</bf:mainTitle>
+            <bf:subtitle>das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar</bf:subtitle>
+         </bf:Title>
+      </bf:title>
+      <bf:responsibilityStatement>Karin Schneider (Hg.)</bf:responsibilityStatement>
+      <bf:provisionActivity>
+         <bf:ProvisionActivity>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+            <bf:place>
+               <bf:Place>
+                  <rdfs:label>Wien</rdfs:label>
+               </bf:Place>
+            </bf:place>
+            <bf:place>
+               <bf:Place>
+                  <rdfs:label>Köln</rdfs:label>
+               </bf:Place>
+            </bf:place>
+            <bf:place>
+               <bf:Place>
+                  <rdfs:label>Weimar</rdfs:label>
+               </bf:Place>
+            </bf:place>
+            <bf:agent>
+               <bf:Agent>
+                  <rdfs:label>Böhlau Verlag</rdfs:label>
+               </bf:Agent>
+            </bf:agent>
+            <bf:date>2019</bf:date>
+         </bf:ProvisionActivity>
+      </bf:provisionActivity>
+      <bf:provisionActivityStatement>Wien; Köln; Weimar; Böhlau Verlag; [2019]</bf:provisionActivityStatement>
+      <bf:extent>
+         <bf:Extent>
+            <rdfs:label>198 Seiten</rdfs:label>
+         </bf:Extent>
+      </bf:extent>
+      <bf:dimensions>25 cm</bf:dimensions>
+      <bf:media>
+         <bf:Media rdf:about="http://id.loc.gov/vocabulary/mediaTypes/n"/>
+      </bf:media>
+      <bf:carrier>
+         <bf:Carrier rdf:about="http://id.loc.gov/vocabulary/carriers/nc"/>
+      </bf:carrier>
+      <bf:note>
+         <bf:Note>
+            <rdfs:label>Literaturverzeichnis: Seite [184]-193</rdfs:label>
+         </bf:Note>
+      </bf:note>
+      <bf:otherPhysicalFormat rdf:resource="http://example.org/99145111478003331#Instance776-43"/>
+      <bf:supplementaryContent>
+         <rdfs:Resource>
+            <bflc:locator rdf:resource="https://d-nb.info/1179561252/04"/>
+            <bf:note>
+               <bf:Note>
+                  <rdfs:label>Inhaltsverzeichnis</rdfs:label>
+               </bf:Note>
+            </bf:note>
+         </rdfs:Resource>
+      </bf:supplementaryContent>
+      <bf:hasSeries>
+         <bf:Instance>
+            <rdfs:label>Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</rdfs:label>
+            <bf:seriesStatement>Veröffentlichungen der Kommission für Neuere Geschichte Österreichs Band 118</bf:seriesStatement>
+            <bf:seriesEnumeration>118</bf:seriesEnumeration>
+            <bf:instanceOf>
+               <bf:Work rdf:about="http://example.org/99145111478003331#Work830-44">
+                  <bf:title>
+                     <bf:Title>
+                        <bflc:title30MarcKey>830 0$w(AT-OBV)AC00112585$v118$9O:1</bflc:title30MarcKey>
+                     </bf:Title>
+                  </bf:title>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>AC00112585</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>AT-OBV</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Work>
+            </bf:instanceOf>
+         </bf:Instance>
+      </bf:hasSeries>
+      <bf:instanceOf rdf:resource="http://example.org/99145111478003331#Work"/>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145111478003331#Item852-46">
+            <bf:heldBy>
+               <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/43ACC_UBS"/>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145111478003331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145111478003331#Item852-47">
+            <bf:heldBy>
+               <bf:Agent>
+                  <rdfs:label>43ACC_WIENB</rdfs:label>
+               </bf:Agent>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145111478003331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145111478003331#Item852-48">
+            <bf:heldBy>
+               <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/43ACC_UBW"/>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145111478003331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145111478003331#Item852-49">
+            <bf:heldBy>
+               <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/43ACC_UBG"/>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145111478003331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145111478003331#Item852-50">
+            <bf:heldBy>
+               <bf:Agent>
+                  <rdfs:label>43ACC_OEAW</rdfs:label>
+               </bf:Agent>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145111478003331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145111478003331#Item852-51">
+            <bf:heldBy>
+               <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/43ACC_ONB"/>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145111478003331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145111478003331#Item852-52">
+            <bf:heldBy>
+               <bf:Agent>
+                  <rdfs:label>43ACC_OOELB</rdfs:label>
+               </bf:Agent>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145111478003331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+   </bf:Instance>
+</rdf:RDF>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>02313nam a2200553zcb4500</leader>
+                    <controlfield tag="001">990005980870203331</controlfield>
+                    <controlfield tag="005">20201204193550.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">950302|1987####|||###########|||#|#ger#c</controlfield>
+                    <controlfield tag="009">AC01088507</controlfield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">87,A39,1289</subfield>
+                        <subfield code="2">dnb</subfield>
+                    </datafield>
+                    <datafield tag="020" ind1=" " ind2=" ">
+                        <subfield code="a">3205088719</subfield>
+                        <subfield code="c">kart. : DM 58.00, S 398.00</subfield>
+                    </datafield>
+                    <datafield tag="024" ind1="7" ind2=" ">
+                        <subfield code="a">urn:nbn:at:at-ubi:2-18525</subfield>
+                        <subfield code="2">urn</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC01088507</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)OBVAC01088507</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(VLID)5608196</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">UBI</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="c">VL-RETRO</subfield>
+                        <subfield code="d">WBR</subfield>
+                        <subfield code="e">rakwb</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">02.60</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NN 6538</subfield>
+                        <subfield code="2">rvk</subfield>
+                        <subfield code="9">O: Automatisch aus BVB_2013-06 2013-02-28</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NW 8280</subfield>
+                        <subfield code="2">rvk</subfield>
+                        <subfield code="9">O: Automatisch aus BVB_2013-06 2013-02-28</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">BO 5730</subfield>
+                        <subfield code="2">rvk</subfield>
+                        <subfield code="9">O: Automatisch aus BVB_2013-06 2013-02-28</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="0" ind2="0">
+                        <subfield code="a">Joseph II. und die Freimaurerei im Lichte zeitgenössischer Broschüren</subfield>
+                        <subfield code="c">hrsg. u. eingeleitet von Helmut Reinalter</subfield>
+                    </datafield>
+                    <datafield tag="246" ind1="3" ind2=" ">
+                        <subfield code="a">Joseph II. und die Freimaurer im Lichte zeitgenössischer Broschüren</subfield>
+                    </datafield>
+                    <datafield tag="246" ind1="1" ind2=" ">
+                        <subfield code="i">Nebent.</subfield>
+                        <subfield code="a">Joseph II. und die Freimaurer im Lichte zeitgenössischer Broschüren</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="a">Graz [u.a.]</subfield>
+                        <subfield code="b">Böhlau</subfield>
+                        <subfield code="c">1987</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">170 S.</subfield>
+                        <subfield code="c">24 cm</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">77</subfield>
+                    </datafield>
+                    <datafield tag="500" ind1=" " ind2=" ">
+                        <subfield code="a">Literaturverz. S. 161 - 168</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Joseph</subfield>
+                        <subfield code="b">II.</subfield>
+                        <subfield code="c">Heiliges Römisches Reich, Kaiser</subfield>
+                        <subfield code="d">1741-1790</subfield>
+                        <subfield code="D">p</subfield>
+                        <subfield code="0">(DE-588)118558404</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Freimaurerei</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4018348-8</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="2">
+                        <subfield code="a">Quelle</subfield>
+                        <subfield code="A">f</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBW</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="0">
+                        <subfield code="a">Freimaurer</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4123227-6</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="1">
+                        <subfield code="a">Joseph</subfield>
+                        <subfield code="b">II.</subfield>
+                        <subfield code="c">Heiliges Römisches Reich, Kaiser</subfield>
+                        <subfield code="d">1741-1790</subfield>
+                        <subfield code="D">p</subfield>
+                        <subfield code="0">(DE-588)118558404</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="2">
+                        <subfield code="a">Geschichte 1782-1786</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="3">
+                        <subfield code="a">Dokument</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4139988-2</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">ONB-PI</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Reinalter, Helmut</subfield>
+                        <subfield code="d">1943-</subfield>
+                        <subfield code="0">(DE-588)118085735</subfield>
+                        <subfield code="4">edt</subfield>
+                    </datafield>
+                    <datafield tag="776" ind1="0" ind2="8">
+                        <subfield code="i">Elektronische Reproduktion</subfield>
+                        <subfield code="o">urn:nbn:at:at-ubi:2-18525</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">77</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="856" ind1="4" ind2="1">
+                        <subfield code="m">V:AT-OBV;B:AT-UBI</subfield>
+                        <subfield code="q">text/html</subfield>
+                        <subfield code="u">https://resolver.obvsg.at/urn:nbn:at:at-ubi:2-18525</subfield>
+                        <subfield code="x">UBI</subfield>
+                        <subfield code="3">Volltext // 2020 digitalisiert von: Universitäts- und Landesbibliothek Tirol</subfield>
+                        <subfield code="o">OBV-VL</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_VBK</subfield>
+                        <subfield code="6">990007571400203342</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBS</subfield>
+                        <subfield code="6">990015904480203341</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BMA</subfield>
+                        <subfield code="6">990004997330304534</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910676700204516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">990001413170203332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBG</subfield>
+                        <subfield code="6">990000950610203339</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OEAW</subfield>
+                        <subfield code="6">990001472700504498</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBI</subfield>
+                        <subfield code="6">990001534350103333</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBL</subfield>
+                        <subfield code="6">990004530630103340</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_DLI</subfield>
+                        <subfield code="6">990004276890204524</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_ONB</subfield>
+                        <subfield code="6">990021896270603338</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OOELB</subfield>
+                        <subfield code="6">990001229450304508</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="2" ind2=" ">
+                        <subfield code="d">RETRODIGITALISAT</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">z|1dcr|||||37</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">s||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="u">
+                        <subfield code="V">903</subfield>
+                        <subfield code="a">213</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||g|||||</subfield>
+                    </datafield>
+                </record>
+

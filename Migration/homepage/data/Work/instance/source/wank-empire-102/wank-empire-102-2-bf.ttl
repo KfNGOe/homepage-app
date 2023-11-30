@@ -1,0 +1,467 @@
+@prefix ns0: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1: <http://id.loc.gov/ontologies/bflc/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns2: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix ns3: <http://id.loc.gov/datatypes/> .
+
+<http://example.org/99145298003903331#Work>
+  a <http://id.loc.gov/ontologies/bibframe/Work>, <http://id.loc.gov/ontologies/bibframe/Text> ;
+  ns0:adminMetadata [
+    a ns0:AdminMetadata ;
+    ns0:generationProcess [
+      a ns0:GenerationProcess ;
+      rdfs:label "DLC marc2bibframe2 v1.4.0-SNAPSHOT: 2020-10-20T20:46:15.177+02:00"
+    ] ;
+    ns0:status [
+      a ns0:Status ;
+      ns0:code "n"
+    ] ;
+    ns1:encodingLevel [
+      a ns1:EncodingLevel ;
+      ns0:code "f"
+    ] ;
+    ns0:descriptionConventions [
+      a ns0:DescriptionConventions ;
+      ns0:code "isbd"
+    ], <http://id.loc.gov/vocabulary/descriptionConventions/rda> ;
+    ns0:identifiedBy [
+      a ns0:Local ;
+      rdf:value "99145298003903331"
+    ], [
+      a ns0:Local ;
+      rdf:value "1196223637" ;
+      ns0:source [
+        a ns0:Source ;
+        rdfs:label "DE-101"
+      ]
+    ] ;
+    ns0:changeDate "2020-08-04T11:12:28"^^xsd:dateTime ;
+    ns0:creationDate "2019-10-02"^^xsd:date ;
+    ns0:source [
+      a ns0:Source, ns0:Agent ;
+      rdfs:label "AT-UBW"
+    ], [
+      a ns0:Source, ns0:Agent ;
+      rdfs:label "DE-101"
+    ] ;
+    ns0:descriptionLanguage <http://id.loc.gov/vocabulary/languages/ger> ;
+    ns0:descriptionModifier [
+      a ns0:Agent ;
+      rdfs:label "AT-OeNB"
+    ]
+  ] ;
+  ns0:language <http://id.loc.gov/vocabulary/languages/eng>, [
+    a ns0:Language ;
+    ns0:identifiedBy [
+      a ns0:Identifier ;
+      rdf:value <http://id.loc.gov/vocabulary/languages/eng> ;
+      ns0:source <http://id.loc.gov/vocabulary/languages>
+    ]
+  ] ;
+  ns0:classification [
+    a ns0:Classification ;
+    ns0:classificationPortion "900" ;
+    ns0:adminMetadata [
+      a ns0:AdminMetadata ;
+      ns0:assigner [
+        a ns0:Agent ;
+        rdfs:label "DE-101"
+      ]
+    ] ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "sdnb"
+    ]
+  ], [
+    a ns0:Classification ;
+    ns0:classificationPortion "15.60" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "bkl"
+    ]
+  ], [
+    a ns0:Classification ;
+    ns0:classificationPortion "01.30" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "bkl"
+    ]
+  ] ;
+  ns0:contribution [
+    a ns0:Contribution, ns1:PrimaryContribution ;
+    ns0:agent <http://example.org/99145298003903331#Agent100-21> ;
+    ns0:role <http://id.loc.gov/vocabulary/relators/aut>
+  ], [
+    a ns0:Contribution ;
+    ns0:agent <http://example.org/99145298003903331#Agent700-36> ;
+    ns0:role <http://id.loc.gov/vocabulary/relators/edt>
+  ], [
+    a ns0:Contribution ;
+    ns0:agent <http://example.org/99145298003903331#Agent700-37> ;
+    ns0:role <http://id.loc.gov/vocabulary/relators/edt>
+  ], [
+    a ns0:Contribution ;
+    ns0:agent <http://example.org/99145298003903331#Agent700-38> ;
+    ns0:role <http://id.loc.gov/vocabulary/relators/edt>
+  ], [
+    a ns0:Contribution ;
+    ns0:agent <http://example.org/99145298003903331#Agent710-39> ;
+    ns0:role <http://id.loc.gov/vocabulary/relators/pbl>
+  ] ;
+  rdfs:label "In the twilight of empire Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman Volume 2 From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak" ;
+  ns0:title [
+    a ns0:Title ;
+    rdfs:label "In the twilight of empire Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman Volume 2 From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak" ;
+    ns1:titleSortKey "In the twilight of empire Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman Volume 2 From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak" ;
+    ns0:mainTitle "In the twilight of empire" ;
+    ns0:subtitle "Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman" ;
+    ns0:partNumber "Volume 2" ;
+    ns0:partName "From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak"
+  ] ;
+  ns0:content <http://id.loc.gov/vocabulary/contentTypes/txt> ;
+  ns0:subject [
+    a ns0:Topic ;
+    rdfs:label "Diplomatiegeschichte"
+  ], [
+    a ns0:Topic ;
+    rdfs:label "Krise Bosnien 1908/1909"
+  ], [
+    a ns0:Topic ;
+    rdfs:label "World War I"
+  ] ;
+  ns0:genreForm <http://example.org/99145298003903331#GenreForm655-32> ;
+  ns0:hasInstance <http://example.org/99145298003903331#Instance776-40>, <http://example.org/99145298003903331#Instance> ;
+  ns0:partOf <http://example.org/99145298003903331#Work773-41> .
+
+<http://id.loc.gov/vocabulary/languages/ger> a ns0:Language .
+<http://id.loc.gov/vocabulary/descriptionConventions/rda> a ns0:DescriptionConventions .
+<http://id.loc.gov/vocabulary/languages/eng> a ns0:Language .
+<http://id.loc.gov/vocabulary/languages> a ns0:Source .
+<http://example.org/99145298003903331#Agent100-21>
+  a ns0:Agent, ns0:Person ;
+  ns1:name00MatchKey "Wank, Solomon 1930-2014" ;
+  ns1:primaryContributorName00MatchKey "Wank, Solomon 1930-2014" ;
+  ns1:name00MarcKey "1001 $aWank, Solomon$d1930-2014$0(DE-588)142850179$4aut$9O:H" ;
+  rdfs:label "Wank, Solomon 1930-2014" ;
+  ns0:identifiedBy [
+    a ns0:Identifier ;
+    rdf:value "142850179" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "DE-588"
+    ]
+  ] .
+
+<http://id.loc.gov/vocabulary/relators/aut> a ns0:Role .
+<http://id.loc.gov/vocabulary/contentTypes/txt> a ns0:Content .
+<http://example.org/99145298003903331#GenreForm655-32>
+  a ns0:GenreForm, <http://www.loc.gov/mads/rdf/v1#GenreForm> ;
+  rdfs:label "Biografie" ;
+  ns2:authoritativeLabel "Biografie" ;
+  ns0:source [
+    a ns0:Source ;
+    ns0:code "gnd-content"
+  ] ;
+  ns0:identifiedBy [
+    a ns0:Identifier ;
+    rdf:value "4006804-3" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "DE-588"
+    ]
+  ] .
+
+<http://example.org/99145298003903331#Agent700-36>
+  a ns0:Agent, ns0:Person ;
+  ns1:name00MatchKey "Adlgasser, Franz 1963-" ;
+  ns1:name00MarcKey "7001 $aAdlgasser, Franz$d1963-$0(DE-588)115424881$4edt" ;
+  rdfs:label "Adlgasser, Franz 1963-" ;
+  ns0:identifiedBy [
+    a ns0:Identifier ;
+    rdf:value "115424881" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "DE-588"
+    ]
+  ] .
+
+<http://id.loc.gov/vocabulary/relators/edt> a ns0:Role .
+<http://example.org/99145298003903331#Agent700-37>
+  a ns0:Agent, ns0:Person ;
+  ns1:name00MatchKey "Höhn, Maria 1955-" ;
+  ns1:name00MarcKey "7001 $aHöhn, Maria$d1955-$0(DE-588)136797253$4edt" ;
+  rdfs:label "Höhn, Maria 1955-" ;
+  ns0:identifiedBy [
+    a ns0:Identifier ;
+    rdf:value "136797253" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "DE-588"
+    ]
+  ] .
+
+<http://example.org/99145298003903331#Agent700-38>
+  a ns0:Agent, ns0:Person ;
+  ns1:name00MatchKey "Knaak, Alexander 1960-" ;
+  ns1:name00MarcKey "7001 $aKnaak, Alexander$d1960-$0(DE-588)123472539$4edt" ;
+  rdfs:label "Knaak, Alexander 1960-" ;
+  ns0:identifiedBy [
+    a ns0:Identifier ;
+    rdf:value "123472539" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "DE-588"
+    ]
+  ] .
+
+<http://example.org/99145298003903331#Agent710-39>
+  a ns0:Agent, ns0:Organization ;
+  ns1:name10MatchKey "Böhlau Verlag GmbH & Co. KG" ;
+  ns1:name10MarcKey "7102 $aBöhlau Verlag GmbH & Co. KG$0(DE-588)1065536941$4pbl" ;
+  rdfs:label "Böhlau Verlag GmbH & Co. KG" ;
+  ns0:identifiedBy [
+    a ns0:Identifier ;
+    rdf:value "1065536941" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "DE-588"
+    ]
+  ] .
+
+<http://id.loc.gov/vocabulary/relators/pbl> a ns0:Role .
+<http://example.org/99145298003903331#Instance776-40>
+  a ns0:Instance ;
+  ns1:relationship [
+    a ns1:Relationship ;
+    ns1:relation [
+      a ns1:Relation ;
+      rdfs:label "Erscheint auch als"
+    ] ;
+    ns0:relatedTo <http://example.org/99145298003903331#Instance>
+  ] ;
+  ns0:note [
+    a ns0:Note ;
+    rdfs:label "Online-Ausgabe"
+  ] ;
+  ns0:identifiedBy [
+    a ns0:Isbn ;
+    rdf:value "9783205209928"
+  ], [
+    a ns0:Isbn ;
+    rdf:value "9783205209935"
+  ] ;
+  ns0:instanceOf <http://example.org/99145298003903331#Work> .
+
+<http://example.org/99145298003903331#Work773-41>
+  a ns0:Work ;
+  ns0:identifiedBy [
+    a ns0:Identifier ;
+    rdf:value "AC07677339" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "AT-OBV"
+    ]
+  ] ;
+  ns0:hasInstance <http://example.org/99145298003903331#Instance773-41> .
+
+<http://example.org/99145298003903331#Instance773-41>
+  a ns0:Instance ;
+  ns0:instanceOf <http://example.org/99145298003903331#Work773-41> .
+
+<http://example.org/99145298003903331#Instance>
+  a ns0:Instance ;
+  ns0:issuance <http://id.loc.gov/vocabulary/issuance/mono> ;
+  ns0:provisionActivity [
+    a ns0:ProvisionActivity, ns0:Publication ;
+    ns0:date "2020"^^ns3:edtf
+  ], [
+    a ns0:ProvisionActivity, ns0:Publication ;
+    ns0:place [
+      a ns0:Place ;
+      rdfs:label "Wien"
+    ], [
+      a ns0:Place ;
+      rdfs:label "Köln"
+    ], [
+      a ns0:Place ;
+      rdfs:label "Weimar"
+    ] ;
+    ns0:agent [
+      a ns0:Agent ;
+      rdfs:label "Böhlau Verlag"
+    ] ;
+    ns0:date "2020"
+  ] ;
+  ns0:identifiedBy [
+    a ns0:Nbn ;
+    rdf:value "19,N41" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "dnb"
+    ]
+  ], [
+    a ns0:Nbn ;
+    rdf:value "OeB2020,A,15 943.6" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "oeb"
+    ]
+  ], [
+    a ns0:Isbn ;
+    rdf:value "9783205209911" ;
+    ns0:acquisitionTerms "EUR 57,00 ; EUR 55,00 (DE)" ;
+    ns0:qualifier "Broschur"
+  ], [
+    a ns0:Local ;
+    rdf:value "AC15601380" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "AT-OBV"
+    ]
+  ], [
+    a ns0:Local ;
+    rdf:value "DNB1196223637" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "DE-599"
+    ]
+  ], [
+    a ns0:Local ;
+    rdf:value "1122745976" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "OCoLC"
+    ]
+  ], [
+    a ns0:Local ;
+    rdf:value "1196223637" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "DE-101"
+    ]
+  ] ;
+  ns0:place [
+    a ns0:Place ;
+    ns0:code "XA-AT" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "ISO 3166"
+    ]
+  ], [
+    a ns0:Place ;
+    ns0:code "XA-DE-TH" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "ISO 3166"
+    ]
+  ] ;
+  rdfs:label "In the twilight of empire Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman Volume 2 From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak" ;
+  ns0:title [
+    a ns0:Title ;
+    rdfs:label "In the twilight of empire Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman Volume 2 From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak" ;
+    ns1:titleSortKey "In the twilight of empire Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman Volume 2 From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak" ;
+    ns0:mainTitle "In the twilight of empire" ;
+    ns0:subtitle "Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman" ;
+    ns0:partNumber "Volume 2" ;
+    ns0:partName "From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak"
+  ] ;
+  ns0:responsibilityStatement "Solomon Wank" ;
+  ns0:provisionActivityStatement "Wien; Köln; Weimar; Böhlau Verlag; [2020]" ;
+  ns0:extent [
+    a ns0:Extent ;
+    rdfs:label "467 Seiten"
+  ] ;
+  ns0:dimensions "24 cm" ;
+  ns0:media <http://id.loc.gov/vocabulary/mediaTypes/n> ;
+  ns0:carrier <http://id.loc.gov/vocabulary/carriers/nc> ;
+  ns0:note [
+    a ns0:Note ;
+    rdfs:label "Literaturverzeichnis: Seite [443]-458"
+  ] ;
+  ns0:otherPhysicalFormat <http://example.org/99145298003903331#Instance776-40> ;
+  ns0:hasSeries [
+    a ns0:Instance ;
+    rdfs:label "Veröffentlichungen der Kommission für Neuere Geschichte Österreichs" ;
+    ns0:seriesStatement "Veröffentlichungen der Kommission für Neuere Geschichte Österreichs Band 102,2" ;
+    ns0:seriesEnumeration "102,2" ;
+    ns0:instanceOf <http://example.org/99145298003903331#Work830-42>
+  ] ;
+  ns0:instanceOf <http://example.org/99145298003903331#Work> ;
+  ns0:hasItem <http://example.org/99145298003903331#Item852-43>, <http://example.org/99145298003903331#Item852-44>, <http://example.org/99145298003903331#Item852-45>, <http://example.org/99145298003903331#Item852-46>, <http://example.org/99145298003903331#Item852-47>, <http://example.org/99145298003903331#Item852-48>, <http://example.org/99145298003903331#Item852-49>, <http://example.org/99145298003903331#Item852-50> .
+
+<http://id.loc.gov/vocabulary/issuance/mono> a ns0:Issuance .
+<http://id.loc.gov/vocabulary/mediaTypes/n> a ns0:Media .
+<http://id.loc.gov/vocabulary/carriers/nc> a ns0:Carrier .
+<http://example.org/99145298003903331#Work830-42>
+  a ns0:Work ;
+  ns0:title [
+    a ns0:Title ;
+    ns1:title30MarcKey "830 0$w(AT-OBV)AC00112585$v102,2$9O:1"
+  ] ;
+  ns0:identifiedBy [
+    a ns0:Identifier ;
+    rdf:value "AC00112585" ;
+    ns0:source [
+      a ns0:Source ;
+      rdfs:label "AT-OBV"
+    ]
+  ] .
+
+<http://example.org/99145298003903331#Item852-43>
+  a ns0:Item ;
+  ns0:heldBy <http://id.loc.gov/vocabulary/organizations/43ACC_UBS> ;
+  ns0:itemOf <http://example.org/99145298003903331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBS> a ns0:Agent .
+<http://example.org/99145298003903331#Item852-44>
+  a ns0:Item ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "43ACC_WIENB"
+  ] ;
+  ns0:itemOf <http://example.org/99145298003903331#Instance> .
+
+<http://example.org/99145298003903331#Item852-45>
+  a ns0:Item ;
+  ns0:heldBy <http://id.loc.gov/vocabulary/organizations/43ACC_UBW> ;
+  ns0:itemOf <http://example.org/99145298003903331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBW> a ns0:Agent .
+<http://example.org/99145298003903331#Item852-46>
+  a ns0:Item ;
+  ns0:heldBy <http://id.loc.gov/vocabulary/organizations/43ACC_UBG> ;
+  ns0:itemOf <http://example.org/99145298003903331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_UBG> a ns0:Agent .
+<http://example.org/99145298003903331#Item852-47>
+  a ns0:Item ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "43ACC_OEAW"
+  ] ;
+  ns0:itemOf <http://example.org/99145298003903331#Instance> .
+
+<http://example.org/99145298003903331#Item852-48>
+  a ns0:Item ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "43ACC_BRIDGE_BMA"
+  ] ;
+  ns0:itemOf <http://example.org/99145298003903331#Instance> .
+
+<http://example.org/99145298003903331#Item852-49>
+  a ns0:Item ;
+  ns0:heldBy <http://id.loc.gov/vocabulary/organizations/43ACC_ONB> ;
+  ns0:itemOf <http://example.org/99145298003903331#Instance> .
+
+<http://id.loc.gov/vocabulary/organizations/43ACC_ONB> a ns0:Agent .
+<http://example.org/99145298003903331#Item852-50>
+  a ns0:Item ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "43ACC_OOELB"
+  ] ;
+  ns0:itemOf <http://example.org/99145298003903331#Instance> .
+

@@ -1,0 +1,250 @@
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bflc:  <http://id.loc.gov/ontologies/bflc/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/BV003733157#Agent700-13>
+        a                    bf:Person , bf:Agent ;
+        rdfs:label           "Kretschmayr, Heinrich 1870-1939" ;
+        bflc:name00MarcKey   "7001 $aKretschmayr, Heinrich$d1870-1939$eSonstige$0(DE-588)116525916$4oth" ;
+        bflc:name00MatchKey  "Kretschmayr, Heinrich 1870-1939" ;
+        bf:identifiedBy      [ a          bf:Identifier ;
+                               rdf:value  "116525916" ;
+                               bf:source  [ a           bf:Source ;
+                                            rdfs:label  "DE-588"
+                                          ]
+                             ] .
+
+<http://id.loc.gov/vocabulary/languages/ger>
+        a       bf:Language .
+
+<http://example.org/BV003733157#Instance773-27>
+        a              bf:Instance ;
+        bf:instanceOf  <http://example.org/BV003733157#Work773-27> ;
+        bf:part        "1,1" .
+
+<http://id.loc.gov/vocabulary/countries/>
+        a       bf:Place .
+
+<http://id.loc.gov/vocabulary/languages>
+        a       bf:Source .
+
+<http://example.org/BV003733157#Work>
+        a                  bf:Work , bf:Text ;
+        rdfs:label         "Die österreichische Zentralverwaltung 1,1 Abt. 1, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht" ;
+        bf:adminMetadata   [ a                          bf:AdminMetadata ;
+                             bflc:encodingLevel         [ a        bflc:EncodingLevel ;
+                                                          bf:code  "f"
+                                                        ] ;
+                             bf:changeDate              "2018-10-31T  :  :  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                             bf:creationDate            "1990-07-25"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                             bf:descriptionConventions  <http://id.loc.gov/vocabulary/descriptionConventions/rakddb> ;
+                             bf:descriptionConventions  [ a        bf:DescriptionConventions ;
+                                                          bf:code  "isbd"
+                                                        ] ;
+                             bf:descriptionLanguage     <http://id.loc.gov/vocabulary/languages/ger> ;
+                             bf:generationProcess       [ a           bf:GenerationProcess ;
+                                                          rdfs:label  "DLC marc2bibframe2 v1.4.0-SNAPSHOT: 2021-01-26T20:39:59.587+01:00"
+                                                        ] ;
+                             bf:identifiedBy            [ a          bf:Local ;
+                                                          rdf:value  "BV003733157"
+                                                        ] ;
+                             bf:source                  [ a           bf:Agent , bf:Source ;
+                                                          rdfs:label  "DE-604"
+                                                        ] ;
+                             bf:source                  [ a        bf:Source ;
+                                                          bf:code  "DE-604"
+                                                        ] ;
+                             bf:status                  [ a        bf:Status ;
+                                                          bf:code  "n"
+                                                        ]
+                           ] ;
+        bf:classification  [ a                         bf:Classification ;
+                             bf:classificationPortion  "7,41" ;
+                             bf:source                 [ a           bf:Source ;
+                                                         rdfs:label  "ssgn"
+                                                       ]
+                           ] ;
+        bf:content         <http://id.loc.gov/vocabulary/contentTypes/txt> ;
+        bf:contribution    [ a         bf:Contribution ;
+                             bf:agent  <http://example.org/BV003733157#Agent700-12> ;
+                             bf:role   <http://id.loc.gov/vocabulary/relators/edt>
+                           ] ;
+        bf:contribution    [ a         bf:Contribution ;
+                             bf:agent  <http://example.org/BV003733157#Agent700-13> ;
+                             bf:role   <http://id.loc.gov/vocabulary/relators/oth> ;
+                             bf:role   [ a                     bf:Role ;
+                                         rdfs:label            "Sonstige" ;
+                                         bflc:relatorMatchKey  "Sonstige"
+                                       ]
+                           ] ;
+        bf:contribution    [ a         bf:Contribution ;
+                             bf:agent  <http://example.org/BV003733157#Agent700-14> ;
+                             bf:role   <http://id.loc.gov/vocabulary/relators/edt>
+                           ] ;
+        bf:hasInstance     <http://example.org/BV003733157#Instance> ;
+        bf:language        <http://id.loc.gov/vocabulary/languages/ger> ;
+        bf:language        [ a                bf:Language ;
+                             bf:identifiedBy  [ a          bf:Identifier ;
+                                                rdf:value  <http://id.loc.gov/vocabulary/languages/ger> ;
+                                                bf:source  <http://id.loc.gov/vocabulary/languages>
+                                              ]
+                           ] ;
+        bf:partOf          <http://example.org/BV003733157#Work773-27> ;
+        bf:title           [ a                  bf:Title ;
+                             rdfs:label         "Die österreichische Zentralverwaltung 1,1 Abt. 1, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht" ;
+                             bflc:titleSortKey  "Die österreichische Zentralverwaltung 1,1 Abt. 1, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht" ;
+                             bf:mainTitle       "Die österreichische Zentralverwaltung" ;
+                             bf:partName        "Abt. 1, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht" ;
+                             bf:partNumber      "1,1"
+                           ] .
+
+<http://example.org/BV003733157#Agent700-12>
+        a                    bf:Person , bf:Agent ;
+        rdfs:label           "Fellner, Thomas 1852-1904" ;
+        bflc:name00MarcKey   "7001 $aFellner, Thomas$d1852-1904$0(DE-588)132483068$4edt" ;
+        bflc:name00MatchKey  "Fellner, Thomas 1852-1904" ;
+        bf:identifiedBy      [ a          bf:Identifier ;
+                               rdf:value  "132483068" ;
+                               bf:source  [ a           bf:Source ;
+                                            rdfs:label  "DE-588"
+                                          ]
+                             ] .
+
+<http://id.loc.gov/vocabulary/relators/oth>
+        a       bf:Role .
+
+<http://id.loc.gov/vocabulary/descriptionConventions/rakddb>
+        a       bf:DescriptionConventions .
+
+<http://id.loc.gov/vocabulary/carriers/nc>
+        a          bf:Carrier ;
+        bf:source  [ a           bf:Source ;
+                     rdfs:label  "rdacarrier"
+                   ] .
+
+<http://example.org/BV003733157#Work773-27>
+        a                bf:Work ;
+        bf:hasInstance   <http://example.org/BV003733157#Instance773-27> ;
+        bf:identifiedBy  [ a          bf:Identifier ;
+                           rdf:value  "BV003733153" ;
+                           bf:source  [ a           bf:Source ;
+                                        rdfs:label  "DE-604"
+                                      ]
+                         ] .
+
+<http://id.loc.gov/vocabulary/mediaTypes/n>
+        a          bf:Media ;
+        bf:source  [ a           bf:Source ;
+                     rdfs:label  "rdamedia"
+                   ] .
+
+<http://id.loc.gov/vocabulary/contentTypes/txt>
+        a          bf:Content ;
+        bf:source  [ a           bf:Source ;
+                     rdfs:label  "rdacontent"
+                   ] .
+
+<http://id.loc.gov/vocabulary/relators/edt>
+        a       bf:Role .
+
+<http://example.org/BV003733157#Agent700-14>
+        a                    bf:Person , bf:Agent ;
+        rdfs:label           "Walter, Friedrich 1896-1968" ;
+        bflc:name00MarcKey   "7001 $aWalter, Friedrich$d1896-1968$0(DE-588)128468955$4edt" ;
+        bflc:name00MatchKey  "Walter, Friedrich 1896-1968" ;
+        bf:identifiedBy      [ a          bf:Identifier ;
+                               rdf:value  "128468955" ;
+                               bf:source  [ a           bf:Source ;
+                                            rdfs:label  "DE-588"
+                                          ]
+                             ] .
+
+<http://example.org/BV003733157#Work830-28>
+        a                bf:Work ;
+        rdfs:label       "Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs" ;
+        bf:identifiedBy  [ a          bf:Identifier ;
+                           rdf:value  "BV000001532" ;
+                           bf:source  [ a           bf:Source ;
+                                        rdfs:label  "DE-604"
+                                      ]
+                         ] ;
+        bf:title         [ a                     bf:Title ;
+                           rdfs:label            "Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs" ;
+                           bflc:title30MarcKey   "830 0$aKommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs$v5$w(DE-604)BV000001532" ;
+                           bflc:title30MatchKey  "Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs" ;
+                           bflc:titleSortKey     "Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs" ;
+                           bf:mainTitle          "Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs"
+                         ] .
+
+<http://id.loc.gov/vocabulary/issuance/mono>
+        a       bf:Issuance .
+
+<http://example.org/BV003733157#Instance>
+        a                              bf:Instance ;
+        rdfs:label                     "Die österreichische Zentralverwaltung 1,1 Abt. 1, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht" ;
+        bf:carrier                     <http://id.loc.gov/vocabulary/carriers/nc> ;
+        bf:extent                      [ a           bf:Extent ;
+                                         rdfs:label  "XII, 288 S."
+                                       ] ;
+        bf:hasSeries                   [ a                     bf:Instance ;
+                                         rdfs:label            "Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs" ;
+                                         bf:instanceOf         <http://example.org/BV003733157#Work830-28> ;
+                                         bf:seriesEnumeration  "5" ;
+                                         bf:seriesStatement    "Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs 5"
+                                       ] ;
+        bf:hasSeries                   [ a                     bf:Instance ;
+                                         rdfs:label            "Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs" ;
+                                         bf:seriesEnumeration  "..." ;
+                                         bf:seriesStatement    "Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs ..."
+                                       ] ;
+        bf:identifiedBy                [ a          bf:Local ;
+                                         rdf:value  "BVBBV003733157" ;
+                                         bf:source  [ a           bf:Source ;
+                                                      rdfs:label  "DE-599"
+                                                    ]
+                                       ] ;
+        bf:identifiedBy                [ a          bf:Local ;
+                                         rdf:value  "643371939" ;
+                                         bf:source  [ a           bf:Source ;
+                                                      rdfs:label  "OCoLC"
+                                                    ]
+                                       ] ;
+        bf:instanceOf                  <http://example.org/BV003733157#Work> ;
+        bf:issuance                    <http://id.loc.gov/vocabulary/issuance/mono> ;
+        bf:media                       <http://id.loc.gov/vocabulary/mediaTypes/n> ;
+        bf:provisionActivity           [ a         bf:Publication , bf:ProvisionActivity ;
+                                         bf:agent  [ a           bf:Agent ;
+                                                     rdfs:label  "Holzhausen"
+                                                   ] ;
+                                         bf:date   "1907" ;
+                                         bf:place  [ a           bf:Place ;
+                                                     rdfs:label  "Wien"
+                                                   ]
+                                       ] ;
+        bf:provisionActivity           [ a         bf:Publication , bf:ProvisionActivity ;
+                                         bf:date   "1907"^^<http://id.loc.gov/datatypes/edtf> ;
+                                         bf:place  <http://id.loc.gov/vocabulary/countries/>
+                                       ] ;
+        bf:provisionActivity           [ a         bf:Publication , bf:ProvisionActivity ;
+                                         bf:agent  [ a           bf:Agent ;
+                                                     rdfs:label  "Holzhausen"
+                                                   ] ;
+                                         bf:agent  [ a           bf:Agent ;
+                                                     rdfs:label  "Kraus Reprint"
+                                                   ] ;
+                                         bf:date   "1907" ;
+                                         bf:place  [ a           bf:Place ;
+                                                     rdfs:label  "Nendeln/Liechtenstein"
+                                                   ]
+                                       ] ;
+        bf:provisionActivityStatement  "Wien; Holzhausen; 1907" , "Nendeln/Liechtenstein; Kraus Reprint; Holzhausen; 1907" ;
+        bf:responsibilityStatement     "von Thomas Fellner. Nach dessen Tode bearb. und vollendet von Heinrich Kretschmayr" ;
+        bf:title                       [ a                  bf:Title ;
+                                         rdfs:label         "Die österreichische Zentralverwaltung 1,1 Abt. 1, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht" ;
+                                         bflc:titleSortKey  "Die österreichische Zentralverwaltung 1,1 Abt. 1, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht" ;
+                                         bf:mainTitle       "Die österreichische Zentralverwaltung" ;
+                                         bf:partName        "Abt. 1, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht" ;
+                                         bf:partNumber      "1,1"
+                                       ] .

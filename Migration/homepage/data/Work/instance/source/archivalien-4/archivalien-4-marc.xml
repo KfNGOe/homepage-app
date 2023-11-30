@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>01070nam a2200373zcc4500</leader>
+                    <controlfield tag="001">990005981510203331</controlfield>
+                    <controlfield tag="005">20201209120049.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">980814|1913####|||###########|||#|#ger#c</controlfield>
+                    <controlfield tag="009">AC02393938</controlfield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC02393938</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)OBVAC02393938</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">UBG</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="d">PAR</subfield>
+                        <subfield code="e">rakwb</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="0" ind2="0">
+                        <subfield code="a">Archivalien zur neueren Geschichte Österreichs</subfield>
+                        <subfield code="n">1</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="b">Holzhausen</subfield>
+                        <subfield code="c">1913</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">VIII, 772 S.</subfield>
+                    </datafield>
+                    <datafield tag="336" ind1=" " ind2=" ">
+                        <subfield code="b">txt</subfield>
+                    </datafield>
+                    <datafield tag="337" ind1=" " ind2=" ">
+                        <subfield code="b">n</subfield>
+                    </datafield>
+                    <datafield tag="338" ind1=" " ind2=" ">
+                        <subfield code="b">nc</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">4</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Böhmen</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4007467-5</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Adel</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4000464-8</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="2">
+                        <subfield code="a">Archivbestand</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4142970-9</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="3">
+                        <subfield code="a">Führer</subfield>
+                        <subfield code="A">f</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">PARLIA</subfield>
+                    </datafield>
+                    <datafield tag="773" ind1="0" ind2="8">
+                        <subfield code="w">(AT-OBV)AC02393923</subfield>
+                        <subfield code="q">1</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">4</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BMA</subfield>
+                        <subfield code="6">990005061080304534</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910649417104516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">990019094390203332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBG</subfield>
+                        <subfield code="6">990000950800203339</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBI</subfield>
+                        <subfield code="6">990013927060103333</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_AKW</subfield>
+                        <subfield code="6">990001166480203343</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BRIDGE_PAR</subfield>
+                        <subfield code="6">9963997904485</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="0" ind2=" ">
+                        <subfield code="a">TAT an Zeitschrift</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">z|1dcr|||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">||||||||</subfield>
+                    </datafield>
+                </record>
+

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>02178nam a2200625 cb4500</leader>
+                    <controlfield tag="001">99145297814903331</controlfield>
+                    <controlfield tag="005">20200826115318.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">191002s2020    |||||||| |||| 001|| ger|c</controlfield>
+                    <controlfield tag="009">AC15600618</controlfield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">OeB2020,A,14 943.6,940,230</subfield>
+                        <subfield code="2">oeb</subfield>
+                    </datafield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">20,A38</subfield>
+                        <subfield code="z">19,N41</subfield>
+                        <subfield code="2">dnb</subfield>
+                    </datafield>
+                    <datafield tag="016" ind1="7" ind2=" ">
+                        <subfield code="a">1196222940</subfield>
+                        <subfield code="2">DE-101</subfield>
+                    </datafield>
+                    <datafield tag="020" ind1=" " ind2=" ">
+                        <subfield code="a">9783205209263</subfield>
+                        <subfield code="q">Festeinband</subfield>
+                        <subfield code="c">EUR 67,00 ; EUR 65,00 (DE)</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC15600618</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)DNB1196222940</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(OCoLC)1122748065</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-101)1196222940</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">oai:dnb.de/dnb/1196222940</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">AT-OeNB</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="c">DE-101</subfield>
+                        <subfield code="d">AT-OBV</subfield>
+                        <subfield code="e">rda</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                        <subfield code="c">XA-DE</subfield>
+                    </datafield>
+                    <datafield tag="082" ind1="0" ind2="4">
+                        <subfield code="a">344.498409609</subfield>
+                        <subfield code="q">DE-101</subfield>
+                        <subfield code="2">23/ger</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">15.60</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">15.70</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">11.57</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">340</subfield>
+                        <subfield code="a">940</subfield>
+                        <subfield code="a">230</subfield>
+                        <subfield code="q">DE-101</subfield>
+                        <subfield code="2">sdnb</subfield>
+                    </datafield>
+                    <datafield tag="100" ind1="1" ind2=" ">
+                        <subfield code="a">Scharr, Kurt</subfield>
+                        <subfield code="d">1970-</subfield>
+                        <subfield code="0">(DE-588)123191254</subfield>
+                        <subfield code="4">aut</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="1" ind2="0">
+                        <subfield code="a">&lt;&lt;Der>> griechisch-orientalische Religionsfonds der Bukowina 1783-1949</subfield>
+                        <subfield code="b">Kontinuitäten und Brüche einer prägenden Institution des Josephinismus</subfield>
+                        <subfield code="c">Kurt Scharr</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="a">Köln</subfield>
+                        <subfield code="a">Weimar</subfield>
+                        <subfield code="b">Böhlau Verlag</subfield>
+                        <subfield code="c">[2020]</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">444 Seiten</subfield>
+                        <subfield code="b">Illustrationen, Diagramme, Karten</subfield>
+                        <subfield code="c">25 cm</subfield>
+                    </datafield>
+                    <datafield tag="336" ind1=" " ind2=" ">
+                        <subfield code="b">txt</subfield>
+                    </datafield>
+                    <datafield tag="337" ind1=" " ind2=" ">
+                        <subfield code="b">n</subfield>
+                    </datafield>
+                    <datafield tag="338" ind1=" " ind2=" ">
+                        <subfield code="b">nc</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">Band 119</subfield>
+                    </datafield>
+                    <datafield tag="500" ind1=" " ind2=" ">
+                        <subfield code="a">Literaturverzeichnis: Seite [381]-432</subfield>
+                    </datafield>
+                    <datafield tag="546" ind1=" " ind2=" ">
+                        <subfield code="a">Zusammenfassung deutsch, englisch, rumänisch und ukrainisch</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Bukowina</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Josephinismus</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Klostergüter</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Eugen Hackmann</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Silvester Morariu-Andriewicz</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Arkadius Czuperkowicz</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Wladimir v. Repta</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Nationalisierung</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">rumänische Kirche</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Joseph II</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Hardcover, Softcover / Geschichte</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Griechisch-Orientalischer Religionsfonds in der Bukowina</subfield>
+                        <subfield code="D">b</subfield>
+                        <subfield code="0">(DE-588)7641087-0</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="6">
+                        <subfield code="A">z</subfield>
+                        <subfield code="a">Geschichte 1783-1949</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">ubw0291</subfield>
+                    </datafield>
+                    <datafield tag="710" ind1="2" ind2=" ">
+                        <subfield code="a">Böhlau Verlag GmbH &amp; Co. KG</subfield>
+                        <subfield code="0">(DE-588)1065536941</subfield>
+                        <subfield code="4">pbl</subfield>
+                    </datafield>
+                    <datafield tag="776" ind1="0" ind2="8">
+                        <subfield code="i">Erscheint auch als</subfield>
+                        <subfield code="n">Online-Ausgabe</subfield>
+                        <subfield code="z">9783205209270</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">119</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="856" ind1="4" ind2="2">
+                        <subfield code="m">B:DE-101</subfield>
+                        <subfield code="q">application/pdf</subfield>
+                        <subfield code="u">https://d-nb.info/1196222940/04</subfield>
+                        <subfield code="3">Inhaltsverzeichnis</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBS</subfield>
+                        <subfield code="6">9925241429803341</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910725627104516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">9981140270403332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBG</subfield>
+                        <subfield code="6">9929980640403339</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OEAW</subfield>
+                        <subfield code="6">993466208604498</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_ONB</subfield>
+                        <subfield code="6">9958600078403338</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OOELB</subfield>
+                        <subfield code="6">997953930104508</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="4" ind2=" ">
+                        <subfield code="b">DE-101</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="2" ind2=" ">
+                        <subfield code="a">AT-OeNB</subfield>
+                    </datafield>
+                </record>
+

@@ -1,0 +1,46 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<https://d-nb.info/gnd/129199176>
+  a <https://d-nb.info/standards/elementset/gnd#DifferentiatedPerson> ;
+  owl:sameAs <https://orcid.org/0000-0003-2650-543X>, <http://viaf.org/viaf/220738564>, <http://isni.org/isni/0000000360314813>, <http://www.wikidata.org/entity/Q19727197>, <http://id.loc.gov/rwo/agents/no2009160296>, <https://d-nb.info/gnd/1090677286> ;
+  wdrs:describedby <https://d-nb.info/gnd/129199176/about> ;
+  gndo:gndIdentifier "129199176"^^xsd:string ;
+  foaf:page <https://de.wikipedia.org/wiki/Brigitte_Mazohl> ;
+  gndo:oldAuthorityNumber "(DE-588)1090677286"^^xsd:string, "(DE-588a)129199176"^^xsd:string, "(DE-588a)113407807"^^xsd:string ;
+  ns1:deprecatedUri "https://d-nb.info/gnd/1090677286"^^xsd:string ;
+  gndo:variantNameForThePerson "Mazohl-Wallnig, Brigitte"^^xsd:string, "Wallnig, Brigitte Mazohl-"^^xsd:string, "Wallnig, Brigitte M.-"^^xsd:string ;
+  gndo:variantNameEntityForThePerson [
+    gndo:forename "Brigitte"^^xsd:string ;
+    gndo:surname "Mazohl-Wallnig"^^xsd:string
+  ], [
+    gndo:forename "Brigitte Mazohl-"^^xsd:string ;
+    gndo:surname "Wallnig"^^xsd:string
+  ], [
+    gndo:forename "Brigitte M.-"^^xsd:string ;
+    gndo:surname "Wallnig"^^xsd:string
+  ] ;
+  gndo:preferredNameForThePerson "Mazohl, Brigitte"^^xsd:string ;
+  gndo:preferredNameEntityForThePerson [
+    gndo:forename "Brigitte"^^xsd:string ;
+    gndo:surname "Mazohl"^^xsd:string
+  ] ;
+  gndo:affiliation <https://d-nb.info/gnd/36165-3>, <https://d-nb.info/gnd/1001454-8> ;
+  gndo:academicDegree "Prof. Dr."^^xsd:string ;
+  gndo:professionOrOccupation <https://d-nb.info/gnd/4333423-4>, <https://d-nb.info/gnd/4160219-5> ;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-IT> ;
+  gndo:biographicalOrHistoricalInformation "Prof. für Österreichische Geschichte an der Univ. Innsbruck (seit 1993)"@de ;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4007901-6> ;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4027096-8> ;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#female> ;
+  gndo:dateOfBirth "1947"^^xsd:gYear .
+
+<https://d-nb.info/gnd/129199176/about>
+  dc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2020-03-26T17:54:52.000"^^xsd:dateTime .
+

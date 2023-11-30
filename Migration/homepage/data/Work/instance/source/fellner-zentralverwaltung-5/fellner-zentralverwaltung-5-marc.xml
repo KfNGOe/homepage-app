@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>01678nam a2200349 cc4500</leader>
+                    <controlfield tag="001">BV003733157</controlfield>
+                    <controlfield tag="003">DE-604</controlfield>
+                    <controlfield tag="005">20181031        </controlfield>
+                    <controlfield tag="007">t</controlfield>
+                    <controlfield tag="008">900725s1907             |||| 00||| ger d</controlfield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">DE-604</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="e">rakddb</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="1" ind2="0">
+                        <subfield code="a">&#x98;Die&#x9C; &#xF6;sterreichische Zentralverwaltung</subfield>
+                        <subfield code="n">1,1</subfield>
+                        <subfield code="p">&#x98;Abt. 1&#x9C;, Von Maximilian I. bis zur Vereinigung der &#xD6;sterreichischen und B&#xF6;hmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche &#xDC;bersicht</subfield>
+                        <subfield code="c">von Thomas Fellner. Nach dessen Tode bearb. und vollendet von Heinrich Kretschmayr</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="b">Holzhausen</subfield>
+                        <subfield code="c">1907</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Nendeln/Liechtenstein</subfield>
+                        <subfield code="b">Kraus Reprint</subfield>
+                        <subfield code="b">Holzhausen</subfield>
+                        <subfield code="c">1907</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">XII, 288 S.</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Fellner, Thomas</subfield>
+                        <subfield code="d">1852-1904</subfield>
+                        <subfield code="0">(DE-588)132483068</subfield>
+                        <subfield code="4">edt</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Kretschmayr, Heinrich</subfield>
+                        <subfield code="d">1870-1939</subfield>
+                        <subfield code="e">Sonstige</subfield>
+                        <subfield code="0">(DE-588)116525916</subfield>
+                        <subfield code="4">oth</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Walter, Friedrich</subfield>
+                        <subfield code="d">1896-1968</subfield>
+                        <subfield code="0">(DE-588)128468955</subfield>
+                        <subfield code="4">edt</subfield>
+                    </datafield>
+                    <datafield tag="940" ind1="1" ind2=" ">
+                        <subfield code="n">oe</subfield>
+                    </datafield>
+                    <datafield tag="942" ind1="1" ind2="1">
+                        <subfield code="e">22/bsb</subfield>
+                        <subfield code="g">4371</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(OCoLC)643371939</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)BVBBV003733157</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1="0" ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="049" ind1=" " ind2=" ">
+                        <subfield code="a">DE-384</subfield>
+                        <subfield code="a">DE-355</subfield>
+                        <subfield code="a">DE-20</subfield>
+                        <subfield code="a">DE-19</subfield>
+                        <subfield code="a">DE-29</subfield>
+                        <subfield code="a">DE-M457</subfield>
+                        <subfield code="a">DE-12</subfield>
+                        <subfield code="a">DE-188</subfield>
+                        <subfield code="a">DE-Re13</subfield>
+                        <subfield code="a">DE-M333</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">7,41</subfield>
+                        <subfield code="2">ssgn</subfield>
+                    </datafield>
+                    <datafield tag="336" ind1=" " ind2=" ">
+                        <subfield code="b">txt</subfield>
+                        <subfield code="2">rdacontent</subfield>
+                    </datafield>
+                    <datafield tag="337" ind1=" " ind2=" ">
+                        <subfield code="b">n</subfield>
+                        <subfield code="2">rdamedia</subfield>
+                    </datafield>
+                    <datafield tag="338" ind1=" " ind2=" ">
+                        <subfield code="b">nc</subfield>
+                        <subfield code="2">rdacarrier</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Kommission f&#xFC;r Neuere Geschichte &#xD6;sterreichs: Ver&#xF6;ffentlichungen der Kommission f&#xFC;r Neuere Geschichte &#xD6;sterreichs</subfield>
+                        <subfield code="v">5</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="0" ind2=" ">
+                        <subfield code="a">Kommission f&#xFC;r Neuere Geschichte &#xD6;sterreichs: Ver&#xF6;ffentlichungen der Kommission f&#xFC;r Neuere Geschichte &#xD6;sterreichs</subfield>
+                        <subfield code="v">...</subfield>
+                    </datafield>
+                    <datafield tag="773" ind1="0" ind2="8">
+                        <subfield code="w">(DE-604)BV003733153</subfield>
+                        <subfield code="g">1,1</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="a">Kommission f&#xFC;r Neuere Geschichte &#xD6;sterreichs: Ver&#xF6;ffentlichungen der Kommission f&#xFC;r Neuere Geschichte &#xD6;sterreichs</subfield>
+                        <subfield code="v">5</subfield>
+                        <subfield code="w">(DE-604)BV000001532</subfield>
+                    </datafield>
+                </record>

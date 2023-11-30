@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>01618nam a2200433 cc4500</leader>
+                    <controlfield tag="001">990030262640203331</controlfield>
+                    <controlfield tag="005">20180912181925.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">000830|2000####xx############|||#|#mul#u</controlfield>
+                    <controlfield tag="009">AC03029980</controlfield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">OeB2001,A,03 14</subfield>
+                        <subfield code="2">oeb</subfield>
+                    </datafield>
+                    <datafield tag="020" ind1=" " ind2=" ">
+                        <subfield code="a">3205991729</subfield>
+                        <subfield code="c">kart. : 768,- ; DM 104,- ; sfr 97,-</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">AC03029980</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(Aleph)003026264ACC01</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)OBVAC03029980</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC03029980</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">UBI</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="d">OAW</subfield>
+                        <subfield code="e">rakwb</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">mul</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AAAT</subfield>
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NN 3400</subfield>
+                        <subfield code="2">rvk</subfield>
+                    </datafield>
+                    <datafield tag="100" ind1="0" ind2=" ">
+                        <subfield code="a">Ferdinand</subfield>
+                        <subfield code="b">I.</subfield>
+                        <subfield code="c">Heiliges Römisches Reich, Kaiser</subfield>
+                        <subfield code="d">1503-1564</subfield>
+                        <subfield code="0">(DE-588)118532502</subfield>
+                        <subfield code="4">aut</subfield>
+                        <subfield code="9">O:H</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="0" ind2="0">
+                        <subfield code="a">&lt;&lt;Die>> Korrespondenz Ferdinands I.</subfield>
+                        <subfield code="n">4</subfield>
+                        <subfield code="p">Familienkorrespondenz 1533 und 1534 / bearb. von Christopher F. Laferl u. Christina Lutter</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien [u.a.]</subfield>
+                        <subfield code="b">Böhlau</subfield>
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="b">Holzhausen</subfield>
+                        <subfield code="c">2000</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">398 S.</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">90</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="0" ind2=" ">
+                        <subfield code="a">Korrespondenz österreichischer Herrscher</subfield>
+                    </datafield>
+                    <datafield tag="500" ind1=" " ind2=" ">
+                        <subfield code="a">Literaturverz. S. [46] - 62</subfield>
+                    </datafield>
+                    <datafield tag="546" ind1=" " ind2=" ">
+                        <subfield code="a">Beitr. teilw. dt., teilw. franz.</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Ferdinand</subfield>
+                        <subfield code="b">I.</subfield>
+                        <subfield code="c">Heiliges Römisches Reich, Kaiser</subfield>
+                        <subfield code="d">1503-1564</subfield>
+                        <subfield code="D">p</subfield>
+                        <subfield code="0">(DE-588)118532502</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Briefsammlung 1533-1534</subfield>
+                        <subfield code="A">f</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBGRAI</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Laferl, Christopher F.</subfield>
+                        <subfield code="d">1963-</subfield>
+                        <subfield code="0">(DE-588)121046842</subfield>
+                        <subfield code="4">oth</subfield>
+                        <subfield code="e">[Bearb.]</subfield>
+                    </datafield>
+                    <datafield tag="773" ind1="0" ind2="8">
+                        <subfield code="w">(AT-OBV)AC01278875</subfield>
+                        <subfield code="q">4</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">90</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBS</subfield>
+                        <subfield code="6">990008657480203341</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BMA</subfield>
+                        <subfield code="6">990004986680304534</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_SLA</subfield>
+                        <subfield code="6">990001330380204535</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910608126204516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">990012811020203332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBG</subfield>
+                        <subfield code="6">990017988180203339</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OEAW</subfield>
+                        <subfield code="6">990000948900504498</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBI</subfield>
+                        <subfield code="6">990006394930103333</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_AKW</subfield>
+                        <subfield code="6">990002690860203343</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBK</subfield>
+                        <subfield code="6">990003100530203346</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_ONB</subfield>
+                        <subfield code="6">990004367610603338</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OOELB</subfield>
+                        <subfield code="6">990004032940304508</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="7" ind2=" ">
+                        <subfield code="a">LKR/ITM-UBK</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">a|1dcr|||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">|||||||</subfield>
+                    </datafield>
+                </record>

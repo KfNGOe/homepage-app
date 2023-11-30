@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>00000nam a2200000 ca4500</leader>
+                    <controlfield tag="001">990035042670203331</controlfield>
+                    <controlfield tag="003">AT-OBV</controlfield>
+                    <controlfield tag="005">20171114095700.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">020913|########au############|||#0#ger#u</controlfield>
+                    <controlfield tag="009">AC03512891</controlfield>
+                    <datafield tag="020" ind1=" " ind2=" ">
+                        <subfield code="a">3205994833</subfield>
+                        <subfield code="c">Bd. 1 u. 2 zs. kart. : EUR 159,-</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">AC03512891</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC03512891</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(Aleph)003504267ACC01</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)OBVAC03512891</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">ONB</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="d">WUW</subfield>
+                        <subfield code="e">rakwb</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NP 5915</subfield>
+                        <subfield code="2">rvk</subfield>
+                    </datafield>
+                    <datafield tag="090" ind1=" " ind2=" ">
+                        <subfield code="f">b</subfield>
+                        <subfield code="h">g</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="0" ind2="0">
+                        <subfield code="a">&lt;&lt;Die>> Aehrenthals</subfield>
+                        <subfield code="b">eine Familie in ihrer Korrespondenz 1872 - 1911</subfield>
+                        <subfield code="c">hrsg. u. eingel. von Franz Adlgasser</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien [u.a.]</subfield>
+                        <subfield code="b">Böhlau</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="c">24 cm</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">93</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Aehrenthal</subfield>
+                        <subfield code="c">Familie</subfield>
+                        <subfield code="D">p</subfield>
+                        <subfield code="0">(DE-588)124181945</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Briefsammlung 1872-1911</subfield>
+                        <subfield code="A">f</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBSRS. DDB</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="0">
+                        <subfield code="a">Aehrenthal</subfield>
+                        <subfield code="c">Familie</subfield>
+                        <subfield code="D">p</subfield>
+                        <subfield code="0">(DE-588)124181945</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="1">
+                        <subfield code="a">Geschichte 1872-1911</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="2">
+                        <subfield code="a">Quelle</subfield>
+                        <subfield code="A">f</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBSRS.</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Adlgasser, Franz</subfield>
+                        <subfield code="d">1963-</subfield>
+                        <subfield code="0">(DE-588)115424881</subfield>
+                        <subfield code="4">edt</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">93</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBK</subfield>
+                        <subfield code="6">990002750000203346</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">a|1dcr|||||37</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">tz||w||</subfield>
+                    </datafield>
+                </record>
+            

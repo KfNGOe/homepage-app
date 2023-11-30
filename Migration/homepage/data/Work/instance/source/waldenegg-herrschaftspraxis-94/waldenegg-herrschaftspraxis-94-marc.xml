@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>00000nam a2200000zcb4500</leader>
+                    <controlfield tag="001">990034435820203331</controlfield>
+                    <controlfield tag="003">AT-OBV</controlfield>
+                    <controlfield tag="005">20180215200700.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">020624|2002####au#######m####|||#|#ger#u</controlfield>
+                    <controlfield tag="009">AC03451614</controlfield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">OeB2003,A,04 14</subfield>
+                        <subfield code="2">oeb</subfield>
+                    </datafield>
+                    <datafield tag="020" ind1=" " ind2=" ">
+                        <subfield code="a">3205770137</subfield>
+                        <subfield code="c">kart. : EUR 75,-</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">AC03451614</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC03451614</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(Aleph)003443582ACC01</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)OBVAC03451614</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">UBS</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="d">OAW</subfield>
+                        <subfield code="e">rakwb</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="050" ind1=" " ind2="4">
+                        <subfield code="a">DB86</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">83.52</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">15.60</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NP 5904</subfield>
+                        <subfield code="2">rvk</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NP 5905</subfield>
+                        <subfield code="2">rvk</subfield>
+                    </datafield>
+                    <datafield tag="100" ind1="1" ind2=" ">
+                        <subfield code="a">Berger Waldenegg, Georg Christoph</subfield>
+                        <subfield code="d">1957-</subfield>
+                        <subfield code="0">(DE-588)124293468</subfield>
+                        <subfield code="4">aut</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="0" ind2="0">
+                        <subfield code="a">Mit vereinten Kräften!</subfield>
+                        <subfield code="b">zum Verhältnis von Herrschaftspraxis und Systemkonsolidierung im Neoabsolutismus am Beispiel der Nationalanleihe von 1854</subfield>
+                        <subfield code="c">Georg Christoph Berger Waldenegg</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien [u.a.]</subfield>
+                        <subfield code="b">Böhlau</subfield>
+                        <subfield code="c">2002</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">654 S.</subfield>
+                        <subfield code="c">24 cm</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">94</subfield>
+                    </datafield>
+                    <datafield tag="502" ind1=" " ind2=" ">
+                        <subfield code="a">Teilw. zugl.: Heidelberg, Univ., Habil.-Schr., 1998 u.d.T.: Berger Waldenegg, Georg Christoph: Innenpolitik im Neoabsolutismus (1848/49 - 1859/60)</subfield>
+                    </datafield>
+                    <datafield tag="650" ind1=" " ind2="0">
+                        <subfield code="a">Finance, Public</subfield>
+                        <subfield code="z">Austria</subfield>
+                        <subfield code="x">History</subfield>
+                        <subfield code="y">19th century</subfield>
+                    </datafield>
+                    <datafield tag="650" ind1=" " ind2="0">
+                        <subfield code="a">Monarchy</subfield>
+                        <subfield code="z">Austria</subfield>
+                        <subfield code="x">History</subfield>
+                        <subfield code="y">19th century</subfield>
+                    </datafield>
+                    <datafield tag="651" ind1=" " ind2="0">
+                        <subfield code="a">Austria</subfield>
+                        <subfield code="x">Politics and government</subfield>
+                        <subfield code="y">1848-1918</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Österreich</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4043271-3</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Fiskalpolitik</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4071234-5</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="2">
+                        <subfield code="a">Anleihe</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4002107-5</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="3">
+                        <subfield code="a">Geschichte 1854</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="4">
+                        <subfield code="a">Auswirkung</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4112646-4</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="5">
+                        <subfield code="a">Herrschaftssystem</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4359546-7</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="6">
+                        <subfield code="a">Neoabsolutismus</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4435153-7</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBSRS.</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="0">
+                        <subfield code="a">Österreich</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4043271-3</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="1">
+                        <subfield code="a">Staatsanleihe</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4182638-3</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="2">
+                        <subfield code="a">Fiskalpolitik</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4071234-5</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="3">
+                        <subfield code="a">Neoabsolutismus</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4435153-7</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="4">
+                        <subfield code="a">Geschichte 1854-1859</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBWRAH DDB</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">94</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBS</subfield>
+                        <subfield code="6">990009473030203341</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910632011404516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">990014630790203332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OEAW</subfield>
+                        <subfield code="6">990000884810504498</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBK</subfield>
+                        <subfield code="6">990002719160203346</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_ONB</subfield>
+                        <subfield code="6">990005386330603338</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BRIDGE_PAR</subfield>
+                        <subfield code="6">9911453804485</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BMA</subfield>
+                        <subfield code="6">990002988040304534</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WUW</subfield>
+                        <subfield code="6">990003601090203337</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBG</subfield>
+                        <subfield code="6">990018933790203339</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBI</subfield>
+                        <subfield code="6">990009492450103333</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_AKW</subfield>
+                        <subfield code="6">990000372070203343</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OOELB</subfield>
+                        <subfield code="6">990004123960304508</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">z|1dcr|||||17</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">su|||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="u">
+                        <subfield code="V">908</subfield>
+                        <subfield code="a">23451</subfield>
+                        <subfield code="a">32451</subfield>
+                        <subfield code="a">43251</subfield>
+                    </datafield>
+                </record>

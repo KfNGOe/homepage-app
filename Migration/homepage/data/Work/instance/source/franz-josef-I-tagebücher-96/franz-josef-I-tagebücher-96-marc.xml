@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>00000nam a2200000 cb4500</leader>
+                    <controlfield tag="001">990037053750203331</controlfield>
+                    <controlfield tag="003">AT-OBV</controlfield>
+                    <controlfield tag="005">20180210111900.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">030512|2003####au############|||#0#ger#u</controlfield>
+                    <controlfield tag="009">AC03715979</controlfield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">03,N02,0097</subfield>
+                        <subfield code="2">dnb</subfield>
+                    </datafield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">OeB2003,A,13 14</subfield>
+                        <subfield code="2">oeb</subfield>
+                    </datafield>
+                    <datafield tag="020" ind1=" " ind2=" ">
+                        <subfield code="a">3205770927</subfield>
+                        <subfield code="c">kart. : EUR 29,90</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">AC03715979</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC03715979</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(Aleph)003705375ACC01</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">UBW</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="c">292</subfield>
+                        <subfield code="d">UBS</subfield>
+                        <subfield code="e">rakwb</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">63</subfield>
+                        <subfield code="a">07</subfield>
+                        <subfield code="q">DE-101</subfield>
+                        <subfield code="2">sdnb</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">16.5p/XA-AT</subfield>
+                        <subfield code="2">sdnb</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">15.60</subfield>
+                        <subfield code="2">bkl</subfield>
+                        <subfield code="9">O: Automatisch aus GBV_2011-10 2012-06-10</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NP 5910</subfield>
+                        <subfield code="2">rvk</subfield>
+                    </datafield>
+                    <datafield tag="090" ind1=" " ind2=" ">
+                        <subfield code="a">b</subfield>
+                        <subfield code="h">g</subfield>
+                    </datafield>
+                    <datafield tag="100" ind1="0" ind2=" ">
+                        <subfield code="a">Franz Joseph</subfield>
+                        <subfield code="b">I.</subfield>
+                        <subfield code="c">Österreich, Kaiser</subfield>
+                        <subfield code="d">1830-1916</subfield>
+                        <subfield code="0">(DE-588)118535013</subfield>
+                        <subfield code="4">aut</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="0" ind2="0">
+                        <subfield code="a">&lt;&lt;Die>> Jugend-Tagebücher Franz Josephs (1843-1848)</subfield>
+                        <subfield code="b">ungekürzte und kommentierte Textedition</subfield>
+                        <subfield code="c">eingel., kommentiert u. hrsg. von Heimo Cerny</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien [u.a.]</subfield>
+                        <subfield code="b">Böhlau</subfield>
+                        <subfield code="c">2003</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">188 S.</subfield>
+                        <subfield code="b">Ill., graph. Darst.</subfield>
+                        <subfield code="c">24 cm</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">96</subfield>
+                    </datafield>
+                    <datafield tag="500" ind1=" " ind2=" ">
+                        <subfield code="a">Literaturverz. S. [187] - 188</subfield>
+                    </datafield>
+                    <datafield tag="610" ind1="2" ind2="0">
+                        <subfield code="a">Franz Joseph I, Emperor of Austria</subfield>
+                        <subfield code="a">Diaries</subfield>
+                        <subfield code="z">Automatisch aus GBV_2011-10 2012-06-10</subfield>
+                    </datafield>
+                    <datafield tag="650" ind1=" " ind2="0">
+                        <subfield code="a">Emperors</subfield>
+                        <subfield code="a">Biography</subfield>
+                        <subfield code="a">Austria</subfield>
+                        <subfield code="z">Automatisch aus GBV_2011-10 2012-06-10</subfield>
+                    </datafield>
+                    <datafield tag="650" ind1=" " ind2="0">
+                        <subfield code="a">Austria</subfield>
+                        <subfield code="a">Biography</subfield>
+                        <subfield code="a">Kings and rulers</subfield>
+                        <subfield code="z">Automatisch aus GBV_2011-10 2012-06-10</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Cerny, Heimo</subfield>
+                        <subfield code="4">edt</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">96</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBS</subfield>
+                        <subfield code="6">990010006040203341</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BMA</subfield>
+                        <subfield code="6">990004988890304534</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910616058804516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">990015125820203332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBG</subfield>
+                        <subfield code="6">990019520960203339</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OEAW</subfield>
+                        <subfield code="6">990000837140504498</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBI</subfield>
+                        <subfield code="6">990010284090103333</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_AKW</subfield>
+                        <subfield code="6">990002820760203343</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBK</subfield>
+                        <subfield code="6">990003173610203346</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_ONB</subfield>
+                        <subfield code="6">990005621770603338</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OOELB</subfield>
+                        <subfield code="6">990004174120304508</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">a|1dcz|z|||17</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|b|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">sz||w||</subfield>
+                    </datafield>
+                </record>

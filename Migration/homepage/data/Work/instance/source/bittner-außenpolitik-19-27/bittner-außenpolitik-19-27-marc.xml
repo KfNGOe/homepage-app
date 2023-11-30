@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>00000nas a2200000 c 4500</leader>
+                    <controlfield tag="001">990005981270203331</controlfield>
+                    <controlfield tag="005">20200618111259.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">070628d19301930|||u||p|  ||| 0||||1ger c</controlfield>
+                    <controlfield tag="009">AC00917675</controlfield>
+                    <datafield tag="016" ind1="7" ind2=" ">
+                        <subfield code="a">984790071</subfield>
+                        <subfield code="2">DE-101</subfield>
+                    </datafield>
+                    <datafield tag="016" ind1="7" ind2=" ">
+                        <subfield code="a">2375353-5</subfield>
+                        <subfield code="2">DE-600</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC00917675</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(Aleph)000598127ACC01</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">AC00917675</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)ZDB2375353-5</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(OCoLC)225460997</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">oai:dnb.de/zdb/984790071</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-600)2375353-5</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">UBW</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="c">DE-101</subfield>
+                        <subfield code="d">8504</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">050</subfield>
+                        <subfield code="q">DE-600</subfield>
+                        <subfield code="2">sdnb</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="0" ind2="0">
+                        <subfield code="a">Österreich-Ungarns Außenpolitik von der Bosnischen Krise 1908 bis zum Kriegsausbruch 1914</subfield>
+                        <subfield code="b">diplomatische Aktenstücke des österreichisch-ungarischen Ministeriums des Äußern ...</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1="3" ind2="1">
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="a">Leipzig</subfield>
+                        <subfield code="b">Österreichischer Bundesverlag</subfield>
+                        <subfield code="c">1930-1930</subfield>
+                    </datafield>
+                    <datafield tag="336" ind1=" " ind2=" ">
+                        <subfield code="b">txt</subfield>
+                    </datafield>
+                    <datafield tag="337" ind1=" " ind2=" ">
+                        <subfield code="b">n</subfield>
+                    </datafield>
+                    <datafield tag="338" ind1=" " ind2=" ">
+                        <subfield code="b">nc</subfield>
+                    </datafield>
+                    <datafield tag="362" ind1="0" ind2=" ">
+                        <subfield code="a">1.1908/09(1930) - 9.1930[?]</subfield>
+                    </datafield>
+                    <datafield tag="363" ind1="0" ind2="0">
+                        <subfield code="a">1</subfield>
+                        <subfield code="i">1908/09</subfield>
+                        <subfield code="8">1.1\x</subfield>
+                    </datafield>
+                    <datafield tag="363" ind1="1" ind2="0">
+                        <subfield code="a">9</subfield>
+                        <subfield code="i">1930</subfield>
+                        <subfield code="8">1.2\x</subfield>
+                    </datafield>
+                    <datafield tag="655" ind1=" " ind2="7">
+                        <subfield code="a">Zeitschrift</subfield>
+                        <subfield code="0">(DE-588)4067488-5</subfield>
+                        <subfield code="2">gnd-content</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Österreich-Ungarn</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4075613-0</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Außenpolitik</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4003846-4</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="2">
+                        <subfield code="a">Geschichte 1908-1914</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="3">
+                        <subfield code="a">Quelle</subfield>
+                        <subfield code="A">f</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBS</subfield>
+                    </datafield>
+                    <datafield tag="776" ind1="0" ind2="8">
+                        <subfield code="i">Elektronische Reproduktion</subfield>
+                        <subfield code="t">Österreich-Ungarns Außenpolitik von der Bosnischen Krise 1908 bis zum Kriegsausbruch 1914</subfield>
+                        <subfield code="d">Wien ; Leipzig : Österreichischer Bundesverlag für Unterricht, Wissenschaft und Kunst, 1930-1930</subfield>
+                        <subfield code="w">(DE-600)3027419-9</subfield>
+                    </datafield>
+                    <datafield tag="787" ind1="0" ind2="8">
+                        <subfield code="i">1=19; 2=20; 3=21; 4=22; 5=23; 6=24; 7=25; 8=26; 9=27 von</subfield>
+                        <subfield code="a">Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="t">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="d">Wien ; Köln ; Weimar : Böhlau, 1903-</subfield>
+                        <subfield code="x">1012-5744</subfield>
+                        <subfield code="w">(DE-600)520755-1</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BMA</subfield>
+                        <subfield code="6">990001840670304534</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910676655604516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">990001413300203332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBI</subfield>
+                        <subfield code="6">990006987390103333</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBK</subfield>
+                        <subfield code="6">990000472840203346</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="2" ind2=" ">
+                        <subfield code="a">UBW</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">b|1dcz|z|||37</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">052</subfield>
+                        <subfield code="A">p||||||z|||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="u">
+                        <subfield code="V">903</subfield>
+                        <subfield code="a">2134</subfield>
+                    </datafield>
+                </record>
+            

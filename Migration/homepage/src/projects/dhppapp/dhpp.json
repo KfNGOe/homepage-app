@@ -1,0 +1,30 @@
+{
+    "project": {
+        "id": "kommission",
+        "title": "Kommission",
+        "description": "Kommission",
+        "author": "Daniel Schlager <daniel.schlager@sbg.ac.at>",
+        "maintainer": "Daniel Schlager <daniel.schlager@sbg.ac.at>",
+        "base": "https://git.edvz.sbg.ac.at/DHPLUS/Projects/dhpp-base.git",
+        "backend": {
+            "xquery": {
+                "engine": "none",
+                "port": 8088
+            }
+        },
+        "frontend": {
+            "port": 9999,
+            "framework": "angular",
+            "header": {
+                "style": "default"
+            },
+            "footer": {
+                "style": "default"
+            }
+        },
+        "deployment": {
+            "customDomain": false,
+            "hostname": "kommission"
+        }
+    }
+}

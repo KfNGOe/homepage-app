@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+    xmlns:schema="http://schema.org/"
+    xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
+    xmlns:lib="http://purl.org/library/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:editeur="https://ns.editeur.org/thema/"
+    xmlns:geo="http://www.opengis.net/ont/geosparql#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdau="http://rdaregistry.info/Elements/u/"
+    xmlns:sf="http://www.opengis.net/ont/sf#"
+    xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:vivo="http://vivoweb.org/ontology/core#"
+    xmlns:isbd="http://iflastandards.info/ns/isbd/elements/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:mo="http://purl.org/ontology/mo/"
+    xmlns:marcRole="http://id.loc.gov/vocabulary/relators/"
+    xmlns:agrelon="https://d-nb.info/standards/elementset/agrelon#"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+    xmlns:dbp="http://dbpedia.org/property/"
+    xmlns:dnbt="https://d-nb.info/standards/elementset/dnb#"
+    xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+    xmlns:dnb_intern="http://dnb.de/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:v="http://www.w3.org/2006/vcard/ns#"
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:ebu="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:gbv="http://purl.org/ontology/gbv/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="https://d-nb.info/gnd/119480700">
+        <rdf:type rdf:resource="https://d-nb.info/standards/elementset/gnd#DifferentiatedPerson"/>
+        <wdrs:describedby>
+            <rdf:Description rdf:about="https://d-nb.info/gnd/119480700/about">
+                <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+                <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-29T11:13:53.000</dcterms:modified>
+            </rdf:Description>
+        </wdrs:describedby>
+        <gndo:gndIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">119480700</gndo:gndIdentifier>
+        <foaf:page rdf:resource="https://de.wikipedia.org/wiki/Heinrich_Friedjung"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Heinrich_Friedjung"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/19821233"/>
+        <owl:sameAs rdf:resource="http://isni.org/isni/0000000108768792"/>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q87173"/>
+        <owl:sameAs rdf:resource="http://id.loc.gov/rwo/agents/nr97023240"/>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)119480700</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588c)4461793-8</gndo:oldAuthorityNumber>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friedjung, H.</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx11509057">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H.</gndo:forename>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friedjung</gndo:surname>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:preferredNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friedjung, Heinrich</gndo:preferredNameForThePerson>
+        <gndo:preferredNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx11509058">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heinrich</gndo:forename>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friedjung</gndo:surname>
+            </rdf:Description>
+        </gndo:preferredNameEntityForThePerson>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4025098-2"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4177294-5"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4053309-8"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4176310-5"/>
+        <gndo:gndSubjectCategory rdf:resource="https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT"/>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Der Krimkrieg und die österreichische Politik. - 1907</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benedek, Ludwig von: Benedeks nachgelassene Papiere. - 1901</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Der Krimkrieg und die österreichische Politik. - 1911</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Österreich von 1848 bis 1860</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaiser Karl IV. u. sein Antheil am geistigen Leben seiner Zeit. - 1876</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Das Zeitalter des Imperialismus 1884 - 1914</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Historische Aufsätze. - 1919</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Der Kampf um die Vorherrschaft in Deutschland 1859 bis 1866</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Struggle for supremacy in Germany 1859-66. - 1935</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benedek, Ludwig A. von: Nachgelassene Papiere. - 1901</gndo:publication>
+        <gndo:biographicalOrHistoricalInformation xml:lang="de">Österr. Historiker, Journalist; Korrespondierendes Mitglied der Akademie der Wissenschaften</gndo:biographicalOrHistoricalInformation>
+        <gndo:placeOfBirthAsLiteral rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roschtin</gndo:placeOfBirthAsLiteral>
+        <gndo:placeOfDeath rdf:resource="https://d-nb.info/gnd/4066009-6"/>
+        <gndo:gender rdf:resource="https://d-nb.info/standards/vocab/gnd/gender#male"/>
+        <gndo:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1851-01-18</gndo:dateOfBirth>
+        <gndo:dateOfDeath rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1920-07-14</gndo:dateOfDeath>
+    </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,40 @@
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix ns0: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ns1: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<https://d-nb.info/gnd/138870802>
+  a <https://d-nb.info/standards/elementset/gnd#DifferentiatedPerson> ;
+  wdrs:describedby <https://d-nb.info/gnd/138870802/about> ;
+  ns0:gndIdentifier "138870802"^^xsd:string ;
+  foaf:page <https://de.wikipedia.org/wiki/Reinhard_Stauber> ;
+  owl:sameAs <http://viaf.org/viaf/64185409>, <http://isni.org/isni/0000000109799996>, <http://www.wikidata.org/entity/Q2141037>, <http://id.loc.gov/rwo/agents/n93079475>, <https://d-nb.info/gnd/1090522169> ;
+  ns0:oldAuthorityNumber "(DE-588)1090522169"^^xsd:string, "(DE-588a)138870802"^^xsd:string, "(DE-588a)113567162"^^xsd:string ;
+  ns1:deprecatedUri "https://d-nb.info/gnd/1090522169"^^xsd:string ;
+  ns0:variantNameForThePerson "Stauber, Reinhard Alexander"^^xsd:string ;
+  ns0:variantNameEntityForThePerson [
+    ns0:forename "Reinhard Alexander"^^xsd:string ;
+    ns0:surname "Stauber"^^xsd:string
+  ] ;
+  ns0:preferredNameForThePerson "Stauber, Reinhard"^^xsd:string ;
+  ns0:preferredNameEntityForThePerson [
+    ns0:forename "Reinhard"^^xsd:string ;
+    ns0:surname "Stauber"^^xsd:string
+  ] ;
+  ns0:affiliation <https://d-nb.info/gnd/2028047-6> ;
+  ns0:academicDegree "Univ.-Prof., Dr. phil., M.A."^^xsd:string ;
+  ns0:professionOrOccupation <https://d-nb.info/gnd/4025098-2>, <https://d-nb.info/gnd/4025243-7> ;
+  ns0:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT> ;
+  ns0:biographicalOrHistoricalInformation "Seit 2003 Universitätsprofessor für Neuere und Österreichische Geschichte an der Universität Klagenfurt; seit 2012 Mitglied der Historischen Kommission bei der Bayerischen Akademie der Wissenschaften"@de ;
+  ns0:placeOfBirth <https://d-nb.info/gnd/4048989-9> ;
+  ns0:placeOfActivity <https://d-nb.info/gnd/4127793-4>, <https://d-nb.info/gnd/4030921-6> ;
+  ns0:gender <https://d-nb.info/standards/vocab/gnd/gender#male> ;
+  ns0:dateOfBirth "1960"^^xsd:gYear .
+
+<https://d-nb.info/gnd/138870802/about>
+  dc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2020-03-18T12:24:30.000"^^xsd:dateTime .
+

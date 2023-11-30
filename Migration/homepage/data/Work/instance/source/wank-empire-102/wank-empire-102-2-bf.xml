@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+   <bf:Work rdf:about="http://example.org/99145298003903331#Work">
+      <bf:adminMetadata>
+         <bf:AdminMetadata>
+            <bf:generationProcess>
+               <bf:GenerationProcess>
+                  <rdfs:label>DLC marc2bibframe2 v1.4.0-SNAPSHOT: 2020-10-20T20:46:15.177+02:00</rdfs:label>
+               </bf:GenerationProcess>
+            </bf:generationProcess>
+            <bf:status>
+               <bf:Status>
+                  <bf:code>n</bf:code>
+               </bf:Status>
+            </bf:status>
+            <bflc:encodingLevel>
+               <bflc:EncodingLevel>
+                  <bf:code>f</bf:code>
+               </bflc:EncodingLevel>
+            </bflc:encodingLevel>
+            <bf:descriptionConventions>
+               <bf:DescriptionConventions>
+                  <bf:code>isbd</bf:code>
+               </bf:DescriptionConventions>
+            </bf:descriptionConventions>
+            <bf:identifiedBy>
+               <bf:Local>
+                  <rdf:value>99145298003903331</rdf:value>
+               </bf:Local>
+            </bf:identifiedBy>
+            <bf:changeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-04T11:12:28</bf:changeDate>
+            <bf:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-02</bf:creationDate>
+            <bf:identifiedBy>
+               <bf:Local>
+                  <rdf:value>1196223637</rdf:value>
+                  <bf:source>
+                     <bf:Source>
+                        <rdfs:label>DE-101</rdfs:label>
+                     </bf:Source>
+                  </bf:source>
+               </bf:Local>
+            </bf:identifiedBy>
+            <bf:source>
+               <bf:Source>
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Agent"/>
+                  <rdfs:label>AT-UBW</rdfs:label>
+               </bf:Source>
+            </bf:source>
+            <bf:source>
+               <bf:Source>
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Agent"/>
+                  <rdfs:label>DE-101</rdfs:label>
+               </bf:Source>
+            </bf:source>
+            <bf:descriptionLanguage>
+               <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/ger"/>
+            </bf:descriptionLanguage>
+            <bf:descriptionModifier>
+               <bf:Agent>
+                  <rdfs:label>AT-OeNB</rdfs:label>
+               </bf:Agent>
+            </bf:descriptionModifier>
+            <bf:descriptionConventions>
+               <bf:DescriptionConventions rdf:about="http://id.loc.gov/vocabulary/descriptionConventions/rda"/>
+            </bf:descriptionConventions>
+         </bf:AdminMetadata>
+      </bf:adminMetadata>
+      <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Text"/>
+      <bf:language>
+         <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/eng"/>
+      </bf:language>
+      <bf:language>
+         <bf:Language>
+            <bf:identifiedBy>
+               <bf:Identifier>
+                  <rdf:value rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+                  <bf:source>
+                     <bf:Source rdf:about="http://id.loc.gov/vocabulary/languages"/>
+                  </bf:source>
+               </bf:Identifier>
+            </bf:identifiedBy>
+         </bf:Language>
+      </bf:language>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>900</bf:classificationPortion>
+            <bf:adminMetadata>
+               <bf:AdminMetadata>
+                  <bf:assigner>
+                     <bf:Agent>
+                        <rdfs:label>DE-101</rdfs:label>
+                     </bf:Agent>
+                  </bf:assigner>
+               </bf:AdminMetadata>
+            </bf:adminMetadata>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>sdnb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>15.60</bf:classificationPortion>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>bkl</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>01.30</bf:classificationPortion>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>bkl</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <bf:contribution>
+         <bf:Contribution>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bflc/PrimaryContribution"/>
+            <bf:agent>
+               <bf:Agent rdf:about="http://example.org/99145298003903331#Agent100-21">
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                  <bflc:name00MatchKey>Wank, Solomon 1930-2014</bflc:name00MatchKey>
+                  <bflc:primaryContributorName00MatchKey>Wank, Solomon 1930-2014</bflc:primaryContributorName00MatchKey>
+                  <bflc:name00MarcKey>1001 $aWank, Solomon$d1930-2014$0(DE-588)142850179$4aut$9O:H</bflc:name00MarcKey>
+                  <rdfs:label>Wank, Solomon 1930-2014</rdfs:label>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>142850179</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>DE-588</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Agent>
+            </bf:agent>
+            <bf:role>
+               <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/aut"/>
+            </bf:role>
+         </bf:Contribution>
+      </bf:contribution>
+      <rdfs:label>In the twilight of empire Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman Volume 2 From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak</rdfs:label>
+      <bf:title>
+         <bf:Title>
+            <rdfs:label>In the twilight of empire Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman Volume 2 From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak</rdfs:label>
+            <bflc:titleSortKey>In the twilight of empire Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman Volume 2 From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak</bflc:titleSortKey>
+            <bf:mainTitle>In the twilight of empire</bf:mainTitle>
+            <bf:subtitle>Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman</bf:subtitle>
+            <bf:partNumber>Volume 2</bf:partNumber>
+            <bf:partName>From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak</bf:partName>
+         </bf:Title>
+      </bf:title>
+      <bf:content>
+         <bf:Content rdf:about="http://id.loc.gov/vocabulary/contentTypes/txt"/>
+      </bf:content>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Diplomatiegeschichte</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Krise Bosnien 1908/1909</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:genreForm>
+         <bf:GenreForm rdf:about="http://example.org/99145298003903331#GenreForm655-32">
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#GenreForm"/>
+            <rdfs:label>Biografie</rdfs:label>
+            <madsrdf:authoritativeLabel>Biografie</madsrdf:authoritativeLabel>
+            <bf:source>
+               <bf:Source>
+                  <bf:code>gnd-content</bf:code>
+               </bf:Source>
+            </bf:source>
+            <bf:identifiedBy>
+               <bf:Identifier>
+                  <rdf:value>4006804-3</rdf:value>
+                  <bf:source>
+                     <bf:Source>
+                        <rdfs:label>DE-588</rdfs:label>
+                     </bf:Source>
+                  </bf:source>
+               </bf:Identifier>
+            </bf:identifiedBy>
+         </bf:GenreForm>
+      </bf:genreForm>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>World War I</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:contribution>
+         <bf:Contribution>
+            <bf:agent>
+               <bf:Agent rdf:about="http://example.org/99145298003903331#Agent700-36">
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                  <bflc:name00MatchKey>Adlgasser, Franz 1963-</bflc:name00MatchKey>
+                  <bflc:name00MarcKey>7001 $aAdlgasser, Franz$d1963-$0(DE-588)115424881$4edt</bflc:name00MarcKey>
+                  <rdfs:label>Adlgasser, Franz 1963-</rdfs:label>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>115424881</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>DE-588</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Agent>
+            </bf:agent>
+            <bf:role>
+               <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/edt"/>
+            </bf:role>
+         </bf:Contribution>
+      </bf:contribution>
+      <bf:contribution>
+         <bf:Contribution>
+            <bf:agent>
+               <bf:Agent rdf:about="http://example.org/99145298003903331#Agent700-37">
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                  <bflc:name00MatchKey>Höhn, Maria 1955-</bflc:name00MatchKey>
+                  <bflc:name00MarcKey>7001 $aHöhn, Maria$d1955-$0(DE-588)136797253$4edt</bflc:name00MarcKey>
+                  <rdfs:label>Höhn, Maria 1955-</rdfs:label>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>136797253</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>DE-588</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Agent>
+            </bf:agent>
+            <bf:role>
+               <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/edt"/>
+            </bf:role>
+         </bf:Contribution>
+      </bf:contribution>
+      <bf:contribution>
+         <bf:Contribution>
+            <bf:agent>
+               <bf:Agent rdf:about="http://example.org/99145298003903331#Agent700-38">
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                  <bflc:name00MatchKey>Knaak, Alexander 1960-</bflc:name00MatchKey>
+                  <bflc:name00MarcKey>7001 $aKnaak, Alexander$d1960-$0(DE-588)123472539$4edt</bflc:name00MarcKey>
+                  <rdfs:label>Knaak, Alexander 1960-</rdfs:label>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>123472539</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>DE-588</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Agent>
+            </bf:agent>
+            <bf:role>
+               <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/edt"/>
+            </bf:role>
+         </bf:Contribution>
+      </bf:contribution>
+      <bf:contribution>
+         <bf:Contribution>
+            <bf:agent>
+               <bf:Agent rdf:about="http://example.org/99145298003903331#Agent710-39">
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Organization"/>
+                  <bflc:name10MatchKey>Böhlau Verlag GmbH &amp; Co. KG</bflc:name10MatchKey>
+                  <bflc:name10MarcKey>7102 $aBöhlau Verlag GmbH &amp; Co. KG$0(DE-588)1065536941$4pbl</bflc:name10MarcKey>
+                  <rdfs:label>Böhlau Verlag GmbH &amp; Co. KG</rdfs:label>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>1065536941</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>DE-588</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Agent>
+            </bf:agent>
+            <bf:role>
+               <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/pbl"/>
+            </bf:role>
+         </bf:Contribution>
+      </bf:contribution>
+      <bf:hasInstance>
+         <bf:Instance rdf:about="http://example.org/99145298003903331#Instance776-40">
+            <bflc:relationship>
+               <bflc:Relationship>
+                  <bflc:relation>
+                     <bflc:Relation>
+                        <rdfs:label>Erscheint auch als</rdfs:label>
+                     </bflc:Relation>
+                  </bflc:relation>
+                  <bf:relatedTo rdf:resource="http://example.org/99145298003903331#Instance"/>
+               </bflc:Relationship>
+            </bflc:relationship>
+            <bf:note>
+               <bf:Note>
+                  <rdfs:label>Online-Ausgabe</rdfs:label>
+               </bf:Note>
+            </bf:note>
+            <bf:identifiedBy>
+               <bf:Isbn>
+                  <rdf:value>9783205209928</rdf:value>
+               </bf:Isbn>
+            </bf:identifiedBy>
+            <bf:identifiedBy>
+               <bf:Isbn>
+                  <rdf:value>9783205209935</rdf:value>
+               </bf:Isbn>
+            </bf:identifiedBy>
+            <bf:instanceOf rdf:resource="http://example.org/99145298003903331#Work"/>
+         </bf:Instance>
+      </bf:hasInstance>
+      <bf:partOf>
+         <bf:Work rdf:about="http://example.org/99145298003903331#Work773-41">
+            <bf:identifiedBy>
+               <bf:Identifier>
+                  <rdf:value>AC07677339</rdf:value>
+                  <bf:source>
+                     <bf:Source>
+                        <rdfs:label>AT-OBV</rdfs:label>
+                     </bf:Source>
+                  </bf:source>
+               </bf:Identifier>
+            </bf:identifiedBy>
+            <bf:hasInstance>
+               <bf:Instance rdf:about="http://example.org/99145298003903331#Instance773-41">
+                  <bf:instanceOf rdf:resource="http://example.org/99145298003903331#Work773-41"/>
+               </bf:Instance>
+            </bf:hasInstance>
+         </bf:Work>
+      </bf:partOf>
+      <bf:hasInstance rdf:resource="http://example.org/99145298003903331#Instance"/>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/99145298003903331#Instance">
+      <bf:issuance>
+         <bf:Issuance rdf:about="http://id.loc.gov/vocabulary/issuance/mono"/>
+      </bf:issuance>
+      <bf:provisionActivity>
+         <bf:ProvisionActivity>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+            <bf:date rdf:datatype="http://id.loc.gov/datatypes/edtf">2020</bf:date>
+         </bf:ProvisionActivity>
+      </bf:provisionActivity>
+      <bf:identifiedBy>
+         <bf:Nbn>
+            <rdf:value>19,N41</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>dnb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Nbn>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Nbn>
+            <rdf:value>OeB2020,A,15 943.6</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>oeb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Nbn>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Isbn>
+            <rdf:value>9783205209911</rdf:value>
+            <bf:acquisitionTerms>EUR 57,00 ; EUR 55,00 (DE)</bf:acquisitionTerms>
+            <bf:qualifier>Broschur</bf:qualifier>
+         </bf:Isbn>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>AC15601380</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>AT-OBV</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>DNB1196223637</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>DE-599</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>1122745976</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>OCoLC</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>1196223637</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>DE-101</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:place>
+         <bf:Place>
+            <bf:code>XA-AT</bf:code>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>ISO 3166</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Place>
+      </bf:place>
+      <bf:place>
+         <bf:Place>
+            <bf:code>XA-DE-TH</bf:code>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>ISO 3166</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Place>
+      </bf:place>
+      <rdfs:label>In the twilight of empire Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman Volume 2 From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak</rdfs:label>
+      <bf:title>
+         <bf:Title>
+            <rdfs:label>In the twilight of empire Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman Volume 2 From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak</rdfs:label>
+            <bflc:titleSortKey>In the twilight of empire Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman Volume 2 From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak</bflc:titleSortKey>
+            <bf:mainTitle>In the twilight of empire</bf:mainTitle>
+            <bf:subtitle>Count Alois Lexa von Aehrenthal (1854-1912), imperial Habsburg patriot and statesman</bf:subtitle>
+            <bf:partNumber>Volume 2</bf:partNumber>
+            <bf:partName>From foreign minister in waiting to de facto chancellor / edited by Franz Adlgasser, Maria Höhn and Alexander Knaak</bf:partName>
+         </bf:Title>
+      </bf:title>
+      <bf:responsibilityStatement>Solomon Wank</bf:responsibilityStatement>
+      <bf:provisionActivity>
+         <bf:ProvisionActivity>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+            <bf:place>
+               <bf:Place>
+                  <rdfs:label>Wien</rdfs:label>
+               </bf:Place>
+            </bf:place>
+            <bf:place>
+               <bf:Place>
+                  <rdfs:label>Köln</rdfs:label>
+               </bf:Place>
+            </bf:place>
+            <bf:place>
+               <bf:Place>
+                  <rdfs:label>Weimar</rdfs:label>
+               </bf:Place>
+            </bf:place>
+            <bf:agent>
+               <bf:Agent>
+                  <rdfs:label>Böhlau Verlag</rdfs:label>
+               </bf:Agent>
+            </bf:agent>
+            <bf:date>2020</bf:date>
+         </bf:ProvisionActivity>
+      </bf:provisionActivity>
+      <bf:provisionActivityStatement>Wien; Köln; Weimar; Böhlau Verlag; [2020]</bf:provisionActivityStatement>
+      <bf:extent>
+         <bf:Extent>
+            <rdfs:label>467 Seiten</rdfs:label>
+         </bf:Extent>
+      </bf:extent>
+      <bf:dimensions>24 cm</bf:dimensions>
+      <bf:media>
+         <bf:Media rdf:about="http://id.loc.gov/vocabulary/mediaTypes/n"/>
+      </bf:media>
+      <bf:carrier>
+         <bf:Carrier rdf:about="http://id.loc.gov/vocabulary/carriers/nc"/>
+      </bf:carrier>
+      <bf:note>
+         <bf:Note>
+            <rdfs:label>Literaturverzeichnis: Seite [443]-458</rdfs:label>
+         </bf:Note>
+      </bf:note>
+      <bf:otherPhysicalFormat rdf:resource="http://example.org/99145298003903331#Instance776-40"/>
+      <bf:hasSeries>
+         <bf:Instance>
+            <rdfs:label>Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</rdfs:label>
+            <bf:seriesStatement>Veröffentlichungen der Kommission für Neuere Geschichte Österreichs Band 102,2</bf:seriesStatement>
+            <bf:seriesEnumeration>102,2</bf:seriesEnumeration>
+            <bf:instanceOf>
+               <bf:Work rdf:about="http://example.org/99145298003903331#Work830-42">
+                  <bf:title>
+                     <bf:Title>
+                        <bflc:title30MarcKey>830 0$w(AT-OBV)AC00112585$v102,2$9O:1</bflc:title30MarcKey>
+                     </bf:Title>
+                  </bf:title>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>AC00112585</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>AT-OBV</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Work>
+            </bf:instanceOf>
+         </bf:Instance>
+      </bf:hasSeries>
+      <bf:instanceOf rdf:resource="http://example.org/99145298003903331#Work"/>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145298003903331#Item852-43">
+            <bf:heldBy>
+               <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/43ACC_UBS"/>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145298003903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145298003903331#Item852-44">
+            <bf:heldBy>
+               <bf:Agent>
+                  <rdfs:label>43ACC_WIENB</rdfs:label>
+               </bf:Agent>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145298003903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145298003903331#Item852-45">
+            <bf:heldBy>
+               <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/43ACC_UBW"/>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145298003903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145298003903331#Item852-46">
+            <bf:heldBy>
+               <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/43ACC_UBG"/>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145298003903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145298003903331#Item852-47">
+            <bf:heldBy>
+               <bf:Agent>
+                  <rdfs:label>43ACC_OEAW</rdfs:label>
+               </bf:Agent>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145298003903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145298003903331#Item852-48">
+            <bf:heldBy>
+               <bf:Agent>
+                  <rdfs:label>43ACC_BRIDGE_BMA</rdfs:label>
+               </bf:Agent>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145298003903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145298003903331#Item852-49">
+            <bf:heldBy>
+               <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/43ACC_ONB"/>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145298003903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145298003903331#Item852-50">
+            <bf:heldBy>
+               <bf:Agent>
+                  <rdfs:label>43ACC_OOELB</rdfs:label>
+               </bf:Agent>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145298003903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+   </bf:Instance>
+</rdf:RDF>

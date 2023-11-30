@@ -1,0 +1,119 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+_:b0    a           <https://dhplus.sbg.ac.at/ontology#NameOfThePerson> ;
+        rdfs:label  "Brigitte Mazohl"@en , "Brigitte Mazohl"@de ;
+        <https://dhplus.sbg.ac.at/ontology#forename>
+                "Brigitte" ;
+        <https://dhplus.sbg.ac.at/ontology#preferredNameForThePerson>
+                "Mazohl, Brigitte" ;
+        <https://dhplus.sbg.ac.at/ontology#surname>
+                "Mazohl" .
+
+<http://www.wikidata.org/entity/Q19727197>
+        rdfs:label  "Brigitte Mazohl"@en , "Brigitte Mazohl"@de ;
+        <http://www.wikidata.org/prop/direct/P21>
+                <http://www.wikidata.org/entity/Q6581072> .
+
+[ a              rdf:Statement ;
+  rdf:object     "Mazohl, Brigitte" ;
+  rdf:predicate  <https://dhplus.sbg.ac.at/ontology#preferredNameForThePerson> ;
+  rdf:subject    _:b0 ;
+  <https://dhplus.sbg.ac.at/ontology#value-code>
+          <https://dhplus.sbg.ac.at/vocabulary#default> ;
+  <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+          <https://d-nb.info/standards/elementset/gnd#preferredNameForThePerson> ;
+  <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+          <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local>
+] .
+
+[ a              rdf:Statement ;
+  rdf:object     "Brigitte" ;
+  rdf:predicate  <https://dhplus.sbg.ac.at/ontology#forename> ;
+  rdf:subject    _:b0 ;
+  <https://dhplus.sbg.ac.at/ontology#value-code>
+          <https://dhplus.sbg.ac.at/vocabulary#default> ;
+  <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+          <https://d-nb.info/standards/elementset/gnd#forename> ;
+  <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+          <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local>
+] .
+
+<http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local>
+        a       <https://dhplus.sbg.ac.at/ontology#Gnd-local> ;
+        <https://dhplus.sbg.ac.at/ontology#hasPart>
+                [ owl:sameAs  <https://orcid.org/0000-0003-2650-543X> , <http://viaf.org/viaf/220738564> ;
+                  <http://www.w3.org/2007/05/powder-s#describedby>
+                          <https://d-nb.info/gnd/129199176/about> ;
+                  <https://d-nb.info/standards/elementset/gnd#dateOfBirth>
+                          "1947"^^xsd:gYear ;
+                  <https://d-nb.info/standards/elementset/gnd#gender>
+                          <https://d-nb.info/standards/vocab/gnd/gender#female> ;
+                  <https://d-nb.info/standards/elementset/gnd#gndIdentifier>
+                          "129199176" ;
+                  <https://d-nb.info/standards/elementset/gnd#placeOfBirth>
+                          <https://d-nb.info/gnd/4007901-6> ;
+                  <https://d-nb.info/standards/elementset/gnd#preferredNameEntityForThePerson>
+                          [ <https://d-nb.info/standards/elementset/gnd#forename>
+                                    "Brigitte" ;
+                            <https://d-nb.info/standards/elementset/gnd#surname>
+                                    "Mazohl"
+                          ] ;
+                  <https://d-nb.info/standards/elementset/gnd#preferredNameForThePerson>
+                          "Mazohl, Brigitte" ;
+                  <https://d-nb.info/standards/elementset/gnd#variantNameForThePerson>
+                          "Mazohl-Wallnig, Brigitte" , "Wallnig, Brigitte Mazohl-" , "Wallnig, Brigitte M.-"
+                ] .
+
+<http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/wikiData-local>
+        a       <https://dhplus.sbg.ac.at/ontology#WikiData-local> ;
+        <https://dhplus.sbg.ac.at/ontology#hasPart>
+                [ a                            <http://schema.org/Dataset> ;
+                  <http://creativecommons.org/ns#license>
+                          <http://creativecommons.org/publicdomain/zero/1.0/> ;
+                  <http://schema.org/about>    <http://www.wikidata.org/entity/Q19727197> ;
+                  <http://schema.org/dateModified>
+                          "2020-10-05T10:14:38Z"^^xsd:dateTime ;
+                  <http://schema.org/version>  1286984077
+                ] .
+
+[ a              rdf:Statement ;
+  rdf:object     "Mazohl" ;
+  rdf:predicate  <https://dhplus.sbg.ac.at/ontology#surname> ;
+  rdf:subject    _:b0 ;
+  <https://dhplus.sbg.ac.at/ontology#value-code>
+          <https://dhplus.sbg.ac.at/vocabulary#default> ;
+  <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+          <https://d-nb.info/standards/elementset/gnd#surname> ;
+  <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+          <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local>
+] .
+
+<http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002>
+        a           <https://dhplus.sbg.ac.at/ontology#E21_Person> ;
+        owl:sameAs  <http://viaf.org/viaf/220738564> , <https://orcid.org/0000-0003-2650-543X> ;
+        <https://dhplus.sbg.ac.at/ontology#P100i_died_in>
+                <http://dhplus.sbg.ac.at/instance/3536ba8e-eebb-11ea-adc1-0242ac120002> ;
+        <https://dhplus.sbg.ac.at/ontology#P1_is_identified_by>
+                _:b0 ;
+        <https://dhplus.sbg.ac.at/ontology#P2_has_type>
+                [ a       <https://dhplus.sbg.ac.at/ontology#Gender> ;
+                  <https://dhplus.sbg.ac.at/ontology#gender>
+                          <https://d-nb.info/standards/vocab/gnd/gender#female>
+                ] ;
+        <https://dhplus.sbg.ac.at/ontology#P98i_was_born>
+                <http://dhplus.sbg.ac.at/instance/126b6a72-eebb-11ea-adc1-0242ac120002> ;
+        <https://dhplus.sbg.ac.at/ontology#creator>
+                "NN" ;
+        <https://dhplus.sbg.ac.at/ontology#creator>
+                <urn:URI> ;
+        <https://dhplus.sbg.ac.at/ontology#dateCreated>
+                "0001-01-01T00:00:00"^^xsd:dateTime ;
+        <https://dhplus.sbg.ac.at/ontology#dateModified>
+                "0001-01-01T00:00:00"^^xsd:dateTime ;
+        <https://dhplus.sbg.ac.at/ontology#datePublished>
+                "0001-01-01T00:00:00"^^xsd:dateTime ;
+        <https://dhplus.sbg.ac.at/ontology#source>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> , <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/projSpec> , <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/wikiData-local> .

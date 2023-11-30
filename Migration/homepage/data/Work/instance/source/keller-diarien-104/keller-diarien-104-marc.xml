@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>01889nam a2200529 ca4500</leader>
+                    <controlfield tag="001">990081186640203331</controlfield>
+                    <controlfield tag="005">20200721155801.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">100707|20102010|||###########|||#0#ger#c</controlfield>
+                    <controlfield tag="009">AC08161882</controlfield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">10,N26</subfield>
+                        <subfield code="2">dnb</subfield>
+                    </datafield>
+                    <datafield tag="016" ind1="7" ind2=" ">
+                        <subfield code="a">1003670725</subfield>
+                        <subfield code="2">DE-101b</subfield>
+                    </datafield>
+                    <datafield tag="020" ind1=" " ind2=" ">
+                        <subfield code="a">9783205784616</subfield>
+                        <subfield code="c">Festeinband : EUR 890,00 (Band 1-7)</subfield>
+                    </datafield>
+                    <datafield tag="024" ind1="3" ind2=" ">
+                        <subfield code="a">9783205784616</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC08161882</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)DNB1003670725</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">UBW</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="c">DNB</subfield>
+                        <subfield code="d">HLK</subfield>
+                        <subfield code="e">rda</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                        <subfield code="a">ita</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="082" ind1="0" ind2="4">
+                        <subfield code="a">282.092</subfield>
+                        <subfield code="q">LBOLIN</subfield>
+                        <subfield code="2">22/ger</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">940</subfield>
+                        <subfield code="q">DE-101</subfield>
+                        <subfield code="2">sdnb</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">15.61</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">15.60</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">11.54</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">11.52</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NN 1100</subfield>
+                        <subfield code="2">rvk</subfield>
+                    </datafield>
+                    <datafield tag="090" ind1=" " ind2=" ">
+                        <subfield code="f">b</subfield>
+                        <subfield code="h">g</subfield>
+                    </datafield>
+                    <datafield tag="100" ind1="1" ind2=" ">
+                        <subfield code="a">Harrach, Ernst Albrecht &lt;&lt;von>></subfield>
+                        <subfield code="d">1598-1667</subfield>
+                        <subfield code="0">(DE-588)104209356</subfield>
+                        <subfield code="4">aut</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="1" ind2="0">
+                        <subfield code="a">&lt;&lt;Die>> Diarien und Tagzettel des Kardinals Ernst Adalbert von Harrach (1598-1667)</subfield>
+                        <subfield code="c">herausgegeben von Katrin Keller und Alessandro Catalano ; unter Mitarbeit von Marion Romberg</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="a">Köln</subfield>
+                        <subfield code="a">Weimar</subfield>
+                        <subfield code="b">Böhlau Verlag</subfield>
+                        <subfield code="c">[2010]</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">7 Bände</subfield>
+                    </datafield>
+                    <datafield tag="336" ind1=" " ind2=" ">
+                        <subfield code="b">txt</subfield>
+                    </datafield>
+                    <datafield tag="337" ind1=" " ind2=" ">
+                        <subfield code="b">n</subfield>
+                    </datafield>
+                    <datafield tag="338" ind1=" " ind2=" ">
+                        <subfield code="b">nc</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">Band 104</subfield>
+                    </datafield>
+                    <datafield tag="655" ind1=" " ind2="7">
+                        <subfield code="a">Tagebuch</subfield>
+                        <subfield code="y">1629-1667</subfield>
+                        <subfield code="0">(DE-588)4058900-6</subfield>
+                        <subfield code="2">gnd-content</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Harrach, Ernst Albrecht &lt;&lt;von>></subfield>
+                        <subfield code="d">1598-1667</subfield>
+                        <subfield code="D">p</subfield>
+                        <subfield code="0">(DE-588)104209356</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBWTEH</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Keller, Katrin</subfield>
+                        <subfield code="d">1962-</subfield>
+                        <subfield code="0">(DE-588)118007068</subfield>
+                        <subfield code="4">edt</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Catalano, Alessandro</subfield>
+                        <subfield code="4">edt</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Romberg, Marion</subfield>
+                        <subfield code="d">1979-</subfield>
+                        <subfield code="0">(DE-588)1125975377</subfield>
+                        <subfield code="4">ctb</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">104</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="856" ind1="4" ind2="2">
+                        <subfield code="q">text/html</subfield>
+                        <subfield code="u">http://deposit.d-nb.de/cgi-bin/dokserv?id=3494492&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield>
+                        <subfield code="3">Inhaltstext</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">06</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">a|1urr|||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">tz||w|||</subfield>
+                    </datafield>
+                </record>
+            

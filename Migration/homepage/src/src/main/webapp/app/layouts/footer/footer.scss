@@ -1,0 +1,90 @@
+@import '../../../content/scss/dhplus-variables';
+
+footer.page-footer {
+  color: black;
+  margin-top: 20px;
+  padding-top: 20px;
+  -webkit-box-shadow: 0px -2px 9px 0px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px -2px 9px 0px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px -2px 9px 0px rgba(0, 0, 0, 0.46);
+}
+
+footer.page-footer a {
+  color: black;
+}
+
+footer.page-footer .footer-copyright {
+  color: white;
+  overflow: hidden;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+footer.page-footer .footer-copyright a {
+  color: white;
+}
+
+.footer a {
+  font-weight: 300;
+  color: $dhplus-fg-color;
+}
+
+.btn-primary {
+  background: $dhplus-bg-color !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+  background: #00bd7e !important;
+}
+
+.primary-color-dark {
+  background-color: $dhplus-bg-color !important;
+}
+
+.button1 {
+  border-radius: 2px;
+}
+
+.button2 {
+  border-radius: 4px;
+}
+
+.button3 {
+  border-radius: 8px;
+}
+
+.button4 {
+  border-radius: 12px;
+}
+
+.button5 {
+  border-radius: 50%;
+}
+
+.btn-sq-lg {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.btn-sq {
+  width: 100px !important;
+  height: 100px !important;
+  font-size: 10px;
+}
+
+.btn-sq-sm {
+  width: 50px !important;
+  height: 50px !important;
+  font-size: 10px;
+}
+
+.btn-sq-xs {
+  width: 25px !important;
+  height: 25px !important;
+  padding: 2px;
+}

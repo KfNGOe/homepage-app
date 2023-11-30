@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>02822nam a2200757zcb4500</leader>
+                    <controlfield tag="001">990005980840203331</controlfield>
+                    <controlfield tag="005">20201204193551.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">910110|1976####|||######m####|||#|#ger#c</controlfield>
+                    <controlfield tag="009">AC00165146</controlfield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">76,A40,0621</subfield>
+                        <subfield code="2">dnb</subfield>
+                    </datafield>
+                    <datafield tag="020" ind1=" " ind2=" ">
+                        <subfield code="a">3205085671</subfield>
+                    </datafield>
+                    <datafield tag="024" ind1="7" ind2=" ">
+                        <subfield code="a">urn:nbn:at:at-ubi:2-18448</subfield>
+                        <subfield code="2">urn</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC00165146</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)OBVAC00165146</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(VLID)5597668</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">WUW</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="c">VL-RETRO</subfield>
+                        <subfield code="d">AT-UBI</subfield>
+                        <subfield code="e">rakwb</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-DE</subfield>
+                    </datafield>
+                    <datafield tag="050" ind1=" " ind2="4">
+                        <subfield code="a">DB86</subfield>
+                    </datafield>
+                    <datafield tag="082" ind1="0" ind2="4">
+                        <subfield code="a">327.4360498</subfield>
+                        <subfield code="q">BVB</subfield>
+                        <subfield code="2">19</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">15.60</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">15.70</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">89.90</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NP 5906</subfield>
+                        <subfield code="2">rvk</subfield>
+                    </datafield>
+                    <datafield tag="100" ind1="1" ind2=" ">
+                        <subfield code="a">Bindreiter, Uta</subfield>
+                        <subfield code="4">aut</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="1" ind2="0">
+                        <subfield code="a">&lt;&lt;Die>> diplomatischen und wirtschaftlichen Beziehungen zwischen Österreich-Ungarn und Rumänien in den Jahren 1875 - 1888</subfield>
+                        <subfield code="c">Uta Bindreiter</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="a">Graz [u.a.]</subfield>
+                        <subfield code="b">Böhlau</subfield>
+                        <subfield code="c">1976</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">322 S.</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">63</subfield>
+                    </datafield>
+                    <datafield tag="502" ind1=" " ind2=" ">
+                        <subfield code="a">Zugl.: Wien, Univ., Diss., 1974</subfield>
+                    </datafield>
+                    <datafield tag="651" ind1=" " ind2="0">
+                        <subfield code="a">Austria</subfield>
+                        <subfield code="x">Foreign economic relations</subfield>
+                        <subfield code="z">Romania</subfield>
+                    </datafield>
+                    <datafield tag="651" ind1=" " ind2="0">
+                        <subfield code="a">Austria</subfield>
+                        <subfield code="x">Foreign relations</subfield>
+                        <subfield code="z">Romania</subfield>
+                    </datafield>
+                    <datafield tag="651" ind1=" " ind2="0">
+                        <subfield code="a">Romania</subfield>
+                        <subfield code="x">Foreign economic relations</subfield>
+                        <subfield code="z">Austria</subfield>
+                    </datafield>
+                    <datafield tag="651" ind1=" " ind2="0">
+                        <subfield code="a">Romania</subfield>
+                        <subfield code="x">Foreign relations</subfield>
+                        <subfield code="y">1821-1914</subfield>
+                    </datafield>
+                    <datafield tag="651" ind1=" " ind2="0">
+                        <subfield code="a">Romania</subfield>
+                        <subfield code="x">Foreign relations</subfield>
+                        <subfield code="z">Austria</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Österreich-Ungarn</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4075613-0</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Diplomatische Beziehungen</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4138523-8</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="2">
+                        <subfield code="a">Rumänien</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4050939-4</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="3">
+                        <subfield code="a">Geschichte 1875-1888</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBW</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="0">
+                        <subfield code="a">Österreich-Ungarn</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4075613-0</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="1">
+                        <subfield code="a">Wirtschaftsbeziehungen</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4068297-3</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="2">
+                        <subfield code="a">Rumänien</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4050939-4</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="3">
+                        <subfield code="a">Geschichte 1875-1888</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBW</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="2" ind2="0">
+                        <subfield code="a">Österreich-Ungarn</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4075613-0</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="2" ind2="1">
+                        <subfield code="a">Rumänien</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4050939-4</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="2" ind2="2">
+                        <subfield code="a">Diplomatie</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4012402-2</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="2" ind2="3">
+                        <subfield code="a">Geschichte 1875-1888</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="2" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">ONB-PI</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="3" ind2="0">
+                        <subfield code="a">Österreich-Ungarn</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4075613-0</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="3" ind2="1">
+                        <subfield code="a">Rumänien</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4050939-4</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="3" ind2="2">
+                        <subfield code="a">Wirtschaftspolitik</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4066493-4</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="3" ind2="3">
+                        <subfield code="a">Geschichte 1875-1888</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="3" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">ONB-PI</subfield>
+                    </datafield>
+                    <datafield tag="776" ind1="0" ind2="8">
+                        <subfield code="i">Elektronische Reproduktion</subfield>
+                        <subfield code="o">urn:nbn:at:at-ubi:2-18448</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">63</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="856" ind1="4" ind2="1">
+                        <subfield code="m">V:AT-OBV;B:AT-UBI</subfield>
+                        <subfield code="q">text/html</subfield>
+                        <subfield code="u">https://resolver.obvsg.at/urn:nbn:at:at-ubi:2-18448</subfield>
+                        <subfield code="x">UBI</subfield>
+                        <subfield code="3">Volltext // 2020 digitalisiert von: Universitäts- und Landesbibliothek Tirol</subfield>
+                        <subfield code="o">OBV-VL</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBS</subfield>
+                        <subfield code="6">990011779130203341</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910676602304516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">990001413150203332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OEAW</subfield>
+                        <subfield code="6">990002437530504498</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBK</subfield>
+                        <subfield code="6">990004640520203346</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_ONB</subfield>
+                        <subfield code="6">990018818110603338</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BRIDGE_PAR</subfield>
+                        <subfield code="6">9913807604485</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BMA</subfield>
+                        <subfield code="6">990001840560304534</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WUW</subfield>
+                        <subfield code="6">990000702030203337</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBG</subfield>
+                        <subfield code="6">990000950580203339</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBI</subfield>
+                        <subfield code="6">9921794993603333</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_AKW</subfield>
+                        <subfield code="6">990000017890203343</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OOELB</subfield>
+                        <subfield code="6">990001108730304508</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="2" ind2=" ">
+                        <subfield code="d">RETRODIGITALISAT</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">z|1dcr|||||17</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">su|||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="u">
+                        <subfield code="V">903</subfield>
+                        <subfield code="a">2134</subfield>
+                        <subfield code="a">3214</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="u">
+                        <subfield code="V">908</subfield>
+                        <subfield code="a">2134</subfield>
+                        <subfield code="a">3214</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||g|||||</subfield>
+                    </datafield>
+                </record>
+

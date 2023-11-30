@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+               <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>02841nam a2200601 ca4500</leader>
+                    <controlfield tag="001">990085959910203331</controlfield>
+                    <controlfield tag="005">20210112105517.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">110615|########|||###########|||#0bger#c</controlfield>
+                    <controlfield tag="009">AC08552236</controlfield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">10,N51</subfield>
+                        <subfield code="2">dnb</subfield>
+                    </datafield>
+                    <datafield tag="016" ind1="7" ind2=" ">
+                        <subfield code="a">1008900656</subfield>
+                        <subfield code="2">DE-101b</subfield>
+                    </datafield>
+                    <datafield tag="020" ind1=" " ind2=" ">
+                        <subfield code="a">9783205786177</subfield>
+                        <subfield code="c">geb. : EUR 98,00 (Bd. 1 - 3)</subfield>
+                    </datafield>
+                    <datafield tag="024" ind1="3" ind2=" ">
+                        <subfield code="a">9783205786177</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC08552236</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)DNB1008900656</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">UBW</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="c">DNB</subfield>
+                        <subfield code="d">AT-OBV</subfield>
+                        <subfield code="e">rakwb</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="082" ind1="0" ind2="4">
+                        <subfield code="a">943.6044092</subfield>
+                        <subfield code="q">LBOLIN</subfield>
+                        <subfield code="2">22/ger</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">940</subfield>
+                        <subfield code="q">DE-101</subfield>
+                        <subfield code="2">sdnb</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">15.60</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NP 5023</subfield>
+                        <subfield code="2">rvk</subfield>
+                    </datafield>
+                    <datafield tag="089" ind1="0" ind2="4">
+                        <subfield code="a">943.605</subfield>
+                        <subfield code="c">943.605</subfield>
+                        <subfield code="e">DDC22ger</subfield>
+                    </datafield>
+                    <datafield tag="090" ind1=" " ind2=" ">
+                        <subfield code="f">b</subfield>
+                        <subfield code="h">g</subfield>
+                    </datafield>
+                    <datafield tag="100" ind1="1" ind2=" ">
+                        <subfield code="a">Redlich, Josef</subfield>
+                        <subfield code="d">1869-1936</subfield>
+                        <subfield code="0">(DE-588)118743724</subfield>
+                        <subfield code="4">aut</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="1" ind2="0">
+                        <subfield code="a">Schicksalsjahre Österreichs</subfield>
+                        <subfield code="b">die Erinnerungen und Tagebücher Josef Redlichs 1869 - 1936</subfield>
+                        <subfield code="c">hrsg. von Fritz Fellner und Doris A. Corradini</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien [u.a.]</subfield>
+                        <subfield code="b">Böhlau</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="c">25 cm</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">105</subfield>
+                    </datafield>
+                    <datafield tag="520" ind1=" " ind2=" ">
+                        <subfield code="a">Die erweiterte Neuedition der Tagebücher des österreichischen Politikers und Gelehrten Josef Redlich lässt den Lebenskampf des habsburgischen Vielvölkerstaates aus der Perspektive des täglichen Lebens miterleben. Seine den Tagbüchern vorangestellten Lebenserinnerungen schildern den Aufstieg einer jüdischen Familie aus den einfachen Verhältnissen einer slowakischen Landstadt zu einer in Cisleithanien wirtschaftlich erfolgreichen Industriellenfamilie. Die bis zu seinem Tod 1936 reichenden Tagebucheintragungen bieten Einblick in die gesellschaftlichen Verflechtungen, die das politischeGeschehen der so dramatischen ersten Jahrzehnte des 20. Jahrhunderts bestimmt haben.</subfield>
+                    </datafield>
+                    <datafield tag="591" ind1=" " ind2=" ">
+                        <subfield code="a">Zweite Hrsg. auf Wunsch eingetragen; bitte nicht löschen</subfield>
+                    </datafield>
+                    <datafield tag="650" ind1=" " ind2="0">
+                        <subfield code="a">Hardback</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Österreich</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4043271-3</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Geschichte 1869-1936</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="2">
+                        <subfield code="a">Quelle</subfield>
+                        <subfield code="A">f</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">DE-101 DE-101</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">DDB</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="0">
+                        <subfield code="a">Redlich, Josef</subfield>
+                        <subfield code="d">1869-1936</subfield>
+                        <subfield code="D">p</subfield>
+                        <subfield code="0">(DE-588)118743724</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="1">
+                        <subfield code="a">Tagebuch</subfield>
+                        <subfield code="A">f</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">DE-101 DE-101</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">DDB</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Fellner, Fritz</subfield>
+                        <subfield code="d">1922-2012</subfield>
+                        <subfield code="0">(DE-588)118953680</subfield>
+                        <subfield code="4">edt</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Corradini, Doris A.</subfield>
+                        <subfield code="d">1974-</subfield>
+                        <subfield code="0">(DE-588)131898248</subfield>
+                        <subfield code="4">edt</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">105</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="856" ind1="4" ind2="2">
+                        <subfield code="m">X:MVB</subfield>
+                        <subfield code="q">text/html</subfield>
+                        <subfield code="u">http://deposit.d-nb.de/cgi-bin/dokserv?id=3629212&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield>
+                        <subfield code="3">Inhaltstext</subfield>
+                    </datafield>
+                    <datafield tag="856" ind1="4" ind2="2">
+                        <subfield code="m">B:DE-101</subfield>
+                        <subfield code="q">application/pdf</subfield>
+                        <subfield code="u">http://d-nb.info/1008900656/04</subfield>
+                        <subfield code="x">DNB-TOC</subfield>
+                        <subfield code="3">Inhaltsverzeichnis</subfield>
+                        <subfield code="o">OBV-EDOC-DNBTOC</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OEAW</subfield>
+                        <subfield code="6">990002343340504498</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBK</subfield>
+                        <subfield code="6">990006863140203346</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="4" ind2=" ">
+                        <subfield code="b">ILTIS</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">a|1ucr|z|||17</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">th||w|||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="V">580</subfield>
+                        <subfield code="a">PX201107</subfield>
+                    </datafield>
+                </record>
+            

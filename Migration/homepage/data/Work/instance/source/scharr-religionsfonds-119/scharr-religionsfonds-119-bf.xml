@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+   <bf:Work rdf:about="http://example.org/99145297814903331#Work">
+      <bf:adminMetadata>
+         <bf:AdminMetadata>
+            <bf:generationProcess>
+               <bf:GenerationProcess>
+                  <rdfs:label>DLC marc2bibframe2 v1.4.0-SNAPSHOT: 2020-10-20T18:30:51.222+02:00</rdfs:label>
+               </bf:GenerationProcess>
+            </bf:generationProcess>
+            <bf:status>
+               <bf:Status>
+                  <bf:code>n</bf:code>
+               </bf:Status>
+            </bf:status>
+            <bflc:encodingLevel>
+               <bflc:EncodingLevel>
+                  <bf:code>f</bf:code>
+               </bflc:EncodingLevel>
+            </bflc:encodingLevel>
+            <bf:descriptionConventions>
+               <bf:DescriptionConventions>
+                  <bf:code>isbd</bf:code>
+               </bf:DescriptionConventions>
+            </bf:descriptionConventions>
+            <bf:identifiedBy>
+               <bf:Local>
+                  <rdf:value>99145297814903331</rdf:value>
+               </bf:Local>
+            </bf:identifiedBy>
+            <bf:changeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-26T11:53:18</bf:changeDate>
+            <bf:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-02</bf:creationDate>
+            <bf:identifiedBy>
+               <bf:Local>
+                  <rdf:value>1196222940</rdf:value>
+                  <bf:source>
+                     <bf:Source>
+                        <rdfs:label>DE-101</rdfs:label>
+                     </bf:Source>
+                  </bf:source>
+               </bf:Local>
+            </bf:identifiedBy>
+            <bf:source>
+               <bf:Source>
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Agent"/>
+                  <rdfs:label>AT-OeNB</rdfs:label>
+               </bf:Source>
+            </bf:source>
+            <bf:source>
+               <bf:Source>
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Agent"/>
+                  <rdfs:label>DE-101</rdfs:label>
+               </bf:Source>
+            </bf:source>
+            <bf:descriptionLanguage>
+               <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/ger"/>
+            </bf:descriptionLanguage>
+            <bf:descriptionModifier>
+               <bf:Agent>
+                  <rdfs:label>AT-OBV</rdfs:label>
+               </bf:Agent>
+            </bf:descriptionModifier>
+            <bf:descriptionConventions>
+               <bf:DescriptionConventions rdf:about="http://id.loc.gov/vocabulary/descriptionConventions/rda"/>
+            </bf:descriptionConventions>
+         </bf:AdminMetadata>
+      </bf:adminMetadata>
+      <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Text"/>
+      <bf:language>
+         <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/ger"/>
+      </bf:language>
+      <bf:language>
+         <bf:Language>
+            <bf:identifiedBy>
+               <bf:Identifier>
+                  <rdf:value rdf:resource="http://id.loc.gov/vocabulary/languages/ger"/>
+                  <bf:source>
+                     <bf:Source rdf:about="http://id.loc.gov/vocabulary/languages"/>
+                  </bf:source>
+               </bf:Identifier>
+            </bf:identifiedBy>
+         </bf:Language>
+      </bf:language>
+      <bf:classification>
+         <bf:ClassificationDdc>
+            <bf:classificationPortion>344.498409609</bf:classificationPortion>
+            <bf:edition>23/ger</bf:edition>
+            <bf:edition>full</bf:edition>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>DE-101</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:ClassificationDdc>
+      </bf:classification>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>15.60</bf:classificationPortion>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>bkl</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>15.70</bf:classificationPortion>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>bkl</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>11.57</bf:classificationPortion>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>bkl</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>340</bf:classificationPortion>
+            <bf:adminMetadata>
+               <bf:AdminMetadata>
+                  <bf:assigner>
+                     <bf:Agent>
+                        <rdfs:label>DE-101</rdfs:label>
+                     </bf:Agent>
+                  </bf:assigner>
+               </bf:AdminMetadata>
+            </bf:adminMetadata>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>sdnb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>940</bf:classificationPortion>
+            <bf:adminMetadata>
+               <bf:AdminMetadata>
+                  <bf:assigner>
+                     <bf:Agent>
+                        <rdfs:label>DE-101</rdfs:label>
+                     </bf:Agent>
+                  </bf:assigner>
+               </bf:AdminMetadata>
+            </bf:adminMetadata>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>sdnb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>230</bf:classificationPortion>
+            <bf:adminMetadata>
+               <bf:AdminMetadata>
+                  <bf:assigner>
+                     <bf:Agent>
+                        <rdfs:label>DE-101</rdfs:label>
+                     </bf:Agent>
+                  </bf:assigner>
+               </bf:AdminMetadata>
+            </bf:adminMetadata>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>sdnb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <bf:contribution>
+         <bf:Contribution>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bflc/PrimaryContribution"/>
+            <bf:agent>
+               <bf:Agent rdf:about="http://example.org/99145297814903331#Agent100-24">
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                  <bflc:name00MatchKey>Scharr, Kurt 1970-</bflc:name00MatchKey>
+                  <bflc:primaryContributorName00MatchKey>Scharr, Kurt 1970-</bflc:primaryContributorName00MatchKey>
+                  <bflc:name00MarcKey>1001 $aScharr, Kurt$d1970-$0(DE-588)123191254$4aut</bflc:name00MarcKey>
+                  <rdfs:label>Scharr, Kurt 1970-</rdfs:label>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>123191254</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>DE-588</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Agent>
+            </bf:agent>
+            <bf:role>
+               <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/aut"/>
+            </bf:role>
+         </bf:Contribution>
+      </bf:contribution>
+      <rdfs:label>&lt;&lt;Der&gt;&gt; griechisch-orientalische Religionsfonds der Bukowina 1783-1949 Kontinuitäten und Brüche einer prägenden Institution des Josephinismus</rdfs:label>
+      <bf:title>
+         <bf:Title>
+            <rdfs:label>&lt;&lt;Der&gt;&gt; griechisch-orientalische Religionsfonds der Bukowina 1783-1949 Kontinuitäten und Brüche einer prägenden Institution des Josephinismus</rdfs:label>
+            <bflc:titleSortKey>&lt;&lt;Der&gt;&gt; griechisch-orientalische Religionsfonds der Bukowina 1783-1949 Kontinuitäten und Brüche einer prägenden Institution des Josephinismus</bflc:titleSortKey>
+            <bf:mainTitle>&lt;&lt;Der&gt;&gt; griechisch-orientalische Religionsfonds der Bukowina 1783-1949</bf:mainTitle>
+            <bf:subtitle>Kontinuitäten und Brüche einer prägenden Institution des Josephinismus</bf:subtitle>
+         </bf:Title>
+      </bf:title>
+      <bf:content>
+         <bf:Content rdf:about="http://id.loc.gov/vocabulary/contentTypes/txt"/>
+      </bf:content>
+      <bf:language>
+         <bf:Language>
+            <bf:note>
+               <bf:Note>
+                  <rdfs:label>Zusammenfassung deutsch, englisch, rumänisch und ukrainisch</rdfs:label>
+               </bf:Note>
+            </bf:note>
+         </bf:Language>
+      </bf:language>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Bukowina</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Josephinismus</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Klostergüter</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Eugen Hackmann</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Silvester Morariu-Andriewicz</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Arkadius Czuperkowicz</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Wladimir v. Repta</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Nationalisierung</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>rumänische Kirche</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Joseph II</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:subject>
+         <bf:Topic>
+            <rdfs:label>Hardcover, Softcover / Geschichte</rdfs:label>
+         </bf:Topic>
+      </bf:subject>
+      <bf:contribution>
+         <bf:Contribution>
+            <bf:agent>
+               <bf:Agent rdf:about="http://example.org/99145297814903331#Agent710-48">
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Organization"/>
+                  <bflc:name10MatchKey>Böhlau Verlag GmbH &amp; Co. KG</bflc:name10MatchKey>
+                  <bflc:name10MarcKey>7102 $aBöhlau Verlag GmbH &amp; Co. KG$0(DE-588)1065536941$4pbl</bflc:name10MarcKey>
+                  <rdfs:label>Böhlau Verlag GmbH &amp; Co. KG</rdfs:label>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>1065536941</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>DE-588</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Agent>
+            </bf:agent>
+            <bf:role>
+               <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/pbl"/>
+            </bf:role>
+         </bf:Contribution>
+      </bf:contribution>
+      <bf:hasInstance>
+         <bf:Instance rdf:about="http://example.org/99145297814903331#Instance776-49">
+            <bflc:relationship>
+               <bflc:Relationship>
+                  <bflc:relation>
+                     <bflc:Relation>
+                        <rdfs:label>Erscheint auch als</rdfs:label>
+                     </bflc:Relation>
+                  </bflc:relation>
+                  <bf:relatedTo rdf:resource="http://example.org/99145297814903331#Instance"/>
+               </bflc:Relationship>
+            </bflc:relationship>
+            <bf:note>
+               <bf:Note>
+                  <rdfs:label>Online-Ausgabe</rdfs:label>
+               </bf:Note>
+            </bf:note>
+            <bf:identifiedBy>
+               <bf:Isbn>
+                  <rdf:value>9783205209270</rdf:value>
+               </bf:Isbn>
+            </bf:identifiedBy>
+            <bf:instanceOf rdf:resource="http://example.org/99145297814903331#Work"/>
+         </bf:Instance>
+      </bf:hasInstance>
+      <bf:hasInstance rdf:resource="http://example.org/99145297814903331#Instance"/>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/99145297814903331#Instance">
+      <bf:issuance>
+         <bf:Issuance rdf:about="http://id.loc.gov/vocabulary/issuance/mono"/>
+      </bf:issuance>
+      <bf:provisionActivity>
+         <bf:ProvisionActivity>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+            <bf:date rdf:datatype="http://id.loc.gov/datatypes/edtf">2020</bf:date>
+         </bf:ProvisionActivity>
+      </bf:provisionActivity>
+      <bf:supplementaryContent>
+         <bf:SupplementaryContent>
+            <rdfs:label>Index present</rdfs:label>
+         </bf:SupplementaryContent>
+      </bf:supplementaryContent>
+      <bf:identifiedBy>
+         <bf:Nbn>
+            <rdf:value>OeB2020,A,14 943.6,940,230</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>oeb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Nbn>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Nbn>
+            <rdf:value>20,A38</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>dnb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Nbn>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Nbn>
+            <rdf:value>19,N41</rdf:value>
+            <bf:status>
+               <bf:Status>
+                  <rdfs:label>invalid</rdfs:label>
+               </bf:Status>
+            </bf:status>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>dnb</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Nbn>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Isbn>
+            <rdf:value>9783205209263</rdf:value>
+            <bf:acquisitionTerms>EUR 67,00 ; EUR 65,00 (DE)</bf:acquisitionTerms>
+            <bf:qualifier>Festeinband</bf:qualifier>
+         </bf:Isbn>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>AC15600618</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>AT-OBV</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>DNB1196222940</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>DE-599</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>1122748065</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>OCoLC</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>1196222940</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>DE-101</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>oai:dnb.de/dnb/1196222940</rdf:value>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:place>
+         <bf:Place>
+            <bf:code>XA-AT</bf:code>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>ISO 3166</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Place>
+      </bf:place>
+      <bf:place>
+         <bf:Place>
+            <bf:code>XA-DE</bf:code>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>ISO 3166</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Place>
+      </bf:place>
+      <rdfs:label>&lt;&lt;Der&gt;&gt; griechisch-orientalische Religionsfonds der Bukowina 1783-1949 Kontinuitäten und Brüche einer prägenden Institution des Josephinismus</rdfs:label>
+      <bf:title>
+         <bf:Title>
+            <rdfs:label>&lt;&lt;Der&gt;&gt; griechisch-orientalische Religionsfonds der Bukowina 1783-1949 Kontinuitäten und Brüche einer prägenden Institution des Josephinismus</rdfs:label>
+            <bflc:titleSortKey>&lt;&lt;Der&gt;&gt; griechisch-orientalische Religionsfonds der Bukowina 1783-1949 Kontinuitäten und Brüche einer prägenden Institution des Josephinismus</bflc:titleSortKey>
+            <bf:mainTitle>&lt;&lt;Der&gt;&gt; griechisch-orientalische Religionsfonds der Bukowina 1783-1949</bf:mainTitle>
+            <bf:subtitle>Kontinuitäten und Brüche einer prägenden Institution des Josephinismus</bf:subtitle>
+         </bf:Title>
+      </bf:title>
+      <bf:responsibilityStatement>Kurt Scharr</bf:responsibilityStatement>
+      <bf:provisionActivity>
+         <bf:ProvisionActivity>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+            <bf:place>
+               <bf:Place>
+                  <rdfs:label>Wien</rdfs:label>
+               </bf:Place>
+            </bf:place>
+            <bf:place>
+               <bf:Place>
+                  <rdfs:label>Köln</rdfs:label>
+               </bf:Place>
+            </bf:place>
+            <bf:place>
+               <bf:Place>
+                  <rdfs:label>Weimar</rdfs:label>
+               </bf:Place>
+            </bf:place>
+            <bf:agent>
+               <bf:Agent>
+                  <rdfs:label>Böhlau Verlag</rdfs:label>
+               </bf:Agent>
+            </bf:agent>
+            <bf:date>2020</bf:date>
+         </bf:ProvisionActivity>
+      </bf:provisionActivity>
+      <bf:provisionActivityStatement>Wien; Köln; Weimar; Böhlau Verlag; [2020]</bf:provisionActivityStatement>
+      <bf:extent>
+         <bf:Extent>
+            <rdfs:label>444 Seiten</rdfs:label>
+         </bf:Extent>
+      </bf:extent>
+      <bf:note>
+         <bf:Note>
+            <bf:noteType>Physical details</bf:noteType>
+            <rdfs:label>Illustrationen, Diagramme, Karten</rdfs:label>
+         </bf:Note>
+      </bf:note>
+      <bf:dimensions>25 cm</bf:dimensions>
+      <bf:media>
+         <bf:Media rdf:about="http://id.loc.gov/vocabulary/mediaTypes/n"/>
+      </bf:media>
+      <bf:carrier>
+         <bf:Carrier rdf:about="http://id.loc.gov/vocabulary/carriers/nc"/>
+      </bf:carrier>
+      <bf:note>
+         <bf:Note>
+            <rdfs:label>Literaturverzeichnis: Seite [381]-432</rdfs:label>
+         </bf:Note>
+      </bf:note>
+      <bf:otherPhysicalFormat rdf:resource="http://example.org/99145297814903331#Instance776-49"/>
+      <bf:supplementaryContent>
+         <rdfs:Resource>
+            <bflc:locator rdf:resource="https://d-nb.info/1196222940/04"/>
+            <bf:note>
+               <bf:Note>
+                  <rdfs:label>Inhaltsverzeichnis</rdfs:label>
+               </bf:Note>
+            </bf:note>
+         </rdfs:Resource>
+      </bf:supplementaryContent>
+      <bf:hasSeries>
+         <bf:Instance>
+            <rdfs:label>Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</rdfs:label>
+            <bf:seriesStatement>Veröffentlichungen der Kommission für Neuere Geschichte Österreichs Band 119</bf:seriesStatement>
+            <bf:seriesEnumeration>119</bf:seriesEnumeration>
+            <bf:instanceOf>
+               <bf:Work rdf:about="http://example.org/99145297814903331#Work830-50">
+                  <bf:title>
+                     <bf:Title>
+                        <bflc:title30MarcKey>830 0$w(AT-OBV)AC00112585$v119$9O:1</bflc:title30MarcKey>
+                     </bf:Title>
+                  </bf:title>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>AC00112585</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>AT-OBV</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Work>
+            </bf:instanceOf>
+         </bf:Instance>
+      </bf:hasSeries>
+      <bf:instanceOf rdf:resource="http://example.org/99145297814903331#Work"/>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145297814903331#Item852-52">
+            <bf:heldBy>
+               <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/43ACC_UBS"/>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145297814903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145297814903331#Item852-53">
+            <bf:heldBy>
+               <bf:Agent>
+                  <rdfs:label>43ACC_WIENB</rdfs:label>
+               </bf:Agent>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145297814903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145297814903331#Item852-54">
+            <bf:heldBy>
+               <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/43ACC_UBW"/>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145297814903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145297814903331#Item852-55">
+            <bf:heldBy>
+               <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/43ACC_UBG"/>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145297814903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145297814903331#Item852-56">
+            <bf:heldBy>
+               <bf:Agent>
+                  <rdfs:label>43ACC_OEAW</rdfs:label>
+               </bf:Agent>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145297814903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145297814903331#Item852-57">
+            <bf:heldBy>
+               <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/43ACC_ONB"/>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145297814903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+      <bf:hasItem>
+         <bf:Item rdf:about="http://example.org/99145297814903331#Item852-58">
+            <bf:heldBy>
+               <bf:Agent>
+                  <rdfs:label>43ACC_OOELB</rdfs:label>
+               </bf:Agent>
+            </bf:heldBy>
+            <bf:itemOf rdf:resource="http://example.org/99145297814903331#Instance"/>
+         </bf:Item>
+      </bf:hasItem>
+   </bf:Instance>
+</rdf:RDF>

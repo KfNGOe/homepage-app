@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>03225nam a2200625 cb4500</leader>
+                    <controlfield tag="001">990067984410203331</controlfield>
+                    <controlfield tag="005">20190527173655.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">080723|2009####|||###########|||#ubger#u</controlfield>
+                    <controlfield tag="009">AC06838093</controlfield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">08,N23,1018</subfield>
+                        <subfield code="2">dnb</subfield>
+                    </datafield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">OeB2009,A,10 355</subfield>
+                        <subfield code="2">oeb</subfield>
+                    </datafield>
+                    <datafield tag="016" ind1="7" ind2=" ">
+                        <subfield code="a">988750589</subfield>
+                        <subfield code="2">DE-101b</subfield>
+                    </datafield>
+                    <datafield tag="020" ind1=" " ind2=" ">
+                        <subfield code="a">9783205781493</subfield>
+                        <subfield code="c">kart. : EUR 49,00</subfield>
+                    </datafield>
+                    <datafield tag="024" ind1="3" ind2=" ">
+                        <subfield code="a">9783205781493</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC06838093</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)DNB988750589</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">UBS</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="c">DNB</subfield>
+                        <subfield code="d">AT-OeNB</subfield>
+                        <subfield code="e">rakwb</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-AT</subfield>
+                    </datafield>
+                    <datafield tag="082" ind1="0" ind2="4">
+                        <subfield code="a">355.0092</subfield>
+                        <subfield code="q">LBOLIN</subfield>
+                        <subfield code="2">22/ger</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">355</subfield>
+                        <subfield code="q">DE-101</subfield>
+                        <subfield code="2">sdnb</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">15.60</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">89.82</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NK 7035</subfield>
+                        <subfield code="2">rvk</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">NP 5099</subfield>
+                        <subfield code="2">rvk</subfield>
+                    </datafield>
+                    <datafield tag="089" ind1="0" ind2="4">
+                        <subfield code="a">355.0092</subfield>
+                        <subfield code="c">355.009</subfield>
+                        <subfield code="e">DDC22ger</subfield>
+                        <subfield code="f">092</subfield>
+                    </datafield>
+                    <datafield tag="090" ind1=" " ind2=" ">
+                        <subfield code="h">h</subfield>
+                    </datafield>
+                    <datafield tag="100" ind1="1" ind2=" ">
+                        <subfield code="a">Zeynek, Theodor &lt;&lt;von>></subfield>
+                        <subfield code="d">1873-1948</subfield>
+                        <subfield code="0">(DE-588)137527128</subfield>
+                        <subfield code="4">aut</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="0" ind2="0">
+                        <subfield code="a">&lt;&lt;Ein>> Offizier im Generalstabskorps erinnert sich</subfield>
+                        <subfield code="c">Theodor Ritter von Zeynek. Eingel. und hrsg. von Peter Broucek</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien [u.a.]</subfield>
+                        <subfield code="b">Böhlau</subfield>
+                        <subfield code="c">2009</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">365, XVI S.</subfield>
+                        <subfield code="b">Ill., Kt.</subfield>
+                        <subfield code="c">24 cm</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">101</subfield>
+                    </datafield>
+                    <datafield tag="500" ind1=" " ind2=" ">
+                        <subfield code="a">Literaturverz. S. [333] - 353</subfield>
+                    </datafield>
+                    <datafield tag="520" ind1=" " ind2=" ">
+                        <subfield code="a">Theodor Zeynek (1873-1948) stammte aus einer Lehrerfamilie Österreichisch Schlesiens. In seinen Memoiren beschrieb er seine Jugend, seine Ausbildung an der Militärakademie und die Schulung zum Generalstabsoffizier an der Wiener Kriegsschule. Zur Zeit der Bosnischen Krise 1908 diente er bereits in der Operationsabteilung des Generalstabes unter dem späteren Feldmarschall Franz Graf Conrad von Hötzendorf. Er war 1915/1916 als Armeegeneralstabschef an der Front in der Bukowina, in Ostgalizien und der Ukraine. Der Höhepunkt und das Ende seines Wirkens in der Donaumonarchie bildete das Amt des Chefs der Quartiermeisterabteilung des Armeeoberkommandos 1917 bis 1918. Er war zuständig für die Besatzungspolitik in Russisch-Polen, Rumänien, Serbien und einem Teil Oberitaliens und er hatte den gesamten Nachschub für die Armee zu organisieren. Zeynek war an der Seite Kaiser Karls bei dessen Bestrebungen zum Abschluss eines Waffenstillstandes mit der Entente, besonders aber mit Italien.</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Zeynek, Theodor &lt;&lt;von>></subfield>
+                        <subfield code="d">1873-1948</subfield>
+                        <subfield code="D">p</subfield>
+                        <subfield code="0">(DE-588)137527128</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Autobiographie</subfield>
+                        <subfield code="A">f</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">UBSRS.</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="0">
+                        <subfield code="a">Österreich-Ungarn</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4075613-0</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="1">
+                        <subfield code="a">Militär</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4039305-7</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2="2">
+                        <subfield code="a">Generalstab</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4156594-0</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="1" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">PARWER</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="2" ind2="0">
+                        <subfield code="a">Conrad von Hötzendorf, Franz</subfield>
+                        <subfield code="d">1852-1925</subfield>
+                        <subfield code="D">p</subfield>
+                        <subfield code="0">(DE-588)118676768</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="2" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">PARWER</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="3" ind2="0">
+                        <subfield code="a">Weltkrieg</subfield>
+                        <subfield code="g">1914-1918</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4079163-4</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="3" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">PARWER</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Broucek, Peter</subfield>
+                        <subfield code="d">1938-</subfield>
+                        <subfield code="0">(DE-588)122604172</subfield>
+                        <subfield code="4">edt</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">101</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="856" ind1="4" ind2=" ">
+                        <subfield code="u">http://deposit.d-nb.de/cgi-bin/dokserv?id=3109495&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield>
+                        <subfield code="3">Abstract</subfield>
+                    </datafield>
+                    <datafield tag="856" ind1="4" ind2="2">
+                        <subfield code="u">http://d-nb.info/988750589/04</subfield>
+                        <subfield code="x">DNB-TOC</subfield>
+                        <subfield code="3">Inhaltsverzeichnis</subfield>
+                        <subfield code="o">OBV-EDOC-DNBTOC</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBS</subfield>
+                        <subfield code="6">990017117550203341</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BMA</subfield>
+                        <subfield code="6">990004667790304534</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WUW</subfield>
+                        <subfield code="6">990004965580203337</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910685964704516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">990067754770203332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBG</subfield>
+                        <subfield code="6">990023425780203339</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OEAW</subfield>
+                        <subfield code="6">990001936500504498</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBI</subfield>
+                        <subfield code="6">990014775870103333</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_ONB</subfield>
+                        <subfield code="6">990016056310603338</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OOELB</subfield>
+                        <subfield code="6">990005825400304508</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_BRIDGE_PAR</subfield>
+                        <subfield code="6">9935304504485</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="2" ind2=" ">
+                        <subfield code="a">UBS</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">a|1ucr|z|||17</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">sh||z|||</subfield>
+                    </datafield>
+                </record>

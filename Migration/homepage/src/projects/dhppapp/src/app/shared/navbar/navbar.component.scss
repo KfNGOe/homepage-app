@@ -1,0 +1,37 @@
+.navbar {
+  min-height: 120px;
+  padding: 0px;
+}
+
+.navbar-brand {
+ /* padding: 0 15px; */
+  height: 120px;
+  line-height: 120px;
+}
+
+.blockquote {
+  margin-bottom: 0px;
+}
+
+.logo-grey {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.bg-kommission {
+  background-color: #f9f5ed !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0085b1;
+}
+
+ul > li.border-right {
+  border-right: 1px solid #D7D7D7;
+}
+
+.navbar-custom .nav-item .nav-link.active,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #0085b1;
+    background-color: #c0eafd;
+}

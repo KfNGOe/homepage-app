@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+    xmlns:schema="http://schema.org/"
+    xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
+    xmlns:lib="http://purl.org/library/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:editeur="https://ns.editeur.org/thema/"
+    xmlns:geo="http://www.opengis.net/ont/geosparql#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdau="http://rdaregistry.info/Elements/u/"
+    xmlns:sf="http://www.opengis.net/ont/sf#"
+    xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:vivo="http://vivoweb.org/ontology/core#"
+    xmlns:isbd="http://iflastandards.info/ns/isbd/elements/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:mo="http://purl.org/ontology/mo/"
+    xmlns:marcRole="http://id.loc.gov/vocabulary/relators/"
+    xmlns:agrelon="https://d-nb.info/standards/elementset/agrelon#"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+    xmlns:dbp="http://dbpedia.org/property/"
+    xmlns:dnbt="https://d-nb.info/standards/elementset/dnb#"
+    xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+    xmlns:dnb_intern="http://dnb.de/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:v="http://www.w3.org/2006/vcard/ns#"
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:ebu="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:gbv="http://purl.org/ontology/gbv/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="https://d-nb.info/gnd/131500481">
+        <rdf:type rdf:resource="https://d-nb.info/standards/elementset/gnd#DifferentiatedPerson"/>
+        <wdrs:describedby>
+            <rdf:Description rdf:about="https://d-nb.info/gnd/131500481/about">
+                <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+                <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-04-06T01:06:31.000</dcterms:modified>
+            </rdf:Description>
+        </wdrs:describedby>
+        <gndo:gndIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">131500481</gndo:gndIdentifier>
+        <foaf:page rdf:resource="https://de.wikipedia.org/wiki/Peter_Becker_%28Historiker%29"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/6067618"/>
+        <owl:sameAs rdf:resource="http://isni.org/isni/0000000114668448"/>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q16006977"/>
+        <owl:sameAs rdf:resource="http://id.loc.gov/rwo/agents/no93009949"/>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)131500481</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)14316967X</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)13045303X</gndo:oldAuthorityNumber>
+        <gndo:preferredNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Becker, Peter</gndo:preferredNameForThePerson>
+        <gndo:preferredNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1epgcncj0x26528628">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter</gndo:forename>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Becker</gndo:surname>
+            </rdf:Description>
+        </gndo:preferredNameEntityForThePerson>
+        <gndo:affiliation rdf:resource="https://d-nb.info/gnd/1054106-8"/>
+        <gndo:affiliation rdf:resource="https://d-nb.info/gnd/63794-4"/>
+        <gndo:affiliation rdf:resource="https://d-nb.info/gnd/2168249-5"/>
+        <gndo:academicDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prof., Dr.</gndo:academicDegree>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4140123-2"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4025098-2"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XE-AU"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-IT"/>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hrsg. von: Datennetze für die Historischen Wissenschaften? - 1987</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kleio. - 1989</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leben, Lieben, Sterben: die Analyse von Kirchenbüchern. - 1989</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leben und Lieben in einem kalten Land. - 1990</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hrsg. von: Akten, Eingaben, Schaufenster. - 1997</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hrsg. von: Little tools of knowledge. - 2001</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verderbnis und Entartung.- 2002</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hrsg. von: Doers. - 2002</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hrsg. von Normalising diversity. - 2003</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hrsg. von: Zwischen Anomie und Inszenierung. - 2004</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dem Täter auf der Spur. - 2005</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hrsg. von: The criminals and their scientists. - 2006</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hrsg. von: Figures of authority. - 2008</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hrsg. von: Sprachvollzug im Amt. - 2010</gndo:publication>
+        <gndo:homepage rdf:resource="http://www.dhv-speyer.de/lba/becker"/>
+        <gndo:biographicalOrHistoricalInformation xml:lang="de">Promotion Graz 1988, Habil. Göttingen 2000; Forschungsschwerpunkt u.a. Kriminalistik</gndo:biographicalOrHistoricalInformation>
+        <gndo:gender rdf:resource="https://d-nb.info/standards/vocab/gnd/gender#male"/>
+        <gndo:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1962-06-08</gndo:dateOfBirth>
+    </rdf:Description>
+</rdf:RDF>

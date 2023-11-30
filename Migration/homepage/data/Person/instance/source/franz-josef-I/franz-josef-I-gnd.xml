@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+	xmlns:schema="http://schema.org/"
+	xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
+	xmlns:lib="http://purl.org/library/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:editeur="https://ns.editeur.org/thema/"
+	xmlns:geo="http://www.opengis.net/ont/geosparql#"
+	xmlns:umbel="http://umbel.org/umbel#"
+	xmlns:rdau="http://rdaregistry.info/Elements/u/"
+	xmlns:sf="http://www.opengis.net/ont/sf#"
+	xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:vivo="http://vivoweb.org/ontology/core#"
+	xmlns:isbd="http://iflastandards.info/ns/isbd/elements/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:mo="http://purl.org/ontology/mo/"
+	xmlns:marcRole="http://id.loc.gov/vocabulary/relators/"
+	xmlns:agrelon="https://d-nb.info/standards/elementset/agrelon#"
+	xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+	xmlns:dbp="http://dbpedia.org/property/"
+	xmlns:dnbt="https://d-nb.info/standards/elementset/dnb#"
+	xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+	xmlns:dnb_intern="http://dnb.de/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:v="http://www.w3.org/2006/vcard/ns#"
+	xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+	xmlns:ebu="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+	xmlns:bibo="http://purl.org/ontology/bibo/"
+	xmlns:gbv="http://purl.org/ontology/gbv/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="https://d-nb.info/gnd/118535013">
+        <rdf:type rdf:resource="https://d-nb.info/standards/elementset/gnd#RoyalOrMemberOfARoyalHouse"/>
+        <wdrs:describedby>
+            <rdf:Description rdf:about="https://d-nb.info/gnd/118535013/about">
+                <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+                <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-30T08:27:31.000</dcterms:modified>
+            </rdf:Description>
+        </wdrs:describedby>
+        <gndo:gndIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118535013</gndo:gndIdentifier>
+        <foaf:page rdf:resource="https://de.wikipedia.org/wiki/Franz_Joseph_I."/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Franz_Joseph_I_of_Austria"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/32787948"/>
+        <owl:sameAs rdf:resource="http://isni.org/isni/0000000121270219"/>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q51056"/>
+        <owl:sameAs rdf:resource="http://id.loc.gov/rwo/agents/n50025622"/>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588)1089110294</gndo:oldAuthorityNumber>
+        <owl:sameAs rdf:resource="https://d-nb.info/gnd/1089110294"/>
+        <dnbt:deprecatedUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://d-nb.info/gnd/1089110294</dnbt:deprecatedUri>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588)1028654960</gndo:oldAuthorityNumber>
+        <owl:sameAs rdf:resource="https://d-nb.info/gnd/1028654960"/>
+        <dnbt:deprecatedUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://d-nb.info/gnd/1028654960</dnbt:deprecatedUri>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588)187132216</gndo:oldAuthorityNumber>
+        <owl:sameAs rdf:resource="https://d-nb.info/gnd/187132216"/>
+        <dnbt:deprecatedUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://d-nb.info/gnd/187132216</dnbt:deprecatedUri>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)187132216</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588)15840971X</gndo:oldAuthorityNumber>
+        <owl:sameAs rdf:resource="https://d-nb.info/gnd/15840971X"/>
+        <dnbt:deprecatedUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://d-nb.info/gnd/15840971X</dnbt:deprecatedUri>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)15840971X</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588)187746354</gndo:oldAuthorityNumber>
+        <owl:sameAs rdf:resource="https://d-nb.info/gnd/187746354"/>
+        <dnbt:deprecatedUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://d-nb.info/gnd/187746354</dnbt:deprecatedUri>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)187746354</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588)157600777</gndo:oldAuthorityNumber>
+        <owl:sameAs rdf:resource="https://d-nb.info/gnd/157600777"/>
+        <dnbt:deprecatedUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://d-nb.info/gnd/157600777</dnbt:deprecatedUri>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)157600777</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)118535013</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)1014875684</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)127806865</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588c)4018160-1</gndo:oldAuthorityNumber>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph Karl von Habsburg</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717800">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph Karl von Habsburg</gndo:personalName>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Josef I., Österreich, Kaiser</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717801">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Josef</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Österreich, Kaiser</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph I., Kaiser</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717802">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaiser</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph I., Ungarn, König</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717803">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ungarn, König</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph I., Österreich-Ungarn, Kaiser</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717804">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Österreich-Ungarn, Kaiser</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I. Ferenc József</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717805">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I. Ferenc József</gndo:personalName>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Francesco Giuseppe I., Austria, Imperatore</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717806">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Francesco Giuseppe</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Austria, Imperatore</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">František Jozef I., Rakúsko, Cisár</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717807">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">František Jozef</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rakúsko, Cisár</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Francis Joseph I., Austria, Emperor</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717808">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Francis Joseph</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Austria, Emperor</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">František Josef I., Rakousko, Císař</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717809">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">František Josef</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rakousko, Císař</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">François Joseph I., Autriche, Empereur</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717810">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">François Joseph</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autriche, Empereur</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">François-Joseph I., Autriche, Empereur</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717811">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">François-Joseph</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autriche, Empereur</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franciszek Józef I., Austria, Cesarz</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717812">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franciszek Józef</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Austria, Cesarz</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frans Josef I., Österrike, Kejsare</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717813">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frans Josef</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Österrike, Kejsare</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franjo Josip I.</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717814">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franjo Josip</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franc Jožef I.</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717815">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franc Jožef</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Francisc Iosif I</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717816">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Francisc Iosif</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I</gndo:counting>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph, Österreich, Kaiser, I.</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717817">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph</gndo:personalName>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Österreich, Kaiser, I.</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph, Ungarn, König, I.</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717818">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph</gndo:personalName>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ungarn, König, I.</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Josef, Österreich, Kaiser, I.</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717819">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Josef</gndo:personalName>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Österreich, Kaiser, I.</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph, Österreich-Ungarn, Kaiser, I.</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717820">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph</gndo:personalName>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Österreich-Ungarn, Kaiser, I.</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph I.</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717821">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franciszek Józef I.</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717822">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franciszek Józef</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">František Josef I., Habsbursko-Lotrinský</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717823">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">František Josef</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Habsbursko-Lotrinský</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ferenc József I., Magyarország, Király</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717824">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ferenc József</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magyarország, Király</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph I., Kaiser von Österreich</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717825">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaiser von Österreich</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franciscus Josephus I., Austria, Imperator</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717826">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franciscus Josephus</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Austria, Imperator</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson xml:lang="sr-Cyrl">Франц Јозеф I</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717827">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Франц Јозеф I</gndo:personalName>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson xml:lang="ru">Франц Иосиф I</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717828">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Франц Иосиф I</gndo:personalName>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson xml:lang="uk">Франц Йосиф I</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717829">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Франц Йосиф I</gndo:personalName>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson xml:lang="bg">Франц Йосиф І</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717830">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Франц Йосиф І</gndo:personalName>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:variantNameForThePerson xml:lang="el">Φραγκίσκος Ιωσήφ Α΄ της Αυστρίας</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717831">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Φραγκίσκος Ιωσήφ Α΄ της Αυστρίας</gndo:personalName>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:preferredNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph I., Österreich, Kaiser</gndo:preferredNameForThePerson>
+        <gndo:preferredNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx10717832">
+                <gndo:personalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph</gndo:personalName>
+                <gndo:counting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I.</gndo:counting>
+                <gndo:nameAddition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Österreich, Kaiser</gndo:nameAddition>
+            </rdf:Description>
+        </gndo:preferredNameEntityForThePerson>
+        <gndo:familialRelationship rdf:resource="https://d-nb.info/gnd/131412000"/>
+        <agrelon:hasParent rdf:resource="https://d-nb.info/gnd/131412000"/>
+        <gndo:familialRelationship rdf:resource="https://d-nb.info/gnd/119131382"/>
+        <agrelon:hasParent rdf:resource="https://d-nb.info/gnd/119131382"/>
+        <gndo:familialRelationship rdf:resource="https://d-nb.info/gnd/118579363"/>
+        <agrelon:hasSibling rdf:resource="https://d-nb.info/gnd/118579363"/>
+        <gndo:familialRelationship rdf:resource="https://d-nb.info/gnd/119523620"/>
+        <agrelon:hasSibling rdf:resource="https://d-nb.info/gnd/119523620"/>
+        <gndo:familialRelationship rdf:resource="https://d-nb.info/gnd/118529897"/>
+        <agrelon:hasSpouse rdf:resource="https://d-nb.info/gnd/118529897"/>
+        <gndo:familialRelationship rdf:resource="https://d-nb.info/gnd/118603698"/>
+        <agrelon:hasChild rdf:resource="https://d-nb.info/gnd/118603698"/>
+        <gndo:familialRelationship rdf:resource="https://d-nb.info/gnd/118919830"/>
+        <agrelon:hasChild rdf:resource="https://d-nb.info/gnd/118919830"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4160079-4"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4031516-2"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4114123-4"/>
+        <gndo:gndSubjectCategory rdf:resource="https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-HU"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-CZ"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-SK"/>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geschichte der Eisenbahnen der oesterreichisch-ungarischen Monarchie. - 1898-1899</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Die Widmungen und Veranstaltungen der Gemeinde Wien zum 60 jährigen Regierungsjubiläum Seiner Majestät des Kaisers Franz Joseph I. im Jahre 1908</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Truska, Heliodor: Oesterreichisches Frühlingsalbum 1854. - 1854</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ullmann, Emanuel: Über die Entwickelung des modernen Staatsprincips. - 1873</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Briefe Kaiser Franz Josephs an Frau Katharina Schr*. - 1949</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An meine Völker!</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franz Joseph I. in seinen Briefen. - 1924</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Briefe ... an seine Mutter 1838-72. - 1930</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geschichte der Eisenbahnen der oesterreichisch-ungarischen Monarchie. -</gndo:publication>
+        <gndo:biographicalOrHistoricalInformation xml:lang="de">1848-1916 Kaiser von Österreich-Ungarn, König von Böhmen etc.; seit 1867 Apostolischer König von Ungarn; 1879 Zweibund mit dem Deutschen Reich; 1914 Ultimatum und Kriegserklärung an Serbien, welche den Ersten Weltkrieg auslöste</gndo:biographicalOrHistoricalInformation>
+        <gndo:placeOfBirth rdf:resource="https://d-nb.info/gnd/4318901-5"/>
+        <gndo:placeOfDeath rdf:resource="https://d-nb.info/gnd/4318901-5"/>
+        <gndo:placeOfActivity rdf:resource="https://d-nb.info/gnd/4066009-6"/>
+        <gndo:placeOfActivity rdf:resource="https://d-nb.info/gnd/4008684-7"/>
+        <gndo:placeOfActivity rdf:resource="https://d-nb.info/gnd/4027718-5"/>
+        <gndo:gender rdf:resource="https://d-nb.info/standards/vocab/gnd/gender#male"/>
+        <gndo:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1830-08-18</gndo:dateOfBirth>
+        <gndo:dateOfDeath rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1916-11-21</gndo:dateOfDeath>
+    </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,111 @@
+<h1>Gesamtreihe</h1>
+
+<div style="min-height: 15px;"></div>
+
+<h3>Suche</h3>
+
+<div class="row">
+  <div class="col-12 col-lg-3">
+    <input
+      type="text"
+      class="form-control"
+      id="inputAutor"
+      placeholder="Autor / Herausgeber"
+      [(ngModel)]="sucheAutor"
+      (ngModelChange)="modelSearchChangeFn($event)"
+    />
+  </div>
+  <div class="col-12 col-lg-3">
+    <input
+      type="text"
+      class="form-control"
+      id="inputTitel"
+      placeholder="Titel"
+      [(ngModel)]="sucheTitel"
+      (ngModelChange)="modelSearchChangeFn($event)"
+    />
+  </div>
+  <div class="col-12 col-lg-3">
+    <input
+      type="text"
+      class="form-control"
+      id="inputJahr"
+      placeholder="Jahr"
+      [(ngModel)]="sucheJahr"
+      (ngModelChange)="modelSearchChangeFn($event)"
+    />
+  </div>
+  <div class="col-12 col-lg-3">
+    <input
+      type="text"
+      class="form-control"
+      id="inputBand"
+      placeholder="Bandnr."
+      [(ngModel)]="sucheBand"
+      (ngModelChange)="modelSearchChangeFn($event)"
+    />
+  </div>
+</div>
+<div class="row" style="padding-top: 10px; padding-bottom: 10px;">
+  <div class="col-12 col-lg-3">
+    <p>Sortiert nach</p>
+  </div>
+  <div class="col-6 col-lg-3">
+    <a class="btn filterbutton btn-block filterbuttonactive" (click)="sortBy($event, 'band')">Bandnr.</a>
+  </div>
+  <div class="col-6 col-lg-3">
+    <a class="btn filterbutton  btn-block" (click)="sortBy($event, 'autor')">Autor / Herausgeber</a>
+  </div>
+  <div class="col-6 col-lg-3">
+    <a class="btn filterbutton btn-block" (click)="sortBy($event, 'titel')">Titel</a>
+  </div>
+  <div class="d-none d-lg-block d-xl-none col-6 col-lg-3"></div>
+  <div class="col-6 col-lg-3">
+    <a class="btn filterbutton btn-block" (click)="sortBy($event, 'publikationsdatum')">Jahr</a>
+  </div>
+  <div class="col-12 col-lg-3">
+    <div ngbDropdown class="btn-block d-inline-block">
+      <button
+        class="btn filterbutton btn-block"
+        [ngClass]="{ filterbuttonactive1: inhalt !== 'gesamtreihe' }"
+        id="dropdownBasic1"
+        ngbDropdownToggle
+      >
+        Thematik
+      </button>
+      <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+        <button ngbDropdownItem (click)="inhalt = 'gesamtreihe'; filterAndSort()">Gesamtreihe</button>
+        <button *ngFor="let cat of categories" ngbDropdownItem (click)="inhalt = cat.title; filterAndSort()">{{ cat.title }}</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr style="border-top: 1px solid #0085b1; opacity: 0.7; padding-bottom: 15px;" />
+
+<app-loader [loadingText]="'lade Daten...'" [loading]="loading"></app-loader>
+{{ error }}
+
+<div *ngIf="inhalt !== 'gesamtreihe'">
+  <div *ngFor="let member of members">
+    <h3 style="font-weight: bold;" *ngIf="inhalt === member.cat">{{ member.cat }}</h3>
+    <h3 style="margin-left: 5px; margin-bottom: 15px;" *ngIf="inhalt === member.cat">{{ member.title }}</h3>
+    <dhpp-listing-style-3
+      class="row"
+      *ngFor="let item of elementsGrouped[member.member]"
+      [message]="message"
+      [element]="item"
+      [showIcons]="true"
+    ></dhpp-listing-style-3>
+  </div>
+</div>
+
+<div *ngIf="inhalt === 'gesamtreihe'">
+  <dhpp-listing-style-3
+    class="row"
+    *ngFor="let item of elements"
+    [message]="message"
+    [element]="item"
+    [showIcons]="true"
+  ></dhpp-listing-style-3>
+</div>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+    xmlns:schema="http://schema.org/"
+    xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
+    xmlns:lib="http://purl.org/library/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:editeur="https://ns.editeur.org/thema/"
+    xmlns:geo="http://www.opengis.net/ont/geosparql#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdau="http://rdaregistry.info/Elements/u/"
+    xmlns:sf="http://www.opengis.net/ont/sf#"
+    xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:vivo="http://vivoweb.org/ontology/core#"
+    xmlns:isbd="http://iflastandards.info/ns/isbd/elements/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:mo="http://purl.org/ontology/mo/"
+    xmlns:marcRole="http://id.loc.gov/vocabulary/relators/"
+    xmlns:agrelon="https://d-nb.info/standards/elementset/agrelon#"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+    xmlns:dbp="http://dbpedia.org/property/"
+    xmlns:dnbt="https://d-nb.info/standards/elementset/dnb#"
+    xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+    xmlns:dnb_intern="http://dnb.de/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:v="http://www.w3.org/2006/vcard/ns#"
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:ebu="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:gbv="http://purl.org/ontology/gbv/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="https://d-nb.info/gnd/1122563574">
+        <rdf:type rdf:resource="https://d-nb.info/standards/elementset/gnd#DifferentiatedPerson"/>
+        <wdrs:describedby>
+            <rdf:Description rdf:about="https://d-nb.info/gnd/1122563574/about">
+                <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+                <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-20T05:34:59.000</dcterms:modified>
+            </rdf:Description>
+        </wdrs:describedby>
+        <gndo:gndIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1122563574</gndo:gndIdentifier>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/166550419"/>
+        <owl:sameAs rdf:resource="http://id.loc.gov/rwo/agents/n96114939"/>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obersteiner, Gernot</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1epgcncj0x27808209">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gernot</gndo:forename>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obersteiner</gndo:surname>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:preferredNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obersteiner, Gernot Peter</gndo:preferredNameForThePerson>
+        <gndo:preferredNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1epgcncj0x27808210">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gernot Peter</gndo:forename>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obersteiner</gndo:surname>
+            </rdf:Description>
+        </gndo:preferredNameEntityForThePerson>
+        <gndo:affiliation rdf:resource="https://d-nb.info/gnd/2022911-2"/>
+        <gndo:academicDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mag. Dr. MAS</gndo:academicDegree>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4623517-6"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4002865-3"/>
+        <gndo:gndSubjectCategory rdf:resource="https://d-nb.info/standards/vocab/gnd/gnd-sc#6.8p"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT"/>
+        <gndo:placeOfActivity rdf:resource="https://d-nb.info/gnd/4021912-4"/>
+        <gndo:placeOfBirth rdf:resource="https://d-nb.info/gnd/4195488-9"/>
+        <gndo:gender rdf:resource="https://d-nb.info/standards/vocab/gnd/gender#male"/>
+        <gndo:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1963</gndo:dateOfBirth>
+    </rdf:Description>
+</rdf:RDF>

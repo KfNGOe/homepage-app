@@ -1,0 +1,1797 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bfo: <http://id.loc.gov/ontologies/bibframe.rdf> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dhpluso: <https://dhplus.sbg.ac.at/ontology#> .
+@base <https://dhplus.sbg.ac.at/ontology/work> .
+
+<https://dhplus.sbg.ac.at/ontology/work>
+  a owl:Ontology ;
+  dc:title "dhPLUS Ontologie"@de ;
+  dc:title "dhPLUS Ontology"@en ;
+  dct:creator "Richard Hörmann" ;
+  owl:comment "This is an ontology of the dhPLUS repository for Digital Humanities Projects of the University of Salzburg."@en ;
+  owl:versionInfo "0.1"^^xsd:string, "2019-12-27"^^xsd:date ;
+  owl:versionIRI <https://dhplus.sbg.ac.at/ontology#/0.1> ;
+  #owl:imports
+.
+
+#################################################################
+#Classes
+#################################################################
+
+
+#dhplus
+#################################################################
+
+#work
+<https://dhplus.sbg.ac.at/ontology#Work>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <http://id.loc.gov/ontologies/bibframe/Work> ,
+      ecrm:E71_Human-Made_Thing,
+      #<http://erlangen-crm.org/current/E75_Conceptual_Object_Appellation> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ,
+      <https://dhplus.sbg.ac.at/ontology#WorkSet> ;
+
+#shacl validation
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#creator>;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#dateCreated>;
+        sh:datatype xsd:dateTime ;
+    ] ;
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#dateModified>;
+        sh:datatype xsd:dateTime ;
+    ] ;
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#datePublished>;
+        sh:datatype xsd:dateTime ;
+    ] ;
+    sh:property [
+      sh:path <https://dhplus.sbg.ac.at/ontology#source> ;
+      sh:nodeKind sh:IRI ;
+      sh:pattern "/Bf-LoC"
+    ] ;
+    sh:property [
+      sh:path <https://dhplus.sbg.ac.at/ontology#source> ;
+      sh:nodeKind sh:IRI ;
+      sh:pattern "/projSpec"
+    ] ;
+
+    #author, title - short
+    sh:property [
+        sh:path rdfs:label ;
+        sh:datatype xsd:string ;
+    ] ;
+    #adminMetadata
+    #MARC 001. 003, 005, 008, 016
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#adminMetadata> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#AdminMetadata> ;
+    ] ;
+    #contribution
+    #MARC 100, 700
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#contribution> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Contribution> ;
+    ] ;
+    #title
+    #MARC 245
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#title> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Title> ;
+    ] ;
+    #host item entry e.g. monography -> series
+    #MARC 773
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#partOf> ;
+        sh:nodeKind sh:IRI ;
+    ] ;
+    #link to bf:instance
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#hasInstance> ;
+        sh:nodeKind sh:IRI ;
+        sh:pattern "Instance" ;
+    ] ;
+.
+
+_:WorkRule
+    a sh:NodeShape ;
+
+#shacl validation
+    sh:targetClass dhpluso:Work ;
+    sh:order 0 ;
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:prefixes dhpluso:work ;
+        sh:construct """
+        CONSTRUCT {
+            $this   a dhpluso:Work ;
+                    dhpluso:adminMetadata ?_admin .
+
+            ?_admin a dhpluso:AdminMetadata .
+        }
+        WHERE {
+
+        }
+        """ ;
+    ]
+.
+
+<http://erlangen-crm.org/current/E71_Human-Made_Thing>
+  a owl:Class, sh:NodeShape ;
+#owl classification
+  rdfs:subClassOf
+    <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+    <https://dhplus.sbg.ac.at/ontology#CidocCRM> ,
+    <https://dhplus.sbg.ac.at/ontology#Entity> ;
+.
+
+##adminMetadata
+#MARC 001. 003, 005, 008, 016
+<https://dhplus.sbg.ac.at/ontology#AdminMetadata>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    #control number
+    #MARC 001, 016 $a
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#identifiedBy> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Local> ;
+        sh:node [
+            #number
+            sh:property [
+                sh:path rdf:value ;
+                sh:datatype xsd:string ;
+            ] ;
+            #source
+            #MARC 016 $2
+            sh:property [
+                sh:path <https://dhplus.sbg.ac.at/ontology#source> ;
+                sh:class <https://dhplus.sbg.ac.at/ontology#Source> ;
+                sh:node [
+                    #ISIL e.g. AT-OBV
+                    sh:property [
+                        sh:path rdfs:label ;
+                        sh:datatype xsd:string ;
+                    ]
+                ] ;
+            ] ;
+        ] ;
+    ] ;
+    #control number identifier
+    #MARC 003
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#source> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Source> ;
+        sh:node [
+            #ISIL e.g. AT-OBV
+            sh:property [
+                sh:path rdfs:label ;
+                sh:datatype xsd:string ;
+            ] ;
+        ] ;
+    ] ;
+    #date and time of latest transaction
+    #MARC 005
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#changeDate> ;
+        sh:datatype xsd:dateTime ;
+    ] ;
+    #date of creation
+    #MARC 008, character 0-5
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#creationDate> ;
+        sh:datatype xsd:date ;
+    ] ;
+.
+
+_:AdminMetadataRule
+    a sh:NodeShape ;
+
+#shacl validation
+    sh:targetClass dhpluso:AdminMetadata ;
+    sh:order 1 ;
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:prefixes dhpluso:work ;
+        sh:construct """
+        CONSTRUCT {
+            $this   a dhpluso:AdminMetadata .
+        }
+        WHERE {
+
+        }
+        """ ;
+    ]
+.
+
+##contribution
+#MARC 100, 700
+<https://dhplus.sbg.ac.at/ontology#Contribution>
+    a owl:Class, sh:NodeShape ;
+
+#Main Entry-Personal Name
+#MARC 100
+#OR
+#Added Entry-Personal Name
+#MARC 700
+
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    #Authority record control number or standard number
+    #MARC $0
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#agent> ;
+        sh:nodeKind sh:IRI ;
+        sh:pattern "https://d-nb.info/gnd/" ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Person> ;
+    ] ;
+    #Relator term
+    #MARC $e
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#role> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Role> ;
+    ] ;
+    #Relationship
+    #MARC $4
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#role> ;
+        sh:or (
+          #author
+          [ sh:hasValue <http://id.loc.gov/vocabulary/relators/aut> ]
+          #contributor
+          [ sh:hasValue <http://id.loc.gov/vocabulary/relators/ctb> ]
+          #editor
+          [ sh:hasValue <http://id.loc.gov/vocabulary/relators/edt> ]
+          #Blank Node
+          [ sh:nodeKind sh:BlankNode ]
+        ) ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+                a sh:SPARQLRule ;
+                sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+                sh:condition dhpluso:Contribution ;
+            ]
+.
+
+##contributor
+#MARC 100, 700
+<https://dhplus.sbg.ac.at/ontology#Person>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    #personal name
+    #MARC $a
+    sh:property [
+        sh:path rdfs:label ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path bflc:name00MatchKey ;
+        sh:datatype xsd:string ;
+    ] ;
+    #MARC key for X00 Names
+    sh:property [
+        sh:path bflc:name00MarcKey ;
+        sh:datatype xsd:string ;
+    ] ;
+    #Authority record control number or standard number e.g. GND
+    #MARC $0
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#identifiedBy> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Identifier> ;
+        sh:node [
+            #number
+            sh:property [
+                sh:path rdf:value ;
+                sh:datatype xsd:string ;
+            ] ;
+            #ISIL e.g. DE-101
+            sh:property [
+                sh:path <https://dhplus.sbg.ac.at/ontology#source> ;
+                sh:class <https://dhplus.sbg.ac.at/ontology#Source> ;
+                sh:node [
+                    sh:property [
+                        sh:path rdfs:label ;
+                        sh:datatype xsd:string ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+    PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+    """ ;
+        sh:condition dhpluso:Person ;
+    ] ;
+.
+
+##title
+#MARC 245
+<https://dhplus.sbg.ac.at/ontology#Title>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    sh:targetObjectsOf [sh:path (dhpluso:title dhpluso:hasPart)] ;
+    #MARC summary of $afgknps
+    sh:property [
+        sh:path rdfs:label ;
+        sh:datatype xsd:string ;
+    ] ;
+    #string for sorting
+    sh:property [
+        sh:path bflc:titleSortKey ;
+        sh:datatype xsd:string ;
+    ] ;
+    #title
+    #MARC $a
+    sh:property [
+        sh:path dhpluso:mainTitle ;
+        sh:datatype xsd:string ;
+    ] ;
+    #remainder of title
+    #MARC $b
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#subtitle> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #Number of part/section of a work
+    #MARC $n
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#partNumber> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #Name of part/section of a work
+    #MARC $p
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#partName> ;
+        sh:datatype xsd:string ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+    PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+    """ ;
+        sh:condition <https://dhplus.sbg.ac.at/ontology#Title> ;
+    ]
+.
+
+##host item work
+#MARC 773
+_:Work773Shape
+    a sh:NodeShape ;
+
+#shacl validation
+    sh:targetObjectsOf [ sh:path ( <https://dhplus.sbg.ac.at/ontology#partOf> <https://dhplus.sbg.ac.at/ontology#hasPart> ) ] ;
+    sh:property [
+        sh:path rdf:type ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Work> ;
+    ];
+
+    ##host item entry
+    #MARC 773
+    #record control number
+    #MARC $w
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#identifiedBy> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Identifier> ;
+        sh:node [
+            #number
+            sh:property [
+                sh:path rdf:value ;
+                sh:datatype xsd:string ;
+            ] ;
+            #ISIL e.g. DE-101
+            sh:property [
+                sh:path <https://dhplus.sbg.ac.at/ontology#source> ;
+                sh:class <https://dhplus.sbg.ac.at/ontology#Source> ;
+                sh:node [
+                    sh:property [
+                        sh:path rdfs:label ;
+                        sh:datatype xsd:string ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+    ] ;
+    #path to host item instance
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#hasInstance> ;
+        sh:pattern "Instance773" ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+        sh:condition <https://dhplus.sbg.ac.at/ontology#Title> ;
+    ]
+.
+
+##series-work
+#MARC 8xx
+_:Work8xxShape
+    a sh:NodeShape ;
+
+#shacl validation
+    sh:targetObjectsOf [ sh:path ( <https://dhplus.sbg.ac.at/ontology#instanceOf> <https://dhplus.sbg.ac.at/ontology#hasSeries> ) ] ;
+
+    #series added entry-uniform title
+    #MARC 830
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#title> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Title> ;
+        sh:node [
+            #MARC summary of $afgknps
+            sh:property [
+                sh:path rdfs:label ;
+                sh:datatype xsd:string ;
+            ] ;
+            #string for sorting
+            sh:property [
+                sh:path bflc:titleSortKey ;
+                sh:datatype xsd:string ;
+            ] ;
+            #uniform title
+            #MARC $a
+            sh:property [
+                sh:path <https://dhplus.sbg.ac.at/ontology#mainTitle> ;
+                sh:datatype xsd:string ;
+            ] ;
+        ] ;
+    ] ;
+    #bibliographic record control number
+    #MARC $w
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#identifiedBy> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Identifier> ;
+        sh:node [
+            #number
+            sh:property [
+                sh:path rdf:value ;
+                sh:datatype xsd:string ;
+            ] ;
+            #ISIL code e.g. DE-101
+            sh:property [
+                sh:path <https://dhplus.sbg.ac.at/ontology#source> ;
+                sh:class <https://dhplus.sbg.ac.at/ontology#Source> ;
+                sh:node [
+                    sh:property [
+                        sh:path rdfs:label ;
+                        sh:datatype xsd:string ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+    ] ;
+    #Control subfield
+    #MARC $7
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#issuance> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Issuance> ;
+        sh:node [
+            #bibliographic level
+            #MARC $7, second character e.g. s = series
+            sh:property [
+                sh:path <https://dhplus.sbg.ac.at/ontology#code> ;
+                sh:datatype xsd:string ;
+            ] ;
+        ] ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+        sh:condition <https://dhplus.sbg.ac.at/ontology#Work> ;
+    ]
+.
+
+#instance
+<https://dhplus.sbg.ac.at/ontology#Instance>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    #adminMetadata
+    #Marc 035 used in ALMA
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#identifiedBy> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Local> ;
+        sh:node [
+            #number
+            sh:property [
+                sh:path rdf:value ;
+                sh:datatype xsd:string ;
+            ] ;
+            #source ISIL e.g. DE-101
+            sh:property [
+                sh:path <https://dhplus.sbg.ac.at/ontology#source> ;
+                sh:class <https://dhplus.sbg.ac.at/ontology#Source> ;
+                sh:node [
+                    sh:property [
+                        sh:path rdfs:label ;
+                        sh:datatype xsd:string ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+    ] ;
+    #title
+    #MARC 245
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#title> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Title> ;
+    ] ;
+    #Production, Publication, Distribution, Manufacture, and Copyright Notice
+    #MARC 264
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#provisionActivity> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#ProvisionActivity> ;
+    ] ;
+    #MARC 264 summary of $abc
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#provisionActivityStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #statement of responsibility
+    #MARC 245 $c
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#responsibilityStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #edition
+    #MARC 250 $a
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#editionStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #in series
+    #MARC 490
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#hasSeries> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Instance> ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+        sh:condition dhpluso:Instance ;
+    ]
+.
+
+##title
+#MARC 245
+<https://dhplus.sbg.ac.at/ontology#Title>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    sh:targetObjectsOf [sh:path (dhpluso:title dhpluso:hasInstance)] ;
+    #MARC summary of $afgknps
+    sh:property [
+        sh:path rdfs:label ;
+        sh:datatype xsd:string ;
+    ] ;
+    #string for sorting
+    sh:property [
+        sh:path bflc:titleSortKey ;
+        sh:datatype xsd:string ;
+    ] ;
+    #title
+    #MARC $a
+    sh:property [
+        sh:path dhpluso:mainTitle ;
+        sh:datatype xsd:string ;
+    ] ;
+    #remainder of title
+    #MARC $b
+    sh:property [
+        sh:path dhpluso:subtitle ;
+        sh:datatype xsd:string ;
+    ] ;
+    #Number of part/section of a work
+    #MARC $n
+    sh:property [
+        sh:path dhpluso:partNumber ;
+        sh:datatype xsd:string ;
+    ] ;
+    #Name of part/section of a work
+    #MARC $p
+    sh:property [
+        sh:path dhpluso:partName ;
+        sh:datatype xsd:string ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+                a sh:SPARQLRule ;
+                sh:construct """
+    PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+    """ ;
+                sh:condition dhpluso:Title ;
+            ]
+.
+
+##production, publication, distribution, manufacture, and copyright notice
+#MARC 264
+<https://dhplus.sbg.ac.at/ontology#ProvisionActivity>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    #sh:property [
+      #  sh:path rdf:type ;
+     #   sh:class dhpluso:Publication ;
+    #] ;
+    #MARC $a
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#place> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Place> ;
+        sh:node [
+            sh:property [
+                sh:path rdfs:label ;
+                sh:datatype xsd:string ;
+            ] ;
+        ] ;
+    ] ;
+    #MARC $b
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#agent> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Agent> ;
+        sh:node [
+            sh:property [
+                sh:path rdfs:label ;
+                sh:datatype xsd:string ;
+            ] ;
+        ] ;
+    ] ;
+    #MARC $c
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#date> ;
+        sh:or (
+                [ sh:datatype <http://id.loc.gov/datatypes/edtf> ]
+                [ sh:datatype xsd:string ]
+            ) ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+    PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+    """ ;
+        sh:condition dhpluso:ProvisionActivity ;
+    ] ;
+.
+
+##host item instance
+#MARC 773
+_:Instance773Shape
+    a sh:NodeShape ;
+
+#shacl validation
+    sh:targetObjectsOf [ sh:path ( <https://dhplus.sbg.ac.at/ontology#hasInstance> <https://dhplus.sbg.ac.at/ontology#partOf> <https://dhplus.sbg.ac.at/ontology#hasPart> ) ] ;
+    sh:property [
+        sh:path rdf:type ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Instance> ;
+    ];
+    #edition
+    #MARC 773 $b
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#editionStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #place, publisher, and date of publication (ort, verlag)
+    #MARC 773 $d
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#provisionActivityStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #related parts e.g. pages
+    #MARC 773 $g
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#part> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #series data for related item
+    #MARC 773 $k
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#seriesStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #title
+    #MARC 773 $t
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#title> ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Title> ;
+        sh:node [
+            sh:property [
+                sh:path rdfs:label ;
+                sh:datatype xsd:string ;
+            ] ;
+        ] ;
+    ] ;
+
+    #path to host item work
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#instanceOf> ;
+        sh:pattern "Work773" ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+        sh:condition dhpluso:Title ;
+    ]
+.
+
+##series-instance
+#MARC 8xx
+_:Instance8xxShape
+    a sh:NodeShape ;
+
+#shacl validation
+    sh:targetObjectsOf [ sh:path ( <https://dhplus.sbg.ac.at/ontology#hasSeries> <https://dhplus.sbg.ac.at/ontology#hasInstance> <https://dhplus.sbg.ac.at/ontology#hasPart> ) ] ;
+    sh:property [
+        sh:path rdf:type ;
+        sh:class <https://dhplus.sbg.ac.at/ontology#Instance> ;
+    ] ;
+    #series statement
+    #MARC $a
+    sh:property [
+        sh:path rdfs:label ;
+        sh:datatype xsd:string ;
+    ] ;
+    #volume/sequential designation
+    #MARC $v
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#seriesEnumeration> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #MARC summary of $av
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#seriesStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #path to series-work
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#instanceOf> ;
+        sh:pattern "Work8xx" ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+    PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+    """ ;
+        sh:condition dhpluso:Instance ;
+    ]
+.
+
+#resource
+<https://dhplus.sbg.ac.at/ontology#Resource>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+
+.
+
+#marcTobf-loc
+#################################################################
+<https://dhplus.sbg.ac.at/ontology#MarcToBf-LoC>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Entity> ,
+      <https://dhplus.sbg.ac.at/ontology#DhplusSet> ;
+
+#shacl validation
+    sh:property [
+        sh:path <https://dhplus.sbg.ac.at/ontology#hasPart> ;
+        sh:class bf:Work ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+        sh:condition dhpluso:MarcToBf-LoC ;
+    ]
+.
+
+#work
+<http://id.loc.gov/ontologies/bibframe/Work>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    #author, title - short
+    sh:property [
+        sh:path rdfs:label ;
+        sh:datatype xsd:string ;
+    ] ;
+    #adminMetadata
+    #MARC 001. 003, 005, 008, 016
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/adminMetadata> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/AdminMetadata> ;
+    ] ;
+    #contribution
+    #MARC 100, 700
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/contribution> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Contribution> ;
+    ] ;
+    #title
+    #MARC 245
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/title> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Title> ;
+    ] ;
+    #host item entry e.g. monography -> series
+    #MARC 773
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/partOf> ;
+        sh:nodeKind sh:IRI ;
+    ] ;
+    #link to bf:instance
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/hasInstance> ;
+        sh:nodeKind sh:IRI ;
+        sh:pattern "Instance" ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+        sh:condition bf:Work ;
+    ]
+.
+
+##adminMetadata
+#MARC 001. 003, 005, 008, 016
+<http://id.loc.gov/ontologies/bibframe/AdminMetadata>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    #control number
+    #MARC 001, 016 $a
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/identifiedBy> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Local> ;
+        sh:node [
+            #number
+            sh:property [
+                sh:path rdf:value ;
+                sh:datatype xsd:string ;
+            ] ;
+            #source
+            #MARC 016 $2
+            sh:property [
+                sh:path <http://id.loc.gov/ontologies/bibframe/source> ;
+                sh:class <http://id.loc.gov/ontologies/bibframe/Source> ;
+                sh:node [
+                    #ISIL e.g. AT-OBV
+                    sh:property [
+                        sh:path rdfs:label ;
+                        sh:datatype xsd:string ;
+                    ]
+                ] ;
+            ] ;
+        ] ;
+    ] ;
+    #control number identifier
+    #MARC 003
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/source> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Source> ;
+        sh:node [
+            #ISIL e.g. AT-OBV
+            sh:property [
+                sh:path rdfs:label ;
+                sh:datatype xsd:string ;
+            ] ;
+        ] ;
+    ] ;
+    #date and time of latest transaction
+    #MARC 005
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/changeDate> ;
+        sh:datatype xsd:dateTime ;
+    ] ;
+    #date of creation
+    #MARC 008, character 0-5
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/creationDate> ;
+        sh:datatype xsd:date ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+        sh:condition bf:AdminMetadata ;
+    ]
+.
+
+##contribution
+#MARC 100, 700
+<http://id.loc.gov/ontologies/bibframe/Contribution>
+    a owl:Class, sh:NodeShape ;
+
+#Main Entry-Personal Name
+#MARC 100
+#OR
+#Added Entry-Personal Name
+#MARC 700
+
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    #Authority record control number or standard number
+    #MARC $0
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/agent> ;
+        sh:nodeKind sh:IRI ;
+        sh:pattern "https://d-nb.info/gnd/" ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Person> ;
+    ] ;
+    #Relator term
+    #MARC $e
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/role> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Role> ;
+    ] ;
+    #Relationship
+    #MARC $4
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/role> ;
+        sh:or (
+          #author
+          [ sh:hasValue <http://id.loc.gov/vocabulary/relators/aut> ]
+          #contributor
+          [ sh:hasValue <http://id.loc.gov/vocabulary/relators/ctb> ]
+          #editor
+          [ sh:hasValue <http://id.loc.gov/vocabulary/relators/edt> ]
+          #Blank Node
+          [ sh:nodeKind sh:BlankNode ]
+        ) ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+                a sh:SPARQLRule ;
+                sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+                sh:condition bf:Contribution ;
+            ]
+.
+
+##contributor
+#MARC 100, 700
+<http://id.loc.gov/ontologies/bibframe/Person>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    #personal name
+    #MARC $a
+    sh:property [
+        sh:path rdfs:label ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path bflc:name00MatchKey ;
+        sh:datatype xsd:string ;
+    ] ;
+    #MARC key for X00 Names
+    sh:property [
+        sh:path bflc:name00MarcKey ;
+        sh:datatype xsd:string ;
+    ] ;
+    #Authority record control number or standard number e.g. GND
+    #MARC $0
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/identifiedBy> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Identifier> ;
+        sh:node [
+            #number
+            sh:property [
+                sh:path rdf:value ;
+                sh:datatype xsd:string ;
+            ] ;
+            #ISIL e.g. DE-101
+            sh:property [
+                sh:path <http://id.loc.gov/ontologies/bibframe/source> ;
+                sh:class <http://id.loc.gov/ontologies/bibframe/Source> ;
+                sh:node [
+                    sh:property [
+                        sh:path rdfs:label ;
+                        sh:datatype xsd:string ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+    PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+    """ ;
+        sh:condition bf:Person ;
+    ] ;
+.
+
+##title
+#MARC 245
+<http://id.loc.gov/ontologies/bibframe/Title>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    sh:targetObjectsOf [sh:path (bf:title dhpluso:hasPart)] ;
+    #MARC summary of $afgknps
+    sh:property [
+        sh:path rdfs:label ;
+        sh:datatype xsd:string ;
+    ] ;
+    #string for sorting
+    sh:property [
+        sh:path bflc:titleSortKey ;
+        sh:datatype xsd:string ;
+    ] ;
+    #title
+    #MARC $a
+    sh:property [
+        sh:path bf:mainTitle ;
+        sh:datatype xsd:string ;
+    ] ;
+    #remainder of title
+    #MARC $b
+    sh:property [
+        sh:path bf:subtitle ;
+        sh:datatype xsd:string ;
+    ] ;
+    #Number of part/section of a work
+    #MARC $n
+    sh:property [
+        sh:path bf:partNumber ;
+        sh:datatype xsd:string ;
+    ] ;
+    #Name of part/section of a work
+    #MARC $p
+    sh:property [
+        sh:path bf:partName ;
+        sh:datatype xsd:string ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+    PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+    """ ;
+        sh:condition bf:Title ;
+    ]
+.
+
+##host item work
+#MARC 773
+_:Work773Shape
+    a sh:NodeShape ;
+
+#shacl validation
+    sh:targetObjectsOf [ sh:path ( bf:partOf dhpluso:hasPart ) ] ;
+    sh:property [
+        sh:path rdf:type ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Work> ;
+    ];
+
+    ##host item entry
+    #MARC 773
+    #record control number
+    #MARC $w
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/identifiedBy> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Identifier> ;
+        sh:node [
+            #number
+            sh:property [
+                sh:path rdf:value ;
+                sh:datatype xsd:string ;
+            ] ;
+            #ISIL e.g. DE-101
+            sh:property [
+                sh:path <http://id.loc.gov/ontologies/bibframe/source> ;
+                sh:class <http://id.loc.gov/ontologies/bibframe/Source> ;
+                sh:node [
+                    sh:property [
+                        sh:path rdfs:label ;
+                        sh:datatype xsd:string ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+    ] ;
+    #path to host item instance
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/hasInstance> ;
+        sh:pattern "Instance773" ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+        sh:condition bf:Title ;
+    ]
+.
+
+##series-work
+#MARC 8xx
+_:Work8xxShape
+    a sh:NodeShape ;
+
+#shacl validation
+    sh:targetObjectsOf [ sh:path (bf:instanceOf bf:hasSeries) ] ;
+
+    #series added entry-uniform title
+    #MARC 830
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/title> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Title> ;
+        sh:node [
+            #MARC summary of $afgknps
+            sh:property [
+                sh:path rdfs:label ;
+                sh:datatype xsd:string ;
+            ] ;
+            #string for sorting
+            sh:property [
+                sh:path bflc:titleSortKey ;
+                sh:datatype xsd:string ;
+            ] ;
+            #uniform title
+            #MARC $a
+            sh:property [
+                sh:path bf:mainTitle ;
+                sh:datatype xsd:string ;
+            ] ;
+        ] ;
+    ] ;
+    #bibliographic record control number
+    #MARC $w
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/identifiedBy> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Identifier> ;
+        sh:node [
+            #number
+            sh:property [
+                sh:path rdf:value ;
+                sh:datatype xsd:string ;
+            ] ;
+            #ISIL code e.g. DE-101
+            sh:property [
+                sh:path <http://id.loc.gov/ontologies/bibframe/source> ;
+                sh:class <http://id.loc.gov/ontologies/bibframe/Source> ;
+                sh:node [
+                    sh:property [
+                        sh:path rdfs:label ;
+                        sh:datatype xsd:string ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+    ] ;
+    #Control subfield
+    #MARC $7
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/issuance> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Issuance> ;
+        sh:node [
+            #bibliographic level
+            #MARC $7, second character e.g. s = series
+            sh:property [
+                sh:path <http://id.loc.gov/ontologies/bibframe/code> ;
+                sh:datatype xsd:string ;
+            ] ;
+        ] ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+        sh:condition bf:Work ;
+    ]
+.
+
+#instance
+<http://id.loc.gov/ontologies/bibframe/Instance>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    #adminMetadata
+    #Marc 035 used in ALMA
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/identifiedBy> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Local> ;
+        sh:node [
+            #number
+            sh:property [
+                sh:path rdf:value ;
+                sh:datatype xsd:string ;
+            ] ;
+            #source ISIL e.g. DE-101
+            sh:property [
+                sh:path <http://id.loc.gov/ontologies/bibframe/source> ;
+                sh:class <http://id.loc.gov/ontologies/bibframe/Source> ;
+                sh:node [
+                    sh:property [
+                        sh:path rdfs:label ;
+                        sh:datatype xsd:string ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+    ] ;
+    #title
+    #MARC 245
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/title> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Title> ;
+    ] ;
+    #Production, Publication, Distribution, Manufacture, and Copyright Notice
+    #MARC 264
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/provisionActivity> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/ProvisionActivity> ;
+    ] ;
+    #MARC 264 summary of $abc
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/provisionActivityStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #statement of responsibility
+    #MARC 245 $c
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/responsibilityStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #edition
+    #MARC 250 $a
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/editionStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #in series
+    #MARC 490
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/hasSeries> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Instance> ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+        sh:condition bf:Instance ;
+    ]
+.
+
+##title
+#MARC 245
+<http://id.loc.gov/ontologies/bibframe/Title>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    sh:targetObjectsOf [sh:path (bf:title bf:hasInstance)] ;
+    #MARC summary of $afgknps
+    sh:property [
+        sh:path rdfs:label ;
+        sh:datatype xsd:string ;
+    ] ;
+    #string for sorting
+    sh:property [
+        sh:path bflc:titleSortKey ;
+        sh:datatype xsd:string ;
+    ] ;
+    #title
+    #MARC $a
+    sh:property [
+        sh:path bf:mainTitle ;
+        sh:datatype xsd:string ;
+    ] ;
+    #remainder of title
+    #MARC $b
+    sh:property [
+        sh:path bf:subtitle ;
+        sh:datatype xsd:string ;
+    ] ;
+    #Number of part/section of a work
+    #MARC $n
+    sh:property [
+        sh:path bf:partNumber ;
+        sh:datatype xsd:string ;
+    ] ;
+    #Name of part/section of a work
+    #MARC $p
+    sh:property [
+        sh:path bf:partName ;
+        sh:datatype xsd:string ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+                a sh:SPARQLRule ;
+                sh:construct """
+    PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+    """ ;
+                sh:condition bf:Title ;
+            ]
+.
+
+##production, publication, distribution, manufacture, and copyright notice
+#MARC 264
+<http://id.loc.gov/ontologies/bibframe/ProvisionActivity>
+    a owl:Class, sh:NodeShape ;
+#owl classification
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+#shacl validation
+    #sh:property [
+      #  sh:path rdf:type ;
+     #   sh:class bf:Publication ;
+    #] ;
+    #MARC $a
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/place> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Place> ;
+        sh:node [
+            sh:property [
+                sh:path rdfs:label ;
+                sh:datatype xsd:string ;
+            ] ;
+        ] ;
+    ] ;
+    #MARC $b
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/agent> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Agent> ;
+        sh:node [
+            sh:property [
+                sh:path rdfs:label ;
+                sh:datatype xsd:string ;
+            ] ;
+        ] ;
+    ] ;
+    #MARC $c
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/date> ;
+        sh:or (
+                [ sh:datatype <http://id.loc.gov/datatypes/edtf> ]
+                [ sh:datatype xsd:string ]
+            ) ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+    PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+    """ ;
+        sh:condition bf:ProvisionActivity ;
+    ] ;
+.
+
+##host item instance
+#MARC 773
+_:Instance773Shape
+    a sh:NodeShape ;
+
+#shacl validation
+    sh:targetObjectsOf [sh:path (bf:hasInstance bf:partOf dhpluso:hasPart)] ;
+    sh:property [
+        sh:path rdf:type ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Instance> ;
+    ];
+    #edition
+    #MARC 773 $b
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/editionStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #place, publisher, and date of publication (ort, verlag)
+    #MARC 773 $d
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/provisionActivityStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #related parts e.g. pages
+    #MARC 773 $g
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/part> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #series data for related item
+    #MARC 773 $k
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/seriesStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #title
+    #MARC 773 $t
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/title> ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Title> ;
+        sh:node [
+            sh:property [
+                sh:path rdfs:label ;
+                sh:datatype xsd:string ;
+            ] ;
+        ] ;
+    ] ;
+
+    #path to host item work
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/instanceOf> ;
+        sh:pattern "Work773" ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+        sh:condition bf:Title ;
+    ]
+.
+
+##series-instance
+#MARC 8xx
+_:Instance8xxShape
+    a sh:NodeShape ;
+
+#shacl validation
+    sh:targetObjectsOf [ sh:path ( bf:hasSeries bf:hasInstance dhpluso:hasPart ) ] ;
+    sh:property [
+        sh:path rdf:type ;
+        sh:class <http://id.loc.gov/ontologies/bibframe/Instance> ;
+    ] ;
+    #series statement
+    #MARC $a
+    sh:property [
+        sh:path rdfs:label ;
+        sh:datatype xsd:string ;
+    ] ;
+    #volume/sequential designation
+    #MARC $v
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/seriesEnumeration> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #MARC summary of $av
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/seriesStatement> ;
+        sh:datatype xsd:string ;
+    ] ;
+    #path to series-work
+    sh:property [
+        sh:path <http://id.loc.gov/ontologies/bibframe/instanceOf> ;
+        sh:pattern "Work8xx" ;
+    ] ;
+
+#sparql generation
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+    PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+    """ ;
+        sh:condition bf:Instance ;
+    ]
+.
+
+#item
+<http://id.loc.gov/ontologies/bibframe/Item>
+    a owl:Class, sh:NodeShape ;
+
+    rdfs:subClassOf
+      <https://dhplus.sbg.ac.at/ontology#Mapping> ,
+      <https://dhplus.sbg.ac.at/ontology#Bibframe> ,
+      <https://dhplus.sbg.ac.at/ontology#Entity> ;
+
+    sh:property [
+                    sh:path <http://id.loc.gov/ontologies/bibframe/instanceOf> ;
+                    sh:nodeKind sh:IRI ;
+                ] ;
+
+    sh:rule [
+        a sh:SPARQLRule ;
+        sh:construct """
+            PREFIX dhpluso: <https://dhplus.sbg.ac.at/ontology#>
+            CONSTRUCT {
+                ?s ?p ?o
+            }
+            WHERE {
+                ?s dhpluso:dummy ?o
+            }
+            """ ;
+        sh:condition bf:Item ;
+    ]
+.
+
+
+#projspec
+#################################################################
+
+<https://dhplus.sbg.ac.at/ontology#ProjectSpecific>
+    a owl:Class, <http://www.w3.org/ns/shacl#NodeShape>
+.

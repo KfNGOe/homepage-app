@@ -1,0 +1,59 @@
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wikibase: <http://wikiba.se/ontology#Statement> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix schema: <http://schema.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dhpluso: <https://dhplus.sbg.ac.at/ontology#> .
+@prefix dhplusi: <http://dhplus.sbg.ac.at/instance/> .
+@prefix kngoei: <http://dhplus.sbg.ac.at/kngoe/instance/> .
+
+
+#dhplus
+<http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002>
+    a   <https://dhplus.sbg.ac.at/ontology#E21_Person> ;
+
+    #administrative
+
+    #relation
+
+    #name
+
+    #gender
+
+.
+
+#gnd
+<http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local>
+    a   <https://dhplus.sbg.ac.at/ontology#Gnd-local> ;
+    <https://dhplus.sbg.ac.at/ontology#hasPart> [
+        <http://www.w3.org/2007/05/powder-s#describedby> <http://d-nb.info/gnd/123191254/about> ;
+    ] ;
+.
+
+
+#wikidata
+<http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/wikiData-local>
+    a   <https://dhplus.sbg.ac.at/ontology#WikiData-local> ;
+    <https://dhplus.sbg.ac.at/ontology#hasPart> [
+        a <http://schema.org/Dataset> ;
+        #administrative
+        <http://schema.org/about> <http://www.wikidata.org/entity/Q19727197> ;
+    ] ;
+.
+
+#projspec
+<http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/projSpec>
+    a       <https://dhplus.sbg.ac.at/ontology#ProjectSpecific> ;
+.
+

@@ -1,0 +1,33 @@
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<https://d-nb.info/gnd/123191254>
+  a <https://d-nb.info/standards/elementset/gnd#DifferentiatedPerson> ;
+  wdrs:describedby <https://d-nb.info/gnd/123191254/about> ;
+  gndo:gndIdentifier "123191254"^^xsd:string ;
+  owl:sameAs <http://viaf.org/viaf/8288651>, <http://isni.org/isni/0000000118857158>, <http://www.wikidata.org/entity/Q98555088>, <http://id.loc.gov/rwo/agents/no2002097801> ;
+  gndo:oldAuthorityNumber "(DE-588a)123191254"^^xsd:string ;
+  gndo:variantNameForThePerson "Šarr, Kurt"^^xsd:string ;
+  gndo:variantNameEntityForThePerson [
+    gndo:forename "Kurt"^^xsd:string ;
+    gndo:surname "Šarr"^^xsd:string
+  ] ;
+  gndo:preferredNameForThePerson "Scharr, Kurt"^^xsd:string ;
+  gndo:preferredNameEntityForThePerson [
+    gndo:forename "Kurt"^^xsd:string ;
+    gndo:surname "Scharr"^^xsd:string
+  ] ;
+  gndo:academicDegree "Dr. rer. nat."^^xsd:string ;
+  gndo:professionOrOccupation <https://d-nb.info/gnd/4025098-2>, <https://d-nb.info/gnd/4020214-8>, <https://d-nb.info/gnd/4025243-7> ;
+  gndo:fieldOfStudy <https://d-nb.info/gnd/4020216-1>, <https://d-nb.info/gnd/4020517-4>, <https://d-nb.info/gnd/4051038-4> ;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT> ;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male> ;
+  gndo:dateOfBirth "1970"^^xsd:gYear .
+
+<https://d-nb.info/gnd/123191254/about>
+  dc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2020-08-31T14:22:06.000"^^xsd:dateTime .
+

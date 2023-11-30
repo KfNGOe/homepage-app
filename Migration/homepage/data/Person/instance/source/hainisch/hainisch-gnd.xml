@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+    xmlns:schema="http://schema.org/"
+    xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
+    xmlns:lib="http://purl.org/library/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:editeur="https://ns.editeur.org/thema/"
+    xmlns:geo="http://www.opengis.net/ont/geosparql#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdau="http://rdaregistry.info/Elements/u/"
+    xmlns:sf="http://www.opengis.net/ont/sf#"
+    xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:vivo="http://vivoweb.org/ontology/core#"
+    xmlns:isbd="http://iflastandards.info/ns/isbd/elements/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:mo="http://purl.org/ontology/mo/"
+    xmlns:marcRole="http://id.loc.gov/vocabulary/relators/"
+    xmlns:agrelon="https://d-nb.info/standards/elementset/agrelon#"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+    xmlns:dbp="http://dbpedia.org/property/"
+    xmlns:dnbt="https://d-nb.info/standards/elementset/dnb#"
+    xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+    xmlns:dnb_intern="http://dnb.de/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:v="http://www.w3.org/2006/vcard/ns#"
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:ebu="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:gbv="http://purl.org/ontology/gbv/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="https://d-nb.info/gnd/118544977">
+        <rdf:type rdf:resource="https://d-nb.info/standards/elementset/gnd#DifferentiatedPerson"/>
+        <wdrs:describedby>
+            <rdf:Description rdf:about="https://d-nb.info/gnd/118544977/about">
+                <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+                <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-28T08:00:34.000</dcterms:modified>
+            </rdf:Description>
+        </wdrs:describedby>
+        <gndo:gndIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118544977</gndo:gndIdentifier>
+        <foaf:page rdf:resource="https://de.wikipedia.org/wiki/Michael_Hainisch"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Michael_Hainisch"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/67257032"/>
+        <owl:sameAs rdf:resource="http://isni.org/isni/0000000106547734"/>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q84475"/>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)118544977</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588c)4022971-3</gndo:oldAuthorityNumber>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hainisch, Michael Arthur Josef Jakob</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx11547618">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michael Arthur Josef Jakob</gndo:forename>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hainisch</gndo:surname>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:preferredNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hainisch, Michael</gndo:preferredNameForThePerson>
+        <gndo:preferredNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx11547619">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michael</gndo:forename>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hainisch</gndo:surname>
+            </rdf:Description>
+        </gndo:preferredNameEntityForThePerson>
+        <gndo:familialRelationship rdf:resource="https://d-nb.info/gnd/116167718"/>
+        <agrelon:hasChild rdf:resource="https://d-nb.info/gnd/116167718"/>
+        <gndo:familialRelationship rdf:resource="https://d-nb.info/gnd/116393289"/>
+        <agrelon:hasParent rdf:resource="https://d-nb.info/gnd/116393289"/>
+        <gndo:familialRelationship rdf:resource="https://d-nb.info/gnd/136838278"/>
+        <agrelon:hasParent rdf:resource="https://d-nb.info/gnd/136838278"/>
+        <gndo:academicDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dr. iur.</gndo:academicDegree>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4046517-2"/>
+        <gndo:gndSubjectCategory rdf:resource="https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p"/>
+        <gndo:gndSubjectCategory rdf:resource="https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT"/>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hainisch, Michael: Der Kampf ums Dasein und die Socialpolitik. - 1899</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hainisch, Michael: Wirtschaftliche Verhältnisse Deutsch-Österreichs</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hainisch, Michael: Die Entstehung des Kapitalzinses. - 1907</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hainisch, Michael: Die Landflucht. - 1924</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aus mein'Leben. - 1930</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Was Z'samklábt's. - 1935</gndo:publication>
+        <gndo:homepage rdf:resource="http://www.pacelli-edition.de/Biographie/4717"/>
+        <gndo:biographicalOrHistoricalInformation xml:lang="de">Parteiloser Österr. Sozial- und Wirtschaftspolitiker; 1920-1928 Bundespräsident von Österreich; schrieb auch Mundartgedichte</gndo:biographicalOrHistoricalInformation>
+        <gndo:placeOfBirth rdf:resource="https://d-nb.info/gnd/7652279-9"/>
+        <gndo:placeOfDeath rdf:resource="https://d-nb.info/gnd/4066009-6"/>
+        <gndo:gender rdf:resource="https://d-nb.info/standards/vocab/gnd/gender#male"/>
+        <gndo:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1858-08-15</gndo:dateOfBirth>
+        <gndo:dateOfDeath rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1940-02-26</gndo:dateOfDeath>
+    </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+    xmlns:schema="http://schema.org/"
+    xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
+    xmlns:lib="http://purl.org/library/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:editeur="https://ns.editeur.org/thema/"
+    xmlns:geo="http://www.opengis.net/ont/geosparql#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdau="http://rdaregistry.info/Elements/u/"
+    xmlns:sf="http://www.opengis.net/ont/sf#"
+    xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:vivo="http://vivoweb.org/ontology/core#"
+    xmlns:isbd="http://iflastandards.info/ns/isbd/elements/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:mo="http://purl.org/ontology/mo/"
+    xmlns:marcRole="http://id.loc.gov/vocabulary/relators/"
+    xmlns:agrelon="https://d-nb.info/standards/elementset/agrelon#"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+    xmlns:dbp="http://dbpedia.org/property/"
+    xmlns:dnbt="https://d-nb.info/standards/elementset/dnb#"
+    xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+    xmlns:dnb_intern="http://dnb.de/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:v="http://www.w3.org/2006/vcard/ns#"
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:ebu="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:gbv="http://purl.org/ontology/gbv/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="https://d-nb.info/gnd/123843375">
+        <rdf:type rdf:resource="https://d-nb.info/standards/elementset/gnd#DifferentiatedPerson"/>
+        <wdrs:describedby>
+            <rdf:Description rdf:about="https://d-nb.info/gnd/123843375/about">
+                <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+                <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-26T07:50:42.000</dcterms:modified>
+            </rdf:Description>
+        </wdrs:describedby>
+        <gndo:gndIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123843375</gndo:gndIdentifier>
+        <foaf:page rdf:resource="https://de.wikipedia.org/wiki/Hans_Uebersberger"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/15689763"/>
+        <owl:sameAs rdf:resource="http://isni.org/isni/0000000066323815"/>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q15453034"/>
+        <owl:sameAs rdf:resource="http://id.loc.gov/rwo/agents/n84004471"/>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588a)123843375</gndo:oldAuthorityNumber>
+        <gndo:oldAuthorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-588c)4761838-3</gndo:oldAuthorityNumber>
+        <gndo:variantNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Übersberger, Hans</gndo:variantNameForThePerson>
+        <gndo:variantNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx11668310">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hans</gndo:forename>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Übersberger</gndo:surname>
+            </rdf:Description>
+        </gndo:variantNameEntityForThePerson>
+        <gndo:preferredNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uebersberger, Hans</gndo:preferredNameForThePerson>
+        <gndo:preferredNameEntityForThePerson>
+            <rdf:Description rdf:nodeID="node1es0fco4rx11668311">
+                <gndo:forename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hans</gndo:forename>
+                <gndo:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uebersberger</gndo:surname>
+            </rdf:Description>
+        </gndo:preferredNameEntityForThePerson>
+        <gndo:familialRelationship rdf:resource="https://d-nb.info/gnd/116601590"/>
+        <gndo:affiliation rdf:resource="https://d-nb.info/gnd/1012979-0"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4025098-2"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4025243-7"/>
+        <gndo:professionOrOccupation rdf:resource="https://d-nb.info/gnd/4322831-8"/>
+        <gndo:gndSubjectCategory rdf:resource="https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT"/>
+        <gndo:geographicAreaCode rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE"/>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uebersberger, Hans: Rußlands Territorialentwicklung und Nationalitätenpolitik. - [1942]</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uebersberger, Hans: Österreich und Russland seit dem Ende des 15. Jahrhunderts</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uebersberger, Hans: Russlands Orientpolitik in den letzten zwei Jahrhunderten</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uebersberger, Hans: Russland. - 1918</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Der Saloniki-Prozess. - 1933</gndo:publication>
+        <gndo:publication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Österreich-Ungarns Aussenpolitik von ... 1908 bis ... 1914. - 1930</gndo:publication>
+        <gndo:biographicalOrHistoricalInformation xml:lang="de">Österreichisch-deutscher Osteuropahistoriker mit Professuren in Wien, Breslau und Berlin; Mitglied der antisemitischen Professorenclique Bärenhöhle, 1933 in Wien Eintritt in die illegale NSDAP, 1945 als politisch belastet in Berlin entlassen, ab 1950 an der Ukrainischen Freien Universität in München tätig, ab 1958 Lehrauftrag in Göttingen</gndo:biographicalOrHistoricalInformation>
+        <gndo:placeOfBirth rdf:resource="https://d-nb.info/gnd/4030921-6"/>
+        <gndo:placeOfDeath rdf:resource="https://d-nb.info/gnd/4127793-4"/>
+        <gndo:gender rdf:resource="https://d-nb.info/standards/vocab/gnd/gender#male"/>
+        <gndo:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1877-06-25</gndo:dateOfBirth>
+        <gndo:dateOfDeath rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1962-07-08</gndo:dateOfDeath>
+    </rdf:Description>
+</rdf:RDF>

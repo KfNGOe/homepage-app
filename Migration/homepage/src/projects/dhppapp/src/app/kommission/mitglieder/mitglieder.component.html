@@ -1,0 +1,12 @@
+<div class="header-container">
+  <h1>Mitglieder</h1>
+</div>
+
+<app-loader [loadingText]="'lade Daten...'" [loading]="loading"></app-loader>
+{{ error }}
+
+<h3>Vorstand</h3>
+<dhpp-listing-style-2 class="row" style="padding-bottom: 35px; " *ngFor="let item of vorstandData" [element]="item"> </dhpp-listing-style-2>
+
+<h3>Mitglieder</h3>
+<dhpp-listing-style-2 class="row" style="padding-bottom: 35px; " *ngFor="let item of data" [element]="item"></dhpp-listing-style-2>

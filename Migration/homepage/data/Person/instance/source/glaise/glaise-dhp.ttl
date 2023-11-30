@@ -1,0 +1,497 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/74fe82a7-a742-4655-a401-5dc6c30a6d85>
+        a              rdf:Statement ;
+        rdf:object     "Едмунд Глајз фон Хостенау" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#personalName> ;
+        rdf:subject    _:b0 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#personalName> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/13e058cb-ef0d-458c-a487-e43d05c14481>
+        a              rdf:Statement ;
+        rdf:object     "Glaise" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#surname> ;
+        rdf:subject    _:b1 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#surname> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/f42dfb9f-461a-406a-aa88-4b954db7ea9b>
+        a              rdf:Statement ;
+        rdf:object     "Edmund Glaise" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#forename> ;
+        rdf:subject    _:b2 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#forename> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/8c05be2b-d0a7-423f-a639-53cac39850cc>
+        a            rdf:Statement ;
+        rdf:object   "Едмунд Глајз-Хорстенау"@sr-Cyrl ;
+        rdf:subject  _:b3 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#variantNameForThePerson> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/0e235801-2acb-4ff1-b6c1-d36f6e9d67f0>
+        a              rdf:Statement ;
+        rdf:object     "von" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#prefix> ;
+        rdf:subject    _:b2 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#prefix> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+_:b3    a           <https://dhplus.sbg.ac.at/ontology#NameOfThePerson> ;
+        rdfs:label  "Edmund Glaise-Horstenau"@en , "Edmund Glaise-Horstenau"@de ;
+        <https://dhplus.sbg.ac.at/ontology#biographicalOrHistoricalInformation>
+                "Offizier, Historiker, Politiker"@de , "Ab 1915 im Referat für Presse und Politik im k.u.k. Armeeoberkommando (AOK); 1925-1938 Diektor des österreichischen Kriegsarchives; 1938 Vizekanzler; 1941-1944 Generalbevollmächtigter für Deutschland in Kroatien; beging Selbstmord"@de ;
+        <https://dhplus.sbg.ac.at/ontology#preferredNameEntityForThePerson>
+                _:b4 ;
+        <https://dhplus.sbg.ac.at/ontology#preferredNameForThePerson>
+                "Glaise von Horstenau, Edmund" ;
+        <https://dhplus.sbg.ac.at/ontology#variantNameEntityForThePerson>
+                _:b5 , _:b6 , _:b0 , _:b7 , _:b8 , _:b2 , _:b1 .
+
+<http://dhplus.sbg.ac.at/instance/stmt/d3e64478-f4dd-4840-9e8c-c5913b19f2c0>
+        a              rdf:Statement ;
+        rdf:object     "..." ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#forename> ;
+        rdf:subject    _:b7 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#forename> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/71cc2850-6ecb-43fb-a3fb-db09ac00f4af>
+        a            rdf:Statement ;
+        rdf:object   "Horstenau, Edmund Glaise von" ;
+        rdf:subject  _:b3 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#variantNameForThePerson> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+_:b8    <https://d-nb.info/standards/elementset/gnd#forename>
+                "Edmund" ;
+        <https://d-nb.info/standards/elementset/gnd#prefix>
+                "von" ;
+        <https://d-nb.info/standards/elementset/gnd#surname>
+                "Gleise-Horstenau" ;
+        <https://dhplus.sbg.ac.at/ontology#forename>
+                "Edmund" ;
+        <https://dhplus.sbg.ac.at/ontology#prefix>
+                "von" ;
+        <https://dhplus.sbg.ac.at/ontology#surname>
+                "Gleise-Horstenau" .
+
+<http://dhplus.sbg.ac.at/instance/stmt/3f86522a-73b3-4fbb-b87c-83fc3e9ca2b6>
+        a              rdf:Statement ;
+        rdf:object     "von" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#prefix> ;
+        rdf:subject    _:b8 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#prefix> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/wikiData-local>
+        a       <https://dhplus.sbg.ac.at/ontology#WikiData-local> ;
+        <https://dhplus.sbg.ac.at/ontology#hasPart>
+                [ a                            <http://schema.org/Dataset> ;
+                  <http://creativecommons.org/ns#license>
+                          <http://creativecommons.org/publicdomain/zero/1.0/> ;
+                  <http://schema.org/about>    <http://www.wikidata.org/entity/Q112416> ;
+                  <http://schema.org/dateModified>
+                          "2021-01-24T23:26:11Z"^^xsd:dateTime ;
+                  <http://schema.org/version>  1347644831
+                ] .
+
+<http://dhplus.sbg.ac.at/instance/stmt/2aa358b5-fa96-4775-953b-7351fa7f7acb>
+        a            rdf:Statement ;
+        rdf:object   "Glez fon Horstenau, ..." ;
+        rdf:subject  _:b3 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#variantNameForThePerson> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/7a4ef0ad-fc8f-4bfb-9c03-cbcbfc02b77f>
+        a            rdf:Statement ;
+        rdf:object   "Едмунд Глајз фон Хостенау"@sr-Cyrl ;
+        rdf:subject  _:b3 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#variantNameForThePerson> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/3f2be60b-5c3a-41cb-b8d6-18e889ce3810>
+        a            rdf:Statement ;
+        rdf:object   "Glaise, Edmund" ;
+        rdf:subject  _:b3 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#variantNameForThePerson> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002>
+        a           <https://dhplus.sbg.ac.at/ontology#E21_Person> ;
+        owl:sameAs  <http://viaf.org/viaf/22150599> ;
+        <https://dhplus.sbg.ac.at/ontology#P100i_died_in>
+                <http://dhplus.sbg.ac.at/instance/3536ba8e-eebb-11ea-adc1-0242ac120002> ;
+        <https://dhplus.sbg.ac.at/ontology#P1_is_identified_by>
+                _:b3 ;
+        <https://dhplus.sbg.ac.at/ontology#P2_has_type>
+                [ a       <https://dhplus.sbg.ac.at/ontology#Gender> ;
+                  <https://dhplus.sbg.ac.at/ontology#gender>
+                          <https://d-nb.info/standards/vocab/gnd/gender#male>
+                ] ;
+        <https://dhplus.sbg.ac.at/ontology#P98i_was_born>
+                <http://dhplus.sbg.ac.at/instance/126b6a72-eebb-11ea-adc1-0242ac120002> ;
+        <https://dhplus.sbg.ac.at/ontology#creator>
+                "NN" ;
+        <https://dhplus.sbg.ac.at/ontology#creator>
+                <urn:URI> ;
+        <https://dhplus.sbg.ac.at/ontology#dateCreated>
+                "0001-01-01T00:00:00"^^xsd:dateTime ;
+        <https://dhplus.sbg.ac.at/ontology#dateModified>
+                "0001-01-01T00:00:00"^^xsd:dateTime ;
+        <https://dhplus.sbg.ac.at/ontology#datePublished>
+                "0001-01-01T00:00:00"^^xsd:dateTime ;
+        <https://dhplus.sbg.ac.at/ontology#source>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> , <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/projSpec> , <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/wikiData-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/ecb0360b-c7c8-4cdb-8e6c-9742f8db62b9>
+        a              rdf:Statement ;
+        rdf:object     "Glaise von Horstenau" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#surname> ;
+        rdf:subject    _:b4 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#surname> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/21497cec-0bd8-4064-a3ee-3dfd680e9098>
+        a              rdf:Statement ;
+        rdf:object     "Edmund" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#forename> ;
+        rdf:subject    _:b1 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#forename> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+_:b5    <https://d-nb.info/standards/elementset/gnd#personalName>
+                "Едмунд Глајз-Хорстенау" ;
+        <https://dhplus.sbg.ac.at/ontology#personalName>
+                "Едмунд Глајз-Хорстенау" .
+
+<http://dhplus.sbg.ac.at/instance/stmt/f15b94e0-f798-4c79-a4d8-247d12e0e5bc>
+        a              rdf:Statement ;
+        rdf:object     "Едмунд Глајз-Хорстенау" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#personalName> ;
+        rdf:subject    _:b5 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#personalName> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+_:b1    <https://d-nb.info/standards/elementset/gnd#forename>
+                "Edmund" ;
+        <https://d-nb.info/standards/elementset/gnd#surname>
+                "Glaise" ;
+        <https://dhplus.sbg.ac.at/ontology#forename>
+                "Edmund" ;
+        <https://dhplus.sbg.ac.at/ontology#surname>
+                "Glaise" .
+
+<http://dhplus.sbg.ac.at/instance/stmt/62f4b942-2458-4bcb-bedb-e6151c61f607>
+        a              rdf:Statement ;
+        rdf:object     "Ab 1915 im Referat für Presse und Politik im k.u.k. Armeeoberkommando (AOK); 1925-1938 Diektor des österreichischen Kriegsarchives; 1938 Vizekanzler; 1941-1944 Generalbevollmächtigter für Deutschland in Kroatien; beging Selbstmord"@de ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#biographicalOrHistoricalInformation> ;
+        rdf:subject    _:b3 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://www.wikidata.org/entity/Q112416>
+        rdfs:label  "Edmund Glaise-Horstenau"@en , "Edmund Glaise-Horstenau"@de ;
+        <http://www.wikidata.org/prop/direct/P19>
+                <http://www.wikidata.org/entity/Q131128> ;
+        <http://www.wikidata.org/prop/direct/P20>
+                <http://www.wikidata.org/entity/Q303447> ;
+        <http://www.wikidata.org/prop/direct/P21>
+                <http://www.wikidata.org/entity/Q6581097> ;
+        <http://www.wikidata.org/prop/direct/P569>
+                "1882-02-27T00:00:00Z"^^xsd:dateTime ;
+        <http://www.wikidata.org/prop/direct/P570>
+                "1946-07-20T00:00:00Z"^^xsd:dateTime .
+
+<http://dhplus.sbg.ac.at/instance/stmt/6070a309-b67d-48c3-af73-7315755e8975>
+        a              rdf:Statement ;
+        rdf:object     "Edmund" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#forename> ;
+        rdf:subject    _:b4 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#forename> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/653857ce-67ac-4c5d-a80d-7980a92f8687>
+        a            rdf:Statement ;
+        rdf:object   "Glaise-Horstenau, Edmund von" ;
+        rdf:subject  _:b3 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#variantNameForThePerson> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/a47b8c2c-87a3-47a4-a0d9-eda235db573b>
+        a              rdf:Statement ;
+        rdf:object     "Gleise-Horstenau" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#surname> ;
+        rdf:subject    _:b8 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#surname> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<https://d-nb.info/gnd/118539647/about>
+        <http://purl.org/dc/terms/license>
+                <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        <http://purl.org/dc/terms/modified>
+                "2016-11-11T13:33:02.000"^^xsd:dateTime .
+
+_:b7    <https://d-nb.info/standards/elementset/gnd#forename>
+                "..." ;
+        <https://d-nb.info/standards/elementset/gnd#surname>
+                "Glez fon Horstenau" ;
+        <https://dhplus.sbg.ac.at/ontology#forename>
+                "..." ;
+        <https://dhplus.sbg.ac.at/ontology#surname>
+                "Glez fon Horstenau" .
+
+<http://dhplus.sbg.ac.at/instance/stmt/f88166b9-53a3-4fbd-83c1-9cbf71efddfb>
+        a              rdf:Statement ;
+        rdf:object     "Horstenau" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#surname> ;
+        rdf:subject    _:b2 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#surname> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+_:b0    <https://d-nb.info/standards/elementset/gnd#personalName>
+                "Едмунд Глајз фон Хостенау" ;
+        <https://dhplus.sbg.ac.at/ontology#personalName>
+                "Едмунд Глајз фон Хостенау" .
+
+<http://dhplus.sbg.ac.at/instance/stmt/7b6acae5-6713-41f6-80a4-591b1ea144f2>
+        a              rdf:Statement ;
+        rdf:object     "Edmund" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#forename> ;
+        rdf:subject    _:b6 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#forename> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/6ffcb113-a670-4d4b-b96a-d67d87953690>
+        a              rdf:Statement ;
+        rdf:object     "Edmund" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#forename> ;
+        rdf:subject    _:b8 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#forename> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/f9eec71f-6c30-4c2c-86e0-355165290121>
+        a              rdf:Statement ;
+        rdf:object     "Glaise von Horstenau, Edmund" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#preferredNameForThePerson> ;
+        rdf:subject    _:b3 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#preferredNameForThePerson> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/3e2ea9c9-75bc-4222-9751-034d7d741a88>
+        a              rdf:Statement ;
+        rdf:object     "von" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#prefix> ;
+        rdf:subject    _:b6 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#prefix> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+_:b6    <https://d-nb.info/standards/elementset/gnd#forename>
+                "Edmund" ;
+        <https://d-nb.info/standards/elementset/gnd#prefix>
+                "von" ;
+        <https://d-nb.info/standards/elementset/gnd#surname>
+                "Glaise-Horstenau" ;
+        <https://dhplus.sbg.ac.at/ontology#forename>
+                "Edmund" ;
+        <https://dhplus.sbg.ac.at/ontology#prefix>
+                "von" ;
+        <https://dhplus.sbg.ac.at/ontology#surname>
+                "Glaise-Horstenau" .
+
+<http://dhplus.sbg.ac.at/instance/stmt/a504a7b1-0541-4aa9-b68f-56d080b6e681>
+        a            rdf:Statement ;
+        rdf:object   "Gleise-Horstenau, Edmund von" ;
+        rdf:subject  _:b3 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#variantNameForThePerson> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/3565afb3-6ae4-42d5-a2f6-9e97f85fd820>
+        a              rdf:Statement ;
+        rdf:object     "Glez fon Horstenau" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#surname> ;
+        rdf:subject    _:b7 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#surname> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local>
+        a       <https://dhplus.sbg.ac.at/ontology#Gnd-local> ;
+        <https://dhplus.sbg.ac.at/ontology#hasPart>
+                [ a           <https://d-nb.info/standards/elementset/gnd#DifferentiatedPerson> ;
+                  owl:sameAs  <http://viaf.org/viaf/22150599> ;
+                  <http://www.w3.org/2007/05/powder-s#describedby>
+                          <https://d-nb.info/gnd/118539647/about> ;
+                  <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation>
+                          "Ab 1915 im Referat für Presse und Politik im k.u.k. Armeeoberkommando (AOK); 1925-1938 Diektor des österreichischen Kriegsarchives; 1938 Vizekanzler; 1941-1944 Generalbevollmächtigter für Deutschland in Kroatien; beging Selbstmord"@de , "Offizier, Historiker, Politiker"@de ;
+                  <https://d-nb.info/standards/elementset/gnd#dateOfBirth>
+                          "1882-02-27"^^xsd:date ;
+                  <https://d-nb.info/standards/elementset/gnd#dateOfDeath>
+                          "1946-07-20"^^xsd:date ;
+                  <https://d-nb.info/standards/elementset/gnd#gender>
+                          <https://d-nb.info/standards/vocab/gnd/gender#male> ;
+                  <https://d-nb.info/standards/elementset/gnd#gndIdentifier>
+                          "118539647" ;
+                  <https://d-nb.info/standards/elementset/gnd#placeOfBirth>
+                          <https://d-nb.info/gnd/4008037-7> ;
+                  <https://d-nb.info/standards/elementset/gnd#placeOfDeath>
+                          <https://d-nb.info/gnd/4101855-2> ;
+                  <https://d-nb.info/standards/elementset/gnd#preferredNameEntityForThePerson>
+                          _:b4 ;
+                  <https://d-nb.info/standards/elementset/gnd#preferredNameForThePerson>
+                          "Glaise von Horstenau, Edmund" ;
+                  <https://d-nb.info/standards/elementset/gnd#variantNameEntityForThePerson>
+                          _:b1 , _:b6 , _:b5 , _:b7 , _:b0 , _:b2 , _:b8 ;
+                  <https://d-nb.info/standards/elementset/gnd#variantNameOfThePerson>
+                          "Едмунд Глајз фон Хостенау"@sr-Cyrl , "Horstenau, Edmund Glaise von" , "Gleise-Horstenau, Edmund von" , "Едмунд Глајз-Хорстенау"@sr-Cyrl , "Glaise, Edmund" , "Glez fon Horstenau, ..." , "Glaise-Horstenau, Edmund von"
+                ] .
+
+_:b4    <https://d-nb.info/standards/elementset/gnd#forename>
+                "Edmund" ;
+        <https://d-nb.info/standards/elementset/gnd#surname>
+                "Glaise von Horstenau" ;
+        <https://dhplus.sbg.ac.at/ontology#forename>
+                "Edmund" ;
+        <https://dhplus.sbg.ac.at/ontology#surname>
+                "Glaise von Horstenau" .
+
+<http://dhplus.sbg.ac.at/instance/stmt/814dd70f-f32a-41ea-8c28-e86edc6650fe>
+        a              rdf:Statement ;
+        rdf:object     "Offizier, Historiker, Politiker"@de ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#biographicalOrHistoricalInformation> ;
+        rdf:subject    _:b3 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+<http://dhplus.sbg.ac.at/instance/stmt/b930e9e5-7c78-45b3-8cc7-7f43e0ac9749>
+        a              rdf:Statement ;
+        rdf:object     "Glaise-Horstenau" ;
+        rdf:predicate  <https://dhplus.sbg.ac.at/ontology#surname> ;
+        rdf:subject    _:b6 ;
+        <https://dhplus.sbg.ac.at/ontology#value-code>
+                <https://dhplus.sbg.ac.at/vocabulary#default> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-prop>
+                <https://d-nb.info/standards/elementset/gnd#surname> ;
+        <https://dhplus.sbg.ac.at/ontology#value-source-uri>
+                <http://dhplus.sbg.ac.at/instance/828f9830-91b1-11ea-bb37-0242ac130002/gnd-local> .
+
+_:b2    <https://d-nb.info/standards/elementset/gnd#forename>
+                "Edmund Glaise" ;
+        <https://d-nb.info/standards/elementset/gnd#prefix>
+                "von" ;
+        <https://d-nb.info/standards/elementset/gnd#surname>
+                "Horstenau" ;
+        <https://dhplus.sbg.ac.at/ontology#forename>
+                "Edmund Glaise" ;
+        <https://dhplus.sbg.ac.at/ontology#prefix>
+                "von" ;
+        <https://dhplus.sbg.ac.at/ontology#surname>
+                "Horstenau" .

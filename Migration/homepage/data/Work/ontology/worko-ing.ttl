@@ -1,0 +1,334 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bfo: <http://id.loc.gov/ontologies/bibframe.rdf> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dhpluso: <https://dhplus.sbg.ac.at/ontology#> .
+@prefix kngoev: <https://dhplus.sbg.ac.at/kngoe/vocabulary#> .
+@prefix tmp: <https://dhplus.sbg.ac.at/tmp/> .
+@base <https://dhplus.sbg.ac.at/ontology/work> .
+
+<https://dhplus.sbg.ac.at/ontology#work>
+  a owl:Ontology ;
+  dc:title "dhPLUS Ontologie"@de ;
+  dc:title "dhPLUS Ontology"@en ;
+  dct:creator "Richard Hörmann" ;
+  owl:comment "This is an ontology of the dhPLUS repository for Digital Humanities Projects of the University of Salzburg."@en ;
+  owl:versionInfo "0.1"^^xsd:string, "2019-12-27"^^xsd:date ;
+  owl:versionIRI <https://dhplus.sbg.ac.at/ontology#/0.1> ;
+  #owl:imports
+
+  #################################################################
+#    Prefixes
+#################################################################
+
+    sh:declare [
+        sh:prefix "bf" ;
+        sh:namespace "http://id.loc.gov/ontologies/bibframe/"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+        sh:prefix "bfo" ;
+        sh:namespace "http://id.loc.gov/ontologies/bibframe.rdf"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+        sh:prefix "cc" ;
+        sh:namespace "http://creativecommons.org/ns#"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+        sh:prefix "dc" ;
+        sh:namespace "http://purl.org/dc/elements/1.1/"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+        sh:prefix "dcterms" ;
+        sh:namespace "http://purl.org/dc/terms/"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+        sh:prefix "dhpluso" ;
+        sh:namespace "https://dhplus.sbg.ac.at/ontology#"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+        sh:prefix "dhplusv" ;
+        sh:namespace "https://dhplus.sbg.ac.at/vocabulary#"^^xsd:anyURI ;
+               ] ;
+    sh:declare [
+        sh:prefix "gndo" ;
+        sh:namespace "https://d-nb.info/standards/elementset/gnd#"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+        sh:prefix "kngoev" ;
+        sh:namespace "https://dhplus.sbg.ac.at/kngoe/vocabulary#"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+            sh:prefix "owl" ;
+            sh:namespace "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+        sh:prefix "rdf" ;
+        sh:namespace "http://www.w3.org/1999/02/22-rdf-syntax-ns#"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+        sh:prefix "rdfs" ;
+        sh:namespace "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+        sh:prefix "schema" ;
+        sh:namespace "http://schema.org/"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+        sh:prefix "wdrs" ;
+        sh:namespace "http://www.w3.org/2007/05/powder-s#"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+        sh:prefix "wdt" ;
+        sh:namespace "http://www.wikidata.org/prop/direct/"^^xsd:anyURI ;
+    ] ;
+    sh:declare [
+        sh:prefix "wikibase" ;
+        sh:namespace "http://wikiba.se/ontology#"^^xsd:anyURI ;
+    ] ;
+.
+
+#dhplus
+#################################################################
+#Init
+#################################################################
+
+
+
+dhpluso:DHPWorkRule
+    a sh:NodeShape ;
+    #sh:targetClass bf:AdminMetadata ;
+    sh:targetSubjectsOf bf:hasInstance ;
+    sh:order 1 ;
+    sh:rule [
+       a sh:SPARQLRule ;
+       rdfs:label "Initialize/Generate basic Structure of dhPLUS Instance" ;
+       sh:prefixes dhpluso:work ;
+       sh:construct """
+            CONSTRUCT {
+                ?s_uri  a dhpluso:Work ;
+                        dhpluso:source ?s_marc_bf, ?s_projSpec ;
+                        dhpluso:hasInstance ?s_instance ;
+                .
+                ?s_instance  a dhpluso:Instance ;
+                .
+                ?s_marc_bf  a dhpluso:MarcToBf-LoC ;
+                .
+                ?s_projSpec a dhpluso:ProjectSpecific ;
+                .
+            }
+            WHERE {
+                {
+                    SELECT ?s_uri ?s_marc_bf ?s_projSpec ?s_instance
+                    WHERE {
+                        
+                        #check if work data already exists or has to be initialized
+                        BIND (  dhpluso:DhpUriFunction($this) AS ?s_uri ) .
+                        BIND ( URI ( CONCAT ( str(?s_uri), "/Bf-LoC" ) ) AS ?s_marc_bf ) .
+                        BIND ( URI ( CONCAT ( str(?s_uri), "/projSpec" ) ) AS ?s_projSpec ) .
+                        BIND ( URI ( CONCAT ( str(?s_uri), "/Instance" ) ) AS ?s_instance ) .
+                    }
+                } .
+                {
+
+                } .
+            }
+       """ ;
+    ]
+.
+
+dhpluso:DhpUriFunction
+	a sh:SPARQLFunction ;
+	rdfs:comment "check and generate dhp-uri" ;
+    sh:parameter [
+		sh:path tmp:this ;
+		sh:datatype rdf:Description ;
+		sh:description "this" ;
+	] ;
+	sh:returnType rdf:Description ;
+    sh:prefixes dhpluso:work ;
+	sh:select """
+		SELECT ?res
+        WHERE {
+            BIND (   IF ( ( isURI($this) ) && ( STRSTARTS(STR($this), "http://example.org/") ) , URI ( CONCAT ( "http://dhplus.sbg.ac.at/kngoe/instance/", STRUUID() ) ), ?nothing ) AS ?res ) .
+        }
+        """
+.
+
+dhpluso:WorkRule
+    a sh:NodeShape ;
+
+#shacl validation
+    sh:targetClass dhpluso:Work ;
+    sh:order 2 ;
+#sparql generation
+    sh:rule [
+          a sh:SPARQLRule ;
+          rdfs:label "Construct Work Class" ;
+          sh:prefixes dhpluso:work ;
+          sh:construct """
+            CONSTRUCT {
+                ?s_work dhpluso:contribution ?_contr ;
+                .
+                ?_contr a dhpluso:Contribution ;
+                        dhpluso:role ?role_uri ;
+                .
+            }
+            WHERE {
+                {
+                    SELECT ($this AS ?s_work) ?_contr ?role_uri
+                    WHERE {
+                        ?s bf:contribution ?_contr ;
+                        .
+                        ?_contr a bf:Contribution ;
+                                bf:role ?role_uri ;
+                        .
+                    }
+                } .
+                {
+                    #BIND(BNODE() AS ?_contr) .
+                } .
+            }
+       """ ;
+      ]
+.
+
+dhpluso:ContributionRule
+    a sh:NodeShape ;
+    sh:targetClass dhpluso:Contribution ;
+    sh:order 3 ;
+    sh:rule [
+          a sh:SPARQLRule ;
+          rdfs:label "Construct Contribution Class" ;
+          sh:prefixes dhpluso:work ;
+          sh:construct """
+            CONSTRUCT {
+                ?s_contr dhpluso:agent ?contr_uri ;
+                .
+            }
+            WHERE {
+                {
+                    SELECT ($this AS ?s_contr) ?contr_uri
+                    WHERE {
+                        #check only author
+                        $this dhpluso:role <http://id.loc.gov/vocabulary/relators/aut> .
+
+                        #get gnd Id in work data
+                        ?s_contr_bf bf:role <http://id.loc.gov/vocabulary/relators/aut> ;
+                                     bf:agent/bf:identifiedBy/rdf:value ?gndId_bf ;
+                        .
+
+                        #get gnd Id in person data
+                        ?s_gnd a dhpluso:Gnd-local ;
+                               dhpluso:hasPart/gndo:gndIdentifier ?gndId_gnd ;
+                               ^dhpluso:source ?person_uri ;
+                        .
+
+                        #compare gnd ID's of work and person data
+                        #return uri of person data
+                        BIND ( IF ( ?gndId_bf = ?gndId_gnd, ?person_uri, ?nothing) AS ?contr_uri )
+                    }
+                } .
+                {
+
+                } .
+            }
+       """ ;
+      ]
+.
+
+dhpluso:InstanceRule
+    a sh:NodeShape ;
+    sh:targetClass dhpluso:Instance ;
+    sh:order 2 ;
+    sh:rule [
+          a sh:SPARQLRule ;
+          rdfs:label "Construct Instance Class" ;
+          sh:prefixes dhpluso:work ;
+          sh:construct """
+            CONSTRUCT {
+                ?s_instance dhpluso:hasSeries ?_series ;
+                            dhpluso:title ?_title ;
+                            dhpluso:provisionActivity ?_provAct ;
+                            dhpluso:responsibilityStatement ?respStmt ;
+                            dhpluso:provisionActivityStatement ?provStmt ;
+
+                            dhpluso:memberOf kngoev: ;
+                            #subprop of: http://purl.org/dc/dcam/memberOf
+                .
+                ?_series a dhpluso:Instance ;
+                         dhpluso:seriesEnumeration ?volnr ;
+                .
+                ?_title a dhpluso:Title ;
+                        dhpluso:mainTitle ?mainTitle ;
+                        dhpluso:subtitle ?subTitle ;
+                        dhpluso:partNumber ?partNr ;
+                        dhpluso:partName ?partName ;
+                .
+                ?_provAct a dhpluso:ProvisionActivity ;
+                          dhpluso:place ?provPlace ;
+                          dhpluso:agent ?provAgent ;
+                          dhpluso:date ?provDate ;
+                .
+            }
+            WHERE {
+                {
+                    SELECT ($this AS ?s_instance) ?volnr ?mainTitle ?subTitle ?partNr ?partName
+                            ?respStmt ?provPlace ?provAgent ?provDate ?provStmt
+                    WHERE {
+                        #check only instance of the main work data
+                        $this a dhpluso:Instance ;
+                        .
+                        BIND (   IF ( ( isURI($this) ) && ( STRSTARTS(STR($this), "http://dhplus.sbg.ac.at/") ) , $this, ?nothing ) AS ?res )
+
+                        ?s_I a bf:Instance ;
+                        .
+                        OPTIONAL { ?s_I bf:responsibilityStatement ?respStmt . }
+                        OPTIONAL { ?s_I bf:provisionActivityStatement ?provStmt . }
+
+                        OPTIONAL { ?s_IS a bf:Instance ; bf:seriesEnumeration ?volnr . }
+                        .
+                        OPTIONAL { ?s_VT a bf:VariantTitle ;
+                                         a bf:Title ;
+                                         bf:mainTitle ?mainTitle_V ;
+                        . }
+                        ?s_T a bf:Title ;
+                             bf:mainTitle ?mainTitle ;
+                        .
+                        OPTIONAL { FILTER (?s_T != ?s_VT) }
+                        OPTIONAL { ?s_T bf:subtitle ?subTitle . }
+                        OPTIONAL { ?s_T bf:partNumber ?partNr . }
+                        OPTIONAL { ?s_T bf:partName ?partName . }
+
+                        ?s_P a bf:ProvisionActivity ;
+                             bf:place/rdfs:label ?provPlace ;
+                             bf:agent/rdfs:label ?provAgent ;
+                             bf:date ?provDate ;
+                        .
+                    }
+                } .
+                {
+                    BIND(BNODE() AS ?_series) .
+                    BIND(BNODE() AS ?_title) .
+                    BIND(BNODE() AS ?_provAct) .
+                } .
+            }
+       """ ;
+      ]
+.
+
+

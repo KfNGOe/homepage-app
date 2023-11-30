@@ -1,0 +1,12 @@
+<div
+  class="float-left"
+  style="border-left:1px solid #aaaaaa; padding-left: 15px; color: #aaaaaa; width: 220px;"
+  *ngIf="sidebarService.isVisible['right']"
+>
+  <p style="color: #aaaaa; font-family:'Arial Fett', 'Arial Standard', 'Arial', sans-serif;font-weight:700; font-size: 16px;">Aktuelles</p>
+  <ul class="list-aktuelles list-unstyled" *ngFor="let item of AktuelleInformationen">
+    <li>
+      <a [href]="'./#/aktuelles/' + item.year">{{ item.title }}</a>
+    </li>
+  </ul>
+</div>

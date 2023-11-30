@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+         xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+   <bf:Work rdf:about="http://example.org/BV003733157#Work">
+      <bf:adminMetadata>
+         <bf:AdminMetadata>
+            <bf:generationProcess>
+               <bf:GenerationProcess>
+                  <rdfs:label>DLC marc2bibframe2 v1.4.0-SNAPSHOT: 2021-01-26T20:39:59.587+01:00</rdfs:label>
+               </bf:GenerationProcess>
+            </bf:generationProcess>
+            <bf:status>
+               <bf:Status>
+                  <bf:code>n</bf:code>
+               </bf:Status>
+            </bf:status>
+            <bflc:encodingLevel>
+               <bflc:EncodingLevel>
+                  <bf:code>f</bf:code>
+               </bflc:EncodingLevel>
+            </bflc:encodingLevel>
+            <bf:descriptionConventions>
+               <bf:DescriptionConventions>
+                  <bf:code>isbd</bf:code>
+               </bf:DescriptionConventions>
+            </bf:descriptionConventions>
+            <bf:identifiedBy>
+               <bf:Local>
+                  <rdf:value>BV003733157</rdf:value>
+               </bf:Local>
+            </bf:identifiedBy>
+            <bf:source>
+               <bf:Source>
+                  <bf:code>DE-604</bf:code>
+               </bf:Source>
+            </bf:source>
+            <bf:changeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-31T  :  :  </bf:changeDate>
+            <bf:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-07-25</bf:creationDate>
+            <bf:source>
+               <bf:Source>
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Agent"/>
+                  <rdfs:label>DE-604</rdfs:label>
+               </bf:Source>
+            </bf:source>
+            <bf:descriptionLanguage>
+               <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/ger"/>
+            </bf:descriptionLanguage>
+            <bf:descriptionConventions>
+               <bf:DescriptionConventions rdf:about="http://id.loc.gov/vocabulary/descriptionConventions/rakddb"/>
+            </bf:descriptionConventions>
+         </bf:AdminMetadata>
+      </bf:adminMetadata>
+      <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Text"/>
+      <bf:language>
+         <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/ger"/>
+      </bf:language>
+      <rdfs:label>&#x98;Die&#x9c; österreichische Zentralverwaltung 1,1 &#x98;Abt. 1&#x9c;, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht</rdfs:label>
+      <bf:title>
+         <bf:Title>
+            <rdfs:label>&#x98;Die&#x9c; österreichische Zentralverwaltung 1,1 &#x98;Abt. 1&#x9c;, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht</rdfs:label>
+            <bflc:titleSortKey>&#x98;Die&#x9c; österreichische Zentralverwaltung 1,1 &#x98;Abt. 1&#x9c;, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht</bflc:titleSortKey>
+            <bf:mainTitle>&#x98;Die&#x9c; österreichische Zentralverwaltung</bf:mainTitle>
+            <bf:partNumber>1,1</bf:partNumber>
+            <bf:partName>&#x98;Abt. 1&#x9c;, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht</bf:partName>
+         </bf:Title>
+      </bf:title>
+      <bf:contribution>
+         <bf:Contribution>
+            <bf:agent>
+               <bf:Agent rdf:about="http://example.org/BV003733157#Agent700-12">
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                  <bflc:name00MatchKey>Fellner, Thomas 1852-1904</bflc:name00MatchKey>
+                  <bflc:name00MarcKey>7001 $aFellner, Thomas$d1852-1904$0(DE-588)132483068$4edt</bflc:name00MarcKey>
+                  <rdfs:label>Fellner, Thomas 1852-1904</rdfs:label>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>132483068</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>DE-588</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Agent>
+            </bf:agent>
+            <bf:role>
+               <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/edt"/>
+            </bf:role>
+         </bf:Contribution>
+      </bf:contribution>
+      <bf:contribution>
+         <bf:Contribution>
+            <bf:agent>
+               <bf:Agent rdf:about="http://example.org/BV003733157#Agent700-13">
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                  <bflc:name00MatchKey>Kretschmayr, Heinrich 1870-1939</bflc:name00MatchKey>
+                  <bflc:name00MarcKey>7001 $aKretschmayr, Heinrich$d1870-1939$eSonstige$0(DE-588)116525916$4oth</bflc:name00MarcKey>
+                  <rdfs:label>Kretschmayr, Heinrich 1870-1939</rdfs:label>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>116525916</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>DE-588</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Agent>
+            </bf:agent>
+            <bf:role>
+               <bf:Role>
+                  <rdfs:label>Sonstige</rdfs:label>
+                  <bflc:relatorMatchKey>Sonstige</bflc:relatorMatchKey>
+               </bf:Role>
+            </bf:role>
+            <bf:role>
+               <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/oth"/>
+            </bf:role>
+         </bf:Contribution>
+      </bf:contribution>
+      <bf:contribution>
+         <bf:Contribution>
+            <bf:agent>
+               <bf:Agent rdf:about="http://example.org/BV003733157#Agent700-14">
+                  <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                  <bflc:name00MatchKey>Walter, Friedrich 1896-1968</bflc:name00MatchKey>
+                  <bflc:name00MarcKey>7001 $aWalter, Friedrich$d1896-1968$0(DE-588)128468955$4edt</bflc:name00MarcKey>
+                  <rdfs:label>Walter, Friedrich 1896-1968</rdfs:label>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>128468955</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>DE-588</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Agent>
+            </bf:agent>
+            <bf:role>
+               <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/edt"/>
+            </bf:role>
+         </bf:Contribution>
+      </bf:contribution>
+      <bf:language>
+         <bf:Language>
+            <bf:identifiedBy>
+               <bf:Identifier>
+                  <rdf:value rdf:resource="http://id.loc.gov/vocabulary/languages/ger"/>
+                  <bf:source>
+                     <bf:Source rdf:about="http://id.loc.gov/vocabulary/languages"/>
+                  </bf:source>
+               </bf:Identifier>
+            </bf:identifiedBy>
+         </bf:Language>
+      </bf:language>
+      <bf:classification>
+         <bf:Classification>
+            <bf:classificationPortion>7,41</bf:classificationPortion>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>ssgn</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Classification>
+      </bf:classification>
+      <bf:content>
+         <bf:Content rdf:about="http://id.loc.gov/vocabulary/contentTypes/txt">
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>rdacontent</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Content>
+      </bf:content>
+      <bf:partOf>
+         <bf:Work rdf:about="http://example.org/BV003733157#Work773-27">
+            <bf:identifiedBy>
+               <bf:Identifier>
+                  <rdf:value>BV003733153</rdf:value>
+                  <bf:source>
+                     <bf:Source>
+                        <rdfs:label>DE-604</rdfs:label>
+                     </bf:Source>
+                  </bf:source>
+               </bf:Identifier>
+            </bf:identifiedBy>
+            <bf:hasInstance>
+               <bf:Instance rdf:about="http://example.org/BV003733157#Instance773-27">
+                  <bf:part>1,1</bf:part>
+                  <bf:instanceOf rdf:resource="http://example.org/BV003733157#Work773-27"/>
+               </bf:Instance>
+            </bf:hasInstance>
+         </bf:Work>
+      </bf:partOf>
+      <bf:hasInstance rdf:resource="http://example.org/BV003733157#Instance"/>
+   </bf:Work>
+   <bf:Instance rdf:about="http://example.org/BV003733157#Instance">
+      <bf:issuance>
+         <bf:Issuance rdf:about="http://id.loc.gov/vocabulary/issuance/mono"/>
+      </bf:issuance>
+      <bf:provisionActivity>
+         <bf:ProvisionActivity>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+            <bf:date rdf:datatype="http://id.loc.gov/datatypes/edtf">1907</bf:date>
+            <bf:place>
+               <bf:Place rdf:about="http://id.loc.gov/vocabulary/countries/"/>
+            </bf:place>
+         </bf:ProvisionActivity>
+      </bf:provisionActivity>
+      <rdfs:label>&#x98;Die&#x9c; österreichische Zentralverwaltung 1,1 &#x98;Abt. 1&#x9c;, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht</rdfs:label>
+      <bf:title>
+         <bf:Title>
+            <rdfs:label>&#x98;Die&#x9c; österreichische Zentralverwaltung 1,1 &#x98;Abt. 1&#x9c;, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht</rdfs:label>
+            <bflc:titleSortKey>&#x98;Die&#x9c; österreichische Zentralverwaltung 1,1 &#x98;Abt. 1&#x9c;, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht</bflc:titleSortKey>
+            <bf:mainTitle>&#x98;Die&#x9c; österreichische Zentralverwaltung</bf:mainTitle>
+            <bf:partNumber>1,1</bf:partNumber>
+            <bf:partName>&#x98;Abt. 1&#x9c;, Von Maximilian I. bis zur Vereinigung der Österreichischen und Böhmischen Hofkanzlei (1749) ; Bd. 1, Geschichtliche Übersicht</bf:partName>
+         </bf:Title>
+      </bf:title>
+      <bf:responsibilityStatement>von Thomas Fellner. Nach dessen Tode bearb. und vollendet von Heinrich Kretschmayr</bf:responsibilityStatement>
+      <bf:provisionActivity>
+         <bf:ProvisionActivity>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+            <bf:place>
+               <bf:Place>
+                  <rdfs:label>Wien</rdfs:label>
+               </bf:Place>
+            </bf:place>
+            <bf:agent>
+               <bf:Agent>
+                  <rdfs:label>Holzhausen</rdfs:label>
+               </bf:Agent>
+            </bf:agent>
+            <bf:date>1907</bf:date>
+         </bf:ProvisionActivity>
+      </bf:provisionActivity>
+      <bf:provisionActivityStatement>Wien; Holzhausen; 1907</bf:provisionActivityStatement>
+      <bf:provisionActivity>
+         <bf:ProvisionActivity>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+            <bf:place>
+               <bf:Place>
+                  <rdfs:label>Nendeln/Liechtenstein</rdfs:label>
+               </bf:Place>
+            </bf:place>
+            <bf:agent>
+               <bf:Agent>
+                  <rdfs:label>Kraus Reprint</rdfs:label>
+               </bf:Agent>
+            </bf:agent>
+            <bf:agent>
+               <bf:Agent>
+                  <rdfs:label>Holzhausen</rdfs:label>
+               </bf:Agent>
+            </bf:agent>
+            <bf:date>1907</bf:date>
+         </bf:ProvisionActivity>
+      </bf:provisionActivity>
+      <bf:provisionActivityStatement>Nendeln/Liechtenstein; Kraus Reprint; Holzhausen; 1907</bf:provisionActivityStatement>
+      <bf:extent>
+         <bf:Extent>
+            <rdfs:label>XII, 288 S.</rdfs:label>
+         </bf:Extent>
+      </bf:extent>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>643371939</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>OCoLC</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:identifiedBy>
+         <bf:Local>
+            <rdf:value>BVBBV003733157</rdf:value>
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>DE-599</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Local>
+      </bf:identifiedBy>
+      <bf:media>
+         <bf:Media rdf:about="http://id.loc.gov/vocabulary/mediaTypes/n">
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>rdamedia</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Media>
+      </bf:media>
+      <bf:carrier>
+         <bf:Carrier rdf:about="http://id.loc.gov/vocabulary/carriers/nc">
+            <bf:source>
+               <bf:Source>
+                  <rdfs:label>rdacarrier</rdfs:label>
+               </bf:Source>
+            </bf:source>
+         </bf:Carrier>
+      </bf:carrier>
+      <bf:hasSeries>
+         <bf:Instance>
+            <rdfs:label>Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</rdfs:label>
+            <bf:seriesStatement>Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs 5</bf:seriesStatement>
+            <bf:seriesEnumeration>5</bf:seriesEnumeration>
+            <bf:instanceOf>
+               <bf:Work rdf:about="http://example.org/BV003733157#Work830-28">
+                  <rdfs:label>Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</rdfs:label>
+                  <bf:title>
+                     <bf:Title>
+                        <bflc:title30MatchKey>Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</bflc:title30MatchKey>
+                        <bflc:title30MarcKey>830 0$aKommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs$v5$w(DE-604)BV000001532</bflc:title30MarcKey>
+                        <rdfs:label>Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</rdfs:label>
+                        <bflc:titleSortKey>Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</bflc:titleSortKey>
+                        <bf:mainTitle>Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</bf:mainTitle>
+                     </bf:Title>
+                  </bf:title>
+                  <bf:identifiedBy>
+                     <bf:Identifier>
+                        <rdf:value>BV000001532</rdf:value>
+                        <bf:source>
+                           <bf:Source>
+                              <rdfs:label>DE-604</rdfs:label>
+                           </bf:Source>
+                        </bf:source>
+                     </bf:Identifier>
+                  </bf:identifiedBy>
+               </bf:Work>
+            </bf:instanceOf>
+         </bf:Instance>
+      </bf:hasSeries>
+      <bf:hasSeries>
+         <bf:Instance>
+            <rdfs:label>Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</rdfs:label>
+            <bf:seriesStatement>Kommission für Neuere Geschichte Österreichs: Veröffentlichungen der Kommission für Neuere Geschichte Österreichs ...</bf:seriesStatement>
+            <bf:seriesEnumeration>...</bf:seriesEnumeration>
+         </bf:Instance>
+      </bf:hasSeries>
+      <bf:instanceOf rdf:resource="http://example.org/BV003733157#Work"/>
+   </bf:Instance>
+</rdf:RDF>

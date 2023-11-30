@@ -1,0 +1,70 @@
+<footer class="page-footer center-on-small-only">
+  <!--Footer Links-->
+  <div class="container-fluid">
+    <div class="row">
+      <!--First column-->
+      <div class="col-md-3 offset-md-1">
+        <div>
+          <h5 class="title" jhiTranslate="footer.left.title">Informationen</h5>
+          <p>
+            <a href="http://www.uni-salzburg.at" target="_blank" rel="noopener"
+              ><img class="alignnone wp-image-25 " [src]="'./content/images/uni_logo_472x120-300x76.png'" alt="" width="191" height="75"
+            /></a>
+          </p>
+        </div>
+      </div>
+      <!--/.First column-->
+
+      <hr class="hidden-md-up" />
+
+      <!--Second column-->
+      <div class="col-md-3 offset-md-1">
+        <div>
+          <h5 class="title" jhiTranslate="footer.center.title">Kontakt</h5>
+          <p>Universität Salzburg<br />ITServices<br />Hellbrunner Straße 34<br />5020 Salzburg<br />Österreich</p>
+          <p><a href="mailto:dhplus@sbg.ac.at">dhplus@sbg.ac.at</a></p>
+        </div>
+      </div>
+      <!--/.Second column-->
+
+      <hr class="hidden-md-up" />
+
+      <!--Third column-->
+      <div class="col-md-3 offset-md-1">
+        <div>
+          <h5 class="title" jhiTranslate="footer.right.title">Partnerprojekte</h5>
+          <div class="textwidget custom-html-widget">
+            <ul class="list-unstyled">
+              <li>
+                <a (click)="gotoExtUrl('http://www.digitale-edition.at/')" target="_blank">KONDE - Kompetenznetzwerk Digitale Edition</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/.Third column-->
+
+      <hr class="hidden-md-up" />
+
+      <!--Fourth column-->
+      <!--            <div class="col-md-2">-->
+      <!--            </div>-->
+      <!--/.Fourth column-->
+    </div>
+  </div>
+  <!--/.Footer Links-->
+
+  <!--Copyright-->
+  <div class="footer-copyright primary-color-dark">
+    <div class="container-fluid">
+      <p>
+        © {{ today | date: 'yyyy' }} <a href="https://dhplus.sbg.ac.at" target="_blank">dhPLUS</a
+        ><span class="sep"> | <a href="https://www.uni-salzburg.at" target="_blank">ITServices @ University of Salzburg</a> </span>
+      </p>
+      <p>
+        <span jhiTranslate="global.title" class="navbar-title">Gateway</span> <span class="navbar-version">{{ version }}</span>
+      </p>
+    </div>
+  </div>
+  <!--/.Copyright-->
+</footer>

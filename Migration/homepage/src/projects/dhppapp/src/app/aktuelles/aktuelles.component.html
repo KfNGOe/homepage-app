@@ -1,0 +1,10 @@
+<div class="aktuelles-container">
+  <div class="header-container">
+    <h1>Aktuelles {{ ida }}</h1>
+  </div>
+  <div class="information-block-container">
+    <app-loader [loadingText]="'lade Daten...'" [loading]="loading"></app-loader>
+    {{ error }}
+    <dhpp-listing-style-4 class="row" *ngFor="let item of aktuelleInformationen" [element]="item"></dhpp-listing-style-4>
+  </div>
+</div>

@@ -1,0 +1,58 @@
+.aktuelles-container{
+
+  .header-container{
+    color: #0085b1;
+    margin: 0 0 25px 0;
+
+    h1{
+      font-size: 1.5em;
+      line-height: normal;
+    }
+  }
+
+  .information-block-container{
+    margin-bottom: 70px;
+    .titel{
+      color: rgba(2, 125, 180, 0.698039215686274);
+      font-size: 1.2em;
+    }
+
+    .date{
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 0.8em;
+    }
+
+    .text-preview{
+      margin: 5px 0;
+
+      img{
+        float: left;
+        width: 80px;
+        margin: 0 20px 10px 0;
+      }
+
+      .text-container{
+        color: #687a85;
+        font-size: 16px
+
+
+      }
+    }
+  }
+}
+
+.filterbutton {
+  color: #0085b1 !important;
+  background-color: #c0eafd !important;
+  font-weight: bold;
+}
+
+.filterbuttonactive {
+  color: #c0eafd !important;
+  background-color: #0085b1 !important;
+}
+
+.filterbuttonactive1 {
+  color: #c0eafd !important;
+  background-color: #0085b1 !important;
+}

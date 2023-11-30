@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>01967nam a2200601 cb4500</leader>
+                    <controlfield tag="001">99145111478003331</controlfield>
+                    <controlfield tag="005">20200304140728.0</controlfield>
+                    <controlfield tag="007">tu</controlfield>
+                    <controlfield tag="008">190302s2019    |||           ||| | ger c</controlfield>
+                    <controlfield tag="009">AC15501594</controlfield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">OeB2020,A,06 943.6</subfield>
+                        <subfield code="2">oeb</subfield>
+                    </datafield>
+                    <datafield tag="015" ind1=" " ind2=" ">
+                        <subfield code="a">20,A38</subfield>
+                        <subfield code="z">19,N10</subfield>
+                        <subfield code="2">dnb</subfield>
+                    </datafield>
+                    <datafield tag="016" ind1="7" ind2=" ">
+                        <subfield code="a">1179561252</subfield>
+                        <subfield code="2">DE-101b</subfield>
+                    </datafield>
+                    <datafield tag="020" ind1=" " ind2=" ">
+                        <subfield code="a">9783205209041</subfield>
+                        <subfield code="c">Festeinband : EUR 31,00 ; EUR 30,00 (DE)</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(AT-OBV)AC15501594</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">(DE-599)DNB1179561252</subfield>
+                    </datafield>
+                    <datafield tag="035" ind1=" " ind2=" ">
+                        <subfield code="a">oai:dnb.de/dnb/1179561252</subfield>
+                    </datafield>
+                    <datafield tag="040" ind1=" " ind2=" ">
+                        <subfield code="a">AT-UBW</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="c">DE-101</subfield>
+                        <subfield code="d">AT-OBV</subfield>
+                        <subfield code="e">rda</subfield>
+                    </datafield>
+                    <datafield tag="041" ind1=" " ind2=" ">
+                        <subfield code="a">ger</subfield>
+                    </datafield>
+                    <datafield tag="044" ind1=" " ind2=" ">
+                        <subfield code="c">XA-DE</subfield>
+                    </datafield>
+                    <datafield tag="082" ind1="0" ind2="4">
+                        <subfield code="a">390.23094361309034</subfield>
+                        <subfield code="q">LBOSAG</subfield>
+                        <subfield code="2">23/ger</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">15.60</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">15.07</subfield>
+                        <subfield code="2">bkl</subfield>
+                    </datafield>
+                    <datafield tag="084" ind1=" " ind2=" ">
+                        <subfield code="a">940</subfield>
+                        <subfield code="a">390</subfield>
+                        <subfield code="q">DE-101</subfield>
+                        <subfield code="2">sdnb</subfield>
+                    </datafield>
+                    <datafield tag="245" ind1="0" ind2="0">
+                        <subfield code="a">Norm und Zeremoniell</subfield>
+                        <subfield code="b">das Etiquette-Normale für den Wiener Hof von circa 1812 : Edition und Kommentar</subfield>
+                        <subfield code="c">Karin Schneider (Hg.)</subfield>
+                    </datafield>
+                    <datafield tag="264" ind1=" " ind2="1">
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="a">Köln</subfield>
+                        <subfield code="a">Weimar</subfield>
+                        <subfield code="b">Böhlau Verlag</subfield>
+                        <subfield code="c">[2019]</subfield>
+                    </datafield>
+                    <datafield tag="300" ind1=" " ind2=" ">
+                        <subfield code="a">198 Seiten</subfield>
+                        <subfield code="c">25 cm</subfield>
+                    </datafield>
+                    <datafield tag="336" ind1=" " ind2=" ">
+                        <subfield code="b">txt</subfield>
+                    </datafield>
+                    <datafield tag="337" ind1=" " ind2=" ">
+                        <subfield code="b">n</subfield>
+                    </datafield>
+                    <datafield tag="338" ind1=" " ind2=" ">
+                        <subfield code="b">nc</subfield>
+                    </datafield>
+                    <datafield tag="490" ind1="1" ind2=" ">
+                        <subfield code="a">Veröffentlichungen der Kommission für Neuere Geschichte Österreichs</subfield>
+                        <subfield code="v">Band 118</subfield>
+                    </datafield>
+                    <datafield tag="500" ind1=" " ind2=" ">
+                        <subfield code="a">Literaturverzeichnis: Seite [184]-193</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Wiener Hof</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Reform</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Dienstpflicht</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Edition</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Ritual</subfield>
+                    </datafield>
+                    <datafield tag="653" ind1=" " ind2=" ">
+                        <subfield code="a">Kaisertum Österreich</subfield>
+                    </datafield>
+                    <datafield tag="655" ind1=" " ind2="7">
+                        <subfield code="a">Quelle</subfield>
+                        <subfield code="0">(DE-588)4135952-5</subfield>
+                        <subfield code="2">gnd-content</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="0">
+                        <subfield code="a">Wien</subfield>
+                        <subfield code="D">g</subfield>
+                        <subfield code="0">(DE-588)4066009-6</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="1">
+                        <subfield code="a">Hofzeremoniell</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4113952-5</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="2">
+                        <subfield code="a">Hofordnung</subfield>
+                        <subfield code="D">s</subfield>
+                        <subfield code="0">(DE-588)4445956-7</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2="3">
+                        <subfield code="a">Geschichte 1812</subfield>
+                        <subfield code="A">z</subfield>
+                    </datafield>
+                    <datafield tag="689" ind1="0" ind2=" ">
+                        <subfield code="5">AT-OBV</subfield>
+                        <subfield code="5">ubw0291</subfield>
+                    </datafield>
+                    <datafield tag="700" ind1="1" ind2=" ">
+                        <subfield code="a">Schneider, Karin</subfield>
+                        <subfield code="0">(DE-588)1121595138</subfield>
+                        <subfield code="4">edt</subfield>
+                    </datafield>
+                    <datafield tag="710" ind1="2" ind2=" ">
+                        <subfield code="a">Böhlau Verlag GmbH &amp; Co. KG</subfield>
+                        <subfield code="0">(DE-588)1065536941</subfield>
+                        <subfield code="4">pbl</subfield>
+                    </datafield>
+                    <datafield tag="776" ind1="0" ind2="8">
+                        <subfield code="i">Erscheint auch als</subfield>
+                        <subfield code="n">Online-Ausgabe</subfield>
+                        <subfield code="z">(ATOBV)AC15489959</subfield>
+                    </datafield>
+                    <datafield tag="830" ind1=" " ind2="0">
+                        <subfield code="w">(AT-OBV)AC00112585</subfield>
+                        <subfield code="v">118</subfield>
+                        <subfield code="9">O:1</subfield>
+                    </datafield>
+                    <datafield tag="856" ind1="4" ind2="2">
+                        <subfield code="m">B:DE-101</subfield>
+                        <subfield code="q">application/pdf</subfield>
+                        <subfield code="u">https://d-nb.info/1179561252/04</subfield>
+                        <subfield code="3">Inhaltsverzeichnis</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBS</subfield>
+                        <subfield code="6">9925206495103341</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_WIENB</subfield>
+                        <subfield code="6">9910604177904516</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBW</subfield>
+                        <subfield code="6">9981082760703332</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_UBG</subfield>
+                        <subfield code="6">9929914456903339</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OEAW</subfield>
+                        <subfield code="6">993436599404498</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_ONB</subfield>
+                        <subfield code="6">9958578575403338</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="852" ind1="0" ind2="1">
+                        <subfield code="a">43ACC_OOELB</subfield>
+                        <subfield code="6">997933629804508</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="1" ind2=" ">
+                        <subfield code="c">54</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="4" ind2=" ">
+                        <subfield code="b">DE-101</subfield>
+                    </datafield>
+                    <datafield tag="970" ind1="2" ind2=" ">
+                        <subfield code="a">AT-UBW</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">030</subfield>
+                        <subfield code="A">a||dr||||||37</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">050</subfield>
+                        <subfield code="A">a|a|||||||||||</subfield>
+                    </datafield>
+                    <datafield tag="974" ind1="0" ind2="s">
+                        <subfield code="F">051</subfield>
+                        <subfield code="A">m|||||||</subfield>
+                    </datafield>
+                </record>

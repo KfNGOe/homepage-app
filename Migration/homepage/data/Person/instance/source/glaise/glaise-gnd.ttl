@@ -1,0 +1,90 @@
+
+@prefix schema: <http://schema.org/> .
+@prefix gndo:  <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib:   <http://purl.org/library/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix bflc:  <http://id.loc.gov/ontologies/bflc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vivo:  <http://vivoweb.org/ontology/core#> .
+@prefix isbd:  <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix mo:    <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dbp:   <http://dbpedia.org/property/> .
+@prefix dnbt:  <https://d-nb.info/standards/elementset/dnb#> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix v:     <http://www.w3.org/2006/vcard/ns#> .
+@prefix wdrs:  <http://www.w3.org/2007/05/powder-s#> .
+@prefix ebu:   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix gbv:   <http://purl.org/ontology/gbv/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118539647>
+        a                               gndo:DifferentiatedPerson ;
+        owl:sameAs                      <http://viaf.org/viaf/22150599> , <http://dbpedia.org/resource/Edmund_Glaise-Horstenau> , <http://isni.org/isni/0000000108777664> , <http://id.loc.gov/rwo/agents/n81048748> , <http://www.wikidata.org/entity/Q112416> ;
+        wdrs:describedby                <https://d-nb.info/gnd/118539647/about> ;
+        foaf:page                       <https://de.wikipedia.org/wiki/Edmund_Glaise-Horstenau> ;
+        gndo:biographicalOrHistoricalInformation
+                "Offizier, Historiker, Politiker"@de , "Ab 1915 im Referat für Presse und Politik im k.u.k. Armeeoberkommando (AOK); 1925-1938 Diektor des österreichischen Kriegsarchives; 1938 Vizekanzler; 1941-1944 Generalbevollmächtigter für Deutschland in Kroatien; beging Selbstmord"@de ;
+        gndo:dateOfBirth                "1882-02-27"^^xsd:date ;
+        gndo:dateOfDeath                "1946-07-20"^^xsd:date ;
+        gndo:gender                     <https://d-nb.info/standards/vocab/gnd/gender#male> ;
+        gndo:geographicAreaCode         <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT> , <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-HR> ;
+        gndo:gndIdentifier              "118539647"^^xsd:string ;
+        gndo:gndSubjectCategory         <https://d-nb.info/standards/vocab/gnd/gnd-sc#8.4p> , <https://d-nb.info/standards/vocab/gnd/gnd-sc#6.8p> , <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p> , <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p> ;
+        gndo:oldAuthorityNumber         "(DE-588a)126416591"^^xsd:string , "(DE-588c)4021132-0"^^xsd:string , "(DE-588a)126416583"^^xsd:string , "(DE-588a)118539647"^^xsd:string , "(DE-588a)131000667"^^xsd:string ;
+        gndo:placeOfActivity            <https://d-nb.info/gnd/4108914-5> , <https://d-nb.info/gnd/4066009-6> ;
+        gndo:placeOfBirth               <https://d-nb.info/gnd/4008037-7> ;
+        gndo:placeOfDeath               <https://d-nb.info/gnd/4101855-2> ;
+        gndo:preferredNameEntityForThePerson
+                [ gndo:forename  "Edmund"^^xsd:string ;
+                  gndo:surname   "Glaise von Horstenau"^^xsd:string
+                ] ;
+        gndo:preferredNameForThePerson  "Glaise von Horstenau, Edmund"^^xsd:string ;
+        gndo:professionOrOccupation     <https://d-nb.info/gnd/4126114-8> , <https://d-nb.info/gnd/4046517-2> , <https://d-nb.info/gnd/4132742-1> , <https://d-nb.info/gnd/4025098-2> ;
+        gndo:publication                "Die Tage von Dresden 1813. - 1911"^^xsd:string , "Österreich-Ungarns letzter Krieg 1914-1918. - 1931 - 1935"^^xsd:string , "Die Katastrophe. - 1928"^^xsd:string , "Franz Josephs Weggefährte. - 1930"^^xsd:string ;
+        gndo:variantNameEntityForThePerson
+                [ gndo:personalName  "Едмунд Глајз фон Хостенау"^^xsd:string ] ;
+        gndo:variantNameEntityForThePerson
+                [ gndo:forename  "Edmund Glaise"^^xsd:string ;
+                  gndo:prefix    "von"^^xsd:string ;
+                  gndo:surname   "Horstenau"^^xsd:string
+                ] ;
+        gndo:variantNameEntityForThePerson
+                [ gndo:forename  "Edmund"^^xsd:string ;
+                  gndo:prefix    "von"^^xsd:string ;
+                  gndo:surname   "Gleise-Horstenau"^^xsd:string
+                ] ;
+        gndo:variantNameEntityForThePerson
+                [ gndo:forename  "Edmund"^^xsd:string ;
+                  gndo:surname   "Glaise"^^xsd:string
+                ] ;
+        gndo:variantNameEntityForThePerson
+                [ gndo:personalName  "Едмунд Глајз-Хорстенау"^^xsd:string ] ;
+        gndo:variantNameEntityForThePerson
+                [ gndo:forename  "Edmund"^^xsd:string ;
+                  gndo:prefix    "von"^^xsd:string ;
+                  gndo:surname   "Glaise-Horstenau"^^xsd:string
+                ] ;
+        gndo:variantNameEntityForThePerson
+                [ gndo:forename  "..."^^xsd:string ;
+                  gndo:surname   "Glez fon Horstenau"^^xsd:string
+                ] ;
+        gndo:variantNameForThePerson    "Едмунд Глајз фон Хостенау"@sr-Cyrl , "Glez fon Horstenau, ..."^^xsd:string , "Glaise, Edmund"^^xsd:string , "Glaise-Horstenau, Edmund von"^^xsd:string , "Gleise-Horstenau, Edmund von"^^xsd:string , "Horstenau, Edmund Glaise von"^^xsd:string , "Едмунд Глајз-Хорстенау"@sr-Cyrl .
+
+<https://d-nb.info/gnd/118539647/about>
+        dcterms:license   <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dcterms:modified  "2016-11-11T13:33:02.000"^^xsd:dateTime .

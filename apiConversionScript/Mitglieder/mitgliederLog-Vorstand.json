@@ -1,0 +1,143 @@
+{
+    "items": [{
+            "grad": "",
+            "person": "Katrin Keller",
+            "taetigkeit": "",
+            "orcid": "https://orcid.org/0000-0002-8621-5162",
+            "viafid": "http://viaf.org/viaf/265940586",
+            "www": "https://www.oeaw.ac.at/ihb/personen/keller-katrin",
+            "text": "Univ.-Doz. Dr., Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes der ÖAW (IHB)",
+            "morelink": {
+                "href": "",
+                "label": ""
+            },
+            "pictureref": "/content/images/118007068.jpg"
+        },
+        {
+            "grad": "",
+            "person": "Christopher F. Laferl",
+            "taetigkeit": "",
+            "orcid": "https://orcid.org/0000-0003-0755-4789",
+            "viafid": "http://viaf.org/viaf/32842800",
+            "www": "https://www.plus.ac.at/romanistik/fachbereich/mitarbeiterinnen-und-mitarbeiter/laferl/",
+            "text": "Univ.-Prof. Dr., Universität Salzburg",
+            "morelink": {
+                "href": "",
+                "label": ""
+            },
+            "pictureref": "/content/images/121046842.jpg"
+        },
+        {
+            "grad": "",
+            "person": "Thomas Winkelbauer",
+            "taetigkeit": "",
+            "orcid": "",
+            "viafid": "http://viaf.org/viaf/64226635",
+            "www": "https://geschichtsforschung.univie.ac.at/ueber-uns/personen/wissenschaftliche-angehoerige-ig/winkelbauer-thomas/",
+            "text": "Univ.-Prof. Dr., Universität Wien, Institut für Österreichische Geschichtsforschung",
+            "morelink": {
+                "href": "",
+                "label": ""
+            },
+            "pictureref": "/content/images/128670940.jpg"
+        },
+        {
+            "grad": "",
+            "person": "Helmut Wohnout",
+            "taetigkeit": "",
+            "orcid": "",
+            "viafid": "http://viaf.org/viaf/208460836",
+            "www": "https://www.oesta.gv.at/ueber-uns/leitbild-und-organisation.html",
+            "text": "Univ.-Doz. Mag. Dr., Österreichisches Staatsarchiv",
+            "morelink": {
+                "href": "",
+                "label": ""
+            },
+            "pictureref": "/content/images/122481836.jpg"
+        },
+        {
+            "grad": "",
+            "person": "Kurt Scharr",
+            "taetigkeit": "Vorsitz",
+            "orcid": "https://orcid.org/0000-0002-8489-945X",
+            "viafid": "http://viaf.org/viaf/8288651",
+            "www": "https://www.uibk.ac.at/geschichte-ethnologie/mitarbeiterinnen/univ-prof/scharr-kurt/",
+            "text": "Univ.-Prof. Mag. phil. Dr. rer. nat., Universität Innsbruck",
+            "morelink": {
+                "href": "",
+                "label": ""
+            },
+            "pictureref": "/content/images/123191254.jpg"
+        },
+        {
+            "grad": "",
+            "person": "Brigitte Mazohl",
+            "taetigkeit": "Stellvertretender Vorsitz",
+            "orcid": "https://orcid.org/0000-0003-2650-543X",
+            "viafid": "http://viaf.org/viaf/220738564",
+            "www": "https://www.uibk.ac.at/geschichte-ethnologie/mitarbeiterinnen/emeritiert-ruhestand/mazohl-brigitte/",
+            "text": "em. o. Univ.-Prof. Dr., Universität Innsbruck",
+            "morelink": {
+                "href": "",
+                "label": ""
+            },
+            "pictureref": "/content/images/129199176.jpg"
+        },
+        {
+            "grad": "",
+            "person": "Brigitte Mazohl",
+            "taetigkeit": "Stellvertretender Vorsitz",
+            "orcid": "https://orcid.org/0000-0003-2650-543X",
+            "viafid": "http://viaf.org/viaf/220738564",
+            "www": "https://www.uibk.ac.at/geschichte-ethnologie/mitarbeiterinnen/emeritiert-ruhestand/mazohl-brigitte/",
+            "text": "em. o. Univ.-Prof. Dr., Universität Innsbruck",
+            "morelink": {
+                "href": "",
+                "label": ""
+            },
+            "pictureref": "/content/images/129199176.jpg"
+        },
+        {
+            "grad": "",
+            "person": "Reinhard Stauber",
+            "taetigkeit": "Stellvertretender Vorsitz",
+            "orcid": "",
+            "viafid": "http://viaf.org/viaf/64185409",
+            "www": "https://www.aau.at/geschichte/team/stauber-reinhard/",
+            "text": "Univ.-Prof. Mag. Dr., Universität Klagenfurt",
+            "morelink": {
+                "href": "",
+                "label": ""
+            },
+            "pictureref": "/content/images/138870802.jpg"
+        },
+        {
+            "grad": "",
+            "person": "Lorenz Mikoletzky",
+            "taetigkeit": "Kassier",
+            "orcid": "",
+            "viafid": "http://viaf.org/viaf/18302682",
+            "www": "",
+            "text": "Hon.-Prof. i. R. Dr., Österreichisches Staatsarchiv",
+            "morelink": {
+                "href": "",
+                "label": ""
+            },
+            "pictureref": "/content/images/129434108.jpg"
+        },
+        {
+            "grad": "",
+            "person": "Franz Adlgasser",
+            "taetigkeit": "Stellvertretender Kassier",
+            "orcid": "",
+            "viafid": "http://viaf.org/viaf/79665",
+            "www": "https://www.oeaw.ac.at/ihb/personen/adlgasser-franz",
+            "text": "Dr., Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes der ÖAW (IHB)",
+            "morelink": {
+                "href": "",
+                "label": ""
+            },
+            "pictureref": false
+        }
+    ]
+}

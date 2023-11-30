@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?><searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>16</numberOfRecords>
+  <records>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>00984naa a2200301 c 4500</leader>
+          <controlfield tag="001">990143492440203331</controlfield>
+          <controlfield tag="005">20191020001159.0</controlfield>
+          <controlfield tag="007">tu</controlfield>
+          <controlfield tag="008">171019|2017####xx############|||#|#ger#c</controlfield>
+          <controlfield tag="009">AC12540827</controlfield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(AT-OBV)AC12540827</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">AC12540827</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(Aleph)014349244ACC01</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-599)OBVAC12540827</subfield>
+          </datafield>
+          <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">ONB</subfield>
+            <subfield code="b">ger</subfield>
+            <subfield code="c">ONB-IVSCAN</subfield>
+            <subfield code="e">rda</subfield>
+          </datafield>
+          <datafield tag="041" ind1=" " ind2=" ">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Aichner, Christof</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">„Für Geist und Licht! ... Das Dunkel schwand!“ Die Thun-Hohenstein’schen Universitätsreformen</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="c">2017</subfield>
+          </datafield>
+          <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="b">n</subfield>
+          </datafield>
+          <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Mazohl, Brigitte</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="773" ind1="0" ind2="8">
+            <subfield code="i">Enthalten in</subfield>
+            <subfield code="t">&lt;&lt;Die>> Thun-Hohenstein'schen Universitätsreformen 1849-1860 ; Christof Aichner, Brigitte Mazohl (Hg.)</subfield>
+            <subfield code="d">Wien ; Köln ; Weimar, 2017</subfield>
+            <subfield code="g">S. 13-</subfield>
+            <subfield code="w">(AT-OBV)AC13438340</subfield>
+          </datafield>
+          <datafield tag="970" ind1="2" ind2=" ">
+            <subfield code="a">ONB</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">030</subfield>
+            <subfield code="A">a|1urr|||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">050</subfield>
+            <subfield code="A">a|a|||||||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">051</subfield>
+            <subfield code="A">a|||||||</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>990143492440203331</recordIdentifier>
+      <recordPosition>1</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>00893naa a2200289 c 4500</leader>
+          <controlfield tag="001">990143492500203331</controlfield>
+          <controlfield tag="005">20191020001149.0</controlfield>
+          <controlfield tag="007">tu</controlfield>
+          <controlfield tag="008">171019|2017####xx############|||#|#ger#c</controlfield>
+          <controlfield tag="009">AC12540833</controlfield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(AT-OBV)AC12540833</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">AC12540833</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(Aleph)014349250ACC01</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-599)OBVAC12540833</subfield>
+          </datafield>
+          <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">ONB</subfield>
+            <subfield code="b">ger</subfield>
+            <subfield code="c">ONB-IVSCAN</subfield>
+            <subfield code="e">rda</subfield>
+          </datafield>
+          <datafield tag="041" ind1=" " ind2=" ">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Aichner, Christof</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Aspekte der Thun’schen Reformen an der Universität Innsbruck</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="c">2017</subfield>
+          </datafield>
+          <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="b">n</subfield>
+          </datafield>
+          <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="773" ind1="0" ind2="8">
+            <subfield code="i">Enthalten in</subfield>
+            <subfield code="t">&lt;&lt;Die>> Thun-Hohenstein'schen Universitätsreformen 1849-1860 ; Christof Aichner, Brigitte Mazohl (Hg.)</subfield>
+            <subfield code="d">Wien ; Köln ; Weimar, 2017</subfield>
+            <subfield code="g">S. 153-</subfield>
+            <subfield code="w">(AT-OBV)AC13438340</subfield>
+          </datafield>
+          <datafield tag="970" ind1="2" ind2=" ">
+            <subfield code="a">ONB</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">030</subfield>
+            <subfield code="A">a|1urr|||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">050</subfield>
+            <subfield code="A">a|a|||||||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">051</subfield>
+            <subfield code="A">a|||||||</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>990143492500203331</recordIdentifier>
+      <recordPosition>2</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>00908naa a2200289 c 4500</leader>
+          <controlfield tag="001">990143492520203331</controlfield>
+          <controlfield tag="005">20191020001159.0</controlfield>
+          <controlfield tag="007">tu</controlfield>
+          <controlfield tag="008">171019|2017####xx############|||#|#ger#c</controlfield>
+          <controlfield tag="009">AC12540835</controlfield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(AT-OBV)AC12540835</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">AC12540835</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(Aleph)014349252ACC01</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-599)OBVAC12540835</subfield>
+          </datafield>
+          <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">ONB</subfield>
+            <subfield code="b">ger</subfield>
+            <subfield code="c">ONB-IVSCAN</subfield>
+            <subfield code="e">rda</subfield>
+          </datafield>
+          <datafield tag="041" ind1=" " ind2=" ">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Stinia, Maria</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">&lt;&lt;Die>> Jagiellonen-Universität in der Ära des Ministers Leo Thun (1849–1860)</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="c">2017</subfield>
+          </datafield>
+          <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="b">n</subfield>
+          </datafield>
+          <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="773" ind1="0" ind2="8">
+            <subfield code="i">Enthalten in</subfield>
+            <subfield code="t">&lt;&lt;Die>> Thun-Hohenstein'schen Universitätsreformen 1849-1860 ; Christof Aichner, Brigitte Mazohl (Hg.)</subfield>
+            <subfield code="d">Wien ; Köln ; Weimar, 2017</subfield>
+            <subfield code="g">S. 198-</subfield>
+            <subfield code="w">(AT-OBV)AC13438340</subfield>
+          </datafield>
+          <datafield tag="970" ind1="2" ind2=" ">
+            <subfield code="a">ONB</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">030</subfield>
+            <subfield code="A">a|1urr|||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">050</subfield>
+            <subfield code="A">a|a|||||||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">051</subfield>
+            <subfield code="A">a|||||||</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>990143492520203331</recordIdentifier>
+      <recordPosition>3</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>00933naa a2200289 c 4500</leader>
+          <controlfield tag="001">990143492480203331</controlfield>
+          <controlfield tag="005">20191020001152.0</controlfield>
+          <controlfield tag="007">tu</controlfield>
+          <controlfield tag="008">171019|2017####xx############|||#|#ger#c</controlfield>
+          <controlfield tag="009">AC12540831</controlfield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(AT-OBV)AC12540831</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">AC12540831</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(Aleph)014349248ACC01</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-599)OBVAC12540831</subfield>
+          </datafield>
+          <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">ONB</subfield>
+            <subfield code="b">ger</subfield>
+            <subfield code="c">ONB-IVSCAN</subfield>
+            <subfield code="e">rda</subfield>
+          </datafield>
+          <datafield tag="041" ind1=" " ind2=" ">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Maisel, Thomas</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Lehr- und Lernfreiheit und die ersten Schritte zu einer Universitäts- und Studienreform im Revolutionsjahr 1848</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="c">2017</subfield>
+          </datafield>
+          <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="b">n</subfield>
+          </datafield>
+          <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="773" ind1="0" ind2="8">
+            <subfield code="i">Enthalten in</subfield>
+            <subfield code="t">&lt;&lt;Die>> Thun-Hohenstein'schen Universitätsreformen 1849-1860 ; Christof Aichner, Brigitte Mazohl (Hg.)</subfield>
+            <subfield code="d">Wien ; Köln ; Weimar, 2017</subfield>
+            <subfield code="g">S. 99-</subfield>
+            <subfield code="w">(AT-OBV)AC13438340</subfield>
+          </datafield>
+          <datafield tag="970" ind1="2" ind2=" ">
+            <subfield code="a">ONB</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">030</subfield>
+            <subfield code="A">a|1urr|||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">050</subfield>
+            <subfield code="A">a|a|||||||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">051</subfield>
+            <subfield code="A">a|||||||</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>990143492480203331</recordIdentifier>
+      <recordPosition>4</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>00915naa a2200289 c 4500</leader>
+          <controlfield tag="001">990143492460203331</controlfield>
+          <controlfield tag="005">20191020001159.0</controlfield>
+          <controlfield tag="007">tu</controlfield>
+          <controlfield tag="008">171019|2017####xx############|||#|#ger#c</controlfield>
+          <controlfield tag="009">AC12540829</controlfield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(AT-OBV)AC12540829</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">AC12540829</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(Aleph)014349246ACC01</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-599)OBVAC12540829</subfield>
+          </datafield>
+          <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">ONB</subfield>
+            <subfield code="b">ger</subfield>
+            <subfield code="c">ONB-IVSCAN</subfield>
+            <subfield code="e">rda</subfield>
+          </datafield>
+          <datafield tag="041" ind1=" " ind2=" ">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Fillafer, Franz Leander</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Leo Thun und die Aufklärung Wissenschaftsideal, Berufungspolitik und Deutungskämpfe</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="c">2017</subfield>
+          </datafield>
+          <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="b">n</subfield>
+          </datafield>
+          <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="773" ind1="0" ind2="8">
+            <subfield code="i">Enthalten in</subfield>
+            <subfield code="t">&lt;&lt;Die>> Thun-Hohenstein'schen Universitätsreformen 1849-1860 ; Christof Aichner, Brigitte Mazohl (Hg.)</subfield>
+            <subfield code="d">Wien ; Köln ; Weimar, 2017</subfield>
+            <subfield code="g">S. 55-</subfield>
+            <subfield code="w">(AT-OBV)AC13438340</subfield>
+          </datafield>
+          <datafield tag="970" ind1="2" ind2=" ">
+            <subfield code="a">ONB</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">030</subfield>
+            <subfield code="A">a|1urr|||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">050</subfield>
+            <subfield code="A">a|a|||||||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">051</subfield>
+            <subfield code="A">a|||||||</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>990143492460203331</recordIdentifier>
+      <recordPosition>5</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>01009naa a2200301 c 4500</leader>
+          <controlfield tag="001">990143492580203331</controlfield>
+          <controlfield tag="005">20191020001145.0</controlfield>
+          <controlfield tag="007">tu</controlfield>
+          <controlfield tag="008">171019|2017####xx############|||#|#ger#c</controlfield>
+          <controlfield tag="009">AC12540841</controlfield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(AT-OBV)AC12540841</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">AC12540841</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(Aleph)014349258ACC01</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-599)OBVAC12540841</subfield>
+          </datafield>
+          <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">ONB</subfield>
+            <subfield code="b">ger</subfield>
+            <subfield code="c">ONB-IVSCAN</subfield>
+            <subfield code="e">rda</subfield>
+          </datafield>
+          <datafield tag="041" ind1=" " ind2=" ">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Feichtinger, Johannes</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Leo Thun und die Nachwelt Der Wissenschaftsreformer in der österreichischen Geschichts- und Kulturpolitik des 19. und 20. Jahrhunderts</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="c">2017</subfield>
+          </datafield>
+          <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="b">n</subfield>
+          </datafield>
+          <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Fillafer, Franz Leander</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="773" ind1="0" ind2="8">
+            <subfield code="i">Enthalten in</subfield>
+            <subfield code="t">&lt;&lt;Die>> Thun-Hohenstein'schen Universitätsreformen 1849-1860 ; Christof Aichner, Brigitte Mazohl (Hg.)</subfield>
+            <subfield code="d">Wien ; Köln ; Weimar, 2017</subfield>
+            <subfield code="g">S. 347-</subfield>
+            <subfield code="w">(AT-OBV)AC13438340</subfield>
+          </datafield>
+          <datafield tag="970" ind1="2" ind2=" ">
+            <subfield code="a">ONB</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">030</subfield>
+            <subfield code="A">a|1urr|||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">050</subfield>
+            <subfield code="A">a|a|||||||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">051</subfield>
+            <subfield code="A">a|||||||</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>990143492580203331</recordIdentifier>
+      <recordPosition>6</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>00898naa a2200289 c 4500</leader>
+          <controlfield tag="001">990143492570203331</controlfield>
+          <controlfield tag="005">20191020001157.0</controlfield>
+          <controlfield tag="007">tu</controlfield>
+          <controlfield tag="008">171019|2017####xx############|||#|#ger#c</controlfield>
+          <controlfield tag="009">AC12540840</controlfield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(AT-OBV)AC12540840</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">AC12540840</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(Aleph)014349257ACC01</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-599)OBVAC12540840</subfield>
+          </datafield>
+          <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">ONB</subfield>
+            <subfield code="b">ger</subfield>
+            <subfield code="c">ONB-IVSCAN</subfield>
+            <subfield code="e">rda</subfield>
+          </datafield>
+          <datafield tag="041" ind1=" " ind2=" ">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Surman, Jan</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Leon (sic!) Thun in der polnischen Historiografie: zur Tradition der Geschichte</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="c">2017</subfield>
+          </datafield>
+          <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="b">n</subfield>
+          </datafield>
+          <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="773" ind1="0" ind2="8">
+            <subfield code="i">Enthalten in</subfield>
+            <subfield code="t">&lt;&lt;Die>> Thun-Hohenstein'schen Universitätsreformen 1849-1860 ; Christof Aichner, Brigitte Mazohl (Hg.)</subfield>
+            <subfield code="d">Wien ; Köln ; Weimar, 2017</subfield>
+            <subfield code="g">S. 317-</subfield>
+            <subfield code="w">(AT-OBV)AC13438340</subfield>
+          </datafield>
+          <datafield tag="970" ind1="2" ind2=" ">
+            <subfield code="a">ONB</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">030</subfield>
+            <subfield code="A">a|1urr|||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">050</subfield>
+            <subfield code="A">a|a|||||||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">051</subfield>
+            <subfield code="A">a|||||||</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>990143492570203331</recordIdentifier>
+      <recordPosition>7</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>00927naa a2200289 c 4500</leader>
+          <controlfield tag="001">990143492550203331</controlfield>
+          <controlfield tag="005">20191020001135.0</controlfield>
+          <controlfield tag="007">tu</controlfield>
+          <controlfield tag="008">171019|2017####xx############|||#|#eng#c</controlfield>
+          <controlfield tag="009">AC12540838</controlfield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(AT-OBV)AC12540838</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">AC12540838</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(Aleph)014349255ACC01</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-599)OBVAC12540838</subfield>
+          </datafield>
+          <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">ONB</subfield>
+            <subfield code="b">ger</subfield>
+            <subfield code="c">ONB-IVSCAN</subfield>
+            <subfield code="e">rda</subfield>
+          </datafield>
+          <datafield tag="041" ind1=" " ind2=" ">
+            <subfield code="a">eng</subfield>
+          </datafield>
+          <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Ferraresi, Alessandra</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">&lt;&lt;The>> mixed fortunes of the university reforms in Lombardy-Venetia after 1850. The case of Pavia</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="c">2017</subfield>
+          </datafield>
+          <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="b">n</subfield>
+          </datafield>
+          <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="773" ind1="0" ind2="8">
+            <subfield code="i">Enthalten in</subfield>
+            <subfield code="t">&lt;&lt;Die>> Thun-Hohenstein'schen Universitätsreformen 1849-1860 ; Christof Aichner, Brigitte Mazohl (Hg.)</subfield>
+            <subfield code="d">Wien ; Köln ; Weimar, 2017</subfield>
+            <subfield code="g">S. 258-</subfield>
+            <subfield code="w">(AT-OBV)AC13438340</subfield>
+          </datafield>
+          <datafield tag="970" ind1="2" ind2=" ">
+            <subfield code="a">ONB</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">030</subfield>
+            <subfield code="A">a|1urr|||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">050</subfield>
+            <subfield code="A">a|a|||||||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">051</subfield>
+            <subfield code="A">a|||||||</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>990143492550203331</recordIdentifier>
+      <recordPosition>8</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>00932naa a2200289 c 4500</leader>
+          <controlfield tag="001">990143492490203331</controlfield>
+          <controlfield tag="005">20191020001141.0</controlfield>
+          <controlfield tag="007">tu</controlfield>
+          <controlfield tag="008">171019|2017####xx############|||#|#ger#c</controlfield>
+          <controlfield tag="009">AC12540832</controlfield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(AT-OBV)AC12540832</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">AC12540832</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(Aleph)014349249ACC01</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-599)OBVAC12540832</subfield>
+          </datafield>
+          <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">ONB</subfield>
+            <subfield code="b">ger</subfield>
+            <subfield code="c">ONB-IVSCAN</subfield>
+            <subfield code="e">rda</subfield>
+          </datafield>
+          <datafield tag="041" ind1=" " ind2=" ">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Kernbauer, Alois</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Prinzipien, Pragmatismus und Innovation: Die Umsetzung der Thun’schen Reform an der Universität Graz</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="c">2017</subfield>
+          </datafield>
+          <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="b">n</subfield>
+          </datafield>
+          <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="773" ind1="0" ind2="8">
+            <subfield code="i">Enthalten in</subfield>
+            <subfield code="t">&lt;&lt;Die>> Thun-Hohenstein'schen Universitätsreformen 1849-1860 ; Christof Aichner, Brigitte Mazohl (Hg.)</subfield>
+            <subfield code="d">Wien ; Köln ; Weimar, 2017</subfield>
+            <subfield code="g">S. 121-</subfield>
+            <subfield code="w">(AT-OBV)AC13438340</subfield>
+          </datafield>
+          <datafield tag="970" ind1="2" ind2=" ">
+            <subfield code="a">ONB</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">030</subfield>
+            <subfield code="A">a|1urr|||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">050</subfield>
+            <subfield code="A">a|a|||||||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">051</subfield>
+            <subfield code="A">a|||||||</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>990143492490203331</recordIdentifier>
+      <recordPosition>9</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>00884naa a2200289 c 4500</leader>
+          <controlfield tag="001">990143492510203331</controlfield>
+          <controlfield tag="005">20191020001152.0</controlfield>
+          <controlfield tag="007">tu</controlfield>
+          <controlfield tag="008">171019|2017####xx############|||#|#ger#c</controlfield>
+          <controlfield tag="009">AC12540834</controlfield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(AT-OBV)AC12540834</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">AC12540834</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(Aleph)014349251ACC01</subfield>
+          </datafield>
+          <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(DE-599)OBVAC12540834</subfield>
+          </datafield>
+          <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">ONB</subfield>
+            <subfield code="b">ger</subfield>
+            <subfield code="c">ONB-IVSCAN</subfield>
+            <subfield code="e">rda</subfield>
+          </datafield>
+          <datafield tag="041" ind1=" " ind2=" ">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Sekyrková, Milada</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">&lt;&lt;Die>> Thun’schen Reformen an der Prager Universität</subfield>
+          </datafield>
+          <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="c">2017</subfield>
+          </datafield>
+          <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="b">n</subfield>
+          </datafield>
+          <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="773" ind1="0" ind2="8">
+            <subfield code="i">Enthalten in</subfield>
+            <subfield code="t">&lt;&lt;Die>> Thun-Hohenstein'schen Universitätsreformen 1849-1860 ; Christof Aichner, Brigitte Mazohl (Hg.)</subfield>
+            <subfield code="d">Wien ; Köln ; Weimar, 2017</subfield>
+            <subfield code="g">S. 179-</subfield>
+            <subfield code="w">(AT-OBV)AC13438340</subfield>
+          </datafield>
+          <datafield tag="970" ind1="2" ind2=" ">
+            <subfield code="a">ONB</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">030</subfield>
+            <subfield code="A">a|1urr|||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">050</subfield>
+            <subfield code="A">a|a|||||||||||</subfield>
+          </datafield>
+          <datafield tag="974" ind1="0" ind2="s">
+            <subfield code="F">051</subfield>
+            <subfield code="A">a|||||||</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>990143492510203331</recordIdentifier>
+      <recordPosition>10</recordPosition>
+    </record>
+  </records>
+  <nextRecordPosition>11</nextRecordPosition>
+  <extraResponseData xmlns:xb="http://www.exlibris.com/repository/search/xmlbeans/">
+    <xb:exact>true</xb:exact>
+    <xb:responseDate>2020-12-30T00:16:21+0100</xb:responseDate>
+  </extraResponseData>
+</searchRetrieveResponse>

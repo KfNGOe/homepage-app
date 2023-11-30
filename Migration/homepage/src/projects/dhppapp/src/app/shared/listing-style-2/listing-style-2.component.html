@@ -1,0 +1,31 @@
+<div class="col-lg-2 col-4">
+  <img *ngIf="_element.pic != false && _element.pic !== ''" class="img-thumbnail" [src]="_element.pic" />
+</div>
+<div class="col-lg-8 col-8">
+  <p style="font-size:19px;">
+    <span style="color:#0085b1;">{{ _element.name }}</span>
+  </p>
+  <p style="font-size:16px;">
+    <span style="color:#687A85;">{{ _element.position }}</span>
+  </p>
+  <p style="font-size:16px; padding-top: 15px !important;" id="cache4">
+    <span style="color:#687A85;" id="cache5" [innerHTML]="_element.textBio"></span>
+    <!-- <a id="u200" href="{{ _element.morelink.href }}" target="_blank" class="link" tabindex="0" style="cursor: pointer;"><span style="color: rgba(2, 125, 180, 0.867);" id="cache6">{{ _element.morelink.label }}</span></a -->
+  </p>
+</div>
+<div class="col-lg-2 col-12 float-right">
+  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+    <a *ngIf="_element.www !== ''" href="{{ _element.www }}" target="_blank"
+      ><img class="img" style="height: 35px; cursor:pointer" [src]="'./content/images/www-icon.png'"
+    /></a>
+    <a *ngIf="_element.orcid !== ''" href="{{ _element.orcId }}" target="_blank"
+      ><img class="img" style="height: 45px; cursor:pointer" [src]="'./content/images/u204.png'"
+    /></a>
+    <a *ngIf="_element.viafid !== ''" href="{{ _element.viafId }}" target="_blank"
+      ><img class="img" style="height: 45px; cursor:pointer" [src]="'./content/images/viaf-86036241.jpg'"
+    /></a>
+  </div>
+</div>
+<div class="col-12" style="padding-top: 30px;">
+  <img class="center-block d-block mx-auto" [src]="'./content/images/separation_line_u202.svg'" />
+</div>

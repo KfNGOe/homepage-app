@@ -1,0 +1,9 @@
+<div class="d-flex float-right" *ngIf="sidebarService.isVisible['left']">
+    <p>
+        <h3>{{ sidebarService.heading['left'] }}</h3>
+    </p>
+    <ul>
+        <li *ngFor="let item of sidebarService.entries['left'];"><a style="color: rgba(2, 125, 180, 0.698);"
+            routerLink="{{ item.href }}" fragment="{{ item.anchor }}" [state]="{ id: item.id }">{{ item.title }}</a></li>
+    </ul>
+</div>
